@@ -1,0 +1,170 @@
+{
+  "id": "yaomao_uploaded_776s_dense_v2",
+  "reference_film_label": "《妖猫传》用户上传片段（不是完整电影）",
+  "source_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+  "duration_seconds": 776.477,
+  "frame_evidence_4fps": 3106,
+  "frame_evidence_2fps_original": 1553,
+  "cut_candidates_not_confirmed": {
+    "sensitive": 595,
+    "strong": 116
+  },
+  "research_boundary": {
+    "filmed": true,
+    "script_source_present": false,
+    "dialogue_transcribed": false,
+    "actor_identity_verified": false,
+    "camera_intrinsics_known": false,
+    "director_intent_verified": false,
+    "skill_native_execution_verified": false,
+    "style_transfer_quality_proven": false
+  },
+  "provenance": "本风格参数为GPT依据用户上传原片的时间码及图像证据所做研究记录，不等于模型权重训练。",
+  "upstream_skills_unchanged": true,
+  "upstream": [
+    {
+      "skill": "director-agent",
+      "repo": "62656456/ai-film-skills",
+      "use": "audience information, performance, visual-storytelling; record unknown dialogue"
+    },
+    {
+      "skill": "ai-storyboard-director",
+      "repo": "62656456/ai-film-skills",
+      "use": "framing, optical shot selection, blocking and spatial perspective"
+    },
+    {
+      "skill": "plan-camera-shots",
+      "repo": "zhangzhangco/film-production-skills",
+      "use": "spatial baseline, actor start/end state, durations, camera and focus"
+    },
+    {
+      "skill": "review-and-assemble",
+      "repo": "zhangzhangco/film-production-skills",
+      "use": "take-specific review, immutable evidence, no false acceptance"
+    },
+    {
+      "skill": "structure-screenplay",
+      "repo": "zhangzhangco/film-production-skills",
+      "use": "WAIT for user-provided screenplay; do NOT infer screenplay from mute stills"
+    }
+  ],
+  "activations": {
+    "scene_space": {
+      "source": "ai-storyboard-director",
+      "activate": [
+        "spatial-reveal",
+        "shot-design-engine",
+        "framing-and-axis"
+      ],
+      "film_reason": "同一片段内水边、门廊、巨大建筑、室内及街市多层空间互相转换",
+      "not_a_rule": "不能机械规定所有镜头都要对称或大景"
+    },
+    "object_insert": {
+      "source": "director-agent + ai-storyboard-director",
+      "activate": [
+        "visual-storytelling",
+        "object-motif",
+        "audience-information-order"
+      ],
+      "film_reason": "黑猫、书卷、地面痕迹、器物被给予单独观看时间",
+      "not_a_rule": "不能将任何插入镜头自动认定为角色主观所见"
+    },
+    "architecture": {
+      "source": "ai-storyboard-director + plan-camera-shots",
+      "activate": [
+        "framing-and-axis",
+        "architectural-depth",
+        "spatial-baselines"
+      ],
+      "film_reason": "桥、廊柱、格窗、建筑中轴反复成为人物行动框架",
+      "not_a_rule": "不能凭缩略图反推出真实焦距"
+    },
+    "blocking": {
+      "source": "plan-camera-shots",
+      "activate": [
+        "character-start-end-state",
+        "blocking-continuity",
+        "camera-position-and-focus"
+      ],
+      "film_reason": "长廊、夜间广场、街市及桥道均有较明显的演员移动",
+      "not_a_rule": "不能只用固定静帧证明摄影机轨迹"
+    },
+    "performance_timing": {
+      "source": "director-agent + ai-storyboard-director",
+      "activate": [
+        "performance-beats",
+        "micro-actions",
+        "performance-time-budget"
+      ],
+      "film_reason": "近身互动、静对、转头、靠近、离开有不同速度的动作段落",
+      "not_a_rule": "表情与情绪需连贯视频和对白复核"
+    },
+    "occlusion": {
+      "source": "ai-storyboard-director + plan-camera-shots",
+      "activate": [
+        "foreground-masking",
+        "visual-discovery",
+        "screen-direction-check"
+      ],
+      "film_reason": "薄帘、柱廊、门窗、格栅反复挡住或局部显露人物",
+      "not_a_rule": "不能一概定义遮挡为悬念或偷看"
+    },
+    "lighting_context": {
+      "source": "ai-storyboard-director",
+      "activate": [
+        "color-and-image-formation",
+        "scene-motivated-light",
+        "warm-cool-scene-contrast"
+      ],
+      "film_reason": "日光金色、暗暖烛光、青蓝色地下空间在片段内并存",
+      "not_a_rule": "严禁整片套用同一个暗金色滤镜"
+    }
+  },
+  "priority_interactions": [
+    {
+      "primary": "scene_space",
+      "secondary": "architecture",
+      "evidence": [
+        "MIN_00",
+        "MIN_02",
+        "MIN_11",
+        "MIN_12"
+      ]
+    },
+    {
+      "primary": "object_insert",
+      "secondary": "performance_timing",
+      "evidence": [
+        "MIN_01",
+        "MIN_03",
+        "MIN_04",
+        "MIN_09",
+        "MIN_10"
+      ]
+    },
+    {
+      "primary": "blocking",
+      "secondary": "occlusion",
+      "evidence": [
+        "MIN_05",
+        "MIN_06",
+        "MIN_07",
+        "MIN_11",
+        "MIN_12"
+      ]
+    },
+    {
+      "primary": "lighting_context",
+      "secondary": "scene_space",
+      "evidence": [
+        "MIN_00",
+        "MIN_03",
+        "MIN_08",
+        "MIN_09",
+        "MIN_10"
+      ]
+    }
+  ],
+  "activation_status": "证据校准配置已生成；原版专业Skill的宿主原生执行与质量迁移尚待验证",
+  "scene_specific_not_global_lut": true
+}

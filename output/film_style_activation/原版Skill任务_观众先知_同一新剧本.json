@@ -1,0 +1,119 @@
+{
+  "schema": "NEW_SCRIPT_PROFESSIONAL_SKILL_INVOCATION/1.0",
+  "original_script": {
+    "path": "/mnt/data/GPT_Director_Film_Style_Activation/output/film_style_activation/示例新剧本_失联观测站_仅用于验证.txt",
+    "sha256": "83205bc7b561a5133f58ee97b2cb0bfa7e78537055bcdfa6c18e534218fafa3f",
+    "text": "【本段仅用于工程验收：原创《失联观测站》，不是《妖猫传》剧情】\n凌晨，失联的观测站控制室突然出现“断线后仍有远程登录”的日志。调查员追查源头；管理员遮住一张门禁卡。他是否与异常有关，尚不确定。\n\n【已确认的故事事实，仅限本段】\nSYSTEM_OFFLINE\nLOG_AFTER_OFFLINE\nREMOTE_LOGIN\nB_ENTERED\nBADGE_WITH_B\nBADGE_HIDDEN\nB_EXPLAINS_CACHE\n\n【原有镜头中的事件顺序】\nS01 0.0-4.0秒：调查员A在右侧终端核对断线告警；管理员B仍在门外走廊，双方未交谈\nS02 4.0-8.0秒：A对照断线时间与新日志，手指停在异常时间戳上，停顿半秒\nS03 8.0-11.0秒：画面显示小字REMOTE LOGIN ACTIVE；A的手指仍停在画框边缘上部日志附近\nS04 11.0-17.0秒：B从走廊走到控制室左门口，整理文件夹，停在门边，视线掠过A\nS05 17.0-21.0秒：B把金属门禁卡塞进文件夹下层，视线短暂转向背对自己的A，A没有看见\nS06 21.0-27.0秒：A仍站终端前，侧身问“断线后怎么还有日志？”；B停一拍答“也许只是缓存”。双方不靠近\nS07 27.0-32.0秒：A没有立刻反驳，缓慢移回视线到终端上部；B还在门边等待，二人都没有触碰藏起的卡"
+  },
+  "selected_reference_profile_id": "yaomao_excerpt_two_craft_modes",
+  "selected_style_mode": "audience_first_suspense",
+  "source_movie_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+  "film_style_cues_not_story_facts": {
+    "audience_information": "allow_viewer_to_know_before_character_if_story_supports_it",
+    "shot_emphasis": "distinct_readable_inserts_and_reactions_without_invented_eyelines",
+    "editing_intent": "contrast_reveal_and_delay_explanation",
+    "color_use": "purposeful_warm_cool_or_brightness_contrast_when_locations_support",
+    "camera_guidance": "focus and shot size must be selected from the new scene, not copied from the movie"
+  },
+  "film_evidence_refs": [
+    {
+      "timestamp_s": 595.0,
+      "sha256": "5fe062d28379fad1c2bdcd88e0eb6d93b12ea995d58166c2e3f685f1c5dbf80c"
+    },
+    {
+      "timestamp_s": 597.2,
+      "sha256": "fd6803411b2957bea9bd1b432f11d5ebbb3aaaa6197634952ceb10c9caa7d4d2"
+    },
+    {
+      "timestamp_s": 600.2,
+      "sha256": "7027c5831b048ca1e58043431acb74ee08aa1443fba6b40a6c6a2f23fe1e54df"
+    },
+    {
+      "timestamp_s": 603.9,
+      "sha256": "5cf28ad8b39cfa7e8172af9956a3ab390eabe9d0553d7c1415172f2de36a8f60"
+    },
+    {
+      "timestamp_s": 604.4,
+      "sha256": "5dce59037d245d3e9610772607fa7acf94f6825484848d56321a06d5413851c7"
+    },
+    {
+      "timestamp_s": 607.8,
+      "sha256": "ce0f3b2e5de69a30eb82ea2e7820063bec2db0d7a73e769631e92e6ec5822530"
+    },
+    {
+      "timestamp_s": 611.2,
+      "sha256": "49b7fe82c5af8d968f257923b3903f4bfcba4476df78ade3db728465ecc303bd"
+    },
+    {
+      "timestamp_s": 614.0,
+      "sha256": "295cd7932db1b15b877caec114824eae9065ac382ec8897a1d4e30590fcdb518"
+    }
+  ],
+  "ordered_original_skill_stages": [
+    {
+      "stage": "structure-screenplay",
+      "original_skill_source": "https://github.com/zhangzhangco/film-production-skills/blob/main/skills/structure-screenplay/SKILL.md",
+      "native_skill_available_in_this_environment": false,
+      "priority": "required",
+      "activated_topics": [
+        "保留用户原剧本",
+        "稳定场次ID和来源",
+        "不改写剧情"
+      ],
+      "instruction": "Use the upstream SKILL.md without rewriting its directions; preserve script facts and evidence; do not claim performance without media review"
+    },
+    {
+      "stage": "director-agent",
+      "original_skill_source": "https://github.com/62656456/ai-film-skills/blob/main/skills/director-agent/SKILL.md",
+      "native_skill_available_in_this_environment": false,
+      "priority": "high",
+      "activated_topics": [
+        "观众知情范围",
+        "人物不知情范围",
+        "多重叙事解释"
+      ],
+      "instruction": "Use the upstream SKILL.md without rewriting its directions; preserve script facts and evidence; do not claim performance without media review"
+    },
+    {
+      "stage": "ai-storyboard-director",
+      "original_skill_source": "https://github.com/62656456/ai-film-skills/blob/main/skills/ai-storyboard-director/SKILL.md",
+      "native_skill_available_in_this_environment": false,
+      "priority": "high",
+      "activated_topics": [
+        "插入镜头叙事职能",
+        "信息顺序",
+        "单镜头观看对象"
+      ],
+      "instruction": "Use the upstream SKILL.md without rewriting its directions; preserve script facts and evidence; do not claim performance without media review"
+    },
+    {
+      "stage": "plan-camera-shots",
+      "original_skill_source": "https://github.com/zhangzhangco/film-production-skills/blob/main/skills/plan-camera-shots/SKILL.md",
+      "native_skill_available_in_this_environment": false,
+      "priority": "medium",
+      "activated_topics": [
+        "插入镜头焦点",
+        "空间基线",
+        "色温光比呼应"
+      ],
+      "instruction": "Use the upstream SKILL.md without rewriting its directions; preserve script facts and evidence; do not claim performance without media review"
+    },
+    {
+      "stage": "review-and-assemble",
+      "original_skill_source": "https://github.com/zhangzhangco/film-production-skills/blob/main/skills/review-and-assemble/SKILL.md",
+      "native_skill_available_in_this_environment": false,
+      "priority": "high",
+      "activated_topics": [
+        "杜绝角色无依据知情",
+        "插入镜头可读性",
+        "跨镜头因果"
+      ],
+      "instruction": "Use the upstream SKILL.md without rewriting its directions; preserve script facts and evidence; do not claim performance without media review"
+    }
+  ],
+  "stage_status": "PENDING_NATIVE_SKILL_HOST_EXECUTION",
+  "next_required_action": "Pass the new script to original structure-screenplay Skill; approve structured beats before director and camera stages",
+  "do_not_copy_source_movie_characters_or_dialogue": true,
+  "generated_shots": 0,
+  "approved_movie": false
+}

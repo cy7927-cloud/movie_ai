@@ -1,0 +1,72 @@
+[
+  {
+    "id": "qwen3_vl",
+    "name": "Qwen3-VL (Ollama)",
+    "kind": "pretrained_vision_model",
+    "url": "https://ollama.com/library/qwen3-vl",
+    "role": "人物可见事实、空间层次、镜头语法多图初判",
+    "installation": "ollama pull qwen3-vl:4b",
+    "execution": "localhost Ollama JSON API",
+    "available_in_this_environment": false
+  },
+  {
+    "id": "shottransformer",
+    "name": "ShotTransformer",
+    "kind": "pretrained_shot_classifier",
+    "url": "https://github.com/litchiar/ShotTransformer",
+    "role": "景别、机位角度和镜头运动的独立分类基线",
+    "installation": "需先取得发行版预训练checkpoint并按原仓库运行",
+    "execution": "external CLI adapter pending",
+    "available_in_this_environment": false
+  },
+  {
+    "id": "filmagent",
+    "name": "FilmAgent",
+    "kind": "director_multi_agent_framework",
+    "url": "https://github.com/kekewolf/FilmAgent",
+    "role": "编剧/导演/演员/摄影Agent协作与虚拟场景规划",
+    "installation": "按仓库要求安装3D环境和对应依赖",
+    "execution": "separate sandbox workflow",
+    "available_in_this_environment": false
+  },
+  {
+    "id": "open_film_skills",
+    "name": "Open Film Skills",
+    "kind": "agent_skills",
+    "url": "https://github.com/62656456/ai-film-skills",
+    "role": "director-agent、ai-storyboard-director、whitebox-previs-executor",
+    "installation": "git clone后审阅SKILL.md，再明确选用",
+    "execution": "skill instruction packages; requires agent host",
+    "available_in_this_environment": false
+  },
+  {
+    "id": "film_production_skills",
+    "name": "Film Production Skills",
+    "kind": "agent_skills",
+    "url": "https://github.com/zhangzhangco/film-production-skills",
+    "role": "剧本、资产、镜头规划、生成、审片之间的数据契约",
+    "installation": "阅读README与SKILL.md后按需安装",
+    "execution": "schema/skill workflow",
+    "available_in_this_environment": false
+  },
+  {
+    "id": "movienet",
+    "name": "MovieNet",
+    "kind": "research_dataset_and_benchmarks",
+    "url": "https://movienet.github.io/",
+    "role": "镜头景别、运动、场景、人物等标注作为模型评估真值参照",
+    "installation": "获取适用授权的数据集标注与工具",
+    "execution": "offline benchmark after download",
+    "available_in_this_environment": false
+  },
+  {
+    "id": "ava_encoder",
+    "name": "AVA-Encoder",
+    "kind": "research_framework",
+    "url": "https://github.com/HBDYW/AVA-Encoder",
+    "role": "电影知识图谱与重建残差反馈的研究方向",
+    "installation": "需要分别确认公开实现、模型、许可证和复现条件",
+    "execution": "research reference only",
+    "available_in_this_environment": false
+  }
+]

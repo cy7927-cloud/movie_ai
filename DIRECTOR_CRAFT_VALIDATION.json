@@ -1,0 +1,14 @@
+{
+  "new_director_module": "director_craft.py",
+  "purpose": "DIRECTOR_CRAFT_NOT_FILM_RECREATION",
+  "real_shot_reference_cards": 86,
+  "frame_anchor_references": 258,
+  "visually_interpreted_unconfirmed_shots": 20,
+  "sampled_93_sec_reference_frames": 372,
+  "high_change_candidates": 21,
+  "suspected_internal_cut_events": 2,
+  "independent_AI_stills_in_new_project": 0,
+  "director_approved_film_shots": 0,
+  "paid_video_generation_calls": 0,
+  "note_on_metrics": "Camera/acting estimates and cuts are provisional; software tests are not film-quality pass."
+}

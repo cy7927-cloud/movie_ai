@@ -1,0 +1,28 @@
+{
+  "project": "AI Director - Qwen3VL-8B private OpenAI-compatible gateway integration",
+  "date": "2026-11-14",
+  "source": "User-provided 12min56sec film clip; 86 candidate shots; 258 reference frames",
+  "gateway_base_url": "https://behavioral-thanksgiving-cheapest-cooling.trycloudflare.com/v1",
+  "model": "qwen3vl-8b",
+  "remote_health_checked": true,
+  "remote_health_response": {
+    "ok": true,
+    "model": "qwen3vl-8b",
+    "upstream": "http://127.0.0.1:11434"
+  },
+  "remote_models_auth_verified_by_this_session": false,
+  "remote_real_text_completion_obtained_by_this_session": false,
+  "remote_real_image_completion_obtained_by_this_session": false,
+  "reason": "Container outbound DNS unavailable; website browser tool has no arbitrary authenticated POST support",
+  "existing_shot_count": 86,
+  "existing_storyboard_reference_frames": 258,
+  "new_image_first_benchmark_test_cases": 16,
+  "all_software_tests_passed": 72,
+  "new_gateway_tests_passed": 10,
+  "source_frame_hash_checked": true,
+  "remote_gateway_adapter_created": true,
+  "key_in_artifacts": false,
+  "real_movie_reconstruction_approved": false,
+  "cost_paid_video_generations": 0,
+  "next_real_world_check": "Run RUN_GATEWAY_TEST.ps1 on a Windows PC with access to the public gateway"
+}

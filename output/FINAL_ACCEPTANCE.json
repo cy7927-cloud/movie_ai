@@ -1,0 +1,17 @@
+{
+  "source_duration_s": 776.477,
+  "shot_candidates": 86,
+  "reference_storyboards": 258,
+  "candidate_attempts": 0,
+  "current_valid_generated_storyboard_candidates": 0,
+  "director_passed_shots": 0,
+  "model_verified_video_shots": 0,
+  "heursitic_visual_group_proposals": 18,
+  "possible_face_observations": 30,
+  "verified_actor_identities": 0,
+  "verified_3d_assets": 0,
+  "independent_second_detector_count": 94,
+  "cut_detection_matches": 66,
+  "test_truth": "Code tests assess software controls; they do NOT prove film recreation quality",
+  "quality_conclusion": "NOT_ACCEPTED_FOR_AI_FILM_RECONSTRUCTION"
+}

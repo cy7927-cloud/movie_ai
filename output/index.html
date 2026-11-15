@@ -1,0 +1,1292 @@
+<!doctype html><html lang="zh-CN"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI电影导演：自主迭代审片台</title><style>*{box-sizing:border-box}body{background:#0c111a;color:#e7ecf4;font-family:system-ui,"Noto Sans CJK SC",sans-serif;margin:0}header{padding:30px;background:linear-gradient(120deg,#192638,#111924)}h1{margin:0 0 12px;font-size:26px}.muted{color:#9faac0}.stats{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}.stat{padding:12px 17px;background:#212d3b;border:1px solid #334357;border-radius:12px}.stat strong{display:block;font-size:25px}.wrap{max-width:1550px;margin:auto;padding:15px}.toolbar{position:sticky;top:0;background:#101823;padding:12px;z-index:1;display:flex;gap:12px;border-bottom:1px solid #34465b;flex-wrap:wrap}input,select{background:#243044;color:white;padding:9px;border:1px solid #4e5d73;border-radius:7px}#cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}.card{background:#162130;border:1px solid #2e3c50;border-radius:10px;overflow:hidden}.card img{width:100%;aspect-ratio:16/9;object-fit:cover}.inner{padding:12px}.flag{color:#ffd18f;font-size:12px}.meta{font-size:12px;color:#a8b8cb}.btn{border:1px solid #5f8195;padding:7px 12px;color:#ace6ff;text-decoration:none;border-radius:7px;display:inline-block;margin:4px 0}details{padding:12px;background:#0c1827;border-radius:8px;overflow-wrap:anywhere;margin-top:10px}details p{font-size:12px}details img{width:100%}code{word-break:break-word}footer{margin:35px 0;color:#9faac0}</style>
+    <header><div class="wrap"><h1>AI电影导演 · 自主迭代审片台</h1><div class="muted">真实参考：用户上传《妖猫传》124秒预告。AI分镜与原片严格区分；技术分数不等于导演验收。</div><div class="stats"><div class="stat"><strong>258</strong><span class="muted">tasks</span></div><div class="stat"><strong>0</strong><span class="muted">candidate_tasks</span></div><div class="stat"><strong>0</strong><span class="muted">total_attempts</span></div><div class="stat"><strong>0</strong><span class="muted">machine_approval_pending</span></div><div class="stat"><strong>0</strong><span class="muted">director_approved_storyboards</span></div><div class="stat"><strong>0</strong><span class="muted">semantic_blocked</span></div><div class="stat"><strong>0</strong><span class="muted">actual_video_generated</span></div><div class="stat"><strong>0</strong><span class="muted">image_model_api_calls_in_this_project</span></div><div class="stat"><strong>0</strong><span class="muted">chat_imagegen_generated_images</span></div><div class="stat"><strong>0</strong><span class="muted">local_image_corrections</span></div><div class="stat"><strong>0</strong><span class="muted">manual_imports</span></div><div class="stat"><strong>0</strong><span class="muted">estimated_api_spend_usd</span></div></div></div></header><div class="toolbar"><input id="search" placeholder="搜索 SH_00032 ..." oninput="filter()"><select id="status" onchange="filter()"><option value="">全部镜头</option><option value="PENDING_GENERATION">未生成</option><option value="BLOCKED">待补审</option><option value="REVISION">待返工</option><option value="READY">待导演签核</option></select></div><main class="wrap"><div id="cards"><article class="card" data-status="PENDING_GENERATION" data-name="SH_00001:IN">
+        <img src="../data/references/SH_00001_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00001:IN</b><div class="meta">0.00s · 14.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00001_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00001:MID">
+        <img src="../data/references/SH_00001_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00001:MID</b><div class="meta">0.00s · 14.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00001_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00001:OUT">
+        <img src="../data/references/SH_00001_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00001:OUT</b><div class="meta">0.00s · 14.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00001_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00002:IN">
+        <img src="../data/references/SH_00002_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00002:IN</b><div class="meta">14.80s · 4.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00002_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00002:MID">
+        <img src="../data/references/SH_00002_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00002:MID</b><div class="meta">14.80s · 4.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00002_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00002:OUT">
+        <img src="../data/references/SH_00002_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00002:OUT</b><div class="meta">14.80s · 4.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00002_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00003:IN">
+        <img src="../data/references/SH_00003_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00003:IN</b><div class="meta">18.80s · 5.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00003_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00003:MID">
+        <img src="../data/references/SH_00003_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00003:MID</b><div class="meta">18.80s · 5.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00003_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00003:OUT">
+        <img src="../data/references/SH_00003_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00003:OUT</b><div class="meta">18.80s · 5.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00003_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00004:IN">
+        <img src="../data/references/SH_00004_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00004:IN</b><div class="meta">24.00s · 5.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00004_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00004:MID">
+        <img src="../data/references/SH_00004_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00004:MID</b><div class="meta">24.00s · 5.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00004_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00004:OUT">
+        <img src="../data/references/SH_00004_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00004:OUT</b><div class="meta">24.00s · 5.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00004_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00005:IN">
+        <img src="../data/references/SH_00005_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00005:IN</b><div class="meta">29.60s · 3.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00005_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00005:MID">
+        <img src="../data/references/SH_00005_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00005:MID</b><div class="meta">29.60s · 3.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00005_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00005:OUT">
+        <img src="../data/references/SH_00005_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00005:OUT</b><div class="meta">29.60s · 3.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00005_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00006:IN">
+        <img src="../data/references/SH_00006_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00006:IN</b><div class="meta">32.60s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00006_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00006:MID">
+        <img src="../data/references/SH_00006_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00006:MID</b><div class="meta">32.60s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00006_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00006:OUT">
+        <img src="../data/references/SH_00006_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00006:OUT</b><div class="meta">32.60s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00006_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00007:IN">
+        <img src="../data/references/SH_00007_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00007:IN</b><div class="meta">35.00s · 1.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00007_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00007:MID">
+        <img src="../data/references/SH_00007_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00007:MID</b><div class="meta">35.00s · 1.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00007_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00007:OUT">
+        <img src="../data/references/SH_00007_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00007:OUT</b><div class="meta">35.00s · 1.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00007_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00008:IN">
+        <img src="../data/references/SH_00008_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00008:IN</b><div class="meta">36.60s · 1.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00008_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00008:MID">
+        <img src="../data/references/SH_00008_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00008:MID</b><div class="meta">36.60s · 1.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00008_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00008:OUT">
+        <img src="../data/references/SH_00008_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00008:OUT</b><div class="meta">36.60s · 1.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00008_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00009:IN">
+        <img src="../data/references/SH_00009_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00009:IN</b><div class="meta">38.20s · 9.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00009_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00009:MID">
+        <img src="../data/references/SH_00009_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00009:MID</b><div class="meta">38.20s · 9.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00009_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00009:OUT">
+        <img src="../data/references/SH_00009_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00009:OUT</b><div class="meta">38.20s · 9.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00009_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00010:IN">
+        <img src="../data/references/SH_00010_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00010:IN</b><div class="meta">47.20s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00010_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00010:MID">
+        <img src="../data/references/SH_00010_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00010:MID</b><div class="meta">47.20s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00010_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00010:OUT">
+        <img src="../data/references/SH_00010_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00010:OUT</b><div class="meta">47.20s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00010_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00011:IN">
+        <img src="../data/references/SH_00011_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00011:IN</b><div class="meta">49.80s · 1.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00011_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00011:MID">
+        <img src="../data/references/SH_00011_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00011:MID</b><div class="meta">49.80s · 1.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00011_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00011:OUT">
+        <img src="../data/references/SH_00011_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00011:OUT</b><div class="meta">49.80s · 1.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00011_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00012:IN">
+        <img src="../data/references/SH_00012_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00012:IN</b><div class="meta">51.00s · 13.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00012_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00012:MID">
+        <img src="../data/references/SH_00012_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00012:MID</b><div class="meta">51.00s · 13.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00012_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00012:OUT">
+        <img src="../data/references/SH_00012_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00012:OUT</b><div class="meta">51.00s · 13.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00012_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00013:IN">
+        <img src="../data/references/SH_00013_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00013:IN</b><div class="meta">64.80s · 18.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00013_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00013:MID">
+        <img src="../data/references/SH_00013_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00013:MID</b><div class="meta">64.80s · 18.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00013_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00013:OUT">
+        <img src="../data/references/SH_00013_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00013:OUT</b><div class="meta">64.80s · 18.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00013_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00014:IN">
+        <img src="../data/references/SH_00014_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00014:IN</b><div class="meta">82.80s · 7.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00014_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00014:MID">
+        <img src="../data/references/SH_00014_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00014:MID</b><div class="meta">82.80s · 7.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00014_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00014:OUT">
+        <img src="../data/references/SH_00014_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00014:OUT</b><div class="meta">82.80s · 7.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00014_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00015:IN">
+        <img src="../data/references/SH_00015_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00015:IN</b><div class="meta">90.40s · 22.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00015_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00015:MID">
+        <img src="../data/references/SH_00015_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00015:MID</b><div class="meta">90.40s · 22.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00015_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00015:OUT">
+        <img src="../data/references/SH_00015_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00015:OUT</b><div class="meta">90.40s · 22.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00015_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00016:IN">
+        <img src="../data/references/SH_00016_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00016:IN</b><div class="meta">112.80s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00016_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00016:MID">
+        <img src="../data/references/SH_00016_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00016:MID</b><div class="meta">112.80s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00016_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00016:OUT">
+        <img src="../data/references/SH_00016_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00016:OUT</b><div class="meta">112.80s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00016_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00017:IN">
+        <img src="../data/references/SH_00017_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00017:IN</b><div class="meta">116.20s · 4.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00017_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00017:MID">
+        <img src="../data/references/SH_00017_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00017:MID</b><div class="meta">116.20s · 4.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00017_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00017:OUT">
+        <img src="../data/references/SH_00017_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00017:OUT</b><div class="meta">116.20s · 4.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00017_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00018:IN">
+        <img src="../data/references/SH_00018_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00018:IN</b><div class="meta">121.00s · 21.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00018_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00018:MID">
+        <img src="../data/references/SH_00018_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00018:MID</b><div class="meta">121.00s · 21.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00018_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00018:OUT">
+        <img src="../data/references/SH_00018_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00018:OUT</b><div class="meta">121.00s · 21.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00018_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00019:IN">
+        <img src="../data/references/SH_00019_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00019:IN</b><div class="meta">142.20s · 15.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00019_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00019:MID">
+        <img src="../data/references/SH_00019_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00019:MID</b><div class="meta">142.20s · 15.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00019_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00019:OUT">
+        <img src="../data/references/SH_00019_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00019:OUT</b><div class="meta">142.20s · 15.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00019_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00020:IN">
+        <img src="../data/references/SH_00020_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00020:IN</b><div class="meta">157.40s · 5.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00020_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00020:MID">
+        <img src="../data/references/SH_00020_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00020:MID</b><div class="meta">157.40s · 5.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00020_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00020:OUT">
+        <img src="../data/references/SH_00020_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00020:OUT</b><div class="meta">157.40s · 5.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00020_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00021:IN">
+        <img src="../data/references/SH_00021_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00021:IN</b><div class="meta">163.20s · 11.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00021_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00021:MID">
+        <img src="../data/references/SH_00021_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00021:MID</b><div class="meta">163.20s · 11.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00021_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00021:OUT">
+        <img src="../data/references/SH_00021_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00021:OUT</b><div class="meta">163.20s · 11.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00021_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00022:IN">
+        <img src="../data/references/SH_00022_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00022:IN</b><div class="meta">174.40s · 7.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00022_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00022:MID">
+        <img src="../data/references/SH_00022_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00022:MID</b><div class="meta">174.40s · 7.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00022_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00022:OUT">
+        <img src="../data/references/SH_00022_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00022:OUT</b><div class="meta">174.40s · 7.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00022_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00023:IN">
+        <img src="../data/references/SH_00023_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00023:IN</b><div class="meta">182.00s · 6.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00023_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00023:MID">
+        <img src="../data/references/SH_00023_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00023:MID</b><div class="meta">182.00s · 6.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00023_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00023:OUT">
+        <img src="../data/references/SH_00023_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00023:OUT</b><div class="meta">182.00s · 6.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00023_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00024:IN">
+        <img src="../data/references/SH_00024_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00024:IN</b><div class="meta">188.00s · 6.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00024_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00024:MID">
+        <img src="../data/references/SH_00024_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00024:MID</b><div class="meta">188.00s · 6.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00024_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00024:OUT">
+        <img src="../data/references/SH_00024_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00024:OUT</b><div class="meta">188.00s · 6.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00024_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00025:IN">
+        <img src="../data/references/SH_00025_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00025:IN</b><div class="meta">194.80s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00025_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00025:MID">
+        <img src="../data/references/SH_00025_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00025:MID</b><div class="meta">194.80s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00025_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00025:OUT">
+        <img src="../data/references/SH_00025_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00025:OUT</b><div class="meta">194.80s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00025_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00026:IN">
+        <img src="../data/references/SH_00026_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00026:IN</b><div class="meta">198.00s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00026_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00026:MID">
+        <img src="../data/references/SH_00026_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00026:MID</b><div class="meta">198.00s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00026_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00026:OUT">
+        <img src="../data/references/SH_00026_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00026:OUT</b><div class="meta">198.00s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00026_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00027:IN">
+        <img src="../data/references/SH_00027_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00027:IN</b><div class="meta">201.20s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00027_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00027:MID">
+        <img src="../data/references/SH_00027_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00027:MID</b><div class="meta">201.20s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00027_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00027:OUT">
+        <img src="../data/references/SH_00027_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00027:OUT</b><div class="meta">201.20s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00027_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00028:IN">
+        <img src="../data/references/SH_00028_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00028:IN</b><div class="meta">204.60s · 34.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00028_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00028:MID">
+        <img src="../data/references/SH_00028_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00028:MID</b><div class="meta">204.60s · 34.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00028_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00028:OUT">
+        <img src="../data/references/SH_00028_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00028:OUT</b><div class="meta">204.60s · 34.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00028_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00029:IN">
+        <img src="../data/references/SH_00029_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00029:IN</b><div class="meta">238.60s · 3.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00029_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00029:MID">
+        <img src="../data/references/SH_00029_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00029:MID</b><div class="meta">238.60s · 3.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00029_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00029:OUT">
+        <img src="../data/references/SH_00029_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00029:OUT</b><div class="meta">238.60s · 3.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00029_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00030:IN">
+        <img src="../data/references/SH_00030_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00030:IN</b><div class="meta">241.60s · 15.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00030_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00030:MID">
+        <img src="../data/references/SH_00030_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00030:MID</b><div class="meta">241.60s · 15.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00030_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00030:OUT">
+        <img src="../data/references/SH_00030_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00030:OUT</b><div class="meta">241.60s · 15.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00030_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00031:IN">
+        <img src="../data/references/SH_00031_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00031:IN</b><div class="meta">257.20s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00031_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00031:MID">
+        <img src="../data/references/SH_00031_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00031:MID</b><div class="meta">257.20s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00031_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00031:OUT">
+        <img src="../data/references/SH_00031_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00031:OUT</b><div class="meta">257.20s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00031_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00032:IN">
+        <img src="../data/references/SH_00032_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00032:IN</b><div class="meta">259.60s · 8.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00032_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00032:MID">
+        <img src="../data/references/SH_00032_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00032:MID</b><div class="meta">259.60s · 8.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00032_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00032:OUT">
+        <img src="../data/references/SH_00032_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00032:OUT</b><div class="meta">259.60s · 8.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00032_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00033:IN">
+        <img src="../data/references/SH_00033_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00033:IN</b><div class="meta">268.00s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00033_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00033:MID">
+        <img src="../data/references/SH_00033_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00033:MID</b><div class="meta">268.00s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00033_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00033:OUT">
+        <img src="../data/references/SH_00033_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00033:OUT</b><div class="meta">268.00s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00033_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00034:IN">
+        <img src="../data/references/SH_00034_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00034:IN</b><div class="meta">270.40s · 0.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00034_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00034:MID">
+        <img src="../data/references/SH_00034_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00034:MID</b><div class="meta">270.40s · 0.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00034_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00034:OUT">
+        <img src="../data/references/SH_00034_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00034:OUT</b><div class="meta">270.40s · 0.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00034_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00035:IN">
+        <img src="../data/references/SH_00035_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00035:IN</b><div class="meta">271.20s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00035_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00035:MID">
+        <img src="../data/references/SH_00035_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00035:MID</b><div class="meta">271.20s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00035_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00035:OUT">
+        <img src="../data/references/SH_00035_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00035:OUT</b><div class="meta">271.20s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00035_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00036:IN">
+        <img src="../data/references/SH_00036_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00036:IN</b><div class="meta">274.40s · 3.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00036_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00036:MID">
+        <img src="../data/references/SH_00036_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00036:MID</b><div class="meta">274.40s · 3.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00036_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00036:OUT">
+        <img src="../data/references/SH_00036_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00036:OUT</b><div class="meta">274.40s · 3.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00036_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00037:IN">
+        <img src="../data/references/SH_00037_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00037:IN</b><div class="meta">278.00s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00037_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00037:MID">
+        <img src="../data/references/SH_00037_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00037:MID</b><div class="meta">278.00s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00037_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00037:OUT">
+        <img src="../data/references/SH_00037_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00037:OUT</b><div class="meta">278.00s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00037_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00038:IN">
+        <img src="../data/references/SH_00038_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00038:IN</b><div class="meta">280.60s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00038_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00038:MID">
+        <img src="../data/references/SH_00038_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00038:MID</b><div class="meta">280.60s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00038_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00038:OUT">
+        <img src="../data/references/SH_00038_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00038:OUT</b><div class="meta">280.60s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00038_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00039:IN">
+        <img src="../data/references/SH_00039_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00039:IN</b><div class="meta">282.80s · 9.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00039_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00039:MID">
+        <img src="../data/references/SH_00039_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00039:MID</b><div class="meta">282.80s · 9.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00039_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00039:OUT">
+        <img src="../data/references/SH_00039_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00039:OUT</b><div class="meta">282.80s · 9.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00039_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00040:IN">
+        <img src="../data/references/SH_00040_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00040:IN</b><div class="meta">292.60s · 10.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00040_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00040:MID">
+        <img src="../data/references/SH_00040_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00040:MID</b><div class="meta">292.60s · 10.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00040_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00040:OUT">
+        <img src="../data/references/SH_00040_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00040:OUT</b><div class="meta">292.60s · 10.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00040_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00041:IN">
+        <img src="../data/references/SH_00041_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00041:IN</b><div class="meta">302.80s · 13.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00041_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00041:MID">
+        <img src="../data/references/SH_00041_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00041:MID</b><div class="meta">302.80s · 13.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00041_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00041:OUT">
+        <img src="../data/references/SH_00041_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00041:OUT</b><div class="meta">302.80s · 13.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00041_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00042:IN">
+        <img src="../data/references/SH_00042_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00042:IN</b><div class="meta">316.40s · 20.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00042_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00042:MID">
+        <img src="../data/references/SH_00042_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00042:MID</b><div class="meta">316.40s · 20.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00042_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00042:OUT">
+        <img src="../data/references/SH_00042_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00042:OUT</b><div class="meta">316.40s · 20.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00042_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00043:IN">
+        <img src="../data/references/SH_00043_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00043:IN</b><div class="meta">337.00s · 21.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00043_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00043:MID">
+        <img src="../data/references/SH_00043_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00043:MID</b><div class="meta">337.00s · 21.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00043_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00043:OUT">
+        <img src="../data/references/SH_00043_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00043:OUT</b><div class="meta">337.00s · 21.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00043_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00044:IN">
+        <img src="../data/references/SH_00044_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00044:IN</b><div class="meta">358.20s · 21.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00044_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00044:MID">
+        <img src="../data/references/SH_00044_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00044:MID</b><div class="meta">358.20s · 21.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00044_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00044:OUT">
+        <img src="../data/references/SH_00044_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00044:OUT</b><div class="meta">358.20s · 21.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00044_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00045:IN">
+        <img src="../data/references/SH_00045_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00045:IN</b><div class="meta">379.60s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00045_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00045:MID">
+        <img src="../data/references/SH_00045_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00045:MID</b><div class="meta">379.60s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00045_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00045:OUT">
+        <img src="../data/references/SH_00045_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00045:OUT</b><div class="meta">379.60s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00045_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00046:IN">
+        <img src="../data/references/SH_00046_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00046:IN</b><div class="meta">382.80s · 1.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00046_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00046:MID">
+        <img src="../data/references/SH_00046_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00046:MID</b><div class="meta">382.80s · 1.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00046_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00046:OUT">
+        <img src="../data/references/SH_00046_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00046:OUT</b><div class="meta">382.80s · 1.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00046_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00047:IN">
+        <img src="../data/references/SH_00047_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00047:IN</b><div class="meta">384.40s · 3.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00047_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00047:MID">
+        <img src="../data/references/SH_00047_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00047:MID</b><div class="meta">384.40s · 3.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00047_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00047:OUT">
+        <img src="../data/references/SH_00047_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00047:OUT</b><div class="meta">384.40s · 3.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00047_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00048:IN">
+        <img src="../data/references/SH_00048_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00048:IN</b><div class="meta">387.40s · 20.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00048_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00048:MID">
+        <img src="../data/references/SH_00048_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00048:MID</b><div class="meta">387.40s · 20.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00048_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00048:OUT">
+        <img src="../data/references/SH_00048_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00048:OUT</b><div class="meta">387.40s · 20.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00048_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00049:IN">
+        <img src="../data/references/SH_00049_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00049:IN</b><div class="meta">407.40s · 1.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00049_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00049:MID">
+        <img src="../data/references/SH_00049_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00049:MID</b><div class="meta">407.40s · 1.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00049_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00049:OUT">
+        <img src="../data/references/SH_00049_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00049:OUT</b><div class="meta">407.40s · 1.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00049_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00050:IN">
+        <img src="../data/references/SH_00050_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00050:IN</b><div class="meta">408.80s · 6.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00050_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00050:MID">
+        <img src="../data/references/SH_00050_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00050:MID</b><div class="meta">408.80s · 6.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00050_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00050:OUT">
+        <img src="../data/references/SH_00050_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00050:OUT</b><div class="meta">408.80s · 6.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00050_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00051:IN">
+        <img src="../data/references/SH_00051_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00051:IN</b><div class="meta">415.40s · 17.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00051_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00051:MID">
+        <img src="../data/references/SH_00051_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00051:MID</b><div class="meta">415.40s · 17.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00051_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00051:OUT">
+        <img src="../data/references/SH_00051_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00051:OUT</b><div class="meta">415.40s · 17.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00051_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00052:IN">
+        <img src="../data/references/SH_00052_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00052:IN</b><div class="meta">432.80s · 87.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00052_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00052:MID">
+        <img src="../data/references/SH_00052_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00052:MID</b><div class="meta">432.80s · 87.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00052_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00052:OUT">
+        <img src="../data/references/SH_00052_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00052:OUT</b><div class="meta">432.80s · 87.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00052_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00053:IN">
+        <img src="../data/references/SH_00053_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00053:IN</b><div class="meta">520.60s · 19.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00053_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00053:MID">
+        <img src="../data/references/SH_00053_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00053:MID</b><div class="meta">520.60s · 19.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00053_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00053:OUT">
+        <img src="../data/references/SH_00053_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00053:OUT</b><div class="meta">520.60s · 19.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00053_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00054:IN">
+        <img src="../data/references/SH_00054_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00054:IN</b><div class="meta">540.40s · 19.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00054_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00054:MID">
+        <img src="../data/references/SH_00054_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00054:MID</b><div class="meta">540.40s · 19.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00054_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00054:OUT">
+        <img src="../data/references/SH_00054_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00054:OUT</b><div class="meta">540.40s · 19.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00054_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00055:IN">
+        <img src="../data/references/SH_00055_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00055:IN</b><div class="meta">559.40s · 8.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00055_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00055:MID">
+        <img src="../data/references/SH_00055_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00055:MID</b><div class="meta">559.40s · 8.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00055_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00055:OUT">
+        <img src="../data/references/SH_00055_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00055:OUT</b><div class="meta">559.40s · 8.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00055_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00056:IN">
+        <img src="../data/references/SH_00056_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00056:IN</b><div class="meta">567.60s · 8.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00056_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00056:MID">
+        <img src="../data/references/SH_00056_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00056:MID</b><div class="meta">567.60s · 8.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00056_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00056:OUT">
+        <img src="../data/references/SH_00056_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00056:OUT</b><div class="meta">567.60s · 8.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00056_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00057:IN">
+        <img src="../data/references/SH_00057_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00057:IN</b><div class="meta">575.60s · 4.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00057_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00057:MID">
+        <img src="../data/references/SH_00057_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00057:MID</b><div class="meta">575.60s · 4.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00057_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00057:OUT">
+        <img src="../data/references/SH_00057_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00057:OUT</b><div class="meta">575.60s · 4.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00057_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00058:IN">
+        <img src="../data/references/SH_00058_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00058:IN</b><div class="meta">579.60s · 4.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00058_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00058:MID">
+        <img src="../data/references/SH_00058_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00058:MID</b><div class="meta">579.60s · 4.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00058_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00058:OUT">
+        <img src="../data/references/SH_00058_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00058:OUT</b><div class="meta">579.60s · 4.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00058_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00059:IN">
+        <img src="../data/references/SH_00059_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00059:IN</b><div class="meta">584.40s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00059_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00059:MID">
+        <img src="../data/references/SH_00059_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00059:MID</b><div class="meta">584.40s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00059_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00059:OUT">
+        <img src="../data/references/SH_00059_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00059:OUT</b><div class="meta">584.40s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00059_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00060:IN">
+        <img src="../data/references/SH_00060_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00060:IN</b><div class="meta">586.80s · 1.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00060_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00060:MID">
+        <img src="../data/references/SH_00060_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00060:MID</b><div class="meta">586.80s · 1.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00060_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00060:OUT">
+        <img src="../data/references/SH_00060_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00060:OUT</b><div class="meta">586.80s · 1.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00060_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00061:IN">
+        <img src="../data/references/SH_00061_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00061:IN</b><div class="meta">587.80s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00061_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00061:MID">
+        <img src="../data/references/SH_00061_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00061:MID</b><div class="meta">587.80s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00061_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00061:OUT">
+        <img src="../data/references/SH_00061_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00061:OUT</b><div class="meta">587.80s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00061_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00062:IN">
+        <img src="../data/references/SH_00062_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00062:IN</b><div class="meta">590.40s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00062_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00062:MID">
+        <img src="../data/references/SH_00062_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00062:MID</b><div class="meta">590.40s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00062_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00062:OUT">
+        <img src="../data/references/SH_00062_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00062:OUT</b><div class="meta">590.40s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00062_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00063:IN">
+        <img src="../data/references/SH_00063_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00063:IN</b><div class="meta">592.60s · 4.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00063_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00063:MID">
+        <img src="../data/references/SH_00063_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00063:MID</b><div class="meta">592.60s · 4.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00063_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00063:OUT">
+        <img src="../data/references/SH_00063_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00063:OUT</b><div class="meta">592.60s · 4.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00063_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00064:IN">
+        <img src="../data/references/SH_00064_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00064:IN</b><div class="meta">596.60s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00064_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00064:MID">
+        <img src="../data/references/SH_00064_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00064:MID</b><div class="meta">596.60s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00064_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00064:OUT">
+        <img src="../data/references/SH_00064_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00064:OUT</b><div class="meta">596.60s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00064_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00065:IN">
+        <img src="../data/references/SH_00065_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00065:IN</b><div class="meta">600.00s · 4.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00065_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00065:MID">
+        <img src="../data/references/SH_00065_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00065:MID</b><div class="meta">600.00s · 4.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00065_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00065:OUT">
+        <img src="../data/references/SH_00065_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00065:OUT</b><div class="meta">600.00s · 4.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00065_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00066:IN">
+        <img src="../data/references/SH_00066_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00066:IN</b><div class="meta">604.20s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00066_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00066:MID">
+        <img src="../data/references/SH_00066_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00066:MID</b><div class="meta">604.20s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00066_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00066:OUT">
+        <img src="../data/references/SH_00066_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00066:OUT</b><div class="meta">604.20s · 3.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00066_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00067:IN">
+        <img src="../data/references/SH_00067_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00067:IN</b><div class="meta">607.60s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00067_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00067:MID">
+        <img src="../data/references/SH_00067_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00067:MID</b><div class="meta">607.60s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00067_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00067:OUT">
+        <img src="../data/references/SH_00067_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00067:OUT</b><div class="meta">607.60s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00067_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00068:IN">
+        <img src="../data/references/SH_00068_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00068:IN</b><div class="meta">610.80s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00068_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00068:MID">
+        <img src="../data/references/SH_00068_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00068:MID</b><div class="meta">610.80s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00068_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00068:OUT">
+        <img src="../data/references/SH_00068_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00068:OUT</b><div class="meta">610.80s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00068_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00069:IN">
+        <img src="../data/references/SH_00069_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00069:IN</b><div class="meta">613.00s · 4.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00069_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00069:MID">
+        <img src="../data/references/SH_00069_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00069:MID</b><div class="meta">613.00s · 4.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00069_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00069:OUT">
+        <img src="../data/references/SH_00069_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00069:OUT</b><div class="meta">613.00s · 4.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00069_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00070:IN">
+        <img src="../data/references/SH_00070_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00070:IN</b><div class="meta">617.20s · 7.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00070_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00070:MID">
+        <img src="../data/references/SH_00070_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00070:MID</b><div class="meta">617.20s · 7.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00070_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00070:OUT">
+        <img src="../data/references/SH_00070_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00070:OUT</b><div class="meta">617.20s · 7.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00070_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00071:IN">
+        <img src="../data/references/SH_00071_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00071:IN</b><div class="meta">624.20s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00071_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00071:MID">
+        <img src="../data/references/SH_00071_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00071:MID</b><div class="meta">624.20s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00071_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00071:OUT">
+        <img src="../data/references/SH_00071_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00071:OUT</b><div class="meta">624.20s · 2.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00071_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00072:IN">
+        <img src="../data/references/SH_00072_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00072:IN</b><div class="meta">626.80s · 3.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00072_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00072:MID">
+        <img src="../data/references/SH_00072_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00072:MID</b><div class="meta">626.80s · 3.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00072_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00072:OUT">
+        <img src="../data/references/SH_00072_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00072:OUT</b><div class="meta">626.80s · 3.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00072_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00073:IN">
+        <img src="../data/references/SH_00073_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00073:IN</b><div class="meta">630.40s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00073_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00073:MID">
+        <img src="../data/references/SH_00073_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00073:MID</b><div class="meta">630.40s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00073_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00073:OUT">
+        <img src="../data/references/SH_00073_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00073:OUT</b><div class="meta">630.40s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00073_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00074:IN">
+        <img src="../data/references/SH_00074_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00074:IN</b><div class="meta">633.60s · 18.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00074_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00074:MID">
+        <img src="../data/references/SH_00074_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00074:MID</b><div class="meta">633.60s · 18.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00074_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00074:OUT">
+        <img src="../data/references/SH_00074_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00074:OUT</b><div class="meta">633.60s · 18.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00074_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00075:IN">
+        <img src="../data/references/SH_00075_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00075:IN</b><div class="meta">652.40s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00075_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00075:MID">
+        <img src="../data/references/SH_00075_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00075:MID</b><div class="meta">652.40s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00075_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00075:OUT">
+        <img src="../data/references/SH_00075_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00075:OUT</b><div class="meta">652.40s · 3.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00075_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00076:IN">
+        <img src="../data/references/SH_00076_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00076:IN</b><div class="meta">655.60s · 9.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00076_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00076:MID">
+        <img src="../data/references/SH_00076_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00076:MID</b><div class="meta">655.60s · 9.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00076_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00076:OUT">
+        <img src="../data/references/SH_00076_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00076:OUT</b><div class="meta">655.60s · 9.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00076_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00077:IN">
+        <img src="../data/references/SH_00077_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00077:IN</b><div class="meta">664.80s · 7.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00077_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00077:MID">
+        <img src="../data/references/SH_00077_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00077:MID</b><div class="meta">664.80s · 7.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00077_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00077:OUT">
+        <img src="../data/references/SH_00077_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00077:OUT</b><div class="meta">664.80s · 7.00s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00077_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00078:IN">
+        <img src="../data/references/SH_00078_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00078:IN</b><div class="meta">671.80s · 13.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00078_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00078:MID">
+        <img src="../data/references/SH_00078_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00078:MID</b><div class="meta">671.80s · 13.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00078_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00078:OUT">
+        <img src="../data/references/SH_00078_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00078:OUT</b><div class="meta">671.80s · 13.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00078_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00079:IN">
+        <img src="../data/references/SH_00079_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00079:IN</b><div class="meta">685.40s · 11.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00079_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00079:MID">
+        <img src="../data/references/SH_00079_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00079:MID</b><div class="meta">685.40s · 11.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00079_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00079:OUT">
+        <img src="../data/references/SH_00079_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00079:OUT</b><div class="meta">685.40s · 11.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00079_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00080:IN">
+        <img src="../data/references/SH_00080_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00080:IN</b><div class="meta">696.80s · 15.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00080_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00080:MID">
+        <img src="../data/references/SH_00080_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00080:MID</b><div class="meta">696.80s · 15.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00080_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00080:OUT">
+        <img src="../data/references/SH_00080_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00080:OUT</b><div class="meta">696.80s · 15.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00080_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00081:IN">
+        <img src="../data/references/SH_00081_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00081:IN</b><div class="meta">712.00s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00081_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00081:MID">
+        <img src="../data/references/SH_00081_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00081:MID</b><div class="meta">712.00s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00081_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00081:OUT">
+        <img src="../data/references/SH_00081_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00081:OUT</b><div class="meta">712.00s · 2.20s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00081_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00082:IN">
+        <img src="../data/references/SH_00082_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00082:IN</b><div class="meta">714.20s · 3.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00082_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00082:MID">
+        <img src="../data/references/SH_00082_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00082:MID</b><div class="meta">714.20s · 3.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00082_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00082:OUT">
+        <img src="../data/references/SH_00082_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00082:OUT</b><div class="meta">714.20s · 3.60s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00082_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00083:IN">
+        <img src="../data/references/SH_00083_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00083:IN</b><div class="meta">717.80s · 2.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00083_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00083:MID">
+        <img src="../data/references/SH_00083_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00083:MID</b><div class="meta">717.80s · 2.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00083_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00083:OUT">
+        <img src="../data/references/SH_00083_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00083:OUT</b><div class="meta">717.80s · 2.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00083_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00084:IN">
+        <img src="../data/references/SH_00084_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00084:IN</b><div class="meta">720.60s · 0.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00084_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00084:MID">
+        <img src="../data/references/SH_00084_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00084:MID</b><div class="meta">720.60s · 0.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00084_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00084:OUT">
+        <img src="../data/references/SH_00084_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00084:OUT</b><div class="meta">720.60s · 0.80s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00084_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00085:IN">
+        <img src="../data/references/SH_00085_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00085:IN</b><div class="meta">721.40s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00085_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00085:MID">
+        <img src="../data/references/SH_00085_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00085:MID</b><div class="meta">721.40s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00085_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00085:OUT">
+        <img src="../data/references/SH_00085_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00085:OUT</b><div class="meta">721.40s · 2.40s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00085_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00086:IN">
+        <img src="../data/references/SH_00086_in.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00086:IN</b><div class="meta">723.80s · 52.68s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00086_in.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00086:MID">
+        <img src="../data/references/SH_00086_mid.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00086:MID</b><div class="meta">723.80s · 52.68s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00086_mid.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article><article class="card" data-status="PENDING_GENERATION" data-name="SH_00086:OUT">
+        <img src="../data/references/SH_00086_out.jpg"><div class="inner"><div class="meta">REFERENCE ONLY — NOT GENERATED</div><b>SH_00086:OUT</b><div class="meta">723.80s · 52.68s · 0轮</div>
+        <div class="flag">PENDING_GENERATION</div>
+        <a class="btn" href="../data\references\SH_00086_out.jpg" target="_blank">原片目标帧</a>
+        
+        </div></article></div><footer>此页面离线可浏览。所有生成调用均须在本机明确授权费用与外传范围；没有连接外部图像/视觉模型时，不得宣称自动复刻通过。</footer></main><script>function filter(){let q=document.getElementById('search').value.trim().toLowerCase(),s=document.getElementById('status').value;document.querySelectorAll('.card').forEach(c=>{c.style.display=(!q||c.dataset.name.toLowerCase().includes(q))&&(!s||c.dataset.status.includes(s))?'':'none'})}</script></html>

@@ -1,0 +1,12 @@
+ffconcat version 1.0
+file '/mnt/data/AI_Director_Final_Project/output/apprentice/previs_frames/frame_01.jpg'
+duration 3.300
+file '/mnt/data/AI_Director_Final_Project/output/apprentice/previs_frames/frame_02.jpg'
+duration 1.800
+file '/mnt/data/AI_Director_Final_Project/output/apprentice/previs_frames/frame_03.jpg'
+duration 2.400
+file '/mnt/data/AI_Director_Final_Project/output/apprentice/previs_frames/frame_04.jpg'
+duration 2.900
+file '/mnt/data/AI_Director_Final_Project/output/apprentice/previs_frames/frame_05.jpg'
+duration 3.400
+file '/mnt/data/AI_Director_Final_Project/output/apprentice/previs_frames/frame_05.jpg'

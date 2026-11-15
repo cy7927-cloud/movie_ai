@@ -1,0 +1,1980 @@
+{
+  "image_only_reference_baseline": true,
+  "intra_shot_pairs": 172,
+  "adjacent_shot_pairs": 85,
+  "reconstructed_content_continuity_status": "NOT_MEASURABLE_WITHOUT_GENERATED_CANDIDATES",
+  "intra_shot_reference": [
+    {
+      "shot": "SH_00001",
+      "in_to_mid": {
+        "lab_mean_distance": 25.139,
+        "histogram_bhattacharyya": 0.45,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 8.273,
+        "histogram_bhattacharyya": 0.325,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00002",
+      "in_to_mid": {
+        "lab_mean_distance": 33.222,
+        "histogram_bhattacharyya": 0.223,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 3.69,
+        "histogram_bhattacharyya": 0.096,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00003",
+      "in_to_mid": {
+        "lab_mean_distance": 11.355,
+        "histogram_bhattacharyya": 0.361,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.217,
+        "histogram_bhattacharyya": 0.098,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00004",
+      "in_to_mid": {
+        "lab_mean_distance": 6.575,
+        "histogram_bhattacharyya": 0.067,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 2.309,
+        "histogram_bhattacharyya": 0.074,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00005",
+      "in_to_mid": {
+        "lab_mean_distance": 1.593,
+        "histogram_bhattacharyya": 0.1,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 3.07,
+        "histogram_bhattacharyya": 0.066,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00006",
+      "in_to_mid": {
+        "lab_mean_distance": 1.374,
+        "histogram_bhattacharyya": 0.102,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 4.39,
+        "histogram_bhattacharyya": 0.152,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00007",
+      "in_to_mid": {
+        "lab_mean_distance": 2.034,
+        "histogram_bhattacharyya": 0.051,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 5.344,
+        "histogram_bhattacharyya": 0.051,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00008",
+      "in_to_mid": {
+        "lab_mean_distance": 21.839,
+        "histogram_bhattacharyya": 0.354,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 18.782,
+        "histogram_bhattacharyya": 0.419,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00009",
+      "in_to_mid": {
+        "lab_mean_distance": 11.688,
+        "histogram_bhattacharyya": 0.367,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 8.232,
+        "histogram_bhattacharyya": 0.494,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00010",
+      "in_to_mid": {
+        "lab_mean_distance": 0.391,
+        "histogram_bhattacharyya": 0.039,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.011,
+        "histogram_bhattacharyya": 0.021,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00011",
+      "in_to_mid": {
+        "lab_mean_distance": 4.871,
+        "histogram_bhattacharyya": 0.067,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 2.703,
+        "histogram_bhattacharyya": 0.069,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00012",
+      "in_to_mid": {
+        "lab_mean_distance": 15.484,
+        "histogram_bhattacharyya": 0.212,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 9.602,
+        "histogram_bhattacharyya": 0.155,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00013",
+      "in_to_mid": {
+        "lab_mean_distance": 70.397,
+        "histogram_bhattacharyya": 0.425,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 30.458,
+        "histogram_bhattacharyya": 0.319,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00014",
+      "in_to_mid": {
+        "lab_mean_distance": 0.38,
+        "histogram_bhattacharyya": 0.122,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.109,
+        "histogram_bhattacharyya": 0.059,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00015",
+      "in_to_mid": {
+        "lab_mean_distance": 36.469,
+        "histogram_bhattacharyya": 0.622,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 5.169,
+        "histogram_bhattacharyya": 0.479,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00016",
+      "in_to_mid": {
+        "lab_mean_distance": 5.602,
+        "histogram_bhattacharyya": 0.072,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 6.324,
+        "histogram_bhattacharyya": 0.071,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00017",
+      "in_to_mid": {
+        "lab_mean_distance": 18.024,
+        "histogram_bhattacharyya": 0.35,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 9.398,
+        "histogram_bhattacharyya": 0.299,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00018",
+      "in_to_mid": {
+        "lab_mean_distance": 11.488,
+        "histogram_bhattacharyya": 0.412,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.666,
+        "histogram_bhattacharyya": 0.296,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00019",
+      "in_to_mid": {
+        "lab_mean_distance": 21.381,
+        "histogram_bhattacharyya": 0.295,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 3.672,
+        "histogram_bhattacharyya": 0.182,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00020",
+      "in_to_mid": {
+        "lab_mean_distance": 0.787,
+        "histogram_bhattacharyya": 0.048,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.207,
+        "histogram_bhattacharyya": 0.042,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00021",
+      "in_to_mid": {
+        "lab_mean_distance": 13.096,
+        "histogram_bhattacharyya": 0.339,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.327,
+        "histogram_bhattacharyya": 0.073,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00022",
+      "in_to_mid": {
+        "lab_mean_distance": 6.334,
+        "histogram_bhattacharyya": 0.147,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 2.577,
+        "histogram_bhattacharyya": 0.064,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00023",
+      "in_to_mid": {
+        "lab_mean_distance": 0.46,
+        "histogram_bhattacharyya": 0.054,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 20.468,
+        "histogram_bhattacharyya": 0.395,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00024",
+      "in_to_mid": {
+        "lab_mean_distance": 11.293,
+        "histogram_bhattacharyya": 0.412,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 14.966,
+        "histogram_bhattacharyya": 0.278,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00025",
+      "in_to_mid": {
+        "lab_mean_distance": 6.255,
+        "histogram_bhattacharyya": 0.126,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.102,
+        "histogram_bhattacharyya": 0.109,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00026",
+      "in_to_mid": {
+        "lab_mean_distance": 4.791,
+        "histogram_bhattacharyya": 0.133,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 4.891,
+        "histogram_bhattacharyya": 0.106,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00027",
+      "in_to_mid": {
+        "lab_mean_distance": 4.853,
+        "histogram_bhattacharyya": 0.09,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 3.504,
+        "histogram_bhattacharyya": 0.068,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00028",
+      "in_to_mid": {
+        "lab_mean_distance": 1.994,
+        "histogram_bhattacharyya": 0.348,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 9.086,
+        "histogram_bhattacharyya": 0.392,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00029",
+      "in_to_mid": {
+        "lab_mean_distance": 9.852,
+        "histogram_bhattacharyya": 0.114,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 5.829,
+        "histogram_bhattacharyya": 0.132,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00030",
+      "in_to_mid": {
+        "lab_mean_distance": 11.839,
+        "histogram_bhattacharyya": 0.348,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.685,
+        "histogram_bhattacharyya": 0.131,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00031",
+      "in_to_mid": {
+        "lab_mean_distance": 3.703,
+        "histogram_bhattacharyya": 0.189,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 16.387,
+        "histogram_bhattacharyya": 0.31,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00032",
+      "in_to_mid": {
+        "lab_mean_distance": 9.058,
+        "histogram_bhattacharyya": 0.25,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 4.881,
+        "histogram_bhattacharyya": 0.161,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00033",
+      "in_to_mid": {
+        "lab_mean_distance": 2.49,
+        "histogram_bhattacharyya": 0.107,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.697,
+        "histogram_bhattacharyya": 0.09,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00034",
+      "in_to_mid": {
+        "lab_mean_distance": 14.776,
+        "histogram_bhattacharyya": 0.551,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 19.856,
+        "histogram_bhattacharyya": 0.674,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00035",
+      "in_to_mid": {
+        "lab_mean_distance": 46.962,
+        "histogram_bhattacharyya": 0.426,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.348,
+        "histogram_bhattacharyya": 0.184,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00036",
+      "in_to_mid": {
+        "lab_mean_distance": 11.919,
+        "histogram_bhattacharyya": 0.267,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 6.883,
+        "histogram_bhattacharyya": 0.23,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00037",
+      "in_to_mid": {
+        "lab_mean_distance": 1.705,
+        "histogram_bhattacharyya": 0.069,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.978,
+        "histogram_bhattacharyya": 0.081,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00038",
+      "in_to_mid": {
+        "lab_mean_distance": 0.102,
+        "histogram_bhattacharyya": 0.046,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.186,
+        "histogram_bhattacharyya": 0.051,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00039",
+      "in_to_mid": {
+        "lab_mean_distance": 4.266,
+        "histogram_bhattacharyya": 0.251,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 10.799,
+        "histogram_bhattacharyya": 0.349,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00040",
+      "in_to_mid": {
+        "lab_mean_distance": 19.12,
+        "histogram_bhattacharyya": 0.321,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 17.993,
+        "histogram_bhattacharyya": 0.468,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00041",
+      "in_to_mid": {
+        "lab_mean_distance": 5.395,
+        "histogram_bhattacharyya": 0.166,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 9.018,
+        "histogram_bhattacharyya": 0.648,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00042",
+      "in_to_mid": {
+        "lab_mean_distance": 2.975,
+        "histogram_bhattacharyya": 0.461,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 7.608,
+        "histogram_bhattacharyya": 0.54,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00043",
+      "in_to_mid": {
+        "lab_mean_distance": 3.155,
+        "histogram_bhattacharyya": 0.423,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 3.022,
+        "histogram_bhattacharyya": 0.322,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00044",
+      "in_to_mid": {
+        "lab_mean_distance": 15.893,
+        "histogram_bhattacharyya": 0.441,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 13.734,
+        "histogram_bhattacharyya": 0.531,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00045",
+      "in_to_mid": {
+        "lab_mean_distance": 0.445,
+        "histogram_bhattacharyya": 0.067,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 2.106,
+        "histogram_bhattacharyya": 0.101,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00046",
+      "in_to_mid": {
+        "lab_mean_distance": 0.357,
+        "histogram_bhattacharyya": 0.103,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.117,
+        "histogram_bhattacharyya": 0.101,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00047",
+      "in_to_mid": {
+        "lab_mean_distance": 4.259,
+        "histogram_bhattacharyya": 0.114,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.25,
+        "histogram_bhattacharyya": 0.072,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00048",
+      "in_to_mid": {
+        "lab_mean_distance": 7.134,
+        "histogram_bhattacharyya": 0.444,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 5.303,
+        "histogram_bhattacharyya": 0.114,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00049",
+      "in_to_mid": {
+        "lab_mean_distance": 1.785,
+        "histogram_bhattacharyya": 0.115,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 6.521,
+        "histogram_bhattacharyya": 0.231,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00050",
+      "in_to_mid": {
+        "lab_mean_distance": 0.27,
+        "histogram_bhattacharyya": 0.075,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 2.094,
+        "histogram_bhattacharyya": 0.102,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00051",
+      "in_to_mid": {
+        "lab_mean_distance": 12.399,
+        "histogram_bhattacharyya": 0.396,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 6.977,
+        "histogram_bhattacharyya": 0.321,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00052",
+      "in_to_mid": {
+        "lab_mean_distance": 32.14,
+        "histogram_bhattacharyya": 0.49,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 4.318,
+        "histogram_bhattacharyya": 0.541,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00053",
+      "in_to_mid": {
+        "lab_mean_distance": 6.573,
+        "histogram_bhattacharyya": 0.354,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 36.589,
+        "histogram_bhattacharyya": 0.551,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00054",
+      "in_to_mid": {
+        "lab_mean_distance": 32.186,
+        "histogram_bhattacharyya": 0.713,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 24.824,
+        "histogram_bhattacharyya": 0.508,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00055",
+      "in_to_mid": {
+        "lab_mean_distance": 5.267,
+        "histogram_bhattacharyya": 0.635,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 5.272,
+        "histogram_bhattacharyya": 0.403,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00056",
+      "in_to_mid": {
+        "lab_mean_distance": 0.585,
+        "histogram_bhattacharyya": 0.268,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 17.303,
+        "histogram_bhattacharyya": 0.383,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00057",
+      "in_to_mid": {
+        "lab_mean_distance": 0.625,
+        "histogram_bhattacharyya": 0.087,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.107,
+        "histogram_bhattacharyya": 0.055,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00058",
+      "in_to_mid": {
+        "lab_mean_distance": 8.194,
+        "histogram_bhattacharyya": 0.434,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 22.745,
+        "histogram_bhattacharyya": 0.523,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00059",
+      "in_to_mid": {
+        "lab_mean_distance": 4.534,
+        "histogram_bhattacharyya": 0.187,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.695,
+        "histogram_bhattacharyya": 0.096,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00060",
+      "in_to_mid": {
+        "lab_mean_distance": 0.457,
+        "histogram_bhattacharyya": 0.045,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 12.542,
+        "histogram_bhattacharyya": 0.661,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00061",
+      "in_to_mid": {
+        "lab_mean_distance": 6.145,
+        "histogram_bhattacharyya": 0.243,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.133,
+        "histogram_bhattacharyya": 0.07,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00062",
+      "in_to_mid": {
+        "lab_mean_distance": 0.374,
+        "histogram_bhattacharyya": 0.075,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.504,
+        "histogram_bhattacharyya": 0.078,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00063",
+      "in_to_mid": {
+        "lab_mean_distance": 1.346,
+        "histogram_bhattacharyya": 0.063,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.112,
+        "histogram_bhattacharyya": 0.044,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00064",
+      "in_to_mid": {
+        "lab_mean_distance": 0.307,
+        "histogram_bhattacharyya": 0.104,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.11,
+        "histogram_bhattacharyya": 0.058,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00065",
+      "in_to_mid": {
+        "lab_mean_distance": 1.182,
+        "histogram_bhattacharyya": 0.066,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 2.14,
+        "histogram_bhattacharyya": 0.296,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00066",
+      "in_to_mid": {
+        "lab_mean_distance": 0.167,
+        "histogram_bhattacharyya": 0.056,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.381,
+        "histogram_bhattacharyya": 0.047,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00067",
+      "in_to_mid": {
+        "lab_mean_distance": 0.957,
+        "histogram_bhattacharyya": 0.076,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.041,
+        "histogram_bhattacharyya": 0.055,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00068",
+      "in_to_mid": {
+        "lab_mean_distance": 0.461,
+        "histogram_bhattacharyya": 0.069,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.918,
+        "histogram_bhattacharyya": 0.06,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00069",
+      "in_to_mid": {
+        "lab_mean_distance": 0.683,
+        "histogram_bhattacharyya": 0.074,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.258,
+        "histogram_bhattacharyya": 0.062,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00070",
+      "in_to_mid": {
+        "lab_mean_distance": 46.816,
+        "histogram_bhattacharyya": 0.499,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 18.368,
+        "histogram_bhattacharyya": 0.344,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00071",
+      "in_to_mid": {
+        "lab_mean_distance": 0.561,
+        "histogram_bhattacharyya": 0.076,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.739,
+        "histogram_bhattacharyya": 0.049,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00072",
+      "in_to_mid": {
+        "lab_mean_distance": 0.395,
+        "histogram_bhattacharyya": 0.034,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.324,
+        "histogram_bhattacharyya": 0.045,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00073",
+      "in_to_mid": {
+        "lab_mean_distance": 1.871,
+        "histogram_bhattacharyya": 0.094,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.401,
+        "histogram_bhattacharyya": 0.072,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00074",
+      "in_to_mid": {
+        "lab_mean_distance": 32.271,
+        "histogram_bhattacharyya": 0.264,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 37.788,
+        "histogram_bhattacharyya": 0.329,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00075",
+      "in_to_mid": {
+        "lab_mean_distance": 3.234,
+        "histogram_bhattacharyya": 0.398,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.758,
+        "histogram_bhattacharyya": 0.121,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00076",
+      "in_to_mid": {
+        "lab_mean_distance": 39.052,
+        "histogram_bhattacharyya": 0.264,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.032,
+        "histogram_bhattacharyya": 0.04,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00077",
+      "in_to_mid": {
+        "lab_mean_distance": 0.232,
+        "histogram_bhattacharyya": 0.047,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 0.297,
+        "histogram_bhattacharyya": 0.043,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00078",
+      "in_to_mid": {
+        "lab_mean_distance": 22.599,
+        "histogram_bhattacharyya": 0.27,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 7.486,
+        "histogram_bhattacharyya": 0.277,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00079",
+      "in_to_mid": {
+        "lab_mean_distance": 15.121,
+        "histogram_bhattacharyya": 0.345,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 10.502,
+        "histogram_bhattacharyya": 0.342,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00080",
+      "in_to_mid": {
+        "lab_mean_distance": 40.759,
+        "histogram_bhattacharyya": 0.272,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 8.069,
+        "histogram_bhattacharyya": 0.257,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00081",
+      "in_to_mid": {
+        "lab_mean_distance": 4.707,
+        "histogram_bhattacharyya": 0.327,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 1.991,
+        "histogram_bhattacharyya": 0.089,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00082",
+      "in_to_mid": {
+        "lab_mean_distance": 29.718,
+        "histogram_bhattacharyya": 0.362,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 33.271,
+        "histogram_bhattacharyya": 0.543,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00083",
+      "in_to_mid": {
+        "lab_mean_distance": 53.985,
+        "histogram_bhattacharyya": 0.74,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 52.589,
+        "histogram_bhattacharyya": 0.769,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00084",
+      "in_to_mid": {
+        "lab_mean_distance": 26.976,
+        "histogram_bhattacharyya": 0.485,
+        "review": "HIGH_VISUAL_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 3.92,
+        "histogram_bhattacharyya": 0.385,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00085",
+      "in_to_mid": {
+        "lab_mean_distance": 7.373,
+        "histogram_bhattacharyya": 0.313,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 67.979,
+        "histogram_bhattacharyya": 0.449,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    },
+    {
+      "shot": "SH_00086",
+      "in_to_mid": {
+        "lab_mean_distance": 27.897,
+        "histogram_bhattacharyya": 0.376,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      },
+      "mid_to_out": {
+        "lab_mean_distance": 24.364,
+        "histogram_bhattacharyya": 0.377,
+        "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+        "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+      }
+    }
+  ],
+  "adjacent_shot_reference": [
+    {
+      "from": "SH_00001",
+      "to": "SH_00002",
+      "lab_mean_distance": 10.141,
+      "histogram_bhattacharyya": 0.434,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00002",
+      "to": "SH_00003",
+      "lab_mean_distance": 12.945,
+      "histogram_bhattacharyya": 0.436,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00003",
+      "to": "SH_00004",
+      "lab_mean_distance": 26.749,
+      "histogram_bhattacharyya": 0.416,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00004",
+      "to": "SH_00005",
+      "lab_mean_distance": 18.959,
+      "histogram_bhattacharyya": 0.462,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00005",
+      "to": "SH_00006",
+      "lab_mean_distance": 8.671,
+      "histogram_bhattacharyya": 0.437,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00006",
+      "to": "SH_00007",
+      "lab_mean_distance": 25.327,
+      "histogram_bhattacharyya": 0.341,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00007",
+      "to": "SH_00008",
+      "lab_mean_distance": 47.674,
+      "histogram_bhattacharyya": 0.58,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00008",
+      "to": "SH_00009",
+      "lab_mean_distance": 36.711,
+      "histogram_bhattacharyya": 0.42,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00009",
+      "to": "SH_00010",
+      "lab_mean_distance": 33.092,
+      "histogram_bhattacharyya": 0.471,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00010",
+      "to": "SH_00011",
+      "lab_mean_distance": 5.062,
+      "histogram_bhattacharyya": 0.441,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00011",
+      "to": "SH_00012",
+      "lab_mean_distance": 53.5,
+      "histogram_bhattacharyya": 0.569,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00012",
+      "to": "SH_00013",
+      "lab_mean_distance": 73.384,
+      "histogram_bhattacharyya": 0.396,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00013",
+      "to": "SH_00014",
+      "lab_mean_distance": 32.537,
+      "histogram_bhattacharyya": 0.414,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00014",
+      "to": "SH_00015",
+      "lab_mean_distance": 7.909,
+      "histogram_bhattacharyya": 0.626,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00015",
+      "to": "SH_00016",
+      "lab_mean_distance": 51.121,
+      "histogram_bhattacharyya": 0.541,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00016",
+      "to": "SH_00017",
+      "lab_mean_distance": 13.279,
+      "histogram_bhattacharyya": 0.45,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00017",
+      "to": "SH_00018",
+      "lab_mean_distance": 5.723,
+      "histogram_bhattacharyya": 0.459,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00018",
+      "to": "SH_00019",
+      "lab_mean_distance": 7.27,
+      "histogram_bhattacharyya": 0.616,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00019",
+      "to": "SH_00020",
+      "lab_mean_distance": 58.609,
+      "histogram_bhattacharyya": 0.617,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00020",
+      "to": "SH_00021",
+      "lab_mean_distance": 57.404,
+      "histogram_bhattacharyya": 0.823,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00021",
+      "to": "SH_00022",
+      "lab_mean_distance": 16.074,
+      "histogram_bhattacharyya": 0.68,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00022",
+      "to": "SH_00023",
+      "lab_mean_distance": 9.033,
+      "histogram_bhattacharyya": 0.651,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00023",
+      "to": "SH_00024",
+      "lab_mean_distance": 42.998,
+      "histogram_bhattacharyya": 0.748,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00024",
+      "to": "SH_00025",
+      "lab_mean_distance": 58.433,
+      "histogram_bhattacharyya": 0.628,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00025",
+      "to": "SH_00026",
+      "lab_mean_distance": 72.225,
+      "histogram_bhattacharyya": 0.658,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00026",
+      "to": "SH_00027",
+      "lab_mean_distance": 15.245,
+      "histogram_bhattacharyya": 0.848,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00027",
+      "to": "SH_00028",
+      "lab_mean_distance": 27.783,
+      "histogram_bhattacharyya": 0.397,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00028",
+      "to": "SH_00029",
+      "lab_mean_distance": 14.835,
+      "histogram_bhattacharyya": 0.553,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00029",
+      "to": "SH_00030",
+      "lab_mean_distance": 18.843,
+      "histogram_bhattacharyya": 0.425,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00030",
+      "to": "SH_00031",
+      "lab_mean_distance": 14.012,
+      "histogram_bhattacharyya": 0.844,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00031",
+      "to": "SH_00032",
+      "lab_mean_distance": 8.841,
+      "histogram_bhattacharyya": 0.869,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00032",
+      "to": "SH_00033",
+      "lab_mean_distance": 12.707,
+      "histogram_bhattacharyya": 0.565,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00033",
+      "to": "SH_00034",
+      "lab_mean_distance": 0.104,
+      "histogram_bhattacharyya": 0.028,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00034",
+      "to": "SH_00035",
+      "lab_mean_distance": 0.449,
+      "histogram_bhattacharyya": 0.117,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00035",
+      "to": "SH_00036",
+      "lab_mean_distance": 36.494,
+      "histogram_bhattacharyya": 0.933,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00036",
+      "to": "SH_00037",
+      "lab_mean_distance": 9.207,
+      "histogram_bhattacharyya": 0.851,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00037",
+      "to": "SH_00038",
+      "lab_mean_distance": 33.965,
+      "histogram_bhattacharyya": 0.436,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00038",
+      "to": "SH_00039",
+      "lab_mean_distance": 38.156,
+      "histogram_bhattacharyya": 0.438,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00039",
+      "to": "SH_00040",
+      "lab_mean_distance": 15.169,
+      "histogram_bhattacharyya": 0.493,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00040",
+      "to": "SH_00041",
+      "lab_mean_distance": 10.556,
+      "histogram_bhattacharyya": 0.566,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00041",
+      "to": "SH_00042",
+      "lab_mean_distance": 1.945,
+      "histogram_bhattacharyya": 0.655,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00042",
+      "to": "SH_00043",
+      "lab_mean_distance": 3.534,
+      "histogram_bhattacharyya": 0.51,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00043",
+      "to": "SH_00044",
+      "lab_mean_distance": 9.263,
+      "histogram_bhattacharyya": 0.422,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00044",
+      "to": "SH_00045",
+      "lab_mean_distance": 8.337,
+      "histogram_bhattacharyya": 0.496,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00045",
+      "to": "SH_00046",
+      "lab_mean_distance": 22.95,
+      "histogram_bhattacharyya": 0.594,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00046",
+      "to": "SH_00047",
+      "lab_mean_distance": 26.7,
+      "histogram_bhattacharyya": 0.74,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00047",
+      "to": "SH_00048",
+      "lab_mean_distance": 5.587,
+      "histogram_bhattacharyya": 0.558,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00048",
+      "to": "SH_00049",
+      "lab_mean_distance": 23.349,
+      "histogram_bhattacharyya": 0.657,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00049",
+      "to": "SH_00050",
+      "lab_mean_distance": 18.82,
+      "histogram_bhattacharyya": 0.751,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00050",
+      "to": "SH_00051",
+      "lab_mean_distance": 11.139,
+      "histogram_bhattacharyya": 0.592,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00051",
+      "to": "SH_00052",
+      "lab_mean_distance": 23.956,
+      "histogram_bhattacharyya": 0.735,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00052",
+      "to": "SH_00053",
+      "lab_mean_distance": 10.791,
+      "histogram_bhattacharyya": 0.754,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00053",
+      "to": "SH_00054",
+      "lab_mean_distance": 36.844,
+      "histogram_bhattacharyya": 0.529,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00054",
+      "to": "SH_00055",
+      "lab_mean_distance": 9.425,
+      "histogram_bhattacharyya": 0.681,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00055",
+      "to": "SH_00056",
+      "lab_mean_distance": 5.595,
+      "histogram_bhattacharyya": 0.628,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00056",
+      "to": "SH_00057",
+      "lab_mean_distance": 13.621,
+      "histogram_bhattacharyya": 0.714,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00057",
+      "to": "SH_00058",
+      "lab_mean_distance": 8.605,
+      "histogram_bhattacharyya": 0.73,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00058",
+      "to": "SH_00059",
+      "lab_mean_distance": 30.768,
+      "histogram_bhattacharyya": 0.744,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00059",
+      "to": "SH_00060",
+      "lab_mean_distance": 22.201,
+      "histogram_bhattacharyya": 0.771,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00060",
+      "to": "SH_00061",
+      "lab_mean_distance": 4.023,
+      "histogram_bhattacharyya": 0.099,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00061",
+      "to": "SH_00062",
+      "lab_mean_distance": 19.72,
+      "histogram_bhattacharyya": 0.571,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00062",
+      "to": "SH_00063",
+      "lab_mean_distance": 31.61,
+      "histogram_bhattacharyya": 0.913,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00063",
+      "to": "SH_00064",
+      "lab_mean_distance": 7.705,
+      "histogram_bhattacharyya": 0.876,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00064",
+      "to": "SH_00065",
+      "lab_mean_distance": 14.317,
+      "histogram_bhattacharyya": 0.828,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00065",
+      "to": "SH_00066",
+      "lab_mean_distance": 54.625,
+      "histogram_bhattacharyya": 0.743,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00066",
+      "to": "SH_00067",
+      "lab_mean_distance": 68.203,
+      "histogram_bhattacharyya": 0.939,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00067",
+      "to": "SH_00068",
+      "lab_mean_distance": 7.801,
+      "histogram_bhattacharyya": 0.88,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00068",
+      "to": "SH_00069",
+      "lab_mean_distance": 10.843,
+      "histogram_bhattacharyya": 0.881,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00069",
+      "to": "SH_00070",
+      "lab_mean_distance": 6.714,
+      "histogram_bhattacharyya": 0.72,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00070",
+      "to": "SH_00071",
+      "lab_mean_distance": 37.411,
+      "histogram_bhattacharyya": 0.365,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00071",
+      "to": "SH_00072",
+      "lab_mean_distance": 68.539,
+      "histogram_bhattacharyya": 0.467,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00072",
+      "to": "SH_00073",
+      "lab_mean_distance": 69.238,
+      "histogram_bhattacharyya": 0.429,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00073",
+      "to": "SH_00074",
+      "lab_mean_distance": 11.846,
+      "histogram_bhattacharyya": 0.596,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00074",
+      "to": "SH_00075",
+      "lab_mean_distance": 39.023,
+      "histogram_bhattacharyya": 0.47,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00075",
+      "to": "SH_00076",
+      "lab_mean_distance": 62.771,
+      "histogram_bhattacharyya": 0.47,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00076",
+      "to": "SH_00077",
+      "lab_mean_distance": 14.6,
+      "histogram_bhattacharyya": 0.418,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00077",
+      "to": "SH_00078",
+      "lab_mean_distance": 24.297,
+      "histogram_bhattacharyya": 0.438,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00078",
+      "to": "SH_00079",
+      "lab_mean_distance": 31.037,
+      "histogram_bhattacharyya": 0.28,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00079",
+      "to": "SH_00080",
+      "lab_mean_distance": 8.178,
+      "histogram_bhattacharyya": 0.302,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00080",
+      "to": "SH_00081",
+      "lab_mean_distance": 34.513,
+      "histogram_bhattacharyya": 0.498,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00081",
+      "to": "SH_00082",
+      "lab_mean_distance": 38.047,
+      "histogram_bhattacharyya": 0.64,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00082",
+      "to": "SH_00083",
+      "lab_mean_distance": 109.052,
+      "histogram_bhattacharyya": 0.771,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00083",
+      "to": "SH_00084",
+      "lab_mean_distance": 49.984,
+      "histogram_bhattacharyya": 0.848,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00084",
+      "to": "SH_00085",
+      "lab_mean_distance": 27.759,
+      "histogram_bhattacharyya": 0.16,
+      "review": "NO_LARGE_COLOR_HISTOGRAM_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    },
+    {
+      "from": "SH_00085",
+      "to": "SH_00086",
+      "lab_mean_distance": 73.534,
+      "histogram_bhattacharyya": 0.55,
+      "review": "HIGH_VISUAL_SHIFT",
+      "caution": "Cannot confirm facial identity, action continuity, camera or scene topology"
+    }
+  ]
+}

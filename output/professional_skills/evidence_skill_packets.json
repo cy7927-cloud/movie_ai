@@ -1,0 +1,880 @@
+{
+  "film_excerpt_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+  "film_scope": "USER_776_SECOND_EXCERPT_NOT_COMPLETE_FEATURE",
+  "method": "USE_UNMODIFIED_UPSTREAM_SKILL_MD_WHEN_INSTALLED",
+  "upstream_status": {
+    "open-film-skills": {
+      "repository": "https://github.com/62656456/ai-film-skills.git",
+      "license_declared_upstream": "Apache-2.0",
+      "git_checkout_present": false,
+      "license_file_present": false,
+      "skills": [
+        {
+          "name": "director-agent",
+          "upstream_file": "external_skills/open-film-skills/skills/director-agent/SKILL.md",
+          "installed": false,
+          "sha256": null
+        },
+        {
+          "name": "ai-storyboard-director",
+          "upstream_file": "external_skills/open-film-skills/skills/ai-storyboard-director/SKILL.md",
+          "installed": false,
+          "sha256": null
+        }
+      ],
+      "ready_for_native_skill_invocation": false,
+      "validation_errors": []
+    },
+    "film-production-skills": {
+      "repository": "https://github.com/zhangzhangco/film-production-skills.git",
+      "license_declared_upstream": "MIT",
+      "git_checkout_present": false,
+      "license_file_present": true,
+      "skills": [
+        {
+          "name": "structure-screenplay",
+          "upstream_file": "external_skills/film-production-skills/skills/structure-screenplay/SKILL.md",
+          "installed": false,
+          "sha256": null
+        },
+        {
+          "name": "plan-camera-shots",
+          "upstream_file": "external_skills/film-production-skills/skills/plan-camera-shots/SKILL.md",
+          "installed": true,
+          "sha256": "d498f8468fdd82ea0c41252d741534d15b66288cbca689bd9eeb34778176a7f3"
+        },
+        {
+          "name": "review-and-assemble",
+          "upstream_file": "external_skills/film-production-skills/skills/review-and-assemble/SKILL.md",
+          "installed": true,
+          "sha256": "761e82aab0b69365d36d93195b7fa5857c75e071c5e1f45c9cfdbcedf50dca12"
+        }
+      ],
+      "ready_for_native_skill_invocation": false,
+      "validation_errors": []
+    }
+  },
+  "source_cases": 2,
+  "verified_frames": 18,
+  "packets": [
+    {
+      "case_id": "CASE_A",
+      "case_window_s": "595–616",
+      "case_title": "暗处的人、红衣队列与黑猫：信息先于因果",
+      "source_film_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+      "upstream_repository": "https://github.com/62656456/ai-film-skills.git",
+      "upstream_skill": "director-agent",
+      "upstream_skill_sha256": null,
+      "upstream_skill_loaded": false,
+      "status": "BLOCKED_SKILL_NOT_INSTALLED",
+      "image_evidence": [
+        {
+          "time_s": 595.0,
+          "path": "output/gpt_director_study/source_frames/CASE_A_01_595.0s.jpg",
+          "sha256": "5fe062d28379fad1c2bdcd88e0eb6d93b12ea995d58166c2e3f685f1c5dbf80c",
+          "observation": "幽暗通道尽头有暖色光及人影"
+        },
+        {
+          "time_s": 597.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_02_597.2s.jpg",
+          "sha256": "fd6803411b2957bea9bd1b432f11d5ebbb3aaaa6197634952ceb10c9caa7d4d2",
+          "observation": "黑衣男子靠在暗色装饰门边"
+        },
+        {
+          "time_s": 600.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_03_600.2s.jpg",
+          "sha256": "7027c5831b048ca1e58043431acb74ee08aa1443fba6b40a6c6a2f23fe1e54df",
+          "observation": "数名红衣人物面向石树及建筑"
+        },
+        {
+          "time_s": 603.9,
+          "path": "output/gpt_director_study/source_frames/CASE_A_04_603.9s.jpg",
+          "sha256": "5cf28ad8b39cfa7e8172af9956a3ab390eabe9d0553d7c1415172f2de36a8f60",
+          "observation": "红衣人物仰头，前后错开站位"
+        },
+        {
+          "time_s": 604.4,
+          "path": "output/gpt_director_study/source_frames/CASE_A_05_604.4s.jpg",
+          "sha256": "5dce59037d245d3e9610772607fa7acf94f6825484848d56321a06d5413851c7",
+          "observation": "黑猫独立站在暖色栏杆上"
+        },
+        {
+          "time_s": 607.8,
+          "path": "output/gpt_director_study/source_frames/CASE_A_06_607.8s.jpg",
+          "sha256": "ce0f3b2e5de69a30eb82ea2e7820063bec2db0d7a73e769631e92e6ec5822530",
+          "observation": "黑衣男子从门边向外窥看"
+        },
+        {
+          "time_s": 611.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_07_611.2s.jpg",
+          "sha256": "49b7fe82c5af8d968f257923b3903f4bfcba4476df78ade3db728465ecc303bd",
+          "observation": "远处石廊入口见暖色灯笼和人影"
+        },
+        {
+          "time_s": 614.0,
+          "path": "output/gpt_director_study/source_frames/CASE_A_08_614.0s.jpg",
+          "sha256": "295cd7932db1b15b877caec114824eae9065ac382ec8897a1d4e30590fcdb518",
+          "observation": "黑衣男子重新出现在暗色装饰门旁"
+        }
+      ],
+      "source_observations_not_verified_director_intent": true,
+      "hypotheses_to_test": [
+        {
+          "claim": "猫的单独镜头可能将观众注意力转向一项新的信息",
+          "rationale": "红衣人群→黑猫→暗处男子的切换，使观众在同一小段落中比较至少三类对象",
+          "alternative": "猫只是独立悬疑意象，既不是任何人视线的目标，也可能不是同一空间",
+          "verification": "必须复看前后声音/对白、人物视线方向、猫与人物能否处于同一空间"
+        },
+        {
+          "claim": "暗色人物在猫之前与之后出现，可能构成跨地点的平行观察/等待结构",
+          "rationale": "597、608、614秒附近均可见相似门边黑衣人物，其间交错进入红衣队列、猫、石廊",
+          "alternative": "相似服装未证实同一演员；多个地点的剪辑也可能只是连续事件信息",
+          "verification": "核实人物身份、台词及空间地理关系，确认各时刻是否真为同一行动"
+        },
+        {
+          "claim": "色温、明暗和环境尺度的交替可以成为悬念节奏的一部分",
+          "rationale": "暖色栏杆/红衣外景与冷暗门边/石洞交替，观众阅读画面的成本和注意目标改变",
+          "alternative": "色差仅来自不同空间的自然照明，不一定具有情绪象征",
+          "verification": "结合整段声音、导演场面语境和人物目标，排除纯粹空间交代"
+        }
+      ],
+      "unverified": [
+        "对白和音乐关系",
+        "猫和男人的真实视线关系",
+        "片中同一空间/时间",
+        "导演真实意图"
+      ],
+      "skill_task": "导演/叙事：人物目标、表演、观众比人物知道的事实；不要凭空确立导演真意",
+      "must_not_claim": [
+        "原片剪辑有错误",
+        "已经知道导演确切意图",
+        "已经有生成的AI电影",
+        "原片参考帧是原创AI画面"
+      ]
+    },
+    {
+      "case_id": "CASE_A",
+      "case_window_s": "595–616",
+      "case_title": "暗处的人、红衣队列与黑猫：信息先于因果",
+      "source_film_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+      "upstream_repository": "https://github.com/62656456/ai-film-skills.git",
+      "upstream_skill": "ai-storyboard-director",
+      "upstream_skill_sha256": null,
+      "upstream_skill_loaded": false,
+      "status": "BLOCKED_SKILL_NOT_INSTALLED",
+      "image_evidence": [
+        {
+          "time_s": 595.0,
+          "path": "output/gpt_director_study/source_frames/CASE_A_01_595.0s.jpg",
+          "sha256": "5fe062d28379fad1c2bdcd88e0eb6d93b12ea995d58166c2e3f685f1c5dbf80c",
+          "observation": "幽暗通道尽头有暖色光及人影"
+        },
+        {
+          "time_s": 597.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_02_597.2s.jpg",
+          "sha256": "fd6803411b2957bea9bd1b432f11d5ebbb3aaaa6197634952ceb10c9caa7d4d2",
+          "observation": "黑衣男子靠在暗色装饰门边"
+        },
+        {
+          "time_s": 600.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_03_600.2s.jpg",
+          "sha256": "7027c5831b048ca1e58043431acb74ee08aa1443fba6b40a6c6a2f23fe1e54df",
+          "observation": "数名红衣人物面向石树及建筑"
+        },
+        {
+          "time_s": 603.9,
+          "path": "output/gpt_director_study/source_frames/CASE_A_04_603.9s.jpg",
+          "sha256": "5cf28ad8b39cfa7e8172af9956a3ab390eabe9d0553d7c1415172f2de36a8f60",
+          "observation": "红衣人物仰头，前后错开站位"
+        },
+        {
+          "time_s": 604.4,
+          "path": "output/gpt_director_study/source_frames/CASE_A_05_604.4s.jpg",
+          "sha256": "5dce59037d245d3e9610772607fa7acf94f6825484848d56321a06d5413851c7",
+          "observation": "黑猫独立站在暖色栏杆上"
+        },
+        {
+          "time_s": 607.8,
+          "path": "output/gpt_director_study/source_frames/CASE_A_06_607.8s.jpg",
+          "sha256": "ce0f3b2e5de69a30eb82ea2e7820063bec2db0d7a73e769631e92e6ec5822530",
+          "observation": "黑衣男子从门边向外窥看"
+        },
+        {
+          "time_s": 611.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_07_611.2s.jpg",
+          "sha256": "49b7fe82c5af8d968f257923b3903f4bfcba4476df78ade3db728465ecc303bd",
+          "observation": "远处石廊入口见暖色灯笼和人影"
+        },
+        {
+          "time_s": 614.0,
+          "path": "output/gpt_director_study/source_frames/CASE_A_08_614.0s.jpg",
+          "sha256": "295cd7932db1b15b877caec114824eae9065ac382ec8897a1d4e30590fcdb518",
+          "observation": "黑衣男子重新出现在暗色装饰门旁"
+        }
+      ],
+      "source_observations_not_verified_director_intent": true,
+      "hypotheses_to_test": [
+        {
+          "claim": "猫的单独镜头可能将观众注意力转向一项新的信息",
+          "rationale": "红衣人群→黑猫→暗处男子的切换，使观众在同一小段落中比较至少三类对象",
+          "alternative": "猫只是独立悬疑意象，既不是任何人视线的目标，也可能不是同一空间",
+          "verification": "必须复看前后声音/对白、人物视线方向、猫与人物能否处于同一空间"
+        },
+        {
+          "claim": "暗色人物在猫之前与之后出现，可能构成跨地点的平行观察/等待结构",
+          "rationale": "597、608、614秒附近均可见相似门边黑衣人物，其间交错进入红衣队列、猫、石廊",
+          "alternative": "相似服装未证实同一演员；多个地点的剪辑也可能只是连续事件信息",
+          "verification": "核实人物身份、台词及空间地理关系，确认各时刻是否真为同一行动"
+        },
+        {
+          "claim": "色温、明暗和环境尺度的交替可以成为悬念节奏的一部分",
+          "rationale": "暖色栏杆/红衣外景与冷暗门边/石洞交替，观众阅读画面的成本和注意目标改变",
+          "alternative": "色差仅来自不同空间的自然照明，不一定具有情绪象征",
+          "verification": "结合整段声音、导演场面语境和人物目标，排除纯粹空间交代"
+        }
+      ],
+      "unverified": [
+        "对白和音乐关系",
+        "猫和男人的真实视线关系",
+        "片中同一空间/时间",
+        "导演真实意图"
+      ],
+      "skill_task": "导演/分镜：观众观看顺序、入画出画、轴线、观看终点、声音和机位",
+      "must_not_claim": [
+        "原片剪辑有错误",
+        "已经知道导演确切意图",
+        "已经有生成的AI电影",
+        "原片参考帧是原创AI画面"
+      ]
+    },
+    {
+      "case_id": "CASE_A",
+      "case_window_s": "595–616",
+      "case_title": "暗处的人、红衣队列与黑猫：信息先于因果",
+      "source_film_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+      "upstream_repository": "https://github.com/zhangzhangco/film-production-skills.git",
+      "upstream_skill": "plan-camera-shots",
+      "upstream_skill_sha256": "d498f8468fdd82ea0c41252d741534d15b66288cbca689bd9eeb34778176a7f3",
+      "upstream_skill_loaded": true,
+      "status": "READY_WITH_ORIGINAL_SKILL_TEXT",
+      "image_evidence": [
+        {
+          "time_s": 595.0,
+          "path": "output/gpt_director_study/source_frames/CASE_A_01_595.0s.jpg",
+          "sha256": "5fe062d28379fad1c2bdcd88e0eb6d93b12ea995d58166c2e3f685f1c5dbf80c",
+          "observation": "幽暗通道尽头有暖色光及人影"
+        },
+        {
+          "time_s": 597.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_02_597.2s.jpg",
+          "sha256": "fd6803411b2957bea9bd1b432f11d5ebbb3aaaa6197634952ceb10c9caa7d4d2",
+          "observation": "黑衣男子靠在暗色装饰门边"
+        },
+        {
+          "time_s": 600.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_03_600.2s.jpg",
+          "sha256": "7027c5831b048ca1e58043431acb74ee08aa1443fba6b40a6c6a2f23fe1e54df",
+          "observation": "数名红衣人物面向石树及建筑"
+        },
+        {
+          "time_s": 603.9,
+          "path": "output/gpt_director_study/source_frames/CASE_A_04_603.9s.jpg",
+          "sha256": "5cf28ad8b39cfa7e8172af9956a3ab390eabe9d0553d7c1415172f2de36a8f60",
+          "observation": "红衣人物仰头，前后错开站位"
+        },
+        {
+          "time_s": 604.4,
+          "path": "output/gpt_director_study/source_frames/CASE_A_05_604.4s.jpg",
+          "sha256": "5dce59037d245d3e9610772607fa7acf94f6825484848d56321a06d5413851c7",
+          "observation": "黑猫独立站在暖色栏杆上"
+        },
+        {
+          "time_s": 607.8,
+          "path": "output/gpt_director_study/source_frames/CASE_A_06_607.8s.jpg",
+          "sha256": "ce0f3b2e5de69a30eb82ea2e7820063bec2db0d7a73e769631e92e6ec5822530",
+          "observation": "黑衣男子从门边向外窥看"
+        },
+        {
+          "time_s": 611.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_07_611.2s.jpg",
+          "sha256": "49b7fe82c5af8d968f257923b3903f4bfcba4476df78ade3db728465ecc303bd",
+          "observation": "远处石廊入口见暖色灯笼和人影"
+        },
+        {
+          "time_s": 614.0,
+          "path": "output/gpt_director_study/source_frames/CASE_A_08_614.0s.jpg",
+          "sha256": "295cd7932db1b15b877caec114824eae9065ac382ec8897a1d4e30590fcdb518",
+          "observation": "黑衣男子重新出现在暗色装饰门旁"
+        }
+      ],
+      "source_observations_not_verified_director_intent": true,
+      "hypotheses_to_test": [
+        {
+          "claim": "猫的单独镜头可能将观众注意力转向一项新的信息",
+          "rationale": "红衣人群→黑猫→暗处男子的切换，使观众在同一小段落中比较至少三类对象",
+          "alternative": "猫只是独立悬疑意象，既不是任何人视线的目标，也可能不是同一空间",
+          "verification": "必须复看前后声音/对白、人物视线方向、猫与人物能否处于同一空间"
+        },
+        {
+          "claim": "暗色人物在猫之前与之后出现，可能构成跨地点的平行观察/等待结构",
+          "rationale": "597、608、614秒附近均可见相似门边黑衣人物，其间交错进入红衣队列、猫、石廊",
+          "alternative": "相似服装未证实同一演员；多个地点的剪辑也可能只是连续事件信息",
+          "verification": "核实人物身份、台词及空间地理关系，确认各时刻是否真为同一行动"
+        },
+        {
+          "claim": "色温、明暗和环境尺度的交替可以成为悬念节奏的一部分",
+          "rationale": "暖色栏杆/红衣外景与冷暗门边/石洞交替，观众阅读画面的成本和注意目标改变",
+          "alternative": "色差仅来自不同空间的自然照明，不一定具有情绪象征",
+          "verification": "结合整段声音、导演场面语境和人物目标，排除纯粹空间交代"
+        }
+      ],
+      "unverified": [
+        "对白和音乐关系",
+        "猫和男人的真实视线关系",
+        "片中同一空间/时间",
+        "导演真实意图"
+      ],
+      "skill_task": "制作摄影方案：行动起止位置、机位/景别/焦点/运动、段落的前后状态和连续性",
+      "must_not_claim": [
+        "原片剪辑有错误",
+        "已经知道导演确切意图",
+        "已经有生成的AI电影",
+        "原片参考帧是原创AI画面"
+      ],
+      "original_skill_location": "external_skills/film-production-skills/skills/plan-camera-shots/SKILL.md"
+    },
+    {
+      "case_id": "CASE_A",
+      "case_window_s": "595–616",
+      "case_title": "暗处的人、红衣队列与黑猫：信息先于因果",
+      "source_film_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+      "upstream_repository": "https://github.com/zhangzhangco/film-production-skills.git",
+      "upstream_skill": "review-and-assemble",
+      "upstream_skill_sha256": "761e82aab0b69365d36d93195b7fa5857c75e071c5e1f45c9cfdbcedf50dca12",
+      "upstream_skill_loaded": true,
+      "status": "READY_WITH_ORIGINAL_SKILL_TEXT",
+      "image_evidence": [
+        {
+          "time_s": 595.0,
+          "path": "output/gpt_director_study/source_frames/CASE_A_01_595.0s.jpg",
+          "sha256": "5fe062d28379fad1c2bdcd88e0eb6d93b12ea995d58166c2e3f685f1c5dbf80c",
+          "observation": "幽暗通道尽头有暖色光及人影"
+        },
+        {
+          "time_s": 597.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_02_597.2s.jpg",
+          "sha256": "fd6803411b2957bea9bd1b432f11d5ebbb3aaaa6197634952ceb10c9caa7d4d2",
+          "observation": "黑衣男子靠在暗色装饰门边"
+        },
+        {
+          "time_s": 600.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_03_600.2s.jpg",
+          "sha256": "7027c5831b048ca1e58043431acb74ee08aa1443fba6b40a6c6a2f23fe1e54df",
+          "observation": "数名红衣人物面向石树及建筑"
+        },
+        {
+          "time_s": 603.9,
+          "path": "output/gpt_director_study/source_frames/CASE_A_04_603.9s.jpg",
+          "sha256": "5cf28ad8b39cfa7e8172af9956a3ab390eabe9d0553d7c1415172f2de36a8f60",
+          "observation": "红衣人物仰头，前后错开站位"
+        },
+        {
+          "time_s": 604.4,
+          "path": "output/gpt_director_study/source_frames/CASE_A_05_604.4s.jpg",
+          "sha256": "5dce59037d245d3e9610772607fa7acf94f6825484848d56321a06d5413851c7",
+          "observation": "黑猫独立站在暖色栏杆上"
+        },
+        {
+          "time_s": 607.8,
+          "path": "output/gpt_director_study/source_frames/CASE_A_06_607.8s.jpg",
+          "sha256": "ce0f3b2e5de69a30eb82ea2e7820063bec2db0d7a73e769631e92e6ec5822530",
+          "observation": "黑衣男子从门边向外窥看"
+        },
+        {
+          "time_s": 611.2,
+          "path": "output/gpt_director_study/source_frames/CASE_A_07_611.2s.jpg",
+          "sha256": "49b7fe82c5af8d968f257923b3903f4bfcba4476df78ade3db728465ecc303bd",
+          "observation": "远处石廊入口见暖色灯笼和人影"
+        },
+        {
+          "time_s": 614.0,
+          "path": "output/gpt_director_study/source_frames/CASE_A_08_614.0s.jpg",
+          "sha256": "295cd7932db1b15b877caec114824eae9065ac382ec8897a1d4e30590fcdb518",
+          "observation": "黑衣男子重新出现在暗色装饰门旁"
+        }
+      ],
+      "source_observations_not_verified_director_intent": true,
+      "hypotheses_to_test": [
+        {
+          "claim": "猫的单独镜头可能将观众注意力转向一项新的信息",
+          "rationale": "红衣人群→黑猫→暗处男子的切换，使观众在同一小段落中比较至少三类对象",
+          "alternative": "猫只是独立悬疑意象，既不是任何人视线的目标，也可能不是同一空间",
+          "verification": "必须复看前后声音/对白、人物视线方向、猫与人物能否处于同一空间"
+        },
+        {
+          "claim": "暗色人物在猫之前与之后出现，可能构成跨地点的平行观察/等待结构",
+          "rationale": "597、608、614秒附近均可见相似门边黑衣人物，其间交错进入红衣队列、猫、石廊",
+          "alternative": "相似服装未证实同一演员；多个地点的剪辑也可能只是连续事件信息",
+          "verification": "核实人物身份、台词及空间地理关系，确认各时刻是否真为同一行动"
+        },
+        {
+          "claim": "色温、明暗和环境尺度的交替可以成为悬念节奏的一部分",
+          "rationale": "暖色栏杆/红衣外景与冷暗门边/石洞交替，观众阅读画面的成本和注意目标改变",
+          "alternative": "色差仅来自不同空间的自然照明，不一定具有情绪象征",
+          "verification": "结合整段声音、导演场面语境和人物目标，排除纯粹空间交代"
+        }
+      ],
+      "unverified": [
+        "对白和音乐关系",
+        "猫和男人的真实视线关系",
+        "片中同一空间/时间",
+        "导演真实意图"
+      ],
+      "skill_task": "审片：先验证产生的媒体资产、原始镜头ID、来源时间码，再讨论取舍；不能用原片当待修复的失败作品",
+      "must_not_claim": [
+        "原片剪辑有错误",
+        "已经知道导演确切意图",
+        "已经有生成的AI电影",
+        "原片参考帧是原创AI画面"
+      ],
+      "original_skill_location": "external_skills/film-production-skills/skills/review-and-assemble/SKILL.md"
+    },
+    {
+      "case_id": "CASE_B",
+      "case_window_s": "617–653",
+      "case_title": "从隔窗窥见到入室、同框与离开：行动驱动的场面调度",
+      "source_film_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+      "upstream_repository": "https://github.com/62656456/ai-film-skills.git",
+      "upstream_skill": "director-agent",
+      "upstream_skill_sha256": null,
+      "upstream_skill_loaded": false,
+      "status": "BLOCKED_SKILL_NOT_INSTALLED",
+      "image_evidence": [
+        {
+          "time_s": 617.3,
+          "path": "output/gpt_director_study/source_frames/CASE_B_01_617.3s.jpg",
+          "sha256": "e67654844343947640ff315e3d684328ddf423ed82720e6e6f4bc74aaa43f1a7",
+          "observation": "门边黑色前景遮挡，外部院落明亮"
+        },
+        {
+          "time_s": 620.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_02_620.0s.jpg",
+          "sha256": "fd4a6baa0de187a9d9c48ac1569c80f56e2dc881879d6760d68b1be3fa4fc3a0",
+          "observation": "隔着木格窗窥见室内空间"
+        },
+        {
+          "time_s": 624.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_03_624.0s.jpg",
+          "sha256": "5a2703b43a4176a4a7390a38d5de20c29360c0a867582171cbd1f2e54c207bb8",
+          "observation": "宽景可辨室内两人物与家具布局"
+        },
+        {
+          "time_s": 626.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_04_626.0s.jpg",
+          "sha256": "4c3f60d3162a31e885508271a8547603c94764ba98d0d4fe98a5d46ed2c70827",
+          "observation": "白衣光头人物回头或转身"
+        },
+        {
+          "time_s": 628.5,
+          "path": "output/gpt_director_study/source_frames/CASE_B_05_628.5s.jpg",
+          "sha256": "97b50df0ab3cbbe14586a8bf70ac6c6866742d9a4355cbdb00018822b5a9032e",
+          "observation": "深色长发人物站在檐下/入口处"
+        },
+        {
+          "time_s": 633.8,
+          "path": "output/gpt_director_study/source_frames/CASE_B_06_633.8s.jpg",
+          "sha256": "026b086ad78d96f95a266a8785c91f4f20be7af99d8f0e4f6ed8978b93e81ffb",
+          "observation": "深色人物沿内部门口向房间移动"
+        },
+        {
+          "time_s": 640.1,
+          "path": "output/gpt_director_study/source_frames/CASE_B_07_640.1s.jpg",
+          "sha256": "113c967c2ee870d524475fd609e6aa128f3cdc2e7a11379cac8ef75be51f257b",
+          "observation": "白衣与深衣人物围在桌边同框"
+        },
+        {
+          "time_s": 646.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_08_646.0s.jpg",
+          "sha256": "864ecf0c4233d500772ba012854b285d57c31d18352ece032e00391e239daab0",
+          "observation": "白衣人物向后方门廊离开，深衣人物仍在近处"
+        },
+        {
+          "time_s": 649.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_09_649.0s.jpg",
+          "sha256": "ae29ccb68ed2b406c4a254b6dfe728dcfe160abcef1521f1cb165e37c8c63286",
+          "observation": "前景深衣人物与后方离开中的白衣人物同画面"
+        },
+        {
+          "time_s": 652.7,
+          "path": "output/gpt_director_study/source_frames/CASE_B_10_652.7s.jpg",
+          "sha256": "9501a082a501eae77199851206dfbb6cb2ddcfbe2173571131082120d2eac3cf",
+          "observation": "桌边深衣人物独自留在构图中"
+        }
+      ],
+      "source_observations_not_verified_director_intent": true,
+      "hypotheses_to_test": [
+        {
+          "claim": "先遮挡后揭示空间，可能形成从外部观察到进入场景的视觉层级",
+          "rationale": "617秒暗前景→620秒格窗→624秒内景宽景，遮挡逐步减少",
+          "alternative": "这些镜头也可能只是场景切换或角色主观观察，而不是刻意的悬念设计",
+          "verification": "确认摄影机位置、真实切点及片内人物是否位于窗外"
+        },
+        {
+          "claim": "人物进入、接近、同框构成一条可供观众跟随的行动主线",
+          "rationale": "628秒门口人物、633秒进入、640秒两人同框围桌，动作的可见目标逐渐靠近",
+          "alternative": "640秒并非新近抵达同一房间的直接接续，可能存在省略时间",
+          "verification": "复看镜头连接处的方向、脚步、道具位置和时间省略"
+        },
+        {
+          "claim": "白衣离开而深衣留下，可以由景深和走位产生后续情绪而不依赖频繁反打",
+          "rationale": "646、649、652秒前后不同人物由同框变成前景/背景分离、最后剩一人",
+          "alternative": "不知对白，无法断定是疏离、释然、悬念或者单纯结束一场谈话",
+          "verification": "核对对白、声音、表情及下一场剧情，谨慎选择戏剧意图"
+        }
+      ],
+      "unverified": [
+        "对白内容",
+        "声音桥和音乐",
+        "准确轴线与焦距",
+        "关键情绪动机",
+        "摄影机3D移动"
+      ],
+      "skill_task": "导演/叙事：人物目标、表演、观众比人物知道的事实；不要凭空确立导演真意",
+      "must_not_claim": [
+        "原片剪辑有错误",
+        "已经知道导演确切意图",
+        "已经有生成的AI电影",
+        "原片参考帧是原创AI画面"
+      ]
+    },
+    {
+      "case_id": "CASE_B",
+      "case_window_s": "617–653",
+      "case_title": "从隔窗窥见到入室、同框与离开：行动驱动的场面调度",
+      "source_film_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+      "upstream_repository": "https://github.com/62656456/ai-film-skills.git",
+      "upstream_skill": "ai-storyboard-director",
+      "upstream_skill_sha256": null,
+      "upstream_skill_loaded": false,
+      "status": "BLOCKED_SKILL_NOT_INSTALLED",
+      "image_evidence": [
+        {
+          "time_s": 617.3,
+          "path": "output/gpt_director_study/source_frames/CASE_B_01_617.3s.jpg",
+          "sha256": "e67654844343947640ff315e3d684328ddf423ed82720e6e6f4bc74aaa43f1a7",
+          "observation": "门边黑色前景遮挡，外部院落明亮"
+        },
+        {
+          "time_s": 620.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_02_620.0s.jpg",
+          "sha256": "fd4a6baa0de187a9d9c48ac1569c80f56e2dc881879d6760d68b1be3fa4fc3a0",
+          "observation": "隔着木格窗窥见室内空间"
+        },
+        {
+          "time_s": 624.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_03_624.0s.jpg",
+          "sha256": "5a2703b43a4176a4a7390a38d5de20c29360c0a867582171cbd1f2e54c207bb8",
+          "observation": "宽景可辨室内两人物与家具布局"
+        },
+        {
+          "time_s": 626.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_04_626.0s.jpg",
+          "sha256": "4c3f60d3162a31e885508271a8547603c94764ba98d0d4fe98a5d46ed2c70827",
+          "observation": "白衣光头人物回头或转身"
+        },
+        {
+          "time_s": 628.5,
+          "path": "output/gpt_director_study/source_frames/CASE_B_05_628.5s.jpg",
+          "sha256": "97b50df0ab3cbbe14586a8bf70ac6c6866742d9a4355cbdb00018822b5a9032e",
+          "observation": "深色长发人物站在檐下/入口处"
+        },
+        {
+          "time_s": 633.8,
+          "path": "output/gpt_director_study/source_frames/CASE_B_06_633.8s.jpg",
+          "sha256": "026b086ad78d96f95a266a8785c91f4f20be7af99d8f0e4f6ed8978b93e81ffb",
+          "observation": "深色人物沿内部门口向房间移动"
+        },
+        {
+          "time_s": 640.1,
+          "path": "output/gpt_director_study/source_frames/CASE_B_07_640.1s.jpg",
+          "sha256": "113c967c2ee870d524475fd609e6aa128f3cdc2e7a11379cac8ef75be51f257b",
+          "observation": "白衣与深衣人物围在桌边同框"
+        },
+        {
+          "time_s": 646.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_08_646.0s.jpg",
+          "sha256": "864ecf0c4233d500772ba012854b285d57c31d18352ece032e00391e239daab0",
+          "observation": "白衣人物向后方门廊离开，深衣人物仍在近处"
+        },
+        {
+          "time_s": 649.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_09_649.0s.jpg",
+          "sha256": "ae29ccb68ed2b406c4a254b6dfe728dcfe160abcef1521f1cb165e37c8c63286",
+          "observation": "前景深衣人物与后方离开中的白衣人物同画面"
+        },
+        {
+          "time_s": 652.7,
+          "path": "output/gpt_director_study/source_frames/CASE_B_10_652.7s.jpg",
+          "sha256": "9501a082a501eae77199851206dfbb6cb2ddcfbe2173571131082120d2eac3cf",
+          "observation": "桌边深衣人物独自留在构图中"
+        }
+      ],
+      "source_observations_not_verified_director_intent": true,
+      "hypotheses_to_test": [
+        {
+          "claim": "先遮挡后揭示空间，可能形成从外部观察到进入场景的视觉层级",
+          "rationale": "617秒暗前景→620秒格窗→624秒内景宽景，遮挡逐步减少",
+          "alternative": "这些镜头也可能只是场景切换或角色主观观察，而不是刻意的悬念设计",
+          "verification": "确认摄影机位置、真实切点及片内人物是否位于窗外"
+        },
+        {
+          "claim": "人物进入、接近、同框构成一条可供观众跟随的行动主线",
+          "rationale": "628秒门口人物、633秒进入、640秒两人同框围桌，动作的可见目标逐渐靠近",
+          "alternative": "640秒并非新近抵达同一房间的直接接续，可能存在省略时间",
+          "verification": "复看镜头连接处的方向、脚步、道具位置和时间省略"
+        },
+        {
+          "claim": "白衣离开而深衣留下，可以由景深和走位产生后续情绪而不依赖频繁反打",
+          "rationale": "646、649、652秒前后不同人物由同框变成前景/背景分离、最后剩一人",
+          "alternative": "不知对白，无法断定是疏离、释然、悬念或者单纯结束一场谈话",
+          "verification": "核对对白、声音、表情及下一场剧情，谨慎选择戏剧意图"
+        }
+      ],
+      "unverified": [
+        "对白内容",
+        "声音桥和音乐",
+        "准确轴线与焦距",
+        "关键情绪动机",
+        "摄影机3D移动"
+      ],
+      "skill_task": "导演/分镜：观众观看顺序、入画出画、轴线、观看终点、声音和机位",
+      "must_not_claim": [
+        "原片剪辑有错误",
+        "已经知道导演确切意图",
+        "已经有生成的AI电影",
+        "原片参考帧是原创AI画面"
+      ]
+    },
+    {
+      "case_id": "CASE_B",
+      "case_window_s": "617–653",
+      "case_title": "从隔窗窥见到入室、同框与离开：行动驱动的场面调度",
+      "source_film_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+      "upstream_repository": "https://github.com/zhangzhangco/film-production-skills.git",
+      "upstream_skill": "plan-camera-shots",
+      "upstream_skill_sha256": "d498f8468fdd82ea0c41252d741534d15b66288cbca689bd9eeb34778176a7f3",
+      "upstream_skill_loaded": true,
+      "status": "READY_WITH_ORIGINAL_SKILL_TEXT",
+      "image_evidence": [
+        {
+          "time_s": 617.3,
+          "path": "output/gpt_director_study/source_frames/CASE_B_01_617.3s.jpg",
+          "sha256": "e67654844343947640ff315e3d684328ddf423ed82720e6e6f4bc74aaa43f1a7",
+          "observation": "门边黑色前景遮挡，外部院落明亮"
+        },
+        {
+          "time_s": 620.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_02_620.0s.jpg",
+          "sha256": "fd4a6baa0de187a9d9c48ac1569c80f56e2dc881879d6760d68b1be3fa4fc3a0",
+          "observation": "隔着木格窗窥见室内空间"
+        },
+        {
+          "time_s": 624.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_03_624.0s.jpg",
+          "sha256": "5a2703b43a4176a4a7390a38d5de20c29360c0a867582171cbd1f2e54c207bb8",
+          "observation": "宽景可辨室内两人物与家具布局"
+        },
+        {
+          "time_s": 626.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_04_626.0s.jpg",
+          "sha256": "4c3f60d3162a31e885508271a8547603c94764ba98d0d4fe98a5d46ed2c70827",
+          "observation": "白衣光头人物回头或转身"
+        },
+        {
+          "time_s": 628.5,
+          "path": "output/gpt_director_study/source_frames/CASE_B_05_628.5s.jpg",
+          "sha256": "97b50df0ab3cbbe14586a8bf70ac6c6866742d9a4355cbdb00018822b5a9032e",
+          "observation": "深色长发人物站在檐下/入口处"
+        },
+        {
+          "time_s": 633.8,
+          "path": "output/gpt_director_study/source_frames/CASE_B_06_633.8s.jpg",
+          "sha256": "026b086ad78d96f95a266a8785c91f4f20be7af99d8f0e4f6ed8978b93e81ffb",
+          "observation": "深色人物沿内部门口向房间移动"
+        },
+        {
+          "time_s": 640.1,
+          "path": "output/gpt_director_study/source_frames/CASE_B_07_640.1s.jpg",
+          "sha256": "113c967c2ee870d524475fd609e6aa128f3cdc2e7a11379cac8ef75be51f257b",
+          "observation": "白衣与深衣人物围在桌边同框"
+        },
+        {
+          "time_s": 646.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_08_646.0s.jpg",
+          "sha256": "864ecf0c4233d500772ba012854b285d57c31d18352ece032e00391e239daab0",
+          "observation": "白衣人物向后方门廊离开，深衣人物仍在近处"
+        },
+        {
+          "time_s": 649.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_09_649.0s.jpg",
+          "sha256": "ae29ccb68ed2b406c4a254b6dfe728dcfe160abcef1521f1cb165e37c8c63286",
+          "observation": "前景深衣人物与后方离开中的白衣人物同画面"
+        },
+        {
+          "time_s": 652.7,
+          "path": "output/gpt_director_study/source_frames/CASE_B_10_652.7s.jpg",
+          "sha256": "9501a082a501eae77199851206dfbb6cb2ddcfbe2173571131082120d2eac3cf",
+          "observation": "桌边深衣人物独自留在构图中"
+        }
+      ],
+      "source_observations_not_verified_director_intent": true,
+      "hypotheses_to_test": [
+        {
+          "claim": "先遮挡后揭示空间，可能形成从外部观察到进入场景的视觉层级",
+          "rationale": "617秒暗前景→620秒格窗→624秒内景宽景，遮挡逐步减少",
+          "alternative": "这些镜头也可能只是场景切换或角色主观观察，而不是刻意的悬念设计",
+          "verification": "确认摄影机位置、真实切点及片内人物是否位于窗外"
+        },
+        {
+          "claim": "人物进入、接近、同框构成一条可供观众跟随的行动主线",
+          "rationale": "628秒门口人物、633秒进入、640秒两人同框围桌，动作的可见目标逐渐靠近",
+          "alternative": "640秒并非新近抵达同一房间的直接接续，可能存在省略时间",
+          "verification": "复看镜头连接处的方向、脚步、道具位置和时间省略"
+        },
+        {
+          "claim": "白衣离开而深衣留下，可以由景深和走位产生后续情绪而不依赖频繁反打",
+          "rationale": "646、649、652秒前后不同人物由同框变成前景/背景分离、最后剩一人",
+          "alternative": "不知对白，无法断定是疏离、释然、悬念或者单纯结束一场谈话",
+          "verification": "核对对白、声音、表情及下一场剧情，谨慎选择戏剧意图"
+        }
+      ],
+      "unverified": [
+        "对白内容",
+        "声音桥和音乐",
+        "准确轴线与焦距",
+        "关键情绪动机",
+        "摄影机3D移动"
+      ],
+      "skill_task": "制作摄影方案：行动起止位置、机位/景别/焦点/运动、段落的前后状态和连续性",
+      "must_not_claim": [
+        "原片剪辑有错误",
+        "已经知道导演确切意图",
+        "已经有生成的AI电影",
+        "原片参考帧是原创AI画面"
+      ],
+      "original_skill_location": "external_skills/film-production-skills/skills/plan-camera-shots/SKILL.md"
+    },
+    {
+      "case_id": "CASE_B",
+      "case_window_s": "617–653",
+      "case_title": "从隔窗窥见到入室、同框与离开：行动驱动的场面调度",
+      "source_film_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+      "upstream_repository": "https://github.com/zhangzhangco/film-production-skills.git",
+      "upstream_skill": "review-and-assemble",
+      "upstream_skill_sha256": "761e82aab0b69365d36d93195b7fa5857c75e071c5e1f45c9cfdbcedf50dca12",
+      "upstream_skill_loaded": true,
+      "status": "READY_WITH_ORIGINAL_SKILL_TEXT",
+      "image_evidence": [
+        {
+          "time_s": 617.3,
+          "path": "output/gpt_director_study/source_frames/CASE_B_01_617.3s.jpg",
+          "sha256": "e67654844343947640ff315e3d684328ddf423ed82720e6e6f4bc74aaa43f1a7",
+          "observation": "门边黑色前景遮挡，外部院落明亮"
+        },
+        {
+          "time_s": 620.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_02_620.0s.jpg",
+          "sha256": "fd4a6baa0de187a9d9c48ac1569c80f56e2dc881879d6760d68b1be3fa4fc3a0",
+          "observation": "隔着木格窗窥见室内空间"
+        },
+        {
+          "time_s": 624.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_03_624.0s.jpg",
+          "sha256": "5a2703b43a4176a4a7390a38d5de20c29360c0a867582171cbd1f2e54c207bb8",
+          "observation": "宽景可辨室内两人物与家具布局"
+        },
+        {
+          "time_s": 626.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_04_626.0s.jpg",
+          "sha256": "4c3f60d3162a31e885508271a8547603c94764ba98d0d4fe98a5d46ed2c70827",
+          "observation": "白衣光头人物回头或转身"
+        },
+        {
+          "time_s": 628.5,
+          "path": "output/gpt_director_study/source_frames/CASE_B_05_628.5s.jpg",
+          "sha256": "97b50df0ab3cbbe14586a8bf70ac6c6866742d9a4355cbdb00018822b5a9032e",
+          "observation": "深色长发人物站在檐下/入口处"
+        },
+        {
+          "time_s": 633.8,
+          "path": "output/gpt_director_study/source_frames/CASE_B_06_633.8s.jpg",
+          "sha256": "026b086ad78d96f95a266a8785c91f4f20be7af99d8f0e4f6ed8978b93e81ffb",
+          "observation": "深色人物沿内部门口向房间移动"
+        },
+        {
+          "time_s": 640.1,
+          "path": "output/gpt_director_study/source_frames/CASE_B_07_640.1s.jpg",
+          "sha256": "113c967c2ee870d524475fd609e6aa128f3cdc2e7a11379cac8ef75be51f257b",
+          "observation": "白衣与深衣人物围在桌边同框"
+        },
+        {
+          "time_s": 646.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_08_646.0s.jpg",
+          "sha256": "864ecf0c4233d500772ba012854b285d57c31d18352ece032e00391e239daab0",
+          "observation": "白衣人物向后方门廊离开，深衣人物仍在近处"
+        },
+        {
+          "time_s": 649.0,
+          "path": "output/gpt_director_study/source_frames/CASE_B_09_649.0s.jpg",
+          "sha256": "ae29ccb68ed2b406c4a254b6dfe728dcfe160abcef1521f1cb165e37c8c63286",
+          "observation": "前景深衣人物与后方离开中的白衣人物同画面"
+        },
+        {
+          "time_s": 652.7,
+          "path": "output/gpt_director_study/source_frames/CASE_B_10_652.7s.jpg",
+          "sha256": "9501a082a501eae77199851206dfbb6cb2ddcfbe2173571131082120d2eac3cf",
+          "observation": "桌边深衣人物独自留在构图中"
+        }
+      ],
+      "source_observations_not_verified_director_intent": true,
+      "hypotheses_to_test": [
+        {
+          "claim": "先遮挡后揭示空间，可能形成从外部观察到进入场景的视觉层级",
+          "rationale": "617秒暗前景→620秒格窗→624秒内景宽景，遮挡逐步减少",
+          "alternative": "这些镜头也可能只是场景切换或角色主观观察，而不是刻意的悬念设计",
+          "verification": "确认摄影机位置、真实切点及片内人物是否位于窗外"
+        },
+        {
+          "claim": "人物进入、接近、同框构成一条可供观众跟随的行动主线",
+          "rationale": "628秒门口人物、633秒进入、640秒两人同框围桌，动作的可见目标逐渐靠近",
+          "alternative": "640秒并非新近抵达同一房间的直接接续，可能存在省略时间",
+          "verification": "复看镜头连接处的方向、脚步、道具位置和时间省略"
+        },
+        {
+          "claim": "白衣离开而深衣留下，可以由景深和走位产生后续情绪而不依赖频繁反打",
+          "rationale": "646、649、652秒前后不同人物由同框变成前景/背景分离、最后剩一人",
+          "alternative": "不知对白，无法断定是疏离、释然、悬念或者单纯结束一场谈话",
+          "verification": "核对对白、声音、表情及下一场剧情，谨慎选择戏剧意图"
+        }
+      ],
+      "unverified": [
+        "对白内容",
+        "声音桥和音乐",
+        "准确轴线与焦距",
+        "关键情绪动机",
+        "摄影机3D移动"
+      ],
+      "skill_task": "审片：先验证产生的媒体资产、原始镜头ID、来源时间码，再讨论取舍；不能用原片当待修复的失败作品",
+      "must_not_claim": [
+        "原片剪辑有错误",
+        "已经知道导演确切意图",
+        "已经有生成的AI电影",
+        "原片参考帧是原创AI画面"
+      ],
+      "original_skill_location": "external_skills/film-production-skills/skills/review-and-assemble/SKILL.md"
+    }
+  ],
+  "actual_native_upstream_skill_executions": 0,
+  "gpt_weight_updates": 0,
+  "director_artistic_quality_verified": false
+}

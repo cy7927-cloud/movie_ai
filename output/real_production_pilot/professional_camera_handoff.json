@@ -1,0 +1,537 @@
+{
+  "skill": "plan-camera-shots",
+  "source_skill_repository": "https://github.com/zhangzhangco/film-production-skills",
+  "project_id": "OBSERVATORY",
+  "duration_s": 32.0,
+  "assets": {
+    "ENV_OBSERVATORY": {
+      "kind": "environment",
+      "locked_design": "凌晨失联观测站控制室：终端在右、左后方通往走廊的门、右后方服务器机柜；冷青灰灯光",
+      "source": "original_scene_stage_map"
+    },
+    "CHAR_A": {
+      "kind": "character",
+      "locked_design": "调查员A，深蓝外套、短黑发，右侧终端前，不佩戴门禁卡",
+      "source": "director_character_proposal"
+    },
+    "CHAR_B": {
+      "kind": "character",
+      "locked_design": "管理员B，深灰工装、短发，携带黑色文件夹，藏有金属门禁卡",
+      "source": "director_character_proposal"
+    },
+    "PROP_CONSOLE": {
+      "kind": "prop",
+      "locked_design": "右侧监视终端，有断线时间和远程会话状态",
+      "source": "story_fact"
+    },
+    "PROP_FOLDER": {
+      "kind": "prop",
+      "locked_design": "B手持黑色文件夹，能遮挡门禁卡",
+      "source": "story_fact"
+    },
+    "PROP_BADGE": {
+      "kind": "prop",
+      "locked_design": "银灰色金属门禁卡，B持有，A不得在镜头内无依据看到",
+      "source": "story_fact"
+    }
+  },
+  "spatial_baselines": {
+    "coordinate_system": "relative proposed stage, meters",
+    "console": [
+      3.8,
+      1.1
+    ],
+    "corridor": [
+      0.2,
+      4.8
+    ],
+    "doorway": [
+      0.6,
+      3.8
+    ],
+    "stage_width_m": 6.0,
+    "stage_depth_m": 5.0
+  },
+  "continuity_rules": [
+    "A remains at console through scene",
+    "B travels corridor → doorway only",
+    "badge never seen by A",
+    "remote login never seen by A"
+  ],
+  "segments": [
+    {
+      "id": "S01",
+      "upstream_beat_id": "BEAT_S01",
+      "camera_explicit_position": [
+        0.5,
+        3.2,
+        1.5
+      ],
+      "camera_position": {
+        "unit": "m",
+        "x": 0.5,
+        "y": 3.2,
+        "z": 1.5
+      },
+      "camera_target": {
+        "unit": "m",
+        "xyz": [
+          3.3,
+          1.5,
+          1.4
+        ]
+      },
+      "lens_focal_length_mm": 28,
+      "camera_movement": "locked",
+      "focus_target": "A@console",
+      "axis_side": "south",
+      "asset_bindings": [
+        "ENV_OBSERVATORY",
+        "CHAR_A",
+        "CHAR_B",
+        "PROP_CONSOLE"
+      ],
+      "props_at_start": {
+        "badge": "in B possession, concealed",
+        "folder": "held by B",
+        "console": "offline alert"
+      },
+      "props_at_end": {
+        "badge": "in B possession, concealed",
+        "folder": "held by B",
+        "console": "offline alert"
+      },
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "actor_action": "调查员A在右侧终端核对断线告警；管理员B仍在门外走廊，双方未交谈",
+      "sound": "低频空调声；终端提示短音",
+      "dramatic_purpose": "交代房门、终端、走廊的位置，为后续进入行动建立空间方向",
+      "cut_reason": "观众已理解空间，切近人物手上的新信息",
+      "start_s": 0.0,
+      "end_s": 4.0,
+      "dominant_action_chain": "调查员A在右侧终端核对断线告警；管理员B仍在门外走廊，双方未交谈",
+      "state_source": "approved_existing_gpt_director_scene",
+      "camera_geometry_provenance": "director_proposed_local_stage_not_measured_from_film",
+      "image_generation_ref": {
+        "image_type": "independently_ai_generated_original_scene",
+        "contact_sheet_sha256": "983114010dad88e1948759f3449d3d0ba7ee9fb809343423e2bedfd382b2b13c",
+        "candidate_path": "output/real_production_pilot/generated_stills/S01_AI_CANDIDATE.png",
+        "candidate_sha256": "4cb4c7a4bdca816a319a96195663c1b4174da815423cc6cc9a7950bde8a4c75f",
+        "origin": "one AI-generated 4x2 storyboard sheet, sliced into seven candidates; NOT seven independent runs"
+      }
+    },
+    {
+      "id": "S02",
+      "upstream_beat_id": "BEAT_S02",
+      "camera_explicit_position": [
+        3.0,
+        1.8,
+        1.45
+      ],
+      "camera_position": {
+        "unit": "m",
+        "x": 3.0,
+        "y": 1.8,
+        "z": 1.45
+      },
+      "camera_target": {
+        "unit": "m",
+        "xyz": [
+          3.8,
+          1.1,
+          1.3
+        ]
+      },
+      "lens_focal_length_mm": 50,
+      "camera_movement": "locked",
+      "focus_target": "A hand and upper log",
+      "axis_side": "south",
+      "asset_bindings": [
+        "ENV_OBSERVATORY",
+        "CHAR_A",
+        "PROP_CONSOLE"
+      ],
+      "props_at_start": {
+        "badge": "in B possession, concealed",
+        "folder": "held by B",
+        "console": "offline alert"
+      },
+      "props_at_end": {
+        "badge": "in B possession, concealed",
+        "folder": "held by B",
+        "console": "post-offline log visible to A"
+      },
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "actor_action": "A对照断线时间与新日志，手指停在异常时间戳上，停顿半秒",
+      "sound": "纸页摩擦；环境声压低",
+      "dramatic_purpose": "让角色与观众共同意识到时间矛盾，确立人物的调查动机",
+      "cut_reason": "角色看上部时间，而下部屏幕还藏着观众可读的新线索",
+      "start_s": 4.0,
+      "end_s": 8.0,
+      "dominant_action_chain": "A对照断线时间与新日志，手指停在异常时间戳上，停顿半秒",
+      "state_source": "approved_existing_gpt_director_scene",
+      "camera_geometry_provenance": "director_proposed_local_stage_not_measured_from_film",
+      "image_generation_ref": {
+        "image_type": "independently_ai_generated_original_scene",
+        "contact_sheet_sha256": "983114010dad88e1948759f3449d3d0ba7ee9fb809343423e2bedfd382b2b13c",
+        "candidate_path": "output/real_production_pilot/generated_stills/S02_AI_CANDIDATE.png",
+        "candidate_sha256": "8cc2fb67dcefa71f78b86696fd65b0464c8602aee8a1702d487b15d67865e471",
+        "origin": "one AI-generated 4x2 storyboard sheet, sliced into seven candidates; NOT seven independent runs"
+      }
+    },
+    {
+      "id": "S03",
+      "upstream_beat_id": "BEAT_S03",
+      "camera_explicit_position": [
+        3.5,
+        1.6,
+        1.5
+      ],
+      "camera_position": {
+        "unit": "m",
+        "x": 3.5,
+        "y": 1.6,
+        "z": 1.5
+      },
+      "camera_target": {
+        "unit": "m",
+        "xyz": [
+          3.9,
+          1.2,
+          1.42
+        ]
+      },
+      "lens_focal_length_mm": 85,
+      "camera_movement": "locked",
+      "focus_target": "lower REMOTE_LOGIN status",
+      "axis_side": "south",
+      "asset_bindings": [
+        "ENV_OBSERVATORY",
+        "PROP_CONSOLE"
+      ],
+      "props_at_start": {
+        "badge": "in B possession, concealed",
+        "folder": "held by B",
+        "console": "post-offline log visible to A"
+      },
+      "props_at_end": {
+        "badge": "in B possession, concealed",
+        "folder": "held by B",
+        "console": "remote login visible to viewer ONLY"
+      },
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "actor_action": "画面显示小字REMOTE LOGIN ACTIVE；A的手指仍停在画框边缘上部日志附近",
+      "sound": "门外脚步由远而近；无额外提示音乐",
+      "dramatic_purpose": "让观众先于角色知晓暗藏的登录状态，形成即将发现的心理悬念",
+      "cut_reason": "用脚步声从屏幕信息带向尚在门外的另一人",
+      "start_s": 8.0,
+      "end_s": 11.0,
+      "dominant_action_chain": "画面显示小字REMOTE LOGIN ACTIVE；A的手指仍停在画框边缘上部日志附近",
+      "state_source": "approved_existing_gpt_director_scene",
+      "camera_geometry_provenance": "director_proposed_local_stage_not_measured_from_film",
+      "image_generation_ref": {
+        "image_type": "independently_ai_generated_original_scene",
+        "contact_sheet_sha256": "983114010dad88e1948759f3449d3d0ba7ee9fb809343423e2bedfd382b2b13c",
+        "candidate_path": "output/real_production_pilot/generated_stills/S03_AI_CANDIDATE.png",
+        "candidate_sha256": "c84d42ab485b9b4eb537156513ab24dfc10d705a26f57f2774f8837ca57a7ab3",
+        "origin": "one AI-generated 4x2 storyboard sheet, sliced into seven candidates; NOT seven independent runs"
+      }
+    },
+    {
+      "id": "S04",
+      "upstream_beat_id": "BEAT_S04",
+      "camera_explicit_position": [
+        1.8,
+        2.7,
+        1.45
+      ],
+      "camera_position": {
+        "unit": "m",
+        "x": 1.8,
+        "y": 2.7,
+        "z": 1.45
+      },
+      "camera_target": {
+        "unit": "m",
+        "xyz": [
+          0.6,
+          3.8,
+          1.5
+        ]
+      },
+      "lens_focal_length_mm": 40,
+      "camera_movement": "locked",
+      "focus_target": "B crossing doorway",
+      "axis_side": "south",
+      "asset_bindings": [
+        "ENV_OBSERVATORY",
+        "CHAR_A",
+        "CHAR_B",
+        "PROP_FOLDER"
+      ],
+      "props_at_start": {
+        "badge": "in B possession, concealed",
+        "folder": "held by B",
+        "console": "remote login viewer ONLY"
+      },
+      "props_at_end": {
+        "badge": "in B possession, concealed",
+        "folder": "held by B",
+        "console": "remote login viewer ONLY"
+      },
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "actor_action": "B从走廊走到控制室左门口，整理文件夹，停在门边，视线掠过A",
+      "sound": "真实脚步、衣料摩擦，延续上镜脚步声",
+      "dramatic_purpose": "通过入场走位连接之前建立的走廊与控制室，不凭空更换人物位置",
+      "cut_reason": "B停住后，观众目光被他手上的东西吸引",
+      "start_s": 11.0,
+      "end_s": 17.0,
+      "dominant_action_chain": "B从走廊走到控制室左门口，整理文件夹，停在门边，视线掠过A",
+      "state_source": "approved_existing_gpt_director_scene",
+      "camera_geometry_provenance": "director_proposed_local_stage_not_measured_from_film",
+      "image_generation_ref": {
+        "image_type": "independently_ai_generated_original_scene",
+        "contact_sheet_sha256": "983114010dad88e1948759f3449d3d0ba7ee9fb809343423e2bedfd382b2b13c",
+        "candidate_path": "output/real_production_pilot/generated_stills/S04_AI_CANDIDATE.png",
+        "candidate_sha256": "ef9fb9809f5154b0df0cced2eb51a2bb2c7d183d4bce2f84ae0bd4d6b74b9857",
+        "origin": "one AI-generated 4x2 storyboard sheet, sliced into seven candidates; NOT seven independent runs"
+      }
+    },
+    {
+      "id": "S05",
+      "upstream_beat_id": "BEAT_S05",
+      "camera_explicit_position": [
+        1.15,
+        3.6,
+        1.2
+      ],
+      "camera_position": {
+        "unit": "m",
+        "x": 1.15,
+        "y": 3.6,
+        "z": 1.2
+      },
+      "camera_target": {
+        "unit": "m",
+        "xyz": [
+          1.0,
+          3.5,
+          1.0
+        ]
+      },
+      "lens_focal_length_mm": 85,
+      "camera_movement": "locked",
+      "focus_target": "B hand, badge, folder",
+      "axis_side": "south",
+      "asset_bindings": [
+        "ENV_OBSERVATORY",
+        "CHAR_A",
+        "CHAR_B",
+        "PROP_FOLDER",
+        "PROP_BADGE"
+      ],
+      "props_at_start": {
+        "badge": "in B possession, concealed",
+        "folder": "held by B",
+        "console": "remote login viewer ONLY"
+      },
+      "props_at_end": {
+        "badge": "under folder lower flap, hidden from A",
+        "folder": "held by B",
+        "console": "remote login viewer ONLY"
+      },
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "actor_action": "B把金属门禁卡塞进文件夹下层，视线短暂转向背对自己的A，A没有看见",
+      "sound": "门禁卡与纸张的轻摩擦；房间嗡鸣不变",
+      "dramatic_purpose": "增加观众知情优势，但不能把B的隐藏行为等同于有罪",
+      "cut_reason": "看清藏物动作后，切向人物第一次共享的对话空间",
+      "start_s": 17.0,
+      "end_s": 21.0,
+      "dominant_action_chain": "B把金属门禁卡塞进文件夹下层，视线短暂转向背对自己的A，A没有看见",
+      "state_source": "approved_existing_gpt_director_scene",
+      "camera_geometry_provenance": "director_proposed_local_stage_not_measured_from_film",
+      "image_generation_ref": {
+        "image_type": "independently_ai_generated_original_scene",
+        "contact_sheet_sha256": "983114010dad88e1948759f3449d3d0ba7ee9fb809343423e2bedfd382b2b13c",
+        "candidate_path": "output/real_production_pilot/generated_stills/S05_AI_CANDIDATE.png",
+        "candidate_sha256": "09e97a2e1c8ac2f816bcad9ed7aacbee848d14db06a383b94aed8b572b304ea9",
+        "origin": "one AI-generated 4x2 storyboard sheet, sliced into seven candidates; NOT seven independent runs"
+      }
+    },
+    {
+      "id": "S06",
+      "upstream_beat_id": "BEAT_S06",
+      "camera_explicit_position": [
+        2.9,
+        2.25,
+        1.48
+      ],
+      "camera_position": {
+        "unit": "m",
+        "x": 2.9,
+        "y": 2.25,
+        "z": 1.48
+      },
+      "camera_target": {
+        "unit": "m",
+        "xyz": [
+          2.3,
+          2.55,
+          1.45
+        ]
+      },
+      "lens_focal_length_mm": 40,
+      "camera_movement": "locked",
+      "focus_target": "A and B in two-shot",
+      "axis_side": "south",
+      "asset_bindings": [
+        "ENV_OBSERVATORY",
+        "CHAR_A",
+        "CHAR_B",
+        "PROP_FOLDER",
+        "PROP_CONSOLE"
+      ],
+      "props_at_start": {
+        "badge": "under folder lower flap, hidden from A",
+        "folder": "held by B",
+        "console": "remote login viewer ONLY"
+      },
+      "props_at_end": {
+        "badge": "under folder lower flap, hidden from A",
+        "folder": "held by B",
+        "console": "remote login viewer ONLY"
+      },
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "actor_action": "A仍站终端前，侧身问“断线后怎么还有日志？”；B停一拍答“也许只是缓存”。双方不靠近",
+      "sound": "低声对白、A问句末尾环境声回升",
+      "dramatic_purpose": "把观众先知转成有潜台词的角色交流：A仍未知远程登录与藏卡",
+      "cut_reason": "B话音落后，切给A的迟疑而非把怀疑说破",
+      "start_s": 21.0,
+      "end_s": 27.0,
+      "dominant_action_chain": "A仍站终端前，侧身问“断线后怎么还有日志？”；B停一拍答“也许只是缓存”。双方不靠近",
+      "state_source": "approved_existing_gpt_director_scene",
+      "camera_geometry_provenance": "director_proposed_local_stage_not_measured_from_film",
+      "image_generation_ref": {
+        "image_type": "independently_ai_generated_original_scene",
+        "contact_sheet_sha256": "983114010dad88e1948759f3449d3d0ba7ee9fb809343423e2bedfd382b2b13c",
+        "candidate_path": "output/real_production_pilot/generated_stills/S06_AI_CANDIDATE.png",
+        "candidate_sha256": "6efd267c806017d58882e303c540a210f979fd016af09f1349d4205da277fbc0",
+        "origin": "one AI-generated 4x2 storyboard sheet, sliced into seven candidates; NOT seven independent runs"
+      }
+    },
+    {
+      "id": "S07",
+      "upstream_beat_id": "BEAT_S07",
+      "camera_explicit_position": [
+        3.2,
+        2.1,
+        1.55
+      ],
+      "camera_position": {
+        "unit": "m",
+        "x": 3.2,
+        "y": 2.1,
+        "z": 1.55
+      },
+      "camera_target": {
+        "unit": "m",
+        "xyz": [
+          3.7,
+          1.2,
+          1.5
+        ]
+      },
+      "lens_focal_length_mm": 85,
+      "camera_movement": "locked",
+      "focus_target": "A eyes; B shoulder in left foreground",
+      "axis_side": "south",
+      "asset_bindings": [
+        "ENV_OBSERVATORY",
+        "CHAR_A",
+        "CHAR_B",
+        "PROP_CONSOLE"
+      ],
+      "props_at_start": {
+        "badge": "under folder lower flap, hidden from A",
+        "folder": "held by B",
+        "console": "remote login viewer ONLY"
+      },
+      "props_at_end": {
+        "badge": "under folder lower flap, hidden from A",
+        "folder": "held by B",
+        "console": "remote login viewer ONLY"
+      },
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "actor_action": "A没有立刻反驳，缓慢移回视线到终端上部；B还在门边等待，二人都没有触碰藏起的卡",
+      "sound": "无配乐，保留终端低鸣和停顿",
+      "dramatic_purpose": "停在有因果但未揭晓的疑问上，让观众比A多知道两项危险信息",
+      "cut_reason": "32秒场景止于尚未回答的远程登录悬念，为下一场提供叙事钩子",
+      "start_s": 27.0,
+      "end_s": 32.0,
+      "dominant_action_chain": "A没有立刻反驳，缓慢移回视线到终端上部；B还在门边等待，二人都没有触碰藏起的卡",
+      "state_source": "approved_existing_gpt_director_scene",
+      "camera_geometry_provenance": "director_proposed_local_stage_not_measured_from_film",
+      "image_generation_ref": {
+        "image_type": "independently_ai_generated_original_scene",
+        "contact_sheet_sha256": "983114010dad88e1948759f3449d3d0ba7ee9fb809343423e2bedfd382b2b13c",
+        "candidate_path": "output/real_production_pilot/generated_stills/S07_AI_CANDIDATE.png",
+        "candidate_sha256": "d90bbb69a56b270ab13c4cb81d26f331a274042d89304dae607a2b21da214aaa",
+        "origin": "one AI-generated 4x2 storyboard sheet, sliced into seven candidates; NOT seven independent runs"
+      }
+    }
+  ],
+  "preflight": {
+    "pass": true,
+    "issues": [],
+    "provisional_geometry": true,
+    "user_approval_pending": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "tests": [
+    {
+      "case": "删除反应／倾听镜头",
+      "expected_detected_issue": "MISSING_BEAT",
+      "actual_issues": [
+        "MISSING_BEAT"
+      ],
+      "pass": true,
+      "target": "GENERATED_DIRECTOR_PLAN_NOT_REFERENCE_FILM"
+    },
+    {
+      "case": "无理由越过人物调度轴线",
+      "expected_detected_issue": "AXIS_CROSS_UNMOTIVATED",
+      "actual_issues": [
+        "AXIS_CROSS_UNMOTIVATED"
+      ],
+      "pass": true,
+      "target": "GENERATED_DIRECTOR_PLAN_NOT_REFERENCE_FILM"
+    },
+    {
+      "case": "擦除切镜理由",
+      "expected_detected_issue": "MISSING_CUT_REASON",
+      "actual_issues": [
+        "MISSING_CUT_REASON"
+      ],
+      "pass": true,
+      "target": "GENERATED_DIRECTOR_PLAN_NOT_REFERENCE_FILM"
+    },
+    {
+      "case": "替换未锁定的角色或道具",
+      "expected_detected_issue": "PROP_NOT_LOCKED",
+      "actual_issues": [
+        "PROP_NOT_LOCKED"
+      ],
+      "pass": true,
+      "target": "GENERATED_DIRECTOR_PLAN_NOT_REFERENCE_FILM"
+    },
+    {
+      "case": "出现不合理镜头时长",
+      "expected_detected_issue": "ILLEGAL_DURATION",
+      "actual_issues": [
+        "ILLEGAL_DURATION"
+      ],
+      "pass": true,
+      "target": "GENERATED_DIRECTOR_PLAN_NOT_REFERENCE_FILM"
+    },
+    {
+      "case": "声桥信息丢失",
+      "expected_detected_issue": "MISSING_SOUND_PLAN",
+      "actual_issues": [
+        "MISSING_SOUND_PLAN"
+      ],
+      "pass": true,
+      "target": "GENERATED_DIRECTOR_PLAN_NOT_REFERENCE_FILM"
+    },
+    {
+      "case": "失去人物资产版本绑定",
+      "expected_detected_issue": "CHARACTER_NOT_LOCKED",
+      "actual_issues": [
+        "CHARACTER_NOT_LOCKED"
+      ],
+      "pass": true,
+      "target": "GENERATED_DIRECTOR_PLAN_NOT_REFERENCE_FILM"
+    },
+    {
+      "case": "人物目光指向未定义目标",
+      "expected_detected_issue": "GAZE_CONTRADICTION",
+      "actual_issues": [
+        "GAZE_CONTRADICTION"
+      ],
+      "pass": true,
+      "target": "GENERATED_DIRECTOR_PLAN_NOT_REFERENCE_FILM"
+    }
+  ],
+  "passed": 8,
+  "total": 8,
+  "not_a_movie_quality_score": true
+}

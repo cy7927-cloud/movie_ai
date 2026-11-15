@@ -1,0 +1,251 @@
+{
+  "brief": "现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。",
+  "detected_brief_cues": {
+    "possible_character_terms": [
+      "工程师",
+      "同伴"
+    ],
+    "possible_key_objects": [
+      "信号",
+      "探测器"
+    ],
+    "possible_places": [
+      "科研站"
+    ],
+    "extraction_kind": "KEYWORD_MATCH_ONLY_NOT_NARRATIVE_MODEL"
+  },
+  "chosen_grammar": "suspense_insert",
+  "grammar_label": "信息插入与反应",
+  "method": "RULE_BASED_EDITORIAL_PLANNING_NOT_AUTONOMOUS_CINEMATIC_AI",
+  "original_filmmaking_context": "同样的剪辑语法可迁移到原创剧本，但所有角色、空间、表演与效果仍需真实审查。",
+  "iteration_trace": [
+    {
+      "round": 0,
+      "version": "INITIAL_UNDER_SPECIFIED",
+      "shots": [
+        {
+          "id": "GEN_01",
+          "beat": "SETUP",
+          "duration_s": 3.0,
+          "narrative_purpose": "建立人物当下处境与尚未解决的问题",
+          "camera": "人物和环境的中景",
+          "blocking": "保留关键视线方向与空间关系",
+          "acting": "动作或注意力开始集中",
+          "cut_reason": "引出悬念而非展示全部答案",
+          "sound_cue": "环境声音底",
+          "audience_question": "会发生什么？",
+          "source_story_brief": "现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。",
+          "source_specific_scenario_cues": {
+            "place": "科研站",
+            "people": "工程师、同伴",
+            "key_object": "信号、探测器"
+          },
+          "shootable_director_prompt_draft": "原剧情：现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。；场景参考：科研站；人物观察对象：工程师、同伴；关键叙事物：信号、探测器。本镜头要做：建立人物当下处境与尚未解决的问题；摄影：人物和环境的中景；表演：动作或注意力开始集中；切镜因由：引出悬念而非展示全部答案。所有未知身份与地理关系必须先核验。"
+        },
+        {
+          "id": "GEN_02",
+          "beat": "INSERT",
+          "duration_s": 1.7,
+          "narrative_purpose": "切到关键物件／异常讯息",
+          "camera": "突出细节的特写",
+          "blocking": "插入对象有明确环境位置，但不可凭空新增",
+          "acting": "异常讯息出现",
+          "cut_reason": "",
+          "sound_cue": "一个可辨认的音效",
+          "audience_question": "人物看见了吗？",
+          "source_story_brief": "现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。",
+          "source_specific_scenario_cues": {
+            "place": "科研站",
+            "people": "工程师、同伴",
+            "key_object": "信号、探测器"
+          },
+          "shootable_director_prompt_draft": "原剧情：现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。；场景参考：科研站；人物观察对象：工程师、同伴；关键叙事物：信号、探测器。本镜头要做：切到关键物件／异常讯息；摄影：突出细节的特写；表演：异常讯息出现；切镜因由：改变观众当前的信息量。所有未知身份与地理关系必须先核验。"
+        },
+        {
+          "id": "GEN_04",
+          "beat": "COUNTERPOINT",
+          "duration_s": 2.6,
+          "narrative_purpose": "以另一视觉信息给出第二层解释",
+          "camera": "带环境线索的中景",
+          "blocking": "保持真实地理方向或明确标记蒙太奇",
+          "acting": "不要与前镜完全重复",
+          "cut_reason": "",
+          "sound_cue": "声桥连接两镜",
+          "audience_question": "这个异常来自哪里？",
+          "source_story_brief": "现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。",
+          "source_specific_scenario_cues": {
+            "place": "科研站",
+            "people": "工程师、同伴",
+            "key_object": "信号、探测器"
+          },
+          "shootable_director_prompt_draft": "原剧情：现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。；场景参考：科研站；人物观察对象：工程师、同伴；关键叙事物：信号、探测器。本镜头要做：以另一视觉信息给出第二层解释；摄影：带环境线索的中景；表演：不要与前镜完全重复；切镜因由：剪辑提供新的信息，而非机械连镜。所有未知身份与地理关系必须先核验。"
+        }
+      ],
+      "technical_review": {
+        "rule_checks": {
+          "镜头各有明确戏剧功能": true,
+          "镜头切换有叙事理由": false,
+          "人物调度约束已填写": true,
+          "表演节拍有约束": true,
+          "音画关系有规划": true,
+          "观众问题被设置": true,
+          "镜头长度明确": true,
+          "存在建立空间或处境的镜头": true,
+          "悬念信息后有反应承接": false,
+          "对话场面交代双方空间关系": true,
+          "结尾具备下一步动作或空间归位": false
+        },
+        "structural_check_passed": 8,
+        "structural_check_total": 11,
+        "director_quality_verified": false,
+        "acting_and_identity_verified": false,
+        "content_produced_as_ai_images": false,
+        "meaning": "规则检查只证明文字分镜的结构约束完整，不代表导演质量得分。"
+      },
+      "issues": [
+        "镜头切换有叙事理由",
+        "悬念信息后有反应承接",
+        "结尾具备下一步动作或空间归位"
+      ]
+    },
+    {
+      "round": 1,
+      "version": "REVISED_WITH_EDITORIAL_BEATS",
+      "shots": [
+        {
+          "id": "GEN_01",
+          "beat": "SETUP",
+          "duration_s": 3.0,
+          "narrative_purpose": "建立人物当下处境与尚未解决的问题",
+          "camera": "人物和环境的中景",
+          "blocking": "保留关键视线方向与空间关系",
+          "acting": "动作或注意力开始集中",
+          "cut_reason": "引出悬念而非展示全部答案",
+          "sound_cue": "环境声音底",
+          "audience_question": "会发生什么？",
+          "source_story_brief": "现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。",
+          "source_specific_scenario_cues": {
+            "place": "科研站",
+            "people": "工程师、同伴",
+            "key_object": "信号、探测器"
+          },
+          "shootable_director_prompt_draft": "原剧情：现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。；场景参考：科研站；人物观察对象：工程师、同伴；关键叙事物：信号、探测器。本镜头要做：建立人物当下处境与尚未解决的问题；摄影：人物和环境的中景；表演：动作或注意力开始集中；切镜因由：引出悬念而非展示全部答案。所有未知身份与地理关系必须先核验。"
+        },
+        {
+          "id": "GEN_02",
+          "beat": "INSERT",
+          "duration_s": 1.7,
+          "narrative_purpose": "切到关键物件／异常讯息",
+          "camera": "突出细节的特写",
+          "blocking": "插入对象有明确环境位置，但不可凭空新增",
+          "acting": "异常讯息出现",
+          "cut_reason": "改变观众当前的信息量",
+          "sound_cue": "一个可辨认的音效",
+          "audience_question": "人物看见了吗？",
+          "source_story_brief": "现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。",
+          "source_specific_scenario_cues": {
+            "place": "科研站",
+            "people": "工程师、同伴",
+            "key_object": "信号、探测器"
+          },
+          "shootable_director_prompt_draft": "原剧情：现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。；场景参考：科研站；人物观察对象：工程师、同伴；关键叙事物：信号、探测器。本镜头要做：切到关键物件／异常讯息；摄影：突出细节的特写；表演：异常讯息出现；切镜因由：改变观众当前的信息量。所有未知身份与地理关系必须先核验。"
+        },
+        {
+          "id": "GEN_03",
+          "beat": "REACTION",
+          "duration_s": 2.0,
+          "narrative_purpose": "切回人物，表现得知线索后的微妙反应",
+          "camera": "人物近景",
+          "blocking": "人物视线要与插入对象匹配或标记不确定",
+          "acting": "眼神先于身体动作改变",
+          "cut_reason": "反应镜头承接新信息",
+          "sound_cue": "音乐弱化让反应清晰",
+          "audience_question": "他是否理解了线索？",
+          "source_story_brief": "现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。",
+          "source_specific_scenario_cues": {
+            "place": "科研站",
+            "people": "工程师、同伴",
+            "key_object": "信号、探测器"
+          },
+          "shootable_director_prompt_draft": "原剧情：现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。；场景参考：科研站；人物观察对象：工程师、同伴；关键叙事物：信号、探测器。本镜头要做：切回人物，表现得知线索后的微妙反应；摄影：人物近景；表演：眼神先于身体动作改变；切镜因由：反应镜头承接新信息。所有未知身份与地理关系必须先核验。"
+        },
+        {
+          "id": "GEN_04",
+          "beat": "COUNTERPOINT",
+          "duration_s": 2.6,
+          "narrative_purpose": "以另一视觉信息给出第二层解释",
+          "camera": "带环境线索的中景",
+          "blocking": "保持真实地理方向或明确标记蒙太奇",
+          "acting": "不要与前镜完全重复",
+          "cut_reason": "剪辑提供新的信息，而非机械连镜",
+          "sound_cue": "声桥连接两镜",
+          "audience_question": "这个异常来自哪里？",
+          "source_story_brief": "现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。",
+          "source_specific_scenario_cues": {
+            "place": "科研站",
+            "people": "工程师、同伴",
+            "key_object": "信号、探测器"
+          },
+          "shootable_director_prompt_draft": "原剧情：现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。；场景参考：科研站；人物观察对象：工程师、同伴；关键叙事物：信号、探测器。本镜头要做：以另一视觉信息给出第二层解释；摄影：带环境线索的中景；表演：不要与前镜完全重复；切镜因由：剪辑提供新的信息，而非机械连镜。所有未知身份与地理关系必须先核验。"
+        },
+        {
+          "id": "GEN_05",
+          "beat": "DECISION",
+          "duration_s": 3.1,
+          "narrative_purpose": "角色做出行动选择，并给下场戏入口",
+          "camera": "中远景／有移动余地",
+          "blocking": "人物动作终点与后续切点可对齐",
+          "acting": "从观察到行动的起止节拍清楚",
+          "cut_reason": "建立因果推进",
+          "sound_cue": "脚步声启动",
+          "audience_question": "下一场戏如何发展？",
+          "source_story_brief": "现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。",
+          "source_specific_scenario_cues": {
+            "place": "科研站",
+            "people": "工程师、同伴",
+            "key_object": "信号、探测器"
+          },
+          "shootable_director_prompt_draft": "原剧情：现代科研站深夜收到失联探测器发来的信号。值班工程师先看到异常，再与同伴判断是否启动封锁。；场景参考：科研站；人物观察对象：工程师、同伴；关键叙事物：信号、探测器。本镜头要做：角色做出行动选择，并给下场戏入口；摄影：中远景／有移动余地；表演：从观察到行动的起止节拍清楚；切镜因由：建立因果推进。所有未知身份与地理关系必须先核验。"
+        }
+      ],
+      "technical_review": {
+        "rule_checks": {
+          "镜头各有明确戏剧功能": true,
+          "镜头切换有叙事理由": true,
+          "人物调度约束已填写": true,
+          "表演节拍有约束": true,
+          "音画关系有规划": true,
+          "观众问题被设置": true,
+          "镜头长度明确": true,
+          "存在建立空间或处境的镜头": true,
+          "悬念信息后有反应承接": true,
+          "对话场面交代双方空间关系": true,
+          "结尾具备下一步动作或空间归位": true
+        },
+        "structural_check_passed": 11,
+        "structural_check_total": 11,
+        "director_quality_verified": false,
+        "acting_and_identity_verified": false,
+        "content_produced_as_ai_images": false,
+        "meaning": "规则检查只证明文字分镜的结构约束完整，不代表导演质量得分。"
+      },
+      "changes": [
+        "明确每镜戏剧目的与切镜理由",
+        "补充信息与反应关系",
+        "增加人物动作／视线和音画节拍",
+        "增加空间交代／结束动作"
+      ]
+    }
+  ],
+  "required_final_checks": [
+    "原创剧情及情绪强度的真实导演判断",
+    "场景空间轴线与演员站位",
+    "角色身份及服装一致性",
+    "是否存在不必要镜头／是否应该省略",
+    "演员动作与声音时间码",
+    "完整静态分镜独立生成与人工验收"
+  ],
+  "real_image_model_called": false,
+  "paid_video_model_called": false,
+  "fully_directed_movie": false
+}

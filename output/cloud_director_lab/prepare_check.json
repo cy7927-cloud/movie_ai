@@ -1,0 +1,18 @@
+{
+  "task_id": "LESSON_LESSON_01",
+  "provider": "groq",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "model": "qwen/qwen3.8-27b",
+  "frame_count": 3,
+  "approx_image_bytes": 45247,
+  "source_reference_sha256": [
+    "65b1d5b038a66fc515a611cfa468cb337ba72a4188f3b33d5d6e9b701c4a50e0",
+    "a2ec6b64b250dd49255d9982748f0c5df18958e298d5c97e6e553e0654fbc053",
+    "56eac8cd562c83147fe9ca700ea536cf8c69f9cbcb0951c610d6a4ac30617cd9"
+  ],
+  "key_configured": false,
+  "actual_inference_performed": false,
+  "money_spent_by_this_script": 0,
+  "status": "PREPARED_NOT_SENT",
+  "warning": "You must explicitly invoke run and supply the API key. Movie stills leave the computer when run is used; check your rights and provider data policies."
+}

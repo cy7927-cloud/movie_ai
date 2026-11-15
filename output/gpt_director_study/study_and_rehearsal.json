@@ -1,0 +1,943 @@
+{
+  "source": {
+    "source_path": "data/source_video.mp4",
+    "sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+    "source_scope": "UPLOADED_776_SECOND_EXCERPT_NOT_THE_FULL_FEATURE",
+    "duration_s": 776.477,
+    "director_intent_verified": 0
+  },
+  "study_cases": [
+    {
+      "id": "CASE_A",
+      "title": "暗处的人、红衣队列与黑猫：信息先于因果",
+      "time_window": "595–616",
+      "narrative_core": "在不同可见地点/人物之间交织镜头；黑猫位于信息链中央，但人物是否看见它尚无证据",
+      "observations": [
+        {
+          "second": 595.0,
+          "visible": "幽暗通道尽头有暖色光及人影"
+        },
+        {
+          "second": 597.2,
+          "visible": "黑衣男子靠在暗色装饰门边"
+        },
+        {
+          "second": 600.2,
+          "visible": "数名红衣人物面向石树及建筑"
+        },
+        {
+          "second": 603.9,
+          "visible": "红衣人物仰头，前后错开站位"
+        },
+        {
+          "second": 604.4,
+          "visible": "黑猫独立站在暖色栏杆上"
+        },
+        {
+          "second": 607.8,
+          "visible": "黑衣男子从门边向外窥看"
+        },
+        {
+          "second": 611.2,
+          "visible": "远处石廊入口见暖色灯笼和人影"
+        },
+        {
+          "second": 614.0,
+          "visible": "黑衣男子重新出现在暗色装饰门旁"
+        }
+      ],
+      "hypotheses": [
+        {
+          "claim": "猫的单独镜头可能将观众注意力转向一项新的信息",
+          "rationale": "红衣人群→黑猫→暗处男子的切换，使观众在同一小段落中比较至少三类对象",
+          "alternative": "猫只是独立悬疑意象，既不是任何人视线的目标，也可能不是同一空间",
+          "verification": "必须复看前后声音/对白、人物视线方向、猫与人物能否处于同一空间"
+        },
+        {
+          "claim": "暗色人物在猫之前与之后出现，可能构成跨地点的平行观察/等待结构",
+          "rationale": "597、608、614秒附近均可见相似门边黑衣人物，其间交错进入红衣队列、猫、石廊",
+          "alternative": "相似服装未证实同一演员；多个地点的剪辑也可能只是连续事件信息",
+          "verification": "核实人物身份、台词及空间地理关系，确认各时刻是否真为同一行动"
+        },
+        {
+          "claim": "色温、明暗和环境尺度的交替可以成为悬念节奏的一部分",
+          "rationale": "暖色栏杆/红衣外景与冷暗门边/石洞交替，观众阅读画面的成本和注意目标改变",
+          "alternative": "色差仅来自不同空间的自然照明，不一定具有情绪象征",
+          "verification": "结合整段声音、导演场面语境和人物目标，排除纯粹空间交代"
+        }
+      ],
+      "unverified": [
+        "对白和音乐关系",
+        "猫和男人的真实视线关系",
+        "片中同一空间/时间",
+        "导演真实意图"
+      ],
+      "avoid_claims": [
+        "不能将猫镜头解释为角色必然看见猫",
+        "不能将正常跨景切换当作摄影失误",
+        "不能把自动镜头候选当成精确切点"
+      ],
+      "transferable_craft": "把一项线索暂时交给观众、暂不交给角色；用前后可辨的空间锚点让人物/意象之间形成张力，同时保留对因果的审慎。"
+    },
+    {
+      "id": "CASE_B",
+      "title": "从隔窗窥见到入室、同框与离开：行动驱动的场面调度",
+      "time_window": "617–653",
+      "narrative_core": "由远处观察建筑开始，以进入房间、两人靠近、围桌动作和离场推动镜头组织",
+      "observations": [
+        {
+          "second": 617.3,
+          "visible": "门边黑色前景遮挡，外部院落明亮"
+        },
+        {
+          "second": 620.0,
+          "visible": "隔着木格窗窥见室内空间"
+        },
+        {
+          "second": 624.0,
+          "visible": "宽景可辨室内两人物与家具布局"
+        },
+        {
+          "second": 626.0,
+          "visible": "白衣光头人物回头或转身"
+        },
+        {
+          "second": 628.5,
+          "visible": "深色长发人物站在檐下/入口处"
+        },
+        {
+          "second": 633.8,
+          "visible": "深色人物沿内部门口向房间移动"
+        },
+        {
+          "second": 640.1,
+          "visible": "白衣与深衣人物围在桌边同框"
+        },
+        {
+          "second": 646.0,
+          "visible": "白衣人物向后方门廊离开，深衣人物仍在近处"
+        },
+        {
+          "second": 649.0,
+          "visible": "前景深衣人物与后方离开中的白衣人物同画面"
+        },
+        {
+          "second": 652.7,
+          "visible": "桌边深衣人物独自留在构图中"
+        }
+      ],
+      "hypotheses": [
+        {
+          "claim": "先遮挡后揭示空间，可能形成从外部观察到进入场景的视觉层级",
+          "rationale": "617秒暗前景→620秒格窗→624秒内景宽景，遮挡逐步减少",
+          "alternative": "这些镜头也可能只是场景切换或角色主观观察，而不是刻意的悬念设计",
+          "verification": "确认摄影机位置、真实切点及片内人物是否位于窗外"
+        },
+        {
+          "claim": "人物进入、接近、同框构成一条可供观众跟随的行动主线",
+          "rationale": "628秒门口人物、633秒进入、640秒两人同框围桌，动作的可见目标逐渐靠近",
+          "alternative": "640秒并非新近抵达同一房间的直接接续，可能存在省略时间",
+          "verification": "复看镜头连接处的方向、脚步、道具位置和时间省略"
+        },
+        {
+          "claim": "白衣离开而深衣留下，可以由景深和走位产生后续情绪而不依赖频繁反打",
+          "rationale": "646、649、652秒前后不同人物由同框变成前景/背景分离、最后剩一人",
+          "alternative": "不知对白，无法断定是疏离、释然、悬念或者单纯结束一场谈话",
+          "verification": "核对对白、声音、表情及下一场剧情，谨慎选择戏剧意图"
+        }
+      ],
+      "unverified": [
+        "对白内容",
+        "声音桥和音乐",
+        "准确轴线与焦距",
+        "关键情绪动机",
+        "摄影机3D移动"
+      ],
+      "avoid_claims": [
+        "不能把它机械标为正反打",
+        "不能把远近景变化当摄影错误",
+        "不能根据无声静帧捏造台词"
+      ],
+      "transferable_craft": "用人物的实际行动设计切镜：入口→靠近→共享空间→离场→留下者的反应；摄影机选择服务于动作因果和角色关系，而不是套一组固定景别。"
+    }
+  ],
+  "frame_references": {
+    "CASE_A": [
+      {
+        "time_s": 595.0,
+        "path": "output/gpt_director_study/source_frames/CASE_A_01_595.0s.jpg",
+        "sha256": "5fe062d28379fad1c2bdcd88e0eb6d93b12ea995d58166c2e3f685f1c5dbf80c",
+        "observation": "幽暗通道尽头有暖色光及人影",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 597.2,
+        "path": "output/gpt_director_study/source_frames/CASE_A_02_597.2s.jpg",
+        "sha256": "fd6803411b2957bea9bd1b432f11d5ebbb3aaaa6197634952ceb10c9caa7d4d2",
+        "observation": "黑衣男子靠在暗色装饰门边",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 600.2,
+        "path": "output/gpt_director_study/source_frames/CASE_A_03_600.2s.jpg",
+        "sha256": "7027c5831b048ca1e58043431acb74ee08aa1443fba6b40a6c6a2f23fe1e54df",
+        "observation": "数名红衣人物面向石树及建筑",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 603.9,
+        "path": "output/gpt_director_study/source_frames/CASE_A_04_603.9s.jpg",
+        "sha256": "5cf28ad8b39cfa7e8172af9956a3ab390eabe9d0553d7c1415172f2de36a8f60",
+        "observation": "红衣人物仰头，前后错开站位",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 604.4,
+        "path": "output/gpt_director_study/source_frames/CASE_A_05_604.4s.jpg",
+        "sha256": "5dce59037d245d3e9610772607fa7acf94f6825484848d56321a06d5413851c7",
+        "observation": "黑猫独立站在暖色栏杆上",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 607.8,
+        "path": "output/gpt_director_study/source_frames/CASE_A_06_607.8s.jpg",
+        "sha256": "ce0f3b2e5de69a30eb82ea2e7820063bec2db0d7a73e769631e92e6ec5822530",
+        "observation": "黑衣男子从门边向外窥看",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 611.2,
+        "path": "output/gpt_director_study/source_frames/CASE_A_07_611.2s.jpg",
+        "sha256": "49b7fe82c5af8d968f257923b3903f4bfcba4476df78ade3db728465ecc303bd",
+        "observation": "远处石廊入口见暖色灯笼和人影",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 614.0,
+        "path": "output/gpt_director_study/source_frames/CASE_A_08_614.0s.jpg",
+        "sha256": "295cd7932db1b15b877caec114824eae9065ac382ec8897a1d4e30590fcdb518",
+        "observation": "黑衣男子重新出现在暗色装饰门旁",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      }
+    ],
+    "CASE_B": [
+      {
+        "time_s": 617.3,
+        "path": "output/gpt_director_study/source_frames/CASE_B_01_617.3s.jpg",
+        "sha256": "e67654844343947640ff315e3d684328ddf423ed82720e6e6f4bc74aaa43f1a7",
+        "observation": "门边黑色前景遮挡，外部院落明亮",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 620.0,
+        "path": "output/gpt_director_study/source_frames/CASE_B_02_620.0s.jpg",
+        "sha256": "fd4a6baa0de187a9d9c48ac1569c80f56e2dc881879d6760d68b1be3fa4fc3a0",
+        "observation": "隔着木格窗窥见室内空间",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 624.0,
+        "path": "output/gpt_director_study/source_frames/CASE_B_03_624.0s.jpg",
+        "sha256": "5a2703b43a4176a4a7390a38d5de20c29360c0a867582171cbd1f2e54c207bb8",
+        "observation": "宽景可辨室内两人物与家具布局",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 626.0,
+        "path": "output/gpt_director_study/source_frames/CASE_B_04_626.0s.jpg",
+        "sha256": "4c3f60d3162a31e885508271a8547603c94764ba98d0d4fe98a5d46ed2c70827",
+        "observation": "白衣光头人物回头或转身",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 628.5,
+        "path": "output/gpt_director_study/source_frames/CASE_B_05_628.5s.jpg",
+        "sha256": "97b50df0ab3cbbe14586a8bf70ac6c6866742d9a4355cbdb00018822b5a9032e",
+        "observation": "深色长发人物站在檐下/入口处",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 633.8,
+        "path": "output/gpt_director_study/source_frames/CASE_B_06_633.8s.jpg",
+        "sha256": "026b086ad78d96f95a266a8785c91f4f20be7af99d8f0e4f6ed8978b93e81ffb",
+        "observation": "深色人物沿内部门口向房间移动",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 640.1,
+        "path": "output/gpt_director_study/source_frames/CASE_B_07_640.1s.jpg",
+        "sha256": "113c967c2ee870d524475fd609e6aa128f3cdc2e7a11379cac8ef75be51f257b",
+        "observation": "白衣与深衣人物围在桌边同框",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 646.0,
+        "path": "output/gpt_director_study/source_frames/CASE_B_08_646.0s.jpg",
+        "sha256": "864ecf0c4233d500772ba012854b285d57c31d18352ece032e00391e239daab0",
+        "observation": "白衣人物向后方门廊离开，深衣人物仍在近处",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 649.0,
+        "path": "output/gpt_director_study/source_frames/CASE_B_09_649.0s.jpg",
+        "sha256": "ae29ccb68ed2b406c4a254b6dfe728dcfe160abcef1521f1cb165e37c8c63286",
+        "observation": "前景深衣人物与后方离开中的白衣人物同画面",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      },
+      {
+        "time_s": 652.7,
+        "path": "output/gpt_director_study/source_frames/CASE_B_10_652.7s.jpg",
+        "sha256": "9501a082a501eae77199851206dfbb6cb2ddcfbe2173571131082120d2eac3cf",
+        "observation": "桌边深衣人物独自留在构图中",
+        "status": "VISUAL_OBSERVATION_NOT_DIRECTOR_INTENT"
+      }
+    ]
+  },
+  "boards": {
+    "CASE_A": "output/gpt_director_study/CASE_A_真实导演观察板.jpg",
+    "CASE_B": "output/gpt_director_study/CASE_B_真实导演观察板.jpg"
+  },
+  "scene": {
+    "id": "OBSERVATORY",
+    "title": "失联观测站",
+    "logline": "凌晨，失联的观测站控制室突然出现“断线后仍有远程登录”的日志。调查员追查源头；管理员遮住一张门禁卡。他是否与异常有关，尚不确定。",
+    "target_duration_s": 32.0,
+    "facts": [
+      "SYSTEM_OFFLINE",
+      "LOG_AFTER_OFFLINE",
+      "REMOTE_LOGIN",
+      "B_ENTERED",
+      "BADGE_WITH_B",
+      "BADGE_HIDDEN",
+      "B_EXPLAINS_CACHE"
+    ],
+    "initial_audience_knowledge": [],
+    "initial_character_knowledge": {
+      "A": [
+        "SYSTEM_OFFLINE"
+      ],
+      "B": [
+        "BADGE_WITH_B"
+      ]
+    },
+    "initial_positions": {
+      "A": "console",
+      "B": "corridor"
+    },
+    "stage_map": {
+      "console": "室内画面右侧，屏幕朝A",
+      "corridor": "室外入口走廊在画面左后方",
+      "doorway": "控制室左侧门口",
+      "server_cage": "室内右后方，仅作背景不允许人物瞬移"
+    },
+    "central_question": "谁在断线后登录？管理员为何隐藏门禁卡？",
+    "ending_constraint": "不揭晓登录者，不给调查员未目击的隐情，保持戏剧悬念"
+  },
+  "initial_draft": [
+    {
+      "id": "S01",
+      "start_s": 0.0,
+      "end_s": 4.0,
+      "camera": "固定广角，通过左侧门框观察控制室和外走廊同一空间",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "调查员A在右侧终端核对断线告警；管理员B仍在门外走廊，双方未交谈",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "SYSTEM_OFFLINE"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "交代房门、终端、走廊的位置，为后续进入行动建立空间方向",
+      "cut_reason": "观众已理解空间，切近人物手上的新信息",
+      "sound": "低频空调声；终端提示短音",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S02",
+      "start_s": 4.0,
+      "end_s": 8.0,
+      "camera": "终端侧面中近景，A与屏幕上部信息处于同一画框",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A对照断线时间与新日志，手指停在异常时间戳上，停顿半秒",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "LOG_AFTER_OFFLINE"
+      ],
+      "learned_by_character": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      },
+      "evidence_visible_to_character": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      },
+      "dramatic_purpose": "让角色与观众共同意识到时间矛盾，确立人物的调查动机",
+      "cut_reason": "角色看上部时间，而下部屏幕还藏着观众可读的新线索",
+      "sound": "纸页摩擦；环境声压低",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "start_s": 8.0,
+      "end_s": 11.0,
+      "camera": "固定终端下角小字插入特写，且只拍屏幕不拍A",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "画面显示小字REMOTE LOGIN ACTIVE；A的手指仍停在画框边缘上部日志附近",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "REMOTE_LOGIN"
+      ],
+      "learned_by_character": {
+        "A": [
+          "REMOTE_LOGIN"
+        ]
+      },
+      "dramatic_purpose": "让观众先于角色知晓暗藏的登录状态，形成即将发现的心理悬念",
+      "cut_reason": "用脚步声从屏幕信息带向尚在门外的另一人",
+      "sound": "门外脚步由远而近；无额外提示音乐",
+      "character_conclusion": {
+        "A": [
+          "REMOTE_LOGIN"
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "start_s": 11.0,
+      "end_s": 17.0,
+      "camera": "门口固定中景，观察管理员由外廊跨入门槛的连续动作",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "B从走廊走到控制室左门口，整理文件夹，停在门边，视线掠过A",
+      "positions_at_start": {
+        "A": "console",
+        "B": "server_cage"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "B_ENTERED"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "通过入场走位连接之前建立的走廊与控制室，不凭空更换人物位置",
+      "cut_reason": "B停住后，观众目光被他手上的东西吸引",
+      "sound": "真实脚步、衣料摩擦，延续上镜脚步声",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S05",
+      "start_s": 17.0,
+      "end_s": 21.0,
+      "camera": "门边侧向手部近景，一台机位，能见A背影仍专注终端",
+      "single_setup": false,
+      "internal_cut": false,
+      "actor_action": "B把金属门禁卡塞进文件夹下层，视线短暂转向背对自己的A，A没有看见",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "BADGE_HIDDEN"
+      ],
+      "learned_by_character": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      },
+      "evidence_visible_to_character": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      },
+      "dramatic_purpose": "增加观众知情优势，但不能把B的隐藏行为等同于有罪",
+      "cut_reason": "看清藏物动作后，切向人物第一次共享的对话空间",
+      "sound": "门禁卡与纸张的轻摩擦；房间嗡鸣不变",
+      "character_conclusion": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "start_s": 20.0,
+      "end_s": 27.0,
+      "camera": "同一动作轴线一侧的双人中景，左B右A，固定机位",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A仍站终端前，侧身问“断线后怎么还有日志？”；B停一拍答“也许只是缓存”。双方不靠近",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "B_EXPLAINS_CACHE"
+      ],
+      "learned_by_character": {
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "A": [
+          "B_EXPLAINS_CACHE"
+        ]
+      },
+      "evidence_audible_to_character": {
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "A": [
+          "B_EXPLAINS_CACHE"
+        ]
+      },
+      "dramatic_purpose": "把观众先知转成有潜台词的角色交流：A仍未知远程登录与藏卡",
+      "cut_reason": "B话音落后，切给A的迟疑而非把怀疑说破",
+      "sound": "低声对白、A问句末尾环境声回升",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "start_s": 27.0,
+      "end_s": 32.0,
+      "camera": "A静止近景，左侧虚焦保留B的肩部作距离参照",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A没有立刻反驳，缓慢移回视线到终端上部；B还在门边等待，二人都没有触碰藏起的卡",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [],
+      "learned_by_character": {},
+      "dramatic_purpose": "停在有因果但未揭晓的疑问上，让观众比A多知道两项危险信息",
+      "cut_reason": "32秒场景止于尚未回答的远程登录悬念，为下一场提供叙事钩子",
+      "sound": "",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    }
+  ],
+  "final_director_draft": [
+    {
+      "id": "S01",
+      "start_s": 0.0,
+      "end_s": 4.0,
+      "camera": "固定广角，通过左侧门框观察控制室和外走廊同一空间",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "调查员A在右侧终端核对断线告警；管理员B仍在门外走廊，双方未交谈",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "SYSTEM_OFFLINE"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "交代房门、终端、走廊的位置，为后续进入行动建立空间方向",
+      "cut_reason": "观众已理解空间，切近人物手上的新信息",
+      "sound": "低频空调声；终端提示短音",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S02",
+      "start_s": 4.0,
+      "end_s": 8.0,
+      "camera": "终端侧面中近景，A与屏幕上部信息处于同一画框",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A对照断线时间与新日志，手指停在异常时间戳上，停顿半秒",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "LOG_AFTER_OFFLINE"
+      ],
+      "learned_by_character": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      },
+      "evidence_visible_to_character": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      },
+      "dramatic_purpose": "让角色与观众共同意识到时间矛盾，确立人物的调查动机",
+      "cut_reason": "角色看上部时间，而下部屏幕还藏着观众可读的新线索",
+      "sound": "纸页摩擦；环境声压低",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "start_s": 8.0,
+      "end_s": 11.0,
+      "camera": "固定终端下角小字插入特写，且只拍屏幕不拍A",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "画面显示小字REMOTE LOGIN ACTIVE；A的手指仍停在画框边缘上部日志附近",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "REMOTE_LOGIN"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "让观众先于角色知晓暗藏的登录状态，形成即将发现的心理悬念",
+      "cut_reason": "用脚步声从屏幕信息带向尚在门外的另一人",
+      "sound": "门外脚步由远而近；无额外提示音乐",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S04",
+      "start_s": 11.0,
+      "end_s": 17.0,
+      "camera": "门口固定中景，观察管理员由外廊跨入门槛的连续动作",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "B从走廊走到控制室左门口，整理文件夹，停在门边，视线掠过A",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "B_ENTERED"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "通过入场走位连接之前建立的走廊与控制室，不凭空更换人物位置",
+      "cut_reason": "B停住后，观众目光被他手上的东西吸引",
+      "sound": "真实脚步、衣料摩擦，延续上镜脚步声",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S05",
+      "start_s": 17.0,
+      "end_s": 21.0,
+      "camera": "门边侧向手部近景，一台机位，能见A背影仍专注终端",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "B把金属门禁卡塞进文件夹下层，视线短暂转向背对自己的A，A没有看见",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "BADGE_HIDDEN"
+      ],
+      "learned_by_character": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      },
+      "evidence_visible_to_character": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      },
+      "dramatic_purpose": "增加观众知情优势，但不能把B的隐藏行为等同于有罪",
+      "cut_reason": "看清藏物动作后，切向人物第一次共享的对话空间",
+      "sound": "门禁卡与纸张的轻摩擦；房间嗡鸣不变",
+      "character_conclusion": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "start_s": 21.0,
+      "end_s": 27.0,
+      "camera": "同一动作轴线一侧的双人中景，左B右A，固定机位",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A仍站终端前，侧身问“断线后怎么还有日志？”；B停一拍答“也许只是缓存”。双方不靠近",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "B_EXPLAINS_CACHE"
+      ],
+      "learned_by_character": {
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "A": [
+          "B_EXPLAINS_CACHE"
+        ]
+      },
+      "evidence_audible_to_character": {
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "A": [
+          "B_EXPLAINS_CACHE"
+        ]
+      },
+      "dramatic_purpose": "把观众先知转成有潜台词的角色交流：A仍未知远程登录与藏卡",
+      "cut_reason": "B话音落后，切给A的迟疑而非把怀疑说破",
+      "sound": "低声对白、A问句末尾环境声回升",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "start_s": 27.0,
+      "end_s": 32.0,
+      "camera": "A静止近景，左侧虚焦保留B的肩部作距离参照",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A没有立刻反驳，缓慢移回视线到终端上部；B还在门边等待，二人都没有触碰藏起的卡",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [],
+      "learned_by_character": {},
+      "dramatic_purpose": "停在有因果但未揭晓的疑问上，让观众比A多知道两项危险信息",
+      "cut_reason": "32秒场景止于尚未回答的远程登录悬念，为下一场提供叙事钩子",
+      "sound": "无配乐，保留终端低鸣和停顿",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    }
+  ],
+  "initial_critique": {
+    "issues": [
+      {
+        "shot": "S03",
+        "type": "UNSUPPORTED_CHARACTER_KNOWLEDGE",
+        "actor": "A",
+        "fact": "REMOTE_LOGIN"
+      },
+      {
+        "shot": "S04",
+        "type": "TELEPORTATION_UNEXPLAINED",
+        "actor": "B",
+        "expected": "corridor",
+        "actual": "server_cage"
+      },
+      {
+        "shot": "S05",
+        "type": "MULTI_SETUP_IN_SINGLE_SHOT"
+      },
+      {
+        "shot": "S06",
+        "type": "GAP_OR_OVERLAP",
+        "from": 21.0,
+        "to": 20.0
+      },
+      {
+        "shot": "S07",
+        "type": "MISSING_SOUND_PLAN"
+      }
+    ],
+    "issue_count": 5,
+    "structural_constraints_met": false,
+    "artistic_quality_verified": false,
+    "spatial_3d_verified": false,
+    "film_director_intent_verified": false,
+    "audience_knowledge_final": [
+      "BADGE_HIDDEN",
+      "B_ENTERED",
+      "B_EXPLAINS_CACHE",
+      "LOG_AFTER_OFFLINE",
+      "REMOTE_LOGIN",
+      "SYSTEM_OFFLINE"
+    ],
+    "character_knowledge_final": {
+      "A": [
+        "B_EXPLAINS_CACHE",
+        "LOG_AFTER_OFFLINE",
+        "REMOTE_LOGIN",
+        "SYSTEM_OFFLINE"
+      ],
+      "B": [
+        "BADGE_HIDDEN",
+        "BADGE_WITH_B",
+        "LOG_AFTER_OFFLINE"
+      ]
+    }
+  },
+  "final_structural_audit": {
+    "issues": [],
+    "issue_count": 0,
+    "structural_constraints_met": true,
+    "artistic_quality_verified": false,
+    "spatial_3d_verified": false,
+    "film_director_intent_verified": false,
+    "audience_knowledge_final": [
+      "BADGE_HIDDEN",
+      "B_ENTERED",
+      "B_EXPLAINS_CACHE",
+      "LOG_AFTER_OFFLINE",
+      "REMOTE_LOGIN",
+      "SYSTEM_OFFLINE"
+    ],
+    "character_knowledge_final": {
+      "A": [
+        "B_EXPLAINS_CACHE",
+        "LOG_AFTER_OFFLINE",
+        "SYSTEM_OFFLINE"
+      ],
+      "B": [
+        "BADGE_HIDDEN",
+        "BADGE_WITH_B",
+        "LOG_AFTER_OFFLINE"
+      ]
+    }
+  },
+  "negative_tests": {
+    "cases": [
+      {
+        "test": "夺取观众的私密信息",
+        "expected": "CHARACTER_USES_UNKNOWN_FACT",
+        "detected": true,
+        "actual_issues": [
+          "CHARACTER_USES_UNKNOWN_FACT"
+        ]
+      },
+      {
+        "test": "人物瞬移",
+        "expected": "TELEPORTATION_UNEXPLAINED",
+        "detected": true,
+        "actual_issues": [
+          "TELEPORTATION_UNEXPLAINED"
+        ]
+      },
+      {
+        "test": "一个镜头暗含两套机位",
+        "expected": "MULTI_SETUP_IN_SINGLE_SHOT",
+        "detected": true,
+        "actual_issues": [
+          "MULTI_SETUP_IN_SINGLE_SHOT"
+        ]
+      },
+      {
+        "test": "剪辑时间重叠",
+        "expected": "GAP_OR_OVERLAP",
+        "detected": true,
+        "actual_issues": [
+          "GAP_OR_OVERLAP"
+        ]
+      },
+      {
+        "test": "缺失切镜目的",
+        "expected": "CUT_HAS_NO_DRAMATIC_REASON",
+        "detected": true,
+        "actual_issues": [
+          "CUT_HAS_NO_DRAMATIC_REASON"
+        ]
+      },
+      {
+        "test": "声音没有设计",
+        "expected": "MISSING_SOUND_PLAN",
+        "detected": true,
+        "actual_issues": [
+          "MISSING_SOUND_PLAN"
+        ]
+      }
+    ],
+    "detected_count": 6,
+    "total": 6,
+    "claim": "ONLY_DETECTION_OF_INTENTIONALLY_INJECTED_STRUCTURAL_ERRORS"
+  },
+  "model_used_for_directing": "GPT conversation visual analysis, manually saved as study cases",
+  "director_intent_verified": false,
+  "new_ai_image_generated": false,
+  "new_film_generated": false,
+  "director_quality_signoff": false
+}

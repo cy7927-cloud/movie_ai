@@ -1,0 +1,44 @@
+{
+  "same_original_story": true,
+  "same_shot_time_ranges": true,
+  "same_actor_spatial_paths": true,
+  "modes": [
+    "audience_first_suspense",
+    "blocking_space_reveal"
+  ],
+  "changed_shots": [
+    {
+      "shot_id": "S03",
+      "changed_fields": [
+        "camera",
+        "actor_action",
+        "dramatic_purpose",
+        "revealed_to_audience",
+        "cut_reason",
+        "sound",
+        "camera.lens_focal_length_mm",
+        "camera.focus_target",
+        "camera.camera_position",
+        "camera.activate_priority"
+      ]
+    },
+    {
+      "shot_id": "S04",
+      "changed_fields": [
+        "camera.lens_focal_length_mm",
+        "camera.focus_target",
+        "camera.activate_priority"
+      ]
+    },
+    {
+      "shot_id": "S05",
+      "changed_fields": [
+        "camera.activate_priority"
+      ]
+    }
+  ],
+  "style_changes_operational_not_label_only": true,
+  "style_fidelity_verified": false,
+  "artistic_comparison_verified": false,
+  "reason": "Changes to camera/storyboard selection are measurable; reference-style artistic similarity needs real new images/video and independent critique."
+}

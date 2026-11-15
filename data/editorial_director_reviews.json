@@ -1,0 +1,18 @@
+{
+  "SH_00065__SH_00066": {
+    "transition_id": "SH_00065__SH_00066",
+    "relation": "INSERT_SHOT",
+    "hypothesis": "人物到黑猫的插入镜头可能将观众注意力转向异常对象，但需结合剧情、音轨和视线复核。",
+    "evidence": "原片参考：SH_00065 红衣人物与建筑，SH_00066 黑猫全景，SH_00067 男子近景；只确认可见画面，不推定同一空间。",
+    "reviewer": "学习假设 · 未完成导演签核",
+    "status": "REVIEWED_REFERENCE_RELATION_NOT_AI_RECONSTRUCTION_APPROVAL",
+    "source_hashes": [
+      "6d92482f76877eeccf33b66c0c21ee4f8b5bdc90cd37abc6f914ba84ee3e53ca",
+      "5763e1fc22bfe2a1b534e7922df5761493d2d65697a71ee7cf434c99c65acfcb"
+    ],
+    "reference_only": true,
+    "director_approval": false,
+    "revision": 1,
+    "saved_utc": "2026-11-14T04:50:03.497969+00:00"
+  }
+}

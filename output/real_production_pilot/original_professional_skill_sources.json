@@ -1,0 +1,52 @@
+{
+  "upstream": "https://github.com/zhangzhangco/film-production-skills",
+  "method": "GitHub official Git object SHA1 verification",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha1_expected": "9d1023ccccde719baec066c84a708429cf519921",
+      "actual": "9d1023ccccde719baec066c84a708429cf519921",
+      "status": "PASS"
+    },
+    {
+      "path": "skills/plan-camera-shots/SKILL.md",
+      "git_blob_sha1_expected": "c527ae79af43deec004f51fc52b0e94ba2eb7ffe",
+      "actual": "c527ae79af43deec004f51fc52b0e94ba2eb7ffe",
+      "status": "PASS"
+    },
+    {
+      "path": "skills/plan-camera-shots/references/field-guide.md",
+      "git_blob_sha1_expected": "f13361f7b960b316736bca1882047dab10567a9c",
+      "actual": "f13361f7b960b316736bca1882047dab10567a9c",
+      "status": "PASS"
+    },
+    {
+      "path": "skills/review-and-assemble/SKILL.md",
+      "git_blob_sha1_expected": "4c6e975e8977e8c6bb46cb89139069f4a1fbb2b9",
+      "actual": "4c6e975e8977e8c6bb46cb89139069f4a1fbb2b9",
+      "status": "PASS"
+    },
+    {
+      "path": "skills/review-and-assemble/references/field-guide.md",
+      "git_blob_sha1_expected": "0a719262a4f5a1b998413aa3d0747822998ede12",
+      "actual": "0a719262a4f5a1b998413aa3d0747822998ede12",
+      "status": "PASS"
+    },
+    {
+      "path": "skills/structure-screenplay/references/field-guide.md",
+      "git_blob_sha1_expected": "1fb36ac297bc13bc67bf06295b307559efcfffe7",
+      "actual": "1fb36ac297bc13bc67bf06295b307559efcfffe7",
+      "status": "PASS"
+    }
+  ],
+  "authentic_original_files_verified": 6,
+  "original_skill_texts_verified": [
+    "skills/plan-camera-shots/SKILL.md",
+    "skills/review-and-assemble/SKILL.md"
+  ],
+  "native_skill_host_installed": false,
+  "full_original_repository_installed": false,
+  "can_read_original_instructions_for_GPT_work": true,
+  "source_download_note": "Partial, read-only Git SHA-verified skill text and field guides from official repository; complete source schemas and Open Film Skills not yet acquired in this sandbox.",
+  "full_pipeline_ready": false
+}

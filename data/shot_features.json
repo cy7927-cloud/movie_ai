@@ -1,0 +1,4250 @@
+{
+  "features": [
+    {
+      "shot_id": "SH_00001",
+      "start_sec": 0.0,
+      "end_sec": 14.8,
+      "duration_sec": 14.8,
+      "reference_images": {
+        "in": "SH_00001_in.jpg",
+        "mid": "SH_00001_mid.jpg",
+        "out": "SH_00001_out.jpg"
+      },
+      "anchor_sample_times": [
+        1.2,
+        7.4,
+        13.6
+      ],
+      "visual": {
+        "luminance": 0.416,
+        "contrast": 0.403,
+        "saturation": 0.299,
+        "edge_density": 0.174,
+        "visual_attention_proxy_xy": [
+          0.503,
+          0.416
+        ],
+        "lab_mean": [
+          113.5,
+          125.7,
+          145.1
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          3.15,
+          32.7
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_001",
+      "audio_rms": 0.03017
+    },
+    {
+      "shot_id": "SH_00002",
+      "start_sec": 14.8,
+      "end_sec": 18.8,
+      "duration_sec": 4.0,
+      "reference_images": {
+        "in": "SH_00002_in.jpg",
+        "mid": "SH_00002_mid.jpg",
+        "out": "SH_00002_out.jpg"
+      },
+      "anchor_sample_times": [
+        15.2,
+        16.8,
+        18.4
+      ],
+      "visual": {
+        "luminance": 0.363,
+        "contrast": 0.475,
+        "saturation": 0.27,
+        "edge_density": 0.205,
+        "visual_attention_proxy_xy": [
+          0.547,
+          0.478
+        ],
+        "lab_mean": [
+          97.6,
+          126.9,
+          140.9
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          13.13,
+          30.85
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_001",
+      "audio_rms": 0.06323
+    },
+    {
+      "shot_id": "SH_00003",
+      "start_sec": 18.8,
+      "end_sec": 24.0,
+      "duration_sec": 5.2,
+      "reference_images": {
+        "in": "SH_00003_in.jpg",
+        "mid": "SH_00003_mid.jpg",
+        "out": "SH_00003_out.jpg"
+      },
+      "anchor_sample_times": [
+        19.2,
+        21.4,
+        23.6
+      ],
+      "visual": {
+        "luminance": 0.374,
+        "contrast": 0.335,
+        "saturation": 0.257,
+        "edge_density": 0.071,
+        "visual_attention_proxy_xy": [
+          0.586,
+          0.467
+        ],
+        "lab_mean": [
+          102.5,
+          125.9,
+          141.0
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -10.1,
+          -10.34
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_001",
+      "audio_rms": 0.02395
+    },
+    {
+      "shot_id": "SH_00004",
+      "start_sec": 24.0,
+      "end_sec": 29.6,
+      "duration_sec": 5.6,
+      "reference_images": {
+        "in": "SH_00004_in.jpg",
+        "mid": "SH_00004_mid.jpg",
+        "out": "SH_00004_out.jpg"
+      },
+      "anchor_sample_times": [
+        24.4,
+        26.8,
+        29.2
+      ],
+      "visual": {
+        "luminance": 0.446,
+        "contrast": 0.379,
+        "saturation": 0.305,
+        "edge_density": 0.19,
+        "visual_attention_proxy_xy": [
+          0.583,
+          0.502
+        ],
+        "lab_mean": [
+          121.7,
+          125.7,
+          145.7
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -9.23,
+          6.77
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_001",
+      "audio_rms": 0.0112
+    },
+    {
+      "shot_id": "SH_00005",
+      "start_sec": 29.6,
+      "end_sec": 32.6,
+      "duration_sec": 3.0,
+      "reference_images": {
+        "in": "SH_00005_in.jpg",
+        "mid": "SH_00005_mid.jpg",
+        "out": "SH_00005_out.jpg"
+      },
+      "anchor_sample_times": [
+        29.8,
+        31.2,
+        32.4
+      ],
+      "visual": {
+        "luminance": 0.399,
+        "contrast": 0.478,
+        "saturation": 0.268,
+        "edge_density": 0.217,
+        "visual_attention_proxy_xy": [
+          0.553,
+          0.494
+        ],
+        "lab_mean": [
+          107.5,
+          127.5,
+          142.0
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          -0.16,
+          -0.01
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_001",
+      "audio_rms": 0.01045
+    },
+    {
+      "shot_id": "SH_00006",
+      "start_sec": 32.6,
+      "end_sec": 35.0,
+      "duration_sec": 2.4,
+      "reference_images": {
+        "in": "SH_00006_in.jpg",
+        "mid": "SH_00006_mid.jpg",
+        "out": "SH_00006_out.jpg"
+      },
+      "anchor_sample_times": [
+        32.8,
+        33.8,
+        34.8
+      ],
+      "visual": {
+        "luminance": 0.436,
+        "contrast": 0.381,
+        "saturation": 0.281,
+        "edge_density": 0.199,
+        "visual_attention_proxy_xy": [
+          0.583,
+          0.487
+        ],
+        "lab_mean": [
+          118.7,
+          127.9,
+          143.8
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          0.04,
+          4.89
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_001",
+      "audio_rms": 0.01477
+    },
+    {
+      "shot_id": "SH_00007",
+      "start_sec": 35.0,
+      "end_sec": 36.6,
+      "duration_sec": 1.6,
+      "reference_images": {
+        "in": "SH_00007_in.jpg",
+        "mid": "SH_00007_mid.jpg",
+        "out": "SH_00007_out.jpg"
+      },
+      "anchor_sample_times": [
+        35.2,
+        35.8,
+        36.4
+      ],
+      "visual": {
+        "luminance": 0.505,
+        "contrast": 0.388,
+        "saturation": 0.321,
+        "edge_density": 0.27,
+        "visual_attention_proxy_xy": [
+          0.495,
+          0.522
+        ],
+        "lab_mean": [
+          136.5,
+          127.9,
+          147.9
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          25.42,
+          0.79
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_001",
+      "audio_rms": 0.01172
+    },
+    {
+      "shot_id": "SH_00008",
+      "start_sec": 36.6,
+      "end_sec": 38.2,
+      "duration_sec": 1.6,
+      "reference_images": {
+        "in": "SH_00008_in.jpg",
+        "mid": "SH_00008_mid.jpg",
+        "out": "SH_00008_out.jpg"
+      },
+      "anchor_sample_times": [
+        36.8,
+        37.4,
+        38.0
+      ],
+      "visual": {
+        "luminance": 0.211,
+        "contrast": 0.373,
+        "saturation": 0.361,
+        "edge_density": 0.059,
+        "visual_attention_proxy_xy": [
+          0.371,
+          0.606
+        ],
+        "lab_mean": [
+          54.9,
+          131.4,
+          135.4
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          36.12,
+          -2.99
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_002",
+      "audio_rms": 0.02679
+    },
+    {
+      "shot_id": "SH_00009",
+      "start_sec": 38.2,
+      "end_sec": 47.2,
+      "duration_sec": 9.0,
+      "reference_images": {
+        "in": "SH_00009_in.jpg",
+        "mid": "SH_00009_mid.jpg",
+        "out": "SH_00009_out.jpg"
+      },
+      "anchor_sample_times": [
+        39.0,
+        42.8,
+        46.4
+      ],
+      "visual": {
+        "luminance": 0.336,
+        "contrast": 0.368,
+        "saturation": 0.337,
+        "edge_density": 0.129,
+        "visual_attention_proxy_xy": [
+          0.434,
+          0.526
+        ],
+        "lab_mean": [
+          91.3,
+          128.9,
+          140.7
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          7.92,
+          -8.23
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_002",
+      "audio_rms": 0.01631
+    },
+    {
+      "shot_id": "SH_00010",
+      "start_sec": 47.2,
+      "end_sec": 49.8,
+      "duration_sec": 2.6,
+      "reference_images": {
+        "in": "SH_00010_in.jpg",
+        "mid": "SH_00010_mid.jpg",
+        "out": "SH_00010_out.jpg"
+      },
+      "anchor_sample_times": [
+        47.4,
+        48.4,
+        49.6
+      ],
+      "visual": {
+        "luminance": 0.489,
+        "contrast": 0.327,
+        "saturation": 0.299,
+        "edge_density": 0.326,
+        "visual_attention_proxy_xy": [
+          0.533,
+          0.52
+        ],
+        "lab_mean": [
+          132.5,
+          129.3,
+          144.2
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          0.0,
+          0.0
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_002",
+      "audio_rms": 0.0138
+    },
+    {
+      "shot_id": "SH_00011",
+      "start_sec": 49.8,
+      "end_sec": 51.0,
+      "duration_sec": 1.2,
+      "reference_images": {
+        "in": "SH_00011_in.jpg",
+        "mid": "SH_00011_mid.jpg",
+        "out": "SH_00011_out.jpg"
+      },
+      "anchor_sample_times": [
+        49.8,
+        50.4,
+        51.0
+      ],
+      "visual": {
+        "luminance": 0.51,
+        "contrast": 0.605,
+        "saturation": 0.268,
+        "edge_density": 0.126,
+        "visual_attention_proxy_xy": [
+          0.542,
+          0.549
+        ],
+        "lab_mean": [
+          135.3,
+          125.8,
+          141.8
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -0.37,
+          41.16
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_002",
+      "audio_rms": 0.02818
+    },
+    {
+      "shot_id": "SH_00012",
+      "start_sec": 51.0,
+      "end_sec": 64.8,
+      "duration_sec": 13.8,
+      "reference_images": {
+        "in": "SH_00012_in.jpg",
+        "mid": "SH_00012_mid.jpg",
+        "out": "SH_00012_out.jpg"
+      },
+      "anchor_sample_times": [
+        52.2,
+        58.0,
+        63.6
+      ],
+      "visual": {
+        "luminance": 0.255,
+        "contrast": 0.396,
+        "saturation": 0.353,
+        "edge_density": 0.125,
+        "visual_attention_proxy_xy": [
+          0.48,
+          0.5
+        ],
+        "lab_mean": [
+          68.3,
+          127.9,
+          138.7
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          1.43,
+          0.24
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_003",
+      "audio_rms": 0.01608
+    },
+    {
+      "shot_id": "SH_00013",
+      "start_sec": 64.8,
+      "end_sec": 82.8,
+      "duration_sec": 18.0,
+      "reference_images": {
+        "in": "SH_00013_in.jpg",
+        "mid": "SH_00013_mid.jpg",
+        "out": "SH_00013_out.jpg"
+      },
+      "anchor_sample_times": [
+        66.2,
+        73.8,
+        81.4
+      ],
+      "visual": {
+        "luminance": 0.299,
+        "contrast": 0.33,
+        "saturation": 0.313,
+        "edge_density": 0.058,
+        "visual_attention_proxy_xy": [
+          0.371,
+          0.366
+        ],
+        "lab_mean": [
+          81.2,
+          129.4,
+          140.8
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          32.4,
+          -2.42
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_003",
+      "audio_rms": 0.02085
+    },
+    {
+      "shot_id": "SH_00014",
+      "start_sec": 82.8,
+      "end_sec": 90.4,
+      "duration_sec": 7.6,
+      "reference_images": {
+        "in": "SH_00014_in.jpg",
+        "mid": "SH_00014_mid.jpg",
+        "out": "SH_00014_out.jpg"
+      },
+      "anchor_sample_times": [
+        83.4,
+        86.6,
+        89.8
+      ],
+      "visual": {
+        "luminance": 0.297,
+        "contrast": 0.448,
+        "saturation": 0.45,
+        "edge_density": 0.118,
+        "visual_attention_proxy_xy": [
+          0.485,
+          0.492
+        ],
+        "lab_mean": [
+          79.5,
+          130.7,
+          141.8
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -2.68,
+          6.4
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_003",
+      "audio_rms": 0.06672
+    },
+    {
+      "shot_id": "SH_00015",
+      "start_sec": 90.4,
+      "end_sec": 112.8,
+      "duration_sec": 22.4,
+      "reference_images": {
+        "in": "SH_00015_in.jpg",
+        "mid": "SH_00015_mid.jpg",
+        "out": "SH_00015_out.jpg"
+      },
+      "anchor_sample_times": [
+        92.2,
+        101.6,
+        111.0
+      ],
+      "visual": {
+        "luminance": 0.417,
+        "contrast": 0.327,
+        "saturation": 0.342,
+        "edge_density": 0.078,
+        "visual_attention_proxy_xy": [
+          0.464,
+          0.552
+        ],
+        "lab_mean": [
+          113.6,
+          130.7,
+          145.6
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          6.21,
+          1.35
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_003",
+      "audio_rms": 0.02136
+    },
+    {
+      "shot_id": "SH_00016",
+      "start_sec": 112.8,
+      "end_sec": 116.2,
+      "duration_sec": 3.4,
+      "reference_images": {
+        "in": "SH_00016_in.jpg",
+        "mid": "SH_00016_mid.jpg",
+        "out": "SH_00016_out.jpg"
+      },
+      "anchor_sample_times": [
+        113.0,
+        114.4,
+        116.0
+      ],
+      "visual": {
+        "luminance": 0.246,
+        "contrast": 0.247,
+        "saturation": 0.272,
+        "edge_density": 0.205,
+        "visual_attention_proxy_xy": [
+          0.457,
+          0.449
+        ],
+        "lab_mean": [
+          66.7,
+          129.0,
+          136.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          18.23,
+          -0.4
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_004",
+      "audio_rms": 0.00622
+    },
+    {
+      "shot_id": "SH_00017",
+      "start_sec": 116.2,
+      "end_sec": 121.0,
+      "duration_sec": 4.8,
+      "reference_images": {
+        "in": "SH_00017_in.jpg",
+        "mid": "SH_00017_mid.jpg",
+        "out": "SH_00017_out.jpg"
+      },
+      "anchor_sample_times": [
+        116.6,
+        118.6,
+        120.6
+      ],
+      "visual": {
+        "luminance": 0.244,
+        "contrast": 0.217,
+        "saturation": 0.128,
+        "edge_density": 0.099,
+        "visual_attention_proxy_xy": [
+          0.307,
+          0.4
+        ],
+        "lab_mean": [
+          66.1,
+          129.0,
+          130.4
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          4.47,
+          -17.3
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_004",
+      "audio_rms": 0.00496
+    },
+    {
+      "shot_id": "SH_00018",
+      "start_sec": 121.0,
+      "end_sec": 142.2,
+      "duration_sec": 21.2,
+      "reference_images": {
+        "in": "SH_00018_in.jpg",
+        "mid": "SH_00018_mid.jpg",
+        "out": "SH_00018_out.jpg"
+      },
+      "anchor_sample_times": [
+        122.6,
+        131.6,
+        140.6
+      ],
+      "visual": {
+        "luminance": 0.239,
+        "contrast": 0.273,
+        "saturation": 0.198,
+        "edge_density": 0.205,
+        "visual_attention_proxy_xy": [
+          0.439,
+          0.465
+        ],
+        "lab_mean": [
+          64.3,
+          128.0,
+          132.8
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          14.79,
+          -10.61
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_004",
+      "audio_rms": 0.00732
+    },
+    {
+      "shot_id": "SH_00019",
+      "start_sec": 142.2,
+      "end_sec": 157.4,
+      "duration_sec": 15.2,
+      "reference_images": {
+        "in": "SH_00019_in.jpg",
+        "mid": "SH_00019_mid.jpg",
+        "out": "SH_00019_out.jpg"
+      },
+      "anchor_sample_times": [
+        143.4,
+        149.8,
+        156.2
+      ],
+      "visual": {
+        "luminance": 0.177,
+        "contrast": 0.331,
+        "saturation": 0.423,
+        "edge_density": 0.128,
+        "visual_attention_proxy_xy": [
+          0.473,
+          0.305
+        ],
+        "lab_mean": [
+          45.1,
+          133.0,
+          135.0
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -8.2,
+          -17.16
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_004",
+      "audio_rms": 0.0161
+    },
+    {
+      "shot_id": "SH_00020",
+      "start_sec": 157.4,
+      "end_sec": 163.2,
+      "duration_sec": 5.8,
+      "reference_images": {
+        "in": "SH_00020_in.jpg",
+        "mid": "SH_00020_mid.jpg",
+        "out": "SH_00020_out.jpg"
+      },
+      "anchor_sample_times": [
+        157.8,
+        160.4,
+        162.8
+      ],
+      "visual": {
+        "luminance": 0.395,
+        "contrast": 0.554,
+        "saturation": 0.339,
+        "edge_density": 0.071,
+        "visual_attention_proxy_xy": [
+          0.52,
+          0.522
+        ],
+        "lab_mean": [
+          105.0,
+          128.1,
+          143.0
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          -0.01,
+          -0.06
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_005",
+      "audio_rms": 0.09708
+    },
+    {
+      "shot_id": "SH_00021",
+      "start_sec": 163.2,
+      "end_sec": 174.4,
+      "duration_sec": 11.2,
+      "reference_images": {
+        "in": "SH_00021_in.jpg",
+        "mid": "SH_00021_mid.jpg",
+        "out": "SH_00021_out.jpg"
+      },
+      "anchor_sample_times": [
+        164.0,
+        168.8,
+        173.6
+      ],
+      "visual": {
+        "luminance": 0.137,
+        "contrast": 0.215,
+        "saturation": 0.245,
+        "edge_density": 0.112,
+        "visual_attention_proxy_xy": [
+          0.507,
+          0.541
+        ],
+        "lab_mean": [
+          35.3,
+          127.3,
+          125.7
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          4.14,
+          0.29
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_006",
+      "audio_rms": 0.0585
+    },
+    {
+      "shot_id": "SH_00022",
+      "start_sec": 174.4,
+      "end_sec": 182.0,
+      "duration_sec": 7.6,
+      "reference_images": {
+        "in": "SH_00022_in.jpg",
+        "mid": "SH_00022_mid.jpg",
+        "out": "SH_00022_out.jpg"
+      },
+      "anchor_sample_times": [
+        175.0,
+        178.2,
+        181.4
+      ],
+      "visual": {
+        "luminance": 0.213,
+        "contrast": 0.272,
+        "saturation": 0.237,
+        "edge_density": 0.146,
+        "visual_attention_proxy_xy": [
+          0.479,
+          0.426
+        ],
+        "lab_mean": [
+          57.2,
+          125.1,
+          129.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -0.28,
+          2.79
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_006",
+      "audio_rms": 0.06981
+    },
+    {
+      "shot_id": "SH_00023",
+      "start_sec": 182.0,
+      "end_sec": 188.0,
+      "duration_sec": 6.0,
+      "reference_images": {
+        "in": "SH_00023_in.jpg",
+        "mid": "SH_00023_mid.jpg",
+        "out": "SH_00023_out.jpg"
+      },
+      "anchor_sample_times": [
+        182.4,
+        185.0,
+        187.6
+      ],
+      "visual": {
+        "luminance": 0.197,
+        "contrast": 0.292,
+        "saturation": 0.245,
+        "edge_density": 0.087,
+        "visual_attention_proxy_xy": [
+          0.305,
+          0.523
+        ],
+        "lab_mean": [
+          51.6,
+          129.6,
+          129.3
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          6.29,
+          -11.14
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_006",
+      "audio_rms": 0.07826
+    },
+    {
+      "shot_id": "SH_00024",
+      "start_sec": 188.0,
+      "end_sec": 194.8,
+      "duration_sec": 6.8,
+      "reference_images": {
+        "in": "SH_00024_in.jpg",
+        "mid": "SH_00024_mid.jpg",
+        "out": "SH_00024_out.jpg"
+      },
+      "anchor_sample_times": [
+        188.6,
+        191.4,
+        194.2
+      ],
+      "visual": {
+        "luminance": 0.159,
+        "contrast": 0.284,
+        "saturation": 0.333,
+        "edge_density": 0.126,
+        "visual_attention_proxy_xy": [
+          0.501,
+          0.414
+        ],
+        "lab_mean": [
+          40.7,
+          127.9,
+          125.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -17.24,
+          13.31
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_006",
+      "audio_rms": 0.06255
+    },
+    {
+      "shot_id": "SH_00025",
+      "start_sec": 194.8,
+      "end_sec": 198.0,
+      "duration_sec": 3.2,
+      "reference_images": {
+        "in": "SH_00025_in.jpg",
+        "mid": "SH_00025_mid.jpg",
+        "out": "SH_00025_out.jpg"
+      },
+      "anchor_sample_times": [
+        195.0,
+        196.4,
+        197.8
+      ],
+      "visual": {
+        "luminance": 0.436,
+        "contrast": 0.374,
+        "saturation": 0.309,
+        "edge_density": 0.096,
+        "visual_attention_proxy_xy": [
+          0.553,
+          0.58
+        ],
+        "lab_mean": [
+          118.1,
+          131.3,
+          142.2
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          20.75,
+          0.17
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_007",
+      "audio_rms": 0.08411
+    },
+    {
+      "shot_id": "SH_00026",
+      "start_sec": 198.0,
+      "end_sec": 201.2,
+      "duration_sec": 3.2,
+      "reference_images": {
+        "in": "SH_00026_in.jpg",
+        "mid": "SH_00026_mid.jpg",
+        "out": "SH_00026_out.jpg"
+      },
+      "anchor_sample_times": [
+        198.2,
+        199.6,
+        201.0
+      ],
+      "visual": {
+        "luminance": 0.197,
+        "contrast": 0.26,
+        "saturation": 0.172,
+        "edge_density": 0.175,
+        "visual_attention_proxy_xy": [
+          0.5,
+          0.49
+        ],
+        "lab_mean": [
+          52.6,
+          127.4,
+          127.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -3.44,
+          2.95
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_008",
+      "audio_rms": 0.06135
+    },
+    {
+      "shot_id": "SH_00027",
+      "start_sec": 201.2,
+      "end_sec": 204.6,
+      "duration_sec": 3.4,
+      "reference_images": {
+        "in": "SH_00027_in.jpg",
+        "mid": "SH_00027_mid.jpg",
+        "out": "SH_00027_out.jpg"
+      },
+      "anchor_sample_times": [
+        201.4,
+        202.8,
+        204.4
+      ],
+      "visual": {
+        "luminance": 0.211,
+        "contrast": 0.257,
+        "saturation": 0.5,
+        "edge_density": 0.084,
+        "visual_attention_proxy_xy": [
+          0.554,
+          0.479
+        ],
+        "lab_mean": [
+          56.3,
+          133.3,
+          141.5
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -12.55,
+          -10.58
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_008",
+      "audio_rms": 0.03703
+    },
+    {
+      "shot_id": "SH_00028",
+      "start_sec": 204.6,
+      "end_sec": 238.6,
+      "duration_sec": 34.0,
+      "reference_images": {
+        "in": "SH_00028_in.jpg",
+        "mid": "SH_00028_mid.jpg",
+        "out": "SH_00028_out.jpg"
+      },
+      "anchor_sample_times": [
+        207.4,
+        221.6,
+        235.8
+      ],
+      "visual": {
+        "luminance": 0.133,
+        "contrast": 0.269,
+        "saturation": 0.362,
+        "edge_density": 0.107,
+        "visual_attention_proxy_xy": [
+          0.484,
+          0.538
+        ],
+        "lab_mean": [
+          33.4,
+          130.2,
+          134.1
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -3.48,
+          2.72
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_008",
+      "audio_rms": 0.06182
+    },
+    {
+      "shot_id": "SH_00029",
+      "start_sec": 238.6,
+      "end_sec": 241.6,
+      "duration_sec": 3.0,
+      "reference_images": {
+        "in": "SH_00029_in.jpg",
+        "mid": "SH_00029_mid.jpg",
+        "out": "SH_00029_out.jpg"
+      },
+      "anchor_sample_times": [
+        238.8,
+        240.0,
+        241.4
+      ],
+      "visual": {
+        "luminance": 0.189,
+        "contrast": 0.332,
+        "saturation": 0.28,
+        "edge_density": 0.109,
+        "visual_attention_proxy_xy": [
+          0.423,
+          0.625
+        ],
+        "lab_mean": [
+          49.5,
+          128.5,
+          133.1
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          18.93,
+          -5.02
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_008",
+      "audio_rms": 0.08309
+    },
+    {
+      "shot_id": "SH_00030",
+      "start_sec": 241.6,
+      "end_sec": 257.2,
+      "duration_sec": 15.6,
+      "reference_images": {
+        "in": "SH_00030_in.jpg",
+        "mid": "SH_00030_mid.jpg",
+        "out": "SH_00030_out.jpg"
+      },
+      "anchor_sample_times": [
+        242.8,
+        249.4,
+        256.0
+      ],
+      "visual": {
+        "luminance": 0.179,
+        "contrast": 0.224,
+        "saturation": 0.475,
+        "edge_density": 0.099,
+        "visual_attention_proxy_xy": [
+          0.53,
+          0.557
+        ],
+        "lab_mean": [
+          47.2,
+          132.3,
+          138.7
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -16.42,
+          -9.22
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_008",
+      "audio_rms": 0.0263
+    },
+    {
+      "shot_id": "SH_00031",
+      "start_sec": 257.2,
+      "end_sec": 259.6,
+      "duration_sec": 2.4,
+      "reference_images": {
+        "in": "SH_00031_in.jpg",
+        "mid": "SH_00031_mid.jpg",
+        "out": "SH_00031_out.jpg"
+      },
+      "anchor_sample_times": [
+        257.4,
+        258.4,
+        259.4
+      ],
+      "visual": {
+        "luminance": 0.123,
+        "contrast": 0.127,
+        "saturation": 0.177,
+        "edge_density": 0.011,
+        "visual_attention_proxy_xy": [
+          0.686,
+          0.652
+        ],
+        "lab_mean": [
+          30.7,
+          126.0,
+          128.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -3.96,
+          -1.68
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_008",
+      "audio_rms": 0.38641
+    },
+    {
+      "shot_id": "SH_00032",
+      "start_sec": 259.6,
+      "end_sec": 268.0,
+      "duration_sec": 8.4,
+      "reference_images": {
+        "in": "SH_00032_in.jpg",
+        "mid": "SH_00032_mid.jpg",
+        "out": "SH_00032_out.jpg"
+      },
+      "anchor_sample_times": [
+        260.2,
+        263.8,
+        267.4
+      ],
+      "visual": {
+        "luminance": 0.138,
+        "contrast": 0.162,
+        "saturation": 0.4,
+        "edge_density": 0.036,
+        "visual_attention_proxy_xy": [
+          0.335,
+          0.559
+        ],
+        "lab_mean": [
+          35.1,
+          131.1,
+          134.5
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -9.09,
+          2.16
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_008",
+      "audio_rms": 0.23472
+    },
+    {
+      "shot_id": "SH_00033",
+      "start_sec": 268.0,
+      "end_sec": 270.4,
+      "duration_sec": 2.4,
+      "reference_images": {
+        "in": "SH_00033_in.jpg",
+        "mid": "SH_00033_mid.jpg",
+        "out": "SH_00033_out.jpg"
+      },
+      "anchor_sample_times": [
+        268.2,
+        269.2,
+        270.2
+      ],
+      "visual": {
+        "luminance": 0.206,
+        "contrast": 0.341,
+        "saturation": 0.309,
+        "edge_density": 0.108,
+        "visual_attention_proxy_xy": [
+          0.436,
+          0.59
+        ],
+        "lab_mean": [
+          54.1,
+          128.3,
+          135.5
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          0.91,
+          -2.44
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_008",
+      "audio_rms": 0.18393
+    },
+    {
+      "shot_id": "SH_00034",
+      "start_sec": 270.4,
+      "end_sec": 271.2,
+      "duration_sec": 0.8,
+      "reference_images": {
+        "in": "SH_00034_in.jpg",
+        "mid": "SH_00034_mid.jpg",
+        "out": "SH_00034_out.jpg"
+      },
+      "anchor_sample_times": [
+        270.4,
+        270.8,
+        271.2
+      ],
+      "visual": {
+        "luminance": 0.149,
+        "contrast": 0.178,
+        "saturation": 0.492,
+        "edge_density": 0.087,
+        "visual_attention_proxy_xy": [
+          0.361,
+          0.525
+        ],
+        "lab_mean": [
+          38.4,
+          131.7,
+          137.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          4.27,
+          6.53
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_008",
+      "audio_rms": 0.10568
+    },
+    {
+      "shot_id": "SH_00035",
+      "start_sec": 271.2,
+      "end_sec": 274.4,
+      "duration_sec": 3.2,
+      "reference_images": {
+        "in": "SH_00035_in.jpg",
+        "mid": "SH_00035_mid.jpg",
+        "out": "SH_00035_out.jpg"
+      },
+      "anchor_sample_times": [
+        271.4,
+        272.8,
+        274.2
+      ],
+      "visual": {
+        "luminance": 0.264,
+        "contrast": 0.309,
+        "saturation": 0.227,
+        "edge_density": 0.164,
+        "visual_attention_proxy_xy": [
+          0.424,
+          0.456
+        ],
+        "lab_mean": [
+          70.9,
+          130.0,
+          134.2
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -3.18,
+          3.06
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_009",
+      "audio_rms": 0.2015
+    },
+    {
+      "shot_id": "SH_00036",
+      "start_sec": 274.4,
+      "end_sec": 278.0,
+      "duration_sec": 3.6,
+      "reference_images": {
+        "in": "SH_00036_in.jpg",
+        "mid": "SH_00036_mid.jpg",
+        "out": "SH_00036_out.jpg"
+      },
+      "anchor_sample_times": [
+        274.6,
+        276.2,
+        277.8
+      ],
+      "visual": {
+        "luminance": 0.171,
+        "contrast": 0.192,
+        "saturation": 0.237,
+        "edge_density": 0.017,
+        "visual_attention_proxy_xy": [
+          0.513,
+          0.644
+        ],
+        "lab_mean": [
+          45.0,
+          126.2,
+          127.8
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          6.86,
+          -1.6
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_009",
+      "audio_rms": 0.44551
+    },
+    {
+      "shot_id": "SH_00037",
+      "start_sec": 278.0,
+      "end_sec": 280.6,
+      "duration_sec": 2.6,
+      "reference_images": {
+        "in": "SH_00037_in.jpg",
+        "mid": "SH_00037_mid.jpg",
+        "out": "SH_00037_out.jpg"
+      },
+      "anchor_sample_times": [
+        278.2,
+        279.2,
+        280.4
+      ],
+      "visual": {
+        "luminance": 0.138,
+        "contrast": 0.24,
+        "saturation": 0.353,
+        "edge_density": 0.139,
+        "visual_attention_proxy_xy": [
+          0.504,
+          0.442
+        ],
+        "lab_mean": [
+          34.6,
+          130.5,
+          133.2
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          2.42,
+          3.39
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_009",
+      "audio_rms": 0.30781
+    },
+    {
+      "shot_id": "SH_00038",
+      "start_sec": 280.6,
+      "end_sec": 282.8,
+      "duration_sec": 2.2,
+      "reference_images": {
+        "in": "SH_00038_in.jpg",
+        "mid": "SH_00038_mid.jpg",
+        "out": "SH_00038_out.jpg"
+      },
+      "anchor_sample_times": [
+        280.8,
+        281.8,
+        282.6
+      ],
+      "visual": {
+        "luminance": 0.266,
+        "contrast": 0.396,
+        "saturation": 0.279,
+        "edge_density": 0.166,
+        "visual_attention_proxy_xy": [
+          0.457,
+          0.537
+        ],
+        "lab_mean": [
+          70.5,
+          130.3,
+          136.2
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          2.55,
+          -0.1
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_009",
+      "audio_rms": 0.15899
+    },
+    {
+      "shot_id": "SH_00039",
+      "start_sec": 282.8,
+      "end_sec": 292.6,
+      "duration_sec": 9.8,
+      "reference_images": {
+        "in": "SH_00039_in.jpg",
+        "mid": "SH_00039_mid.jpg",
+        "out": "SH_00039_out.jpg"
+      },
+      "anchor_sample_times": [
+        283.6,
+        287.8,
+        291.8
+      ],
+      "visual": {
+        "luminance": 0.141,
+        "contrast": 0.202,
+        "saturation": 0.386,
+        "edge_density": 0.109,
+        "visual_attention_proxy_xy": [
+          0.494,
+          0.494
+        ],
+        "lab_mean": [
+          35.8,
+          130.9,
+          134.8
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -8.12,
+          -5.92
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_009",
+      "audio_rms": 0.02344
+    },
+    {
+      "shot_id": "SH_00040",
+      "start_sec": 292.6,
+      "end_sec": 302.8,
+      "duration_sec": 10.2,
+      "reference_images": {
+        "in": "SH_00040_in.jpg",
+        "mid": "SH_00040_mid.jpg",
+        "out": "SH_00040_out.jpg"
+      },
+      "anchor_sample_times": [
+        293.4,
+        297.8,
+        302.0
+      ],
+      "visual": {
+        "luminance": 0.093,
+        "contrast": 0.081,
+        "saturation": 0.432,
+        "edge_density": 0.014,
+        "visual_attention_proxy_xy": [
+          0.594,
+          0.491
+        ],
+        "lab_mean": [
+          21.1,
+          132.9,
+          132.3
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          34.41,
+          -4.79
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_009",
+      "audio_rms": 0.00695
+    },
+    {
+      "shot_id": "SH_00041",
+      "start_sec": 302.8,
+      "end_sec": 316.4,
+      "duration_sec": 13.6,
+      "reference_images": {
+        "in": "SH_00041_in.jpg",
+        "mid": "SH_00041_mid.jpg",
+        "out": "SH_00041_out.jpg"
+      },
+      "anchor_sample_times": [
+        303.8,
+        309.6,
+        315.4
+      ],
+      "visual": {
+        "luminance": 0.138,
+        "contrast": 0.263,
+        "saturation": 0.456,
+        "edge_density": 0.115,
+        "visual_attention_proxy_xy": [
+          0.494,
+          0.551
+        ],
+        "lab_mean": [
+          34.7,
+          132.0,
+          135.9
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          6.3,
+          0.41
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_009",
+      "audio_rms": 0.0081
+    },
+    {
+      "shot_id": "SH_00042",
+      "start_sec": 316.4,
+      "end_sec": 337.0,
+      "duration_sec": 20.6,
+      "reference_images": {
+        "in": "SH_00042_in.jpg",
+        "mid": "SH_00042_mid.jpg",
+        "out": "SH_00042_out.jpg"
+      },
+      "anchor_sample_times": [
+        318.0,
+        326.8,
+        335.4
+      ],
+      "visual": {
+        "luminance": 0.123,
+        "contrast": 0.211,
+        "saturation": 0.313,
+        "edge_density": 0.118,
+        "visual_attention_proxy_xy": [
+          0.446,
+          0.529
+        ],
+        "lab_mean": [
+          31.1,
+          128.3,
+          132.0
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          8.04,
+          1.75
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_009",
+      "audio_rms": 0.01264
+    },
+    {
+      "shot_id": "SH_00043",
+      "start_sec": 337.0,
+      "end_sec": 358.2,
+      "duration_sec": 21.2,
+      "reference_images": {
+        "in": "SH_00043_in.jpg",
+        "mid": "SH_00043_mid.jpg",
+        "out": "SH_00043_out.jpg"
+      },
+      "anchor_sample_times": [
+        338.6,
+        347.6,
+        356.6
+      ],
+      "visual": {
+        "luminance": 0.112,
+        "contrast": 0.193,
+        "saturation": 0.365,
+        "edge_density": 0.094,
+        "visual_attention_proxy_xy": [
+          0.467,
+          0.64
+        ],
+        "lab_mean": [
+          26.5,
+          130.8,
+          132.2
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -1.77,
+          -5.47
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_009",
+      "audio_rms": 0.01557
+    },
+    {
+      "shot_id": "SH_00044",
+      "start_sec": 358.2,
+      "end_sec": 379.6,
+      "duration_sec": 21.4,
+      "reference_images": {
+        "in": "SH_00044_in.jpg",
+        "mid": "SH_00044_mid.jpg",
+        "out": "SH_00044_out.jpg"
+      },
+      "anchor_sample_times": [
+        360.0,
+        368.8,
+        377.8
+      ],
+      "visual": {
+        "luminance": 0.202,
+        "contrast": 0.301,
+        "saturation": 0.257,
+        "edge_density": 0.147,
+        "visual_attention_proxy_xy": [
+          0.423,
+          0.502
+        ],
+        "lab_mean": [
+          53.4,
+          128.9,
+          132.8
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -5.6,
+          0.77
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_010",
+      "audio_rms": 0.01644
+    },
+    {
+      "shot_id": "SH_00045",
+      "start_sec": 379.6,
+      "end_sec": 382.8,
+      "duration_sec": 3.2,
+      "reference_images": {
+        "in": "SH_00045_in.jpg",
+        "mid": "SH_00045_mid.jpg",
+        "out": "SH_00045_out.jpg"
+      },
+      "anchor_sample_times": [
+        379.8,
+        381.2,
+        382.6
+      ],
+      "visual": {
+        "luminance": 0.185,
+        "contrast": 0.275,
+        "saturation": 0.22,
+        "edge_density": 0.145,
+        "visual_attention_proxy_xy": [
+          0.44,
+          0.53
+        ],
+        "lab_mean": [
+          48.4,
+          128.5,
+          131.4
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          0.5,
+          -0.07
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_010",
+      "audio_rms": 0.02896
+    },
+    {
+      "shot_id": "SH_00046",
+      "start_sec": 382.8,
+      "end_sec": 384.4,
+      "duration_sec": 1.6,
+      "reference_images": {
+        "in": "SH_00046_in.jpg",
+        "mid": "SH_00046_mid.jpg",
+        "out": "SH_00046_out.jpg"
+      },
+      "anchor_sample_times": [
+        383.0,
+        383.6,
+        384.2
+      ],
+      "visual": {
+        "luminance": 0.1,
+        "contrast": 0.176,
+        "saturation": 0.285,
+        "edge_density": 0.074,
+        "visual_attention_proxy_xy": [
+          0.495,
+          0.538
+        ],
+        "lab_mean": [
+          23.9,
+          128.6,
+          127.5
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -2.94,
+          2.28
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_010",
+      "audio_rms": 0.12141
+    },
+    {
+      "shot_id": "SH_00047",
+      "start_sec": 384.4,
+      "end_sec": 387.4,
+      "duration_sec": 3.0,
+      "reference_images": {
+        "in": "SH_00047_in.jpg",
+        "mid": "SH_00047_mid.jpg",
+        "out": "SH_00047_out.jpg"
+      },
+      "anchor_sample_times": [
+        384.6,
+        386.0,
+        387.2
+      ],
+      "visual": {
+        "luminance": 0.175,
+        "contrast": 0.197,
+        "saturation": 0.14,
+        "edge_density": 0.043,
+        "visual_attention_proxy_xy": [
+          0.548,
+          0.619
+        ],
+        "lab_mean": [
+          46.4,
+          126.0,
+          129.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          4.2,
+          -1.28
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_010",
+      "audio_rms": 0.06094
+    },
+    {
+      "shot_id": "SH_00048",
+      "start_sec": 387.4,
+      "end_sec": 407.4,
+      "duration_sec": 20.0,
+      "reference_images": {
+        "in": "SH_00048_in.jpg",
+        "mid": "SH_00048_mid.jpg",
+        "out": "SH_00048_out.jpg"
+      },
+      "anchor_sample_times": [
+        389.0,
+        397.4,
+        405.8
+      ],
+      "visual": {
+        "luminance": 0.133,
+        "contrast": 0.191,
+        "saturation": 0.236,
+        "edge_density": 0.108,
+        "visual_attention_proxy_xy": [
+          0.462,
+          0.569
+        ],
+        "lab_mean": [
+          33.5,
+          128.0,
+          128.5
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -4.56,
+          6.95
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_010",
+      "audio_rms": 0.05176
+    },
+    {
+      "shot_id": "SH_00049",
+      "start_sec": 407.4,
+      "end_sec": 408.8,
+      "duration_sec": 1.4,
+      "reference_images": {
+        "in": "SH_00049_in.jpg",
+        "mid": "SH_00049_mid.jpg",
+        "out": "SH_00049_out.jpg"
+      },
+      "anchor_sample_times": [
+        407.6,
+        408.0,
+        408.6
+      ],
+      "visual": {
+        "luminance": 0.187,
+        "contrast": 0.22,
+        "saturation": 0.126,
+        "edge_density": 0.045,
+        "visual_attention_proxy_xy": [
+          0.595,
+          0.474
+        ],
+        "lab_mean": [
+          49.9,
+          126.7,
+          129.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -13.87,
+          5.69
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_010",
+      "audio_rms": 0.02601
+    },
+    {
+      "shot_id": "SH_00050",
+      "start_sec": 408.8,
+      "end_sec": 415.4,
+      "duration_sec": 6.6,
+      "reference_images": {
+        "in": "SH_00050_in.jpg",
+        "mid": "SH_00050_mid.jpg",
+        "out": "SH_00050_out.jpg"
+      },
+      "anchor_sample_times": [
+        409.4,
+        412.0,
+        414.8
+      ],
+      "visual": {
+        "luminance": 0.148,
+        "contrast": 0.198,
+        "saturation": 0.217,
+        "edge_density": 0.114,
+        "visual_attention_proxy_xy": [
+          0.467,
+          0.453
+        ],
+        "lab_mean": [
+          38.0,
+          128.9,
+          128.0
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -3.22,
+          3.62
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_010",
+      "audio_rms": 0.12415
+    },
+    {
+      "shot_id": "SH_00051",
+      "start_sec": 415.4,
+      "end_sec": 432.8,
+      "duration_sec": 17.4,
+      "reference_images": {
+        "in": "SH_00051_in.jpg",
+        "mid": "SH_00051_mid.jpg",
+        "out": "SH_00051_out.jpg"
+      },
+      "anchor_sample_times": [
+        416.8,
+        424.0,
+        431.4
+      ],
+      "visual": {
+        "luminance": 0.136,
+        "contrast": 0.2,
+        "saturation": 0.176,
+        "edge_density": 0.075,
+        "visual_attention_proxy_xy": [
+          0.551,
+          0.546
+        ],
+        "lab_mean": [
+          34.6,
+          128.6,
+          128.3
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          10.03,
+          14.34
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_010",
+      "audio_rms": 0.09558
+    },
+    {
+      "shot_id": "SH_00052",
+      "start_sec": 432.8,
+      "end_sec": 520.6,
+      "duration_sec": 87.8,
+      "reference_images": {
+        "in": "SH_00052_in.jpg",
+        "mid": "SH_00052_mid.jpg",
+        "out": "SH_00052_out.jpg"
+      },
+      "anchor_sample_times": [
+        439.8,
+        476.8,
+        513.6
+      ],
+      "visual": {
+        "luminance": 0.121,
+        "contrast": 0.206,
+        "saturation": 0.435,
+        "edge_density": 0.116,
+        "visual_attention_proxy_xy": [
+          0.548,
+          0.468
+        ],
+        "lab_mean": [
+          30.3,
+          129.9,
+          135.3
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -0.63,
+          -12.88
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_010",
+      "audio_rms": 0.0301
+    },
+    {
+      "shot_id": "SH_00053",
+      "start_sec": 520.6,
+      "end_sec": 540.4,
+      "duration_sec": 19.8,
+      "reference_images": {
+        "in": "SH_00053_in.jpg",
+        "mid": "SH_00053_mid.jpg",
+        "out": "SH_00053_out.jpg"
+      },
+      "anchor_sample_times": [
+        522.2,
+        530.4,
+        538.8
+      ],
+      "visual": {
+        "luminance": 0.115,
+        "contrast": 0.178,
+        "saturation": 0.434,
+        "edge_density": 0.031,
+        "visual_attention_proxy_xy": [
+          0.393,
+          0.23
+        ],
+        "lab_mean": [
+          29.1,
+          125.9,
+          124.7
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -11.91,
+          13.42
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_011",
+      "audio_rms": 0.04313
+    },
+    {
+      "shot_id": "SH_00054",
+      "start_sec": 540.4,
+      "end_sec": 559.4,
+      "duration_sec": 19.0,
+      "reference_images": {
+        "in": "SH_00054_in.jpg",
+        "mid": "SH_00054_mid.jpg",
+        "out": "SH_00054_out.jpg"
+      },
+      "anchor_sample_times": [
+        542.0,
+        550.0,
+        557.8
+      ],
+      "visual": {
+        "luminance": 0.204,
+        "contrast": 0.3,
+        "saturation": 0.514,
+        "edge_density": 0.17,
+        "visual_attention_proxy_xy": [
+          0.321,
+          0.52
+        ],
+        "lab_mean": [
+          54.6,
+          131.0,
+          143.1
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          3.95,
+          2.77
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_011",
+      "audio_rms": 0.03465
+    },
+    {
+      "shot_id": "SH_00055",
+      "start_sec": 559.4,
+      "end_sec": 567.6,
+      "duration_sec": 8.2,
+      "reference_images": {
+        "in": "SH_00055_in.jpg",
+        "mid": "SH_00055_mid.jpg",
+        "out": "SH_00055_out.jpg"
+      },
+      "anchor_sample_times": [
+        560.0,
+        563.6,
+        567.0
+      ],
+      "visual": {
+        "luminance": 0.146,
+        "contrast": 0.181,
+        "saturation": 0.366,
+        "edge_density": 0.111,
+        "visual_attention_proxy_xy": [
+          0.493,
+          0.402
+        ],
+        "lab_mean": [
+          37.8,
+          127.8,
+          135.4
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          11.22,
+          7.27
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_011",
+      "audio_rms": 0.043
+    },
+    {
+      "shot_id": "SH_00056",
+      "start_sec": 567.6,
+      "end_sec": 575.6,
+      "duration_sec": 8.0,
+      "reference_images": {
+        "in": "SH_00056_in.jpg",
+        "mid": "SH_00056_mid.jpg",
+        "out": "SH_00056_out.jpg"
+      },
+      "anchor_sample_times": [
+        568.2,
+        571.6,
+        575.0
+      ],
+      "visual": {
+        "luminance": 0.164,
+        "contrast": 0.223,
+        "saturation": 0.319,
+        "edge_density": 0.057,
+        "visual_attention_proxy_xy": [
+          0.383,
+          0.42
+        ],
+        "lab_mean": [
+          43.3,
+          127.2,
+          131.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -12.68,
+          -0.42
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_011",
+      "audio_rms": 0.03313
+    },
+    {
+      "shot_id": "SH_00057",
+      "start_sec": 575.6,
+      "end_sec": 579.6,
+      "duration_sec": 4.0,
+      "reference_images": {
+        "in": "SH_00057_in.jpg",
+        "mid": "SH_00057_mid.jpg",
+        "out": "SH_00057_out.jpg"
+      },
+      "anchor_sample_times": [
+        576.0,
+        577.6,
+        579.2
+      ],
+      "visual": {
+        "luminance": 0.146,
+        "contrast": 0.185,
+        "saturation": 0.388,
+        "edge_density": 0.113,
+        "visual_attention_proxy_xy": [
+          0.461,
+          0.421
+        ],
+        "lab_mean": [
+          37.4,
+          132.2,
+          134.7
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          1.49,
+          1.3
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_011",
+      "audio_rms": 0.02099
+    },
+    {
+      "shot_id": "SH_00058",
+      "start_sec": 579.6,
+      "end_sec": 584.4,
+      "duration_sec": 4.8,
+      "reference_images": {
+        "in": "SH_00058_in.jpg",
+        "mid": "SH_00058_mid.jpg",
+        "out": "SH_00058_out.jpg"
+      },
+      "anchor_sample_times": [
+        580.0,
+        582.0,
+        584.0
+      ],
+      "visual": {
+        "luminance": 0.12,
+        "contrast": 0.079,
+        "saturation": 0.367,
+        "edge_density": 0.0,
+        "visual_attention_proxy_xy": [
+          0.5,
+          0.5
+        ],
+        "lab_mean": [
+          30.5,
+          125.2,
+          124.4
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          9.09,
+          -16.36
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_011",
+      "audio_rms": 0.08244
+    },
+    {
+      "shot_id": "SH_00059",
+      "start_sec": 584.4,
+      "end_sec": 586.8,
+      "duration_sec": 2.4,
+      "reference_images": {
+        "in": "SH_00059_in.jpg",
+        "mid": "SH_00059_mid.jpg",
+        "out": "SH_00059_out.jpg"
+      },
+      "anchor_sample_times": [
+        584.6,
+        585.6,
+        586.6
+      ],
+      "visual": {
+        "luminance": 0.112,
+        "contrast": 0.179,
+        "saturation": 0.351,
+        "edge_density": 0.059,
+        "visual_attention_proxy_xy": [
+          0.499,
+          0.631
+        ],
+        "lab_mean": [
+          27.0,
+          130.3,
+          129.8
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          3.97,
+          4.37
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_011",
+      "audio_rms": 0.07411
+    },
+    {
+      "shot_id": "SH_00060",
+      "start_sec": 586.8,
+      "end_sec": 587.8,
+      "duration_sec": 1.0,
+      "reference_images": {
+        "in": "SH_00060_in.jpg",
+        "mid": "SH_00060_mid.jpg",
+        "out": "SH_00060_out.jpg"
+      },
+      "anchor_sample_times": [
+        586.8,
+        587.2,
+        587.8
+      ],
+      "visual": {
+        "luminance": 0.175,
+        "contrast": 0.217,
+        "saturation": 0.395,
+        "edge_density": 0.176,
+        "visual_attention_proxy_xy": [
+          0.435,
+          0.444
+        ],
+        "lab_mean": [
+          47.3,
+          122.8,
+          126.1
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          11.4,
+          -1.96
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_011",
+      "audio_rms": 0.14282
+    },
+    {
+      "shot_id": "SH_00061",
+      "start_sec": 587.8,
+      "end_sec": 590.4,
+      "duration_sec": 2.6,
+      "reference_images": {
+        "in": "SH_00061_in.jpg",
+        "mid": "SH_00061_mid.jpg",
+        "out": "SH_00061_out.jpg"
+      },
+      "anchor_sample_times": [
+        588.0,
+        589.0,
+        590.2
+      ],
+      "visual": {
+        "luminance": 0.118,
+        "contrast": 0.168,
+        "saturation": 0.283,
+        "edge_density": 0.065,
+        "visual_attention_proxy_xy": [
+          0.561,
+          0.344
+        ],
+        "lab_mean": [
+          29.3,
+          127.2,
+          129.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -3.1,
+          -3.18
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_011",
+      "audio_rms": 0.09643
+    },
+    {
+      "shot_id": "SH_00062",
+      "start_sec": 590.4,
+      "end_sec": 592.6,
+      "duration_sec": 2.2,
+      "reference_images": {
+        "in": "SH_00062_in.jpg",
+        "mid": "SH_00062_mid.jpg",
+        "out": "SH_00062_out.jpg"
+      },
+      "anchor_sample_times": [
+        590.6,
+        591.6,
+        592.4
+      ],
+      "visual": {
+        "luminance": 0.179,
+        "contrast": 0.231,
+        "saturation": 0.377,
+        "edge_density": 0.057,
+        "visual_attention_proxy_xy": [
+          0.385,
+          0.382
+        ],
+        "lab_mean": [
+          48.2,
+          125.2,
+          126.5
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          2.91,
+          3.04
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_012",
+      "audio_rms": 0.01519
+    },
+    {
+      "shot_id": "SH_00063",
+      "start_sec": 592.6,
+      "end_sec": 596.6,
+      "duration_sec": 4.0,
+      "reference_images": {
+        "in": "SH_00063_in.jpg",
+        "mid": "SH_00063_mid.jpg",
+        "out": "SH_00063_out.jpg"
+      },
+      "anchor_sample_times": [
+        593.0,
+        594.6,
+        596.2
+      ],
+      "visual": {
+        "luminance": 0.069,
+        "contrast": 0.121,
+        "saturation": 0.261,
+        "edge_density": 0.035,
+        "visual_attention_proxy_xy": [
+          0.607,
+          0.449
+        ],
+        "lab_mean": [
+          14.8,
+          128.6,
+          129.2
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          0.01,
+          -0.19
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_012",
+      "audio_rms": 0.00418
+    },
+    {
+      "shot_id": "SH_00064",
+      "start_sec": 596.6,
+      "end_sec": 600.0,
+      "duration_sec": 3.4,
+      "reference_images": {
+        "in": "SH_00064_in.jpg",
+        "mid": "SH_00064_mid.jpg",
+        "out": "SH_00064_out.jpg"
+      },
+      "anchor_sample_times": [
+        596.8,
+        598.4,
+        599.8
+      ],
+      "visual": {
+        "luminance": 0.094,
+        "contrast": 0.153,
+        "saturation": 0.354,
+        "edge_density": 0.029,
+        "visual_attention_proxy_xy": [
+          0.604,
+          0.474
+        ],
+        "lab_mean": [
+          21.8,
+          127.7,
+          125.8
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -1.5,
+          -2.6
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_012",
+      "audio_rms": 0.00341
+    },
+    {
+      "shot_id": "SH_00065",
+      "start_sec": 600.0,
+      "end_sec": 604.2,
+      "duration_sec": 4.2,
+      "reference_images": {
+        "in": "SH_00065_in.jpg",
+        "mid": "SH_00065_mid.jpg",
+        "out": "SH_00065_out.jpg"
+      },
+      "anchor_sample_times": [
+        600.4,
+        602.0,
+        603.8
+      ],
+      "visual": {
+        "luminance": 0.136,
+        "contrast": 0.208,
+        "saturation": 0.423,
+        "edge_density": 0.149,
+        "visual_attention_proxy_xy": [
+          0.476,
+          0.429
+        ],
+        "lab_mean": [
+          34.2,
+          131.2,
+          134.8
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -13.76,
+          -1.87
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_012",
+      "audio_rms": 0.01576
+    },
+    {
+      "shot_id": "SH_00066",
+      "start_sec": 604.2,
+      "end_sec": 607.6,
+      "duration_sec": 3.4,
+      "reference_images": {
+        "in": "SH_00066_in.jpg",
+        "mid": "SH_00066_mid.jpg",
+        "out": "SH_00066_out.jpg"
+      },
+      "anchor_sample_times": [
+        604.4,
+        606.0,
+        607.4
+      ],
+      "visual": {
+        "luminance": 0.304,
+        "contrast": 0.22,
+        "saturation": 0.615,
+        "edge_density": 0.095,
+        "visual_attention_proxy_xy": [
+          0.463,
+          0.551
+        ],
+        "lab_mean": [
+          84.2,
+          133.7,
+          152.9
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          -0.07,
+          -0.03
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_013",
+      "audio_rms": 0.00724
+    },
+    {
+      "shot_id": "SH_00067",
+      "start_sec": 607.6,
+      "end_sec": 610.8,
+      "duration_sec": 3.2,
+      "reference_images": {
+        "in": "SH_00067_in.jpg",
+        "mid": "SH_00067_mid.jpg",
+        "out": "SH_00067_out.jpg"
+      },
+      "anchor_sample_times": [
+        607.8,
+        609.2,
+        610.6
+      ],
+      "visual": {
+        "luminance": 0.093,
+        "contrast": 0.126,
+        "saturation": 0.322,
+        "edge_density": 0.032,
+        "visual_attention_proxy_xy": [
+          0.577,
+          0.588
+        ],
+        "lab_mean": [
+          21.9,
+          127.2,
+          126.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -5.31,
+          -2.8
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_014",
+      "audio_rms": 0.00754
+    },
+    {
+      "shot_id": "SH_00068",
+      "start_sec": 610.8,
+      "end_sec": 613.0,
+      "duration_sec": 2.2,
+      "reference_images": {
+        "in": "SH_00068_in.jpg",
+        "mid": "SH_00068_mid.jpg",
+        "out": "SH_00068_out.jpg"
+      },
+      "anchor_sample_times": [
+        611.0,
+        612.0,
+        612.8
+      ],
+      "visual": {
+        "luminance": 0.07,
+        "contrast": 0.124,
+        "saturation": 0.279,
+        "edge_density": 0.036,
+        "visual_attention_proxy_xy": [
+          0.577,
+          0.427
+        ],
+        "lab_mean": [
+          15.3,
+          128.4,
+          129.9
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          0.02,
+          -0.0
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_014",
+      "audio_rms": 0.00488
+    },
+    {
+      "shot_id": "SH_00069",
+      "start_sec": 613.0,
+      "end_sec": 617.2,
+      "duration_sec": 4.2,
+      "reference_images": {
+        "in": "SH_00069_in.jpg",
+        "mid": "SH_00069_mid.jpg",
+        "out": "SH_00069_out.jpg"
+      },
+      "anchor_sample_times": [
+        613.4,
+        615.2,
+        616.8
+      ],
+      "visual": {
+        "luminance": 0.096,
+        "contrast": 0.105,
+        "saturation": 0.409,
+        "edge_density": 0.046,
+        "visual_attention_proxy_xy": [
+          0.391,
+          0.588
+        ],
+        "lab_mean": [
+          23.6,
+          125.8,
+          124.7
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -0.06,
+          -4.96
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_014",
+      "audio_rms": 0.00502
+    },
+    {
+      "shot_id": "SH_00070",
+      "start_sec": 617.2,
+      "end_sec": 624.2,
+      "duration_sec": 7.0,
+      "reference_images": {
+        "in": "SH_00070_in.jpg",
+        "mid": "SH_00070_mid.jpg",
+        "out": "SH_00070_out.jpg"
+      },
+      "anchor_sample_times": [
+        617.8,
+        620.8,
+        623.6
+      ],
+      "visual": {
+        "luminance": 0.246,
+        "contrast": 0.429,
+        "saturation": 0.262,
+        "edge_density": 0.115,
+        "visual_attention_proxy_xy": [
+          0.372,
+          0.428
+        ],
+        "lab_mean": [
+          65.4,
+          128.2,
+          134.8
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -1.48,
+          15.68
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_014",
+      "audio_rms": 0.0049
+    },
+    {
+      "shot_id": "SH_00071",
+      "start_sec": 624.2,
+      "end_sec": 626.8,
+      "duration_sec": 2.6,
+      "reference_images": {
+        "in": "SH_00071_in.jpg",
+        "mid": "SH_00071_mid.jpg",
+        "out": "SH_00071_out.jpg"
+      },
+      "anchor_sample_times": [
+        624.4,
+        625.6,
+        626.6
+      ],
+      "visual": {
+        "luminance": 0.178,
+        "contrast": 0.353,
+        "saturation": 0.255,
+        "edge_density": 0.06,
+        "visual_attention_proxy_xy": [
+          0.365,
+          0.354
+        ],
+        "lab_mean": [
+          45.4,
+          129.2,
+          131.9
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          1.1,
+          2.14
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_014",
+      "audio_rms": 0.0081
+    },
+    {
+      "shot_id": "SH_00072",
+      "start_sec": 626.8,
+      "end_sec": 630.4,
+      "duration_sec": 3.6,
+      "reference_images": {
+        "in": "SH_00072_in.jpg",
+        "mid": "SH_00072_mid.jpg",
+        "out": "SH_00072_out.jpg"
+      },
+      "anchor_sample_times": [
+        627.0,
+        628.6,
+        630.2
+      ],
+      "visual": {
+        "luminance": 0.427,
+        "contrast": 0.49,
+        "saturation": 0.228,
+        "edge_density": 0.222,
+        "visual_attention_proxy_xy": [
+          0.454,
+          0.486
+        ],
+        "lab_mean": [
+          114.8,
+          125.7,
+          138.9
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          0.01,
+          0.01
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_015",
+      "audio_rms": 0.01641
+    },
+    {
+      "shot_id": "SH_00073",
+      "start_sec": 630.4,
+      "end_sec": 633.6,
+      "duration_sec": 3.2,
+      "reference_images": {
+        "in": "SH_00073_in.jpg",
+        "mid": "SH_00073_mid.jpg",
+        "out": "SH_00073_out.jpg"
+      },
+      "anchor_sample_times": [
+        630.6,
+        632.0,
+        633.4
+      ],
+      "visual": {
+        "luminance": 0.189,
+        "contrast": 0.375,
+        "saturation": 0.245,
+        "edge_density": 0.051,
+        "visual_attention_proxy_xy": [
+          0.369,
+          0.311
+        ],
+        "lab_mean": [
+          48.4,
+          128.8,
+          131.4
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "DOWNWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          6.75,
+          7.12
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_016",
+      "audio_rms": 0.01205
+    },
+    {
+      "shot_id": "SH_00074",
+      "start_sec": 633.6,
+      "end_sec": 652.4,
+      "duration_sec": 18.8,
+      "reference_images": {
+        "in": "SH_00074_in.jpg",
+        "mid": "SH_00074_mid.jpg",
+        "out": "SH_00074_out.jpg"
+      },
+      "anchor_sample_times": [
+        635.2,
+        643.0,
+        650.8
+      ],
+      "visual": {
+        "luminance": 0.355,
+        "contrast": 0.415,
+        "saturation": 0.34,
+        "edge_density": 0.112,
+        "visual_attention_proxy_xy": [
+          0.652,
+          0.412
+        ],
+        "lab_mean": [
+          96.2,
+          127.1,
+          141.7
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -57.53,
+          14.66
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_017",
+      "audio_rms": 0.01684
+    },
+    {
+      "shot_id": "SH_00075",
+      "start_sec": 652.4,
+      "end_sec": 655.6,
+      "duration_sec": 3.2,
+      "reference_images": {
+        "in": "SH_00075_in.jpg",
+        "mid": "SH_00075_mid.jpg",
+        "out": "SH_00075_out.jpg"
+      },
+      "anchor_sample_times": [
+        652.6,
+        654.0,
+        655.4
+      ],
+      "visual": {
+        "luminance": 0.358,
+        "contrast": 0.562,
+        "saturation": 0.307,
+        "edge_density": 0.149,
+        "visual_attention_proxy_xy": [
+          0.439,
+          0.536
+        ],
+        "lab_mean": [
+          94.0,
+          130.0,
+          138.4
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          2.84,
+          -0.86
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_017",
+      "audio_rms": 0.0168
+    },
+    {
+      "shot_id": "SH_00076",
+      "start_sec": 655.6,
+      "end_sec": 664.8,
+      "duration_sec": 9.2,
+      "reference_images": {
+        "in": "SH_00076_in.jpg",
+        "mid": "SH_00076_mid.jpg",
+        "out": "SH_00076_out.jpg"
+      },
+      "anchor_sample_times": [
+        656.4,
+        660.2,
+        664.0
+      ],
+      "visual": {
+        "luminance": 0.272,
+        "contrast": 0.445,
+        "saturation": 0.223,
+        "edge_density": 0.129,
+        "visual_attention_proxy_xy": [
+          0.416,
+          0.569
+        ],
+        "lab_mean": [
+          71.7,
+          128.9,
+          134.6
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -2.35,
+          0.42
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_017",
+      "audio_rms": 0.01353
+    },
+    {
+      "shot_id": "SH_00077",
+      "start_sec": 664.8,
+      "end_sec": 671.8,
+      "duration_sec": 7.0,
+      "reference_images": {
+        "in": "SH_00077_in.jpg",
+        "mid": "SH_00077_mid.jpg",
+        "out": "SH_00077_out.jpg"
+      },
+      "anchor_sample_times": [
+        665.4,
+        668.4,
+        671.2
+      ],
+      "visual": {
+        "luminance": 0.33,
+        "contrast": 0.563,
+        "saturation": 0.316,
+        "edge_density": 0.142,
+        "visual_attention_proxy_xy": [
+          0.442,
+          0.606
+        ],
+        "lab_mean": [
+          86.3,
+          129.8,
+          137.6
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "LOW_FRAME_DISPLACEMENT",
+        "flow_median_xy": [
+          -0.01,
+          0.0
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_017",
+      "audio_rms": 0.01199
+    },
+    {
+      "shot_id": "SH_00078",
+      "start_sec": 671.8,
+      "end_sec": 685.4,
+      "duration_sec": 13.6,
+      "reference_images": {
+        "in": "SH_00078_in.jpg",
+        "mid": "SH_00078_mid.jpg",
+        "out": "SH_00078_out.jpg"
+      },
+      "anchor_sample_times": [
+        672.8,
+        678.6,
+        684.4
+      ],
+      "visual": {
+        "luminance": 0.327,
+        "contrast": 0.48,
+        "saturation": 0.263,
+        "edge_density": 0.192,
+        "visual_attention_proxy_xy": [
+          0.459,
+          0.491
+        ],
+        "lab_mean": [
+          87.3,
+          127.5,
+          138.2
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          11.13,
+          -2.57
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_017",
+      "audio_rms": 0.03101
+    },
+    {
+      "shot_id": "SH_00079",
+      "start_sec": 685.4,
+      "end_sec": 696.8,
+      "duration_sec": 11.4,
+      "reference_images": {
+        "in": "SH_00079_in.jpg",
+        "mid": "SH_00079_mid.jpg",
+        "out": "SH_00079_out.jpg"
+      },
+      "anchor_sample_times": [
+        686.4,
+        691.0,
+        695.8
+      ],
+      "visual": {
+        "luminance": 0.344,
+        "contrast": 0.317,
+        "saturation": 0.351,
+        "edge_density": 0.226,
+        "visual_attention_proxy_xy": [
+          0.454,
+          0.484
+        ],
+        "lab_mean": [
+          94.3,
+          128.6,
+          142.7
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          1.99,
+          -0.89
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_017",
+      "audio_rms": 0.03835
+    },
+    {
+      "shot_id": "SH_00080",
+      "start_sec": 696.8,
+      "end_sec": 712.0,
+      "duration_sec": 15.2,
+      "reference_images": {
+        "in": "SH_00080_in.jpg",
+        "mid": "SH_00080_mid.jpg",
+        "out": "SH_00080_out.jpg"
+      },
+      "anchor_sample_times": [
+        698.0,
+        704.4,
+        710.8
+      ],
+      "visual": {
+        "luminance": 0.214,
+        "contrast": 0.269,
+        "saturation": 0.307,
+        "edge_density": 0.219,
+        "visual_attention_proxy_xy": [
+          0.51,
+          0.502
+        ],
+        "lab_mean": [
+          57.1,
+          128.6,
+          135.2
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "LEFTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          -8.15,
+          -5.81
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_017",
+      "audio_rms": 0.0272
+    },
+    {
+      "shot_id": "SH_00081",
+      "start_sec": 712.0,
+      "end_sec": 714.2,
+      "duration_sec": 2.2,
+      "reference_images": {
+        "in": "SH_00081_in.jpg",
+        "mid": "SH_00081_mid.jpg",
+        "out": "SH_00081_out.jpg"
+      },
+      "anchor_sample_times": [
+        712.2,
+        713.2,
+        714.0
+      ],
+      "visual": {
+        "luminance": 0.328,
+        "contrast": 0.322,
+        "saturation": 0.27,
+        "edge_density": 0.194,
+        "visual_attention_proxy_xy": [
+          0.544,
+          0.527
+        ],
+        "lab_mean": [
+          89.0,
+          130.3,
+          137.6
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          2.55,
+          1.55
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_017",
+      "audio_rms": 0.0318
+    },
+    {
+      "shot_id": "SH_00082",
+      "start_sec": 714.2,
+      "end_sec": 717.8,
+      "duration_sec": 3.6,
+      "reference_images": {
+        "in": "SH_00082_in.jpg",
+        "mid": "SH_00082_mid.jpg",
+        "out": "SH_00082_out.jpg"
+      },
+      "anchor_sample_times": [
+        714.4,
+        716.0,
+        717.6
+      ],
+      "visual": {
+        "luminance": 0.31,
+        "contrast": 0.401,
+        "saturation": 0.212,
+        "edge_density": 0.227,
+        "visual_attention_proxy_xy": [
+          0.507,
+          0.486
+        ],
+        "lab_mean": [
+          82.8,
+          130.2,
+          133.2
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          3.06,
+          -2.33
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_017",
+      "audio_rms": 0.03342
+    },
+    {
+      "shot_id": "SH_00083",
+      "start_sec": 717.8,
+      "end_sec": 720.6,
+      "duration_sec": 2.8,
+      "reference_images": {
+        "in": "SH_00083_in.jpg",
+        "mid": "SH_00083_mid.jpg",
+        "out": "SH_00083_out.jpg"
+      },
+      "anchor_sample_times": [
+        718.0,
+        719.2,
+        720.4
+      ],
+      "visual": {
+        "luminance": 0.259,
+        "contrast": 0.587,
+        "saturation": 0.195,
+        "edge_density": 0.067,
+        "visual_attention_proxy_xy": [
+          0.675,
+          0.498
+        ],
+        "lab_mean": [
+          66.1,
+          126.9,
+          133.2
+        ],
+        "lighting_proxy": "dark"
+      },
+      "optical_flow": {
+        "label": "UNDETERMINED",
+        "flow_median_xy": [
+          0,
+          0
+        ],
+        "warning": "2D motion is NOT calibrated 3D camera movement"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_018",
+      "audio_rms": 0.03957
+    },
+    {
+      "shot_id": "SH_00084",
+      "start_sec": 720.6,
+      "end_sec": 721.4,
+      "duration_sec": 0.8,
+      "reference_images": {
+        "in": "SH_00084_in.jpg",
+        "mid": "SH_00084_mid.jpg",
+        "out": "SH_00084_out.jpg"
+      },
+      "anchor_sample_times": [
+        720.6,
+        721.0,
+        721.4
+      ],
+      "visual": {
+        "luminance": 0.335,
+        "contrast": 0.595,
+        "saturation": 0.223,
+        "edge_density": 0.057,
+        "visual_attention_proxy_xy": [
+          0.499,
+          0.544
+        ],
+        "lab_mean": [
+          87.4,
+          128.1,
+          135.7
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          5.56,
+          -13.63
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_018",
+      "audio_rms": 0.03446
+    },
+    {
+      "shot_id": "SH_00085",
+      "start_sec": 721.4,
+      "end_sec": 723.8,
+      "duration_sec": 2.4,
+      "reference_images": {
+        "in": "SH_00085_in.jpg",
+        "mid": "SH_00085_mid.jpg",
+        "out": "SH_00085_out.jpg"
+      },
+      "anchor_sample_times": [
+        721.6,
+        722.6,
+        723.6
+      ],
+      "visual": {
+        "luminance": 0.394,
+        "contrast": 0.574,
+        "saturation": 0.246,
+        "edge_density": 0.069,
+        "visual_attention_proxy_xy": [
+          0.661,
+          0.533
+        ],
+        "lab_mean": [
+          104.1,
+          127.9,
+          140.1
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "UPWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          6.8,
+          -8.59
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_018",
+      "audio_rms": 0.03915
+    },
+    {
+      "shot_id": "SH_00086",
+      "start_sec": 723.8,
+      "end_sec": 776.477,
+      "duration_sec": 52.677,
+      "reference_images": {
+        "in": "SH_00086_in.jpg",
+        "mid": "SH_00086_mid.jpg",
+        "out": "SH_00086_out.jpg"
+      },
+      "anchor_sample_times": [
+        728.0,
+        750.2,
+        772.2
+      ],
+      "visual": {
+        "luminance": 0.326,
+        "contrast": 0.453,
+        "saturation": 0.257,
+        "edge_density": 0.225,
+        "visual_attention_proxy_xy": [
+          0.502,
+          0.527
+        ],
+        "lab_mean": [
+          86.9,
+          130.2,
+          136.0
+        ],
+        "lighting_proxy": "mid-key"
+      },
+      "optical_flow": {
+        "label": "RIGHTWARD_VISUAL_FLOW",
+        "flow_median_xy": [
+          22.2,
+          -22.17
+        ],
+        "warning": "Flow mixes foreground actor motion, camera movement, parallax and possible transition"
+      },
+      "director_intent": "REQUIRES_HUMAN_OR_VISION_MODEL_INTERPRETATION",
+      "character_identity": "UNKNOWN_UNVERIFIED",
+      "camera_path_3d": "NOT_INFERRED",
+      "boundary_status": "UNVERIFIED_HEURISTIC",
+      "storyboard_generation": "PENDING_INDEPENDENT_AI_GENERATION",
+      "visual_group_proposal": "VG_018",
+      "audio_rms": 0.03491
+    }
+  ],
+  "visual_group_proposals": [
+    {
+      "id": "VG_001",
+      "shot_ids": [
+        "SH_00001",
+        "SH_00002",
+        "SH_00003",
+        "SH_00004",
+        "SH_00005",
+        "SH_00006",
+        "SH_00007"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_002",
+      "shot_ids": [
+        "SH_00008",
+        "SH_00009",
+        "SH_00010",
+        "SH_00011"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_003",
+      "shot_ids": [
+        "SH_00012",
+        "SH_00013",
+        "SH_00014",
+        "SH_00015"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_004",
+      "shot_ids": [
+        "SH_00016",
+        "SH_00017",
+        "SH_00018",
+        "SH_00019"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_005",
+      "shot_ids": [
+        "SH_00020"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_006",
+      "shot_ids": [
+        "SH_00021",
+        "SH_00022",
+        "SH_00023",
+        "SH_00024"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_007",
+      "shot_ids": [
+        "SH_00025"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_008",
+      "shot_ids": [
+        "SH_00026",
+        "SH_00027",
+        "SH_00028",
+        "SH_00029",
+        "SH_00030",
+        "SH_00031",
+        "SH_00032",
+        "SH_00033",
+        "SH_00034"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_009",
+      "shot_ids": [
+        "SH_00035",
+        "SH_00036",
+        "SH_00037",
+        "SH_00038",
+        "SH_00039",
+        "SH_00040",
+        "SH_00041",
+        "SH_00042",
+        "SH_00043"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_010",
+      "shot_ids": [
+        "SH_00044",
+        "SH_00045",
+        "SH_00046",
+        "SH_00047",
+        "SH_00048",
+        "SH_00049",
+        "SH_00050",
+        "SH_00051",
+        "SH_00052"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_011",
+      "shot_ids": [
+        "SH_00053",
+        "SH_00054",
+        "SH_00055",
+        "SH_00056",
+        "SH_00057",
+        "SH_00058",
+        "SH_00059",
+        "SH_00060",
+        "SH_00061"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_012",
+      "shot_ids": [
+        "SH_00062",
+        "SH_00063",
+        "SH_00064",
+        "SH_00065"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_013",
+      "shot_ids": [
+        "SH_00066"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_014",
+      "shot_ids": [
+        "SH_00067",
+        "SH_00068",
+        "SH_00069",
+        "SH_00070",
+        "SH_00071"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_015",
+      "shot_ids": [
+        "SH_00072"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_016",
+      "shot_ids": [
+        "SH_00073"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_017",
+      "shot_ids": [
+        "SH_00074",
+        "SH_00075",
+        "SH_00076",
+        "SH_00077",
+        "SH_00078",
+        "SH_00079",
+        "SH_00080",
+        "SH_00081",
+        "SH_00082"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_018",
+      "shot_ids": [
+        "SH_00083",
+        "SH_00084",
+        "SH_00085",
+        "SH_00086"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    }
+  ],
+  "audio": {
+    "available": true,
+    "sample_rate": 8000,
+    "window_seconds": 0.5,
+    "windows": 1553,
+    "global_rms": 0.04095,
+    "warning": "Audio energy is not speech recognition or dialogue/music separation"
+  }
+}

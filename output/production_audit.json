@@ -1,0 +1,5692 @@
+{
+  "project": "GPT_Director_Film_Style_Activation",
+  "stats": {
+    "shots": 86,
+    "frames": 258,
+    "shots_fully_approved": 0,
+    "anchors_with_candidates": 0,
+    "anchors_pending_director_signoff": 258,
+    "cross_anchor_pairs_measured": 0,
+    "actual_verified_model_generated_video": 0,
+    "scope": "Image-first storyboard quality; visual-semantic actor and performance equivalence not automatically proven"
+  },
+  "shots": [
+    {
+      "shot_id": "SH_00001",
+      "anchors": [
+        {
+          "task_id": "SH_00001:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00001_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00001:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00001_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00001:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00001_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00002",
+      "anchors": [
+        {
+          "task_id": "SH_00002:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00002_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00002:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00002_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00002:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00002_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00003",
+      "anchors": [
+        {
+          "task_id": "SH_00003:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00003_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00003:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00003_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00003:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00003_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00004",
+      "anchors": [
+        {
+          "task_id": "SH_00004:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00004_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00004:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00004_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00004:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00004_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00005",
+      "anchors": [
+        {
+          "task_id": "SH_00005:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00005_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00005:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00005_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00005:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00005_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00006",
+      "anchors": [
+        {
+          "task_id": "SH_00006:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00006_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00006:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00006_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00006:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00006_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00007",
+      "anchors": [
+        {
+          "task_id": "SH_00007:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00007_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00007:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00007_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00007:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00007_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00008",
+      "anchors": [
+        {
+          "task_id": "SH_00008:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00008_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00008:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00008_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00008:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00008_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00009",
+      "anchors": [
+        {
+          "task_id": "SH_00009:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00009_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00009:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00009_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00009:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00009_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00010",
+      "anchors": [
+        {
+          "task_id": "SH_00010:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00010_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00010:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00010_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00010:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00010_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00011",
+      "anchors": [
+        {
+          "task_id": "SH_00011:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00011_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00011:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00011_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00011:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00011_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00012",
+      "anchors": [
+        {
+          "task_id": "SH_00012:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00012_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00012:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00012_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00012:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00012_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00013",
+      "anchors": [
+        {
+          "task_id": "SH_00013:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00013_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00013:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00013_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00013:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00013_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00014",
+      "anchors": [
+        {
+          "task_id": "SH_00014:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00014_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00014:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00014_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00014:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00014_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00015",
+      "anchors": [
+        {
+          "task_id": "SH_00015:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00015_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00015:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00015_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00015:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00015_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00016",
+      "anchors": [
+        {
+          "task_id": "SH_00016:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00016_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00016:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00016_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00016:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00016_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00017",
+      "anchors": [
+        {
+          "task_id": "SH_00017:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00017_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00017:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00017_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00017:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00017_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00018",
+      "anchors": [
+        {
+          "task_id": "SH_00018:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00018_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00018:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00018_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00018:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00018_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00019",
+      "anchors": [
+        {
+          "task_id": "SH_00019:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00019_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00019:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00019_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00019:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00019_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00020",
+      "anchors": [
+        {
+          "task_id": "SH_00020:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00020_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00020:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00020_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00020:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00020_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00021",
+      "anchors": [
+        {
+          "task_id": "SH_00021:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00021_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00021:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00021_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00021:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00021_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00022",
+      "anchors": [
+        {
+          "task_id": "SH_00022:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00022_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00022:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00022_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00022:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00022_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00023",
+      "anchors": [
+        {
+          "task_id": "SH_00023:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00023_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00023:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00023_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00023:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00023_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00024",
+      "anchors": [
+        {
+          "task_id": "SH_00024:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00024_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00024:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00024_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00024:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00024_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00025",
+      "anchors": [
+        {
+          "task_id": "SH_00025:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00025_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00025:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00025_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00025:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00025_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00026",
+      "anchors": [
+        {
+          "task_id": "SH_00026:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00026_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00026:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00026_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00026:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00026_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00027",
+      "anchors": [
+        {
+          "task_id": "SH_00027:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00027_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00027:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00027_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00027:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00027_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00028",
+      "anchors": [
+        {
+          "task_id": "SH_00028:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00028_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00028:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00028_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00028:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00028_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00029",
+      "anchors": [
+        {
+          "task_id": "SH_00029:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00029_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00029:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00029_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00029:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00029_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00030",
+      "anchors": [
+        {
+          "task_id": "SH_00030:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00030_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00030:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00030_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00030:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00030_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00031",
+      "anchors": [
+        {
+          "task_id": "SH_00031:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00031_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00031:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00031_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00031:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00031_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00032",
+      "anchors": [
+        {
+          "task_id": "SH_00032:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00032_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00032:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00032_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00032:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00032_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00033",
+      "anchors": [
+        {
+          "task_id": "SH_00033:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00033_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00033:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00033_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00033:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00033_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00034",
+      "anchors": [
+        {
+          "task_id": "SH_00034:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00034_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00034:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00034_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00034:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00034_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00035",
+      "anchors": [
+        {
+          "task_id": "SH_00035:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00035_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00035:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00035_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00035:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00035_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00036",
+      "anchors": [
+        {
+          "task_id": "SH_00036:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00036_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00036:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00036_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00036:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00036_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00037",
+      "anchors": [
+        {
+          "task_id": "SH_00037:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00037_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00037:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00037_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00037:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00037_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00038",
+      "anchors": [
+        {
+          "task_id": "SH_00038:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00038_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00038:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00038_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00038:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00038_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00039",
+      "anchors": [
+        {
+          "task_id": "SH_00039:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00039_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00039:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00039_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00039:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00039_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00040",
+      "anchors": [
+        {
+          "task_id": "SH_00040:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00040_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00040:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00040_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00040:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00040_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00041",
+      "anchors": [
+        {
+          "task_id": "SH_00041:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00041_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00041:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00041_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00041:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00041_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00042",
+      "anchors": [
+        {
+          "task_id": "SH_00042:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00042_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00042:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00042_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00042:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00042_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00043",
+      "anchors": [
+        {
+          "task_id": "SH_00043:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00043_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00043:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00043_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00043:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00043_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00044",
+      "anchors": [
+        {
+          "task_id": "SH_00044:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00044_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00044:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00044_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00044:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00044_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00045",
+      "anchors": [
+        {
+          "task_id": "SH_00045:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00045_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00045:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00045_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00045:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00045_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00046",
+      "anchors": [
+        {
+          "task_id": "SH_00046:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00046_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00046:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00046_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00046:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00046_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00047",
+      "anchors": [
+        {
+          "task_id": "SH_00047:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00047_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00047:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00047_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00047:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00047_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00048",
+      "anchors": [
+        {
+          "task_id": "SH_00048:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00048_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00048:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00048_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00048:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00048_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00049",
+      "anchors": [
+        {
+          "task_id": "SH_00049:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00049_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00049:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00049_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00049:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00049_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00050",
+      "anchors": [
+        {
+          "task_id": "SH_00050:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00050_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00050:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00050_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00050:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00050_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00051",
+      "anchors": [
+        {
+          "task_id": "SH_00051:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00051_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00051:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00051_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00051:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00051_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00052",
+      "anchors": [
+        {
+          "task_id": "SH_00052:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00052_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00052:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00052_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00052:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00052_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00053",
+      "anchors": [
+        {
+          "task_id": "SH_00053:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00053_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00053:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00053_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00053:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00053_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00054",
+      "anchors": [
+        {
+          "task_id": "SH_00054:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00054_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00054:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00054_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00054:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00054_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00055",
+      "anchors": [
+        {
+          "task_id": "SH_00055:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00055_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00055:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00055_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00055:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00055_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00056",
+      "anchors": [
+        {
+          "task_id": "SH_00056:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00056_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00056:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00056_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00056:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00056_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00057",
+      "anchors": [
+        {
+          "task_id": "SH_00057:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00057_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00057:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00057_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00057:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00057_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00058",
+      "anchors": [
+        {
+          "task_id": "SH_00058:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00058_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00058:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00058_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00058:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00058_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00059",
+      "anchors": [
+        {
+          "task_id": "SH_00059:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00059_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00059:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00059_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00059:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00059_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00060",
+      "anchors": [
+        {
+          "task_id": "SH_00060:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00060_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00060:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00060_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00060:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00060_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00061",
+      "anchors": [
+        {
+          "task_id": "SH_00061:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00061_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00061:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00061_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00061:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00061_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00062",
+      "anchors": [
+        {
+          "task_id": "SH_00062:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00062_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00062:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00062_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00062:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00062_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00063",
+      "anchors": [
+        {
+          "task_id": "SH_00063:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00063_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00063:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00063_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00063:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00063_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00064",
+      "anchors": [
+        {
+          "task_id": "SH_00064:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00064_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00064:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00064_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00064:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00064_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00065",
+      "anchors": [
+        {
+          "task_id": "SH_00065:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00065_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00065:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00065_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00065:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00065_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00066",
+      "anchors": [
+        {
+          "task_id": "SH_00066:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00066_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00066:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00066_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00066:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00066_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00067",
+      "anchors": [
+        {
+          "task_id": "SH_00067:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00067_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00067:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00067_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00067:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00067_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00068",
+      "anchors": [
+        {
+          "task_id": "SH_00068:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00068_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00068:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00068_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00068:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00068_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00069",
+      "anchors": [
+        {
+          "task_id": "SH_00069:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00069_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00069:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00069_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00069:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00069_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00070",
+      "anchors": [
+        {
+          "task_id": "SH_00070:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00070_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00070:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00070_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00070:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00070_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00071",
+      "anchors": [
+        {
+          "task_id": "SH_00071:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00071_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00071:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00071_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00071:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00071_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00072",
+      "anchors": [
+        {
+          "task_id": "SH_00072:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00072_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00072:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00072_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00072:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00072_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00073",
+      "anchors": [
+        {
+          "task_id": "SH_00073:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00073_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00073:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00073_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00073:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00073_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00074",
+      "anchors": [
+        {
+          "task_id": "SH_00074:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00074_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00074:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00074_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00074:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00074_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00075",
+      "anchors": [
+        {
+          "task_id": "SH_00075:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00075_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00075:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00075_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00075:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00075_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00076",
+      "anchors": [
+        {
+          "task_id": "SH_00076:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00076_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00076:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00076_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00076:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00076_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00077",
+      "anchors": [
+        {
+          "task_id": "SH_00077:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00077_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00077:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00077_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00077:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00077_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00078",
+      "anchors": [
+        {
+          "task_id": "SH_00078:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00078_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00078:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00078_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00078:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00078_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00079",
+      "anchors": [
+        {
+          "task_id": "SH_00079:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00079_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00079:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00079_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00079:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00079_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00080",
+      "anchors": [
+        {
+          "task_id": "SH_00080:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00080_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00080:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00080_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00080:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00080_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00081",
+      "anchors": [
+        {
+          "task_id": "SH_00081:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00081_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00081:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00081_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00081:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00081_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00082",
+      "anchors": [
+        {
+          "task_id": "SH_00082:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00082_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00082:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00082_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00082:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00082_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00083",
+      "anchors": [
+        {
+          "task_id": "SH_00083:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00083_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00083:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00083_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00083:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00083_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00084",
+      "anchors": [
+        {
+          "task_id": "SH_00084:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00084_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00084:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00084_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00084:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00084_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00085",
+      "anchors": [
+        {
+          "task_id": "SH_00085:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00085_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00085:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00085_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00085:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00085_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    },
+    {
+      "shot_id": "SH_00086",
+      "anchors": [
+        {
+          "task_id": "SH_00086:IN",
+          "anchor": "IN",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00086_in.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00086:MID",
+          "anchor": "MID",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00086_mid.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        },
+        {
+          "task_id": "SH_00086:OUT",
+          "anchor": "OUT",
+          "status": "PENDING_GENERATION",
+          "reference": "data/references/SH_00086_out.jpg",
+          "candidate": null,
+          "provider": null,
+          "technical_score": null,
+          "issues": [
+            "NO_CURRENT_GENERATED_CANDIDATE",
+            "DIRECTOR_SIGNOFF_NOT_COMPLETE"
+          ],
+          "version_count": 0
+        }
+      ],
+      "cross_anchor_checks": [
+        {
+          "anchors": [
+            "IN",
+            "MID"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        },
+        {
+          "anchors": [
+            "MID",
+            "OUT"
+          ],
+          "status": "INSUFFICIENT_GENERATED_FRAMES"
+        }
+      ],
+      "approved_anchors": 0,
+      "is_fully_approved": false,
+      "status": "STORYBOARD_INCOMPLETE"
+    }
+  ],
+  "truth_in_reporting": "No automatic claim of film recreation; raw reference media and generated media are distinct."
+}

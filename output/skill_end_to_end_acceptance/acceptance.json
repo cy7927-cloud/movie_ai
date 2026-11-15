@@ -1,0 +1,300 @@
+{
+  "summary": {
+    "reference_movie_is_excerpt_only": true,
+    "stages_tested": 12,
+    "pass_count": 10,
+    "blocked_count": 1,
+    "failure_count": 0,
+    "blocked_stages": [
+      "原版专业Skill安装与调用"
+    ],
+    "native_professional_skills_executed": 0,
+    "original_ai_stills_generated": 7,
+    "original_ai_generation_runs": 1,
+    "original_ai_stills_accepted": 0,
+    "original_ai_video_shots_accepted": 0,
+    "original_source_skill_docs_sha_verified": [
+      "skills/plan-camera-shots/SKILL.md",
+      "skills/review-and-assemble/SKILL.md"
+    ],
+    "release_ready": false,
+    "film_director_artistic_quality_verified": false,
+    "meaning": "原片学习、摄影交接和7张原创AI静帧及32秒静帧预演已验证；部分原版Skill正文按官方Git SHA校验读取，完整原版Skill尚未宿主安装；真正镜头视频和成片仍未验收。"
+  },
+  "stages": [
+    {
+      "stage": "源片真实性与18张证据帧",
+      "result": "PASS",
+      "details": {
+        "source_seconds": 776.477,
+        "source_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+        "study_cases": 2,
+        "verified_frames": 18
+      },
+      "evidence": "data/source_video.mp4; output/gpt_director_study/source_frames/",
+      "professional_contract": "director-agent / ai-storyboard-director"
+    },
+    {
+      "stage": "原版专业Skill安装与调用",
+      "result": "BLOCKED",
+      "details": {
+        "ready_repositories": [],
+        "required_repositories": [
+          "open-film-skills",
+          "film-production-skills"
+        ],
+        "missing_skill_names": [
+          "director-agent",
+          "ai-storyboard-director",
+          "structure-screenplay"
+        ]
+      },
+      "evidence": "external_skills/",
+      "professional_contract": "All original upstream Skills"
+    },
+    {
+      "stage": "导演研究／事实与导演意图分离",
+      "result": "PASS",
+      "details": {
+        "model": "GPT conversation visual analysis, manually saved as study cases",
+        "real_frames": 18,
+        "director_intent_verified": false
+      },
+      "evidence": "output/gpt_director_study/study_and_rehearsal.json",
+      "professional_contract": "director-agent"
+    },
+    {
+      "stage": "原创32秒场景／导演分镜与两种观看方案",
+      "result": "PASS",
+      "details": {
+        "original_scene": "失联观测站",
+        "shots_each": 7,
+        "duration_s": 32,
+        "structural_issues": {
+          "audience_knows_first": 0,
+          "shared_unknown": 0
+        },
+        "different_audience_experience": true,
+        "artistic_quality_proven": false
+      },
+      "evidence": "data/gpt_director_scene.json",
+      "professional_contract": "director-agent / ai-storyboard-director"
+    },
+    {
+      "stage": "分镜预检／六个故意破坏的反例",
+      "result": "PASS",
+      "details": {
+        "negative_cases_detected": "6/6",
+        "negative_case_details": "{'cases': [{'test': '夺取观众的私密信息', 'expected': 'CHARACTER_USES_UNKNOWN_FACT', 'detected': True, 'actual_issues': ['CHARACTER_USES_UNKNOWN_FACT']}, {'test': '人物瞬移', 'expected': 'TELEPORTATION_UNEXPLAINED', 'detected': True, 'actual_issues': ['TELEPORTATION_UNEXPLAINED']}, {'test': '一个镜头暗含两套机位', 'expected': 'MULTI_SETUP_IN_SINGLE_SHOT', 'detected': True, 'actual_issues': ['MULTI_SETUP_IN_SINGLE_SHOT']}, {'test': '剪辑时间重叠', 'expected': 'GAP_OR_OVERLAP', 'detected': True, 'actual_issues': ['GAP_OR_OVERLAP']}, {'test': '缺失切镜目的', 'expected': 'CUT_HAS_NO"
+      },
+      "evidence": "output/gpt_director_study/acceptance.json",
+      "professional_contract": "plan-camera-shots"
+    },
+    {
+      "stage": "摄影Skill生成级镜头交接合同",
+      "result": "PASS",
+      "details": {
+        "shot_count": 7,
+        "field_coverage": {
+          "camera_explicit_position": 7,
+          "focus_target": 7,
+          "asset_bindings": 7,
+          "upstream_beat_id": 7,
+          "prop_state_at_start": 7,
+          "prop_state_at_end": 7,
+          "basic_blocking": 7,
+          "camera_movement_and_lens": 7
+        },
+        "readiness": "PROVISIONAL_CAMERA_PREFLIGHT_PASS",
+        "stage_geometry_source": "director_proposed_not_measured",
+        "user_approval_pending": true
+      },
+      "evidence": "output/real_production_pilot/professional_camera_handoff.json",
+      "professional_contract": "plan-camera-shots"
+    },
+    {
+      "stage": "全片镜头生产任务生成",
+      "result": "PASS",
+      "details": {
+        "proposed_shots": 86,
+        "reference_anchors": 258,
+        "generated_stills": 0,
+        "jobs_generated": 258,
+        "candidate_versions": 0
+      },
+      "evidence": "output/shot_work_orders.jsonl",
+      "professional_contract": "plan-camera-shots"
+    },
+    {
+      "stage": "审片与成片出口门禁",
+      "result": "PASS",
+      "details": {
+        "actual_result": "BLOCKED",
+        "eligible_shots": 0,
+        "total_shots": 86,
+        "reason": "All three image anchors for all shots require current director signoff."
+      },
+      "evidence": "output/export_gate.json",
+      "professional_contract": "review-and-assemble"
+    },
+    {
+      "stage": "真实原创AI分镜图生成",
+      "result": "PASS",
+      "details": {
+        "original_scene_candidate_frames": 7,
+        "image_generation_runs": 1,
+        "source_film_replica_candidates": 0,
+        "artistic_acceptance": false,
+        "visually_plausible_but_not_approved": 2,
+        "needs_review_or_revision": 5,
+        "rejected_shot": "S07",
+        "human_approved": 0,
+        "original_storyboard_animatic_s": 32.0,
+        "actually_generated_video_shots": 0
+      },
+      "evidence": "output/real_production_pilot/independent_media_review.json",
+      "professional_contract": "review-and-assemble"
+    },
+    {
+      "stage": "成品本地Web服务与API端到端",
+      "result": "PASS",
+      "details": {
+        "port": 35545,
+        "routes_checked": 19,
+        "details": {
+          "/": {
+            "http": 200,
+            "bytes": 18784,
+            "type": "text/html; charset=utf-8"
+          },
+          "/gpt-director-study": {
+            "http": 200,
+            "bytes": 14206,
+            "type": "text/html; charset=utf-8"
+          },
+          "/gpt-director-data": {
+            "http": 200,
+            "bytes": 32499,
+            "type": "application/json; charset=utf-8"
+          },
+          "/director": {
+            "http": 200,
+            "bytes": 394456,
+            "type": "text/html; charset=utf-8"
+          },
+          "/director-data": {
+            "http": 200,
+            "bytes": 3663,
+            "type": "application/json; charset=utf-8"
+          },
+          "/editing": {
+            "http": 200,
+            "bytes": 143080,
+            "type": "text/html; charset=utf-8"
+          },
+          "/editing-data": {
+            "http": 200,
+            "bytes": 1685,
+            "type": "application/json; charset=utf-8"
+          },
+          "/cuts": {
+            "http": 200,
+            "bytes": 14950,
+            "type": "text/html; charset=utf-8"
+          },
+          "/evidence": {
+            "http": 200,
+            "bytes": 259455,
+            "type": "text/html; charset=utf-8"
+          },
+          "/evidence-data": {
+            "http": 200,
+            "bytes": 360528,
+            "type": "application/json; charset=utf-8"
+          },
+          "/longform": {
+            "http": 200,
+            "bytes": 66905,
+            "type": "text/html; charset=utf-8"
+          },
+          "/acceptance": {
+            "http": 200,
+            "bytes": 3972,
+            "type": "text/html; charset=utf-8"
+          },
+          "/api/tasks": {
+            "http": 200,
+            "bytes": 7404,
+            "type": "application/json; charset=utf-8"
+          },
+          "/api/shot?shot=SH_00065": {
+            "http": 200,
+            "bytes": 1370,
+            "type": "application/json; charset=utf-8"
+          },
+          "/api/audit": {
+            "http": 200,
+            "bytes": 99668,
+            "type": "application/json; charset=utf-8"
+          },
+          "/SOURCE_FRAME": {
+            "http": 200,
+            "bytes": 69039
+          },
+          "csrf_protected": {
+            "no_token_status": 403,
+            "wrong_origin_status": 403
+          },
+          "director_plan_api": {
+            "http": 200,
+            "response_keys": [
+              "brief",
+              "detected_brief_cues",
+              "chosen_grammar",
+              "grammar_label",
+              "method",
+              "original_filmmaking_context",
+              "iteration_trace",
+              "required_final_checks",
+              "real_image_model_called",
+              "paid_video_model_called",
+              "fully_directed_movie"
+            ]
+          },
+          "film_export_api": {
+            "http": 200,
+            "gate": "BLOCKED"
+          }
+        }
+      },
+      "evidence": "studio_product.py",
+      "professional_contract": "review-and-assemble / platform integration"
+    },
+    {
+      "stage": "Chromium真实页面渲染",
+      "result": "SKIPPED",
+      "details": {
+        "reason": "Error: Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:35545/gpt-director-study\nCall log:\n  - navigating to \"http://127.0.0.1:35545/gpt-director-study\", waiting until \"domcontentloaded\"\n"
+      },
+      "evidence": "studio_product.py",
+      "professional_contract": "browser visual acceptance"
+    },
+    {
+      "stage": "真实视频可解码与素材范围",
+      "result": "PASS",
+      "details": {
+        "duration_s": 776.477007,
+        "source_is_full_movie": false,
+        "reference_previs_counted_as_generated": false
+      },
+      "evidence": "data/source_video.mp4",
+      "professional_contract": "source media integrity"
+    }
+  ],
+  "upstream_contract_sources": {
+    "director-agent": "https://github.com/62656456/ai-film-skills/blob/main/skills/director-agent/SKILL.md",
+    "ai-storyboard-director": "https://github.com/62656456/ai-film-skills/blob/main/skills/ai-storyboard-director/SKILL.md",
+    "plan-camera-shots": "https://github.com/zhangzhangco/film-production-skills/blob/main/skills/plan-camera-shots/SKILL.md",
+    "review-and-assemble": "https://github.com/zhangzhangco/film-production-skills/blob/main/skills/review-and-assemble/SKILL.md"
+  }
+}

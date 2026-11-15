@@ -1,0 +1,119 @@
+[
+  {
+    "id": "LESSON_01",
+    "title": "人物→黑猫→人物：插入与反应的注意力组织",
+    "shots": [
+      "SH_00065",
+      "SH_00066",
+      "SH_00067"
+    ],
+    "observable": "前镜画面为几名红衣人物与建筑；中镜是栏杆上的黑猫；后镜为一名男子近景。",
+    "hypothesis": "把视觉焦点从人的行动转到黑猫，再切回人的面部，可构成“发现／提示／反应”的电影语法；是否为真实因果必须结合视线和音轨。",
+    "alternatives": [
+      "三个镜头也可能在交替建立不同地点／时间的信息",
+      "黑猫可能是独立悬念意象，而不是被镜中人物看见"
+    ],
+    "verify": [
+      "逐帧确认黑猫出现前后人物是否朝向其位置",
+      "检查猫声、音乐和画外音是否跨切点衔接",
+      "核对是否同一场次与可见空间"
+    ],
+    "teachable_rule": "当观众需要注意一个关键对象，可以用“人物处境→信息插入→人物反应”建立观看路径；不要把跨镜颜色变化当错误。",
+    "transfer": "原创科幻片：研究员看到异常→仪表上的未知信号→研究员克制反应",
+    "narrative_approved": false,
+    "reference_mid_frames": [
+      "data/references/SH_00065_mid.jpg",
+      "data/references/SH_00066_mid.jpg",
+      "data/references/SH_00067_mid.jpg"
+    ],
+    "reference_sha256": [
+      "65b1d5b038a66fc515a611cfa468cb337ba72a4188f3b33d5d6e9b701c4a50e0",
+      "a2ec6b64b250dd49255d9982748f0c5df18958e298d5c97e6e553e0654fbc053",
+      "56eac8cd562c83147fe9ca700ea536cf8c69f9cbcb0951c610d6a4ac30617cd9"
+    ],
+    "grounding": "ASSISTANT_VISUAL_INTERPRETATION_NOT_MODEL_OR_DIRECTOR_VERIFIED",
+    "film_learning_not_film_fault_detection": true
+  },
+  {
+    "id": "LESSON_02",
+    "title": "环境→人物→环境：让空间成为悬念",
+    "shots": [
+      "SH_00062",
+      "SH_00063",
+      "SH_00064",
+      "SH_00068",
+      "SH_00069"
+    ],
+    "observable": "可见栏杆与光源导向、暗处通道和远方亮口、人物近景，以及随后回到洞口／门边的画面。",
+    "hypothesis": "环境远景与人物表情交替，可以让空间本身提供悬念对象，再让面部承担感受与判断。",
+    "alternatives": [
+      "存在段落间的场景切换，不能直接推断同一连续空间",
+      "近景人物可能是在回应画外声音，而非空间本身"
+    ],
+    "verify": [
+      "用连续原片确认空间方向与出入口关系",
+      "检查人物视线是否指向亮口及动作起止",
+      "区分摄影机运动与人物移动"
+    ],
+    "teachable_rule": "用遮挡、亮口和远近关系控制信息释放；反应镜头应服务观众知道什么，而不是机械追求相邻画面相似。",
+    "transfer": "原创悬疑片：暗走廊的远处门缝亮起→人物听见声响→回到门缝并出现新细节",
+    "narrative_approved": false,
+    "reference_mid_frames": [
+      "data/references/SH_00062_mid.jpg",
+      "data/references/SH_00063_mid.jpg",
+      "data/references/SH_00064_mid.jpg",
+      "data/references/SH_00068_mid.jpg",
+      "data/references/SH_00069_mid.jpg"
+    ],
+    "reference_sha256": [
+      "f32abb596ecd3f59851df889a0a6696764d1d0cb69bb6aaf91d7bac5fe56b727",
+      "d4bb5141029f8942f080f4302802fc2f3ee98450684dffd6d1b2ed297ae7da7a",
+      "c0494680709c7fac62a1615a8a178af72027f14a2cd4a73ec10f92e3c071c88d",
+      "1d8d72a1c2494fd7bd2c5b227d1d641c7143892df19304dc30729b593901810f",
+      "95ceeafd9169a10e79d5aef753a6209cf1f7932e4a0ff9b0eb3942159feaecce"
+    ],
+    "grounding": "ASSISTANT_VISUAL_INTERPRETATION_NOT_MODEL_OR_DIRECTOR_VERIFIED",
+    "film_learning_not_film_fault_detection": true
+  },
+  {
+    "id": "LESSON_03",
+    "title": "僧人→对方→僧人→室内：对话与空间重定位",
+    "shots": [
+      "SH_00070",
+      "SH_00071",
+      "SH_00072",
+      "SH_00073",
+      "SH_00074"
+    ],
+    "observable": "先出现明亮室内；随后浅衣僧人近景、深衣人物镜头、再到僧人侧面及室内双人／场景调度画面。",
+    "hypothesis": "可能呈现“建立空间→角色A→角色B→角色A→重新交代二人位置”的反打语法，用镜头切换组织对话注意力。",
+    "alternatives": [
+      "未核对对白前，不能确认是谁在讲话或倾听",
+      "SH_00074本身较长，必须核对内部是否存在正常剪辑"
+    ],
+    "verify": [
+      "核对70—74实际对白音轨与说话人的对应",
+      "验证180度轴线、左右画面方向和角色视线",
+      "标记停顿、说话／听话、情绪变化的切点"
+    ],
+    "teachable_rule": "对话戏不是平均轮流给脸：先建立两人空间，再依据话语和反应切换视角，必要时回到双人镜头重新说明空间关系。",
+    "transfer": "原创职场戏：控制室双人站位→负责人发问→技术员回应→负责人沉默→双人中景解除张力",
+    "narrative_approved": false,
+    "reference_mid_frames": [
+      "data/references/SH_00070_mid.jpg",
+      "data/references/SH_00071_mid.jpg",
+      "data/references/SH_00072_mid.jpg",
+      "data/references/SH_00073_mid.jpg",
+      "data/references/SH_00074_mid.jpg"
+    ],
+    "reference_sha256": [
+      "e373d3a5ca59432d99e0cd504e3687e6b9a3413168e61b95f09f0dcacc663f6c",
+      "ed5f5c6bae8683e2c8dee4002c0362173f3a78ca805af3875bee0c37202ecfa8",
+      "c1cfef7c4e680e3d7d5f8795b545bca64a4450752467a47b8bf56855b71cea54",
+      "a5c6864bf430a2900353889efd4c0e79f9f51e4926a3ac49fb103fc810727324",
+      "5a36d319bbb48b4805fca40a6aa0b3098e5f55e116b511820fcd73d8173e6fba"
+    ],
+    "grounding": "ASSISTANT_VISUAL_INTERPRETATION_NOT_MODEL_OR_DIRECTOR_VERIFIED",
+    "film_learning_not_film_fault_detection": true
+  }
+]

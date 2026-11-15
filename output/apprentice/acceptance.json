@@ -1,0 +1,29 @@
+{
+  "source_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+  "reference_shots_proposed": 86,
+  "visual_reprise_candidates": 42,
+  "pacing_triplets_candidates": 12,
+  "reference_case_studies": 3,
+  "self_review_rounds": 3,
+  "original_shot_count": 5,
+  "initial_issue_count": 11,
+  "final_issue_count": 0,
+  "counterfactuals_detected": 8,
+  "counterfactuals_total": 8,
+  "procedural_2D_previs": "output/apprentice/original_2D_storyboard.jpg",
+  "timed_slideshow": {
+    "status": "CREATED_TIMED_STORYBOARD_SLIDESHOW",
+    "path": "/mnt/data/AI_Director_Final_Project/output/apprentice/original_timed_previs.mp4",
+    "is_ai_generated_video": false,
+    "film_reconstruction": false,
+    "paid_video_calls": 0
+  },
+  "html": "DIRECTOR_APPRENTICE.html",
+  "model_generated_images": 0,
+  "ai_generated_video": 0,
+  "paid_video_requests": 0,
+  "director_intent_verified": 0,
+  "reconstruction_passed": 0,
+  "programmatic_rule_critic_not_vision_model": true,
+  "note": "参考影片的剪辑信息是学习素材；新分镜为程序化草图；结构自审通过不等于具有专业导演艺术判断。"
+}

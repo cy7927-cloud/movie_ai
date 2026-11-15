@@ -1,0 +1,1011 @@
+{
+  "source_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+  "source_duration_sec": 776.477,
+  "detectors": "Main 5fps HSV vs native-frame FFmpeg scene select(0.24)",
+  "tolerance_sec": 0.45,
+  "main_cut_count": 85,
+  "ffmpeg_cut_count": 94,
+  "two_detector_matches": 66,
+  "main_only": 19,
+  "ffmpeg_only": 28,
+  "disagreement_count": 47,
+  "reviewed_count": 0,
+  "confirmed_editorial_cuts": 0,
+  "matched": [
+    {
+      "main_sec": 14.8,
+      "ffmpeg_sec": 14.767,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 18.8,
+      "ffmpeg_sec": 18.867,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 24.0,
+      "ffmpeg_sec": 24.067,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 29.6,
+      "ffmpeg_sec": 29.6,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 32.6,
+      "ffmpeg_sec": 32.633,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 35.0,
+      "ffmpeg_sec": 34.9,
+      "delta_sec": 0.1
+    },
+    {
+      "main_sec": 36.6,
+      "ffmpeg_sec": 36.567,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 38.2,
+      "ffmpeg_sec": 38.133,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 47.2,
+      "ffmpeg_sec": 47.133,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 49.8,
+      "ffmpeg_sec": 49.767,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 51.0,
+      "ffmpeg_sec": 51.067,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 64.8,
+      "ffmpeg_sec": 64.8,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 82.8,
+      "ffmpeg_sec": 82.733,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 90.4,
+      "ffmpeg_sec": 90.467,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 112.8,
+      "ffmpeg_sec": 112.867,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 116.2,
+      "ffmpeg_sec": 116.133,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 121.0,
+      "ffmpeg_sec": 120.933,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 142.2,
+      "ffmpeg_sec": 142.267,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 157.4,
+      "ffmpeg_sec": 157.367,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 163.2,
+      "ffmpeg_sec": 163.2,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 174.4,
+      "ffmpeg_sec": 174.467,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 182.0,
+      "ffmpeg_sec": 181.933,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 188.0,
+      "ffmpeg_sec": 188.033,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 194.8,
+      "ffmpeg_sec": 194.867,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 198.0,
+      "ffmpeg_sec": 198.033,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 201.2,
+      "ffmpeg_sec": 201.1,
+      "delta_sec": 0.1
+    },
+    {
+      "main_sec": 204.6,
+      "ffmpeg_sec": 204.6,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 238.6,
+      "ffmpeg_sec": 238.633,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 241.6,
+      "ffmpeg_sec": 241.633,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 268.0,
+      "ffmpeg_sec": 267.933,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 270.4,
+      "ffmpeg_sec": 270.467,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 274.4,
+      "ffmpeg_sec": 274.433,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 280.6,
+      "ffmpeg_sec": 280.6,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 282.8,
+      "ffmpeg_sec": 282.767,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 292.6,
+      "ffmpeg_sec": 292.533,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 302.8,
+      "ffmpeg_sec": 302.767,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 379.6,
+      "ffmpeg_sec": 379.6,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 382.8,
+      "ffmpeg_sec": 382.7,
+      "delta_sec": 0.1
+    },
+    {
+      "main_sec": 384.4,
+      "ffmpeg_sec": 384.4,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 387.4,
+      "ffmpeg_sec": 387.4,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 407.4,
+      "ffmpeg_sec": 407.4,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 415.4,
+      "ffmpeg_sec": 415.367,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 432.8,
+      "ffmpeg_sec": 432.7,
+      "delta_sec": 0.1
+    },
+    {
+      "main_sec": 567.6,
+      "ffmpeg_sec": 567.533,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 584.4,
+      "ffmpeg_sec": 584.367,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 587.8,
+      "ffmpeg_sec": 587.7,
+      "delta_sec": 0.1
+    },
+    {
+      "main_sec": 592.6,
+      "ffmpeg_sec": 592.633,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 604.2,
+      "ffmpeg_sec": 604.2,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 607.6,
+      "ffmpeg_sec": 607.533,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 617.2,
+      "ffmpeg_sec": 617.133,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 624.2,
+      "ffmpeg_sec": 624.2,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 626.8,
+      "ffmpeg_sec": 626.8,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 630.4,
+      "ffmpeg_sec": 630.4,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 633.6,
+      "ffmpeg_sec": 633.633,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 652.4,
+      "ffmpeg_sec": 652.467,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 655.6,
+      "ffmpeg_sec": 655.533,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 664.8,
+      "ffmpeg_sec": 664.8,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 671.8,
+      "ffmpeg_sec": 671.767,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 685.4,
+      "ffmpeg_sec": 685.4,
+      "delta_sec": 0.0
+    },
+    {
+      "main_sec": 696.8,
+      "ffmpeg_sec": 696.767,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 712.0,
+      "ffmpeg_sec": 712.067,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 714.2,
+      "ffmpeg_sec": 714.267,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 717.8,
+      "ffmpeg_sec": 717.367,
+      "delta_sec": 0.433
+    },
+    {
+      "main_sec": 720.6,
+      "ffmpeg_sec": 720.533,
+      "delta_sec": 0.067
+    },
+    {
+      "main_sec": 721.4,
+      "ffmpeg_sec": 721.367,
+      "delta_sec": 0.033
+    },
+    {
+      "main_sec": 723.8,
+      "ffmpeg_sec": 723.8,
+      "delta_sec": 0.0
+    }
+  ],
+  "disputed": [
+    {
+      "id": "FFMPEG_ONLY_0.100",
+      "time_sec": 0.1,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.5187,
+        "ssim_across_boundary": 0.2242,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_10.900",
+      "time_sec": 10.9,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.2948,
+        "ssim_across_boundary": 0.1562,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_21.067",
+      "time_sec": 21.067,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.362,
+        "ssim_across_boundary": 0.1984,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_67.367",
+      "time_sec": 67.367,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.2899,
+        "ssim_across_boundary": 0.2411,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_67.533",
+      "time_sec": 67.533,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.2224,
+        "ssim_across_boundary": 0.2405,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_133.133",
+      "time_sec": 133.133,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.3398,
+        "ssim_across_boundary": 0.2003,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_185.100",
+      "time_sec": 185.1,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.4083,
+        "ssim_across_boundary": 0.2151,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_213.067",
+      "time_sec": 213.067,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.3728,
+        "ssim_across_boundary": 0.3988,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_243.300",
+      "time_sec": 243.3,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.4208,
+        "ssim_across_boundary": 0.2639,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_257.200",
+      "time_sec": 257.2,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.8573,
+        "ssim_across_boundary": 0.4554,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_259.600",
+      "time_sec": 259.6,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.898,
+        "ssim_across_boundary": 0.3976,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_271.200",
+      "time_sec": 271.2,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.7075,
+        "ssim_across_boundary": 0.3618,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_01.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_278.000",
+      "time_sec": 278.0,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.8539,
+        "ssim_across_boundary": 0.3535,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_316.400",
+      "time_sec": 316.4,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.673,
+        "ssim_across_boundary": 0.3736,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_337.000",
+      "time_sec": 337.0,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.6721,
+        "ssim_across_boundary": 0.4118,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_338.533",
+      "time_sec": 338.533,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.3856,
+        "ssim_across_boundary": 0.3805,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_358.200",
+      "time_sec": 358.2,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.4404,
+        "ssim_across_boundary": 0.3048,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_373.200",
+      "time_sec": 373.2,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.4105,
+        "ssim_across_boundary": 0.1849,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_408.800",
+      "time_sec": 408.8,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.7746,
+        "ssim_across_boundary": 0.2845,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_447.567",
+      "time_sec": 447.567,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.3158,
+        "ssim_across_boundary": 0.2455,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_476.067",
+      "time_sec": 476.067,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.3386,
+        "ssim_across_boundary": 0.3046,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_520.600",
+      "time_sec": 520.6,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.8868,
+        "ssim_across_boundary": 0.5804,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_540.400",
+      "time_sec": 540.4,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.5189,
+        "ssim_across_boundary": 0.3442,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_559.400",
+      "time_sec": 559.4,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.7031,
+        "ssim_across_boundary": 0.4908,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_02.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_565.900",
+      "time_sec": 565.9,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.3943,
+        "ssim_across_boundary": 0.1848,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_575.600",
+      "time_sec": 575.6,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.7583,
+        "ssim_across_boundary": 0.3722,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_579.600",
+      "time_sec": 579.6,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.7467,
+        "ssim_across_boundary": 0.3436,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_586.800",
+      "time_sec": 586.8,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.7784,
+        "ssim_across_boundary": 0.3045,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_590.400",
+      "time_sec": 590.4,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.5664,
+        "ssim_across_boundary": 0.4084,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_596.600",
+      "time_sec": 596.6,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.871,
+        "ssim_across_boundary": 0.6034,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_600.000",
+      "time_sec": 600.0,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.842,
+        "ssim_across_boundary": 0.3353,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_610.800",
+      "time_sec": 610.8,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.8668,
+        "ssim_across_boundary": 0.5801,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "MAIN_ONLY_613.000",
+      "time_sec": 613.0,
+      "type": "MAIN_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.8787,
+        "ssim_across_boundary": 0.5421,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_619.367",
+      "time_sec": 619.367,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.1085,
+        "ssim_across_boundary": 0.3478,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_653.367",
+      "time_sec": 653.367,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.1781,
+        "ssim_across_boundary": 0.0899,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_653.533",
+      "time_sec": 653.533,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.225,
+        "ssim_across_boundary": 0.0895,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_03.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_653.700",
+      "time_sec": 653.7,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.2585,
+        "ssim_across_boundary": 0.1104,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_658.267",
+      "time_sec": 658.267,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.2773,
+        "ssim_across_boundary": 0.2461,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_699.200",
+      "time_sec": 699.2,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.119,
+        "ssim_across_boundary": 0.1106,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_718.700",
+      "time_sec": 718.7,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.5571,
+        "ssim_across_boundary": 0.5118,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_718.867",
+      "time_sec": 718.867,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.4433,
+        "ssim_across_boundary": 0.5372,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_719.033",
+      "time_sec": 719.033,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.3407,
+        "ssim_across_boundary": 0.1723,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_719.200",
+      "time_sec": 719.2,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.5278,
+        "ssim_across_boundary": 0.5061,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_719.367",
+      "time_sec": 719.367,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.326,
+        "ssim_across_boundary": 0.5412,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_720.033",
+      "time_sec": 720.033,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.516,
+        "ssim_across_boundary": 0.7829,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_738.433",
+      "time_sec": 738.433,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.2521,
+        "ssim_across_boundary": 0.0751,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    },
+    {
+      "id": "FFMPEG_ONLY_739.967",
+      "time_sec": 739.967,
+      "type": "FFMPEG_ONLY",
+      "observation": {
+        "status": "FRAME_PAIR_OBSERVATION_ONLY",
+        "hsv_histogram_jump": 0.3725,
+        "ssim_across_boundary": 0.0747,
+        "warning": "Fades, flashes and camera movement can mimic hard cuts; not editorial ground truth"
+      },
+      "review_state": "NOT_REVIEWED",
+      "is_true_cut": null,
+      "sheet": "output/cut_review/cut_disagreements_page_04.jpg"
+    }
+  ],
+  "warnings": [
+    "Two heuristics agreeing is NOT human-editorial ground truth.",
+    "Before/after thumbnails may include camera motion or dissolve rather than true cut.",
+    "A cut decision does not rewrite the existing timeline until a deliberate re-ingest and invalidation."
+  ]
+}

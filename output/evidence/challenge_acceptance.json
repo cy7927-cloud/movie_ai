@@ -1,0 +1,52 @@
+{
+  "status": "REFERENCE_ONLY_CHALLENGE_READY",
+  "start_sec": 559.4,
+  "end_sec": 652.4,
+  "duration_seconds": 93.0,
+  "shot_ids": [
+    "SH_00055",
+    "SH_00056",
+    "SH_00057",
+    "SH_00058",
+    "SH_00059",
+    "SH_00060",
+    "SH_00061",
+    "SH_00062",
+    "SH_00063",
+    "SH_00064",
+    "SH_00065",
+    "SH_00066",
+    "SH_00067",
+    "SH_00068",
+    "SH_00069",
+    "SH_00070",
+    "SH_00071",
+    "SH_00072",
+    "SH_00073",
+    "SH_00074"
+  ],
+  "shot_count": 20,
+  "visual_group_proposals": 7,
+  "possible_face_box_count": 9,
+  "motion_types": [
+    "GLOBAL_IMAGE_TRANSLATION",
+    "GLOBAL_IMAGE_TRANSLATION+APPARENT_SCALE_CHANGE",
+    "GLOBAL_IMAGE_TRANSLATION+APPARENT_SCALE_CHANGE+APPARENT_ROTATION",
+    "LOW_GLOBAL_IMAGE_MOTION",
+    "MIXED_OR_UNDETERMINED"
+  ],
+  "definition": "A contiguous 60–120s mixed-shot acceptance challenge. Boundaries and group labels are provisional; not a confirmed complete scene.",
+  "gates": [
+    "verify shot boundaries",
+    "generate independent IN/MID/OUT for every shot",
+    "review identities and art design",
+    "review in-shot and neighboring-shot continuity",
+    "iterate until signoff or explicit unresolved failure"
+  ],
+  "contact_sheet": "output/evidence/challenge_reference_storyboard.jpg",
+  "work_orders": "output/evidence/challenge_work_orders.jsonl",
+  "work_order_count": 60,
+  "candidate_image_count": 0,
+  "passed_shot_count": 0,
+  "not_3d_or_ai_movie": true
+}

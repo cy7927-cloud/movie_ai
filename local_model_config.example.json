@@ -1,0 +1,8 @@
+{
+  "url": "http://127.0.0.1:8188",
+  "workflow_json": "config/my_comfyui_api_workflow.json",
+  "prompt_node": "6",
+  "reference_image_node": null,
+  "previous_image_node": null,
+  "local_vision_model": null
+}

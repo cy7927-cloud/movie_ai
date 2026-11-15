@@ -1,0 +1,14 @@
+{
+  "reference_film_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+  "verified_reference_frames": 18,
+  "professional_skill_original_docs_local": 2,
+  "native_skill_runs": 0,
+  "custom_new_skill_files_generated": 0,
+  "camera_plans_compared": 2,
+  "changed_shot_count": 3,
+  "original_story_same": true,
+  "story_integrity_pass": true,
+  "original_media_approved": 0,
+  "reference_style_artistry_verified": false,
+  "web_report": "output/film_style_activation/电影风格_专业Skill激活对照实验.html"
+}

@@ -1,0 +1,18 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+local_model_config.json
+
+# Editor and OS temporary files
+.vs/
+.DS_Store
+Thumbs.db

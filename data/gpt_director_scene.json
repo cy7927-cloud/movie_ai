@@ -1,0 +1,505 @@
+{
+  "scene": {
+    "id": "OBSERVATORY",
+    "title": "失联观测站",
+    "logline": "凌晨，失联的观测站控制室突然出现“断线后仍有远程登录”的日志。调查员追查源头；管理员遮住一张门禁卡。他是否与异常有关，尚不确定。",
+    "target_duration_s": 32.0,
+    "facts": [
+      "SYSTEM_OFFLINE",
+      "LOG_AFTER_OFFLINE",
+      "REMOTE_LOGIN",
+      "B_ENTERED",
+      "BADGE_WITH_B",
+      "BADGE_HIDDEN",
+      "B_EXPLAINS_CACHE"
+    ],
+    "initial_audience_knowledge": [],
+    "initial_character_knowledge": {
+      "A": [
+        "SYSTEM_OFFLINE"
+      ],
+      "B": [
+        "BADGE_WITH_B"
+      ]
+    },
+    "initial_positions": {
+      "A": "console",
+      "B": "corridor"
+    },
+    "stage_map": {
+      "console": "室内画面右侧，屏幕朝A",
+      "corridor": "室外入口走廊在画面左后方",
+      "doorway": "控制室左侧门口",
+      "server_cage": "室内右后方，仅作背景不允许人物瞬移"
+    },
+    "central_question": "谁在断线后登录？管理员为何隐藏门禁卡？",
+    "ending_constraint": "不揭晓登录者，不给调查员未目击的隐情，保持戏剧悬念"
+  },
+  "initial_draft": [
+    {
+      "id": "S01",
+      "start_s": 0.0,
+      "end_s": 4.0,
+      "camera": "固定广角，通过左侧门框观察控制室和外走廊同一空间",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "调查员A在右侧终端核对断线告警；管理员B仍在门外走廊，双方未交谈",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "SYSTEM_OFFLINE"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "交代房门、终端、走廊的位置，为后续进入行动建立空间方向",
+      "cut_reason": "观众已理解空间，切近人物手上的新信息",
+      "sound": "低频空调声；终端提示短音",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S02",
+      "start_s": 4.0,
+      "end_s": 8.0,
+      "camera": "终端侧面中近景，A与屏幕上部信息处于同一画框",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A对照断线时间与新日志，手指停在异常时间戳上，停顿半秒",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "LOG_AFTER_OFFLINE"
+      ],
+      "learned_by_character": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      },
+      "evidence_visible_to_character": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      },
+      "dramatic_purpose": "让角色与观众共同意识到时间矛盾，确立人物的调查动机",
+      "cut_reason": "角色看上部时间，而下部屏幕还藏着观众可读的新线索",
+      "sound": "纸页摩擦；环境声压低",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "start_s": 8.0,
+      "end_s": 11.0,
+      "camera": "固定终端下角小字插入特写，且只拍屏幕不拍A",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "画面显示小字REMOTE LOGIN ACTIVE；A的手指仍停在画框边缘上部日志附近",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "REMOTE_LOGIN"
+      ],
+      "learned_by_character": {
+        "A": [
+          "REMOTE_LOGIN"
+        ]
+      },
+      "dramatic_purpose": "让观众先于角色知晓暗藏的登录状态，形成即将发现的心理悬念",
+      "cut_reason": "用脚步声从屏幕信息带向尚在门外的另一人",
+      "sound": "门外脚步由远而近；无额外提示音乐",
+      "character_conclusion": {
+        "A": [
+          "REMOTE_LOGIN"
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "start_s": 11.0,
+      "end_s": 17.0,
+      "camera": "门口固定中景，观察管理员由外廊跨入门槛的连续动作",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "B从走廊走到控制室左门口，整理文件夹，停在门边，视线掠过A",
+      "positions_at_start": {
+        "A": "console",
+        "B": "server_cage"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "B_ENTERED"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "通过入场走位连接之前建立的走廊与控制室，不凭空更换人物位置",
+      "cut_reason": "B停住后，观众目光被他手上的东西吸引",
+      "sound": "真实脚步、衣料摩擦，延续上镜脚步声",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S05",
+      "start_s": 17.0,
+      "end_s": 21.0,
+      "camera": "门边侧向手部近景，一台机位，能见A背影仍专注终端",
+      "single_setup": false,
+      "internal_cut": false,
+      "actor_action": "B把金属门禁卡塞进文件夹下层，视线短暂转向背对自己的A，A没有看见",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "BADGE_HIDDEN"
+      ],
+      "learned_by_character": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      },
+      "evidence_visible_to_character": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      },
+      "dramatic_purpose": "增加观众知情优势，但不能把B的隐藏行为等同于有罪",
+      "cut_reason": "看清藏物动作后，切向人物第一次共享的对话空间",
+      "sound": "门禁卡与纸张的轻摩擦；房间嗡鸣不变",
+      "character_conclusion": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "start_s": 20.0,
+      "end_s": 27.0,
+      "camera": "同一动作轴线一侧的双人中景，左B右A，固定机位",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A仍站终端前，侧身问“断线后怎么还有日志？”；B停一拍答“也许只是缓存”。双方不靠近",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "B_EXPLAINS_CACHE"
+      ],
+      "learned_by_character": {
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "A": [
+          "B_EXPLAINS_CACHE"
+        ]
+      },
+      "evidence_audible_to_character": {
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "A": [
+          "B_EXPLAINS_CACHE"
+        ]
+      },
+      "dramatic_purpose": "把观众先知转成有潜台词的角色交流：A仍未知远程登录与藏卡",
+      "cut_reason": "B话音落后，切给A的迟疑而非把怀疑说破",
+      "sound": "低声对白、A问句末尾环境声回升",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "start_s": 27.0,
+      "end_s": 32.0,
+      "camera": "A静止近景，左侧虚焦保留B的肩部作距离参照",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A没有立刻反驳，缓慢移回视线到终端上部；B还在门边等待，二人都没有触碰藏起的卡",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [],
+      "learned_by_character": {},
+      "dramatic_purpose": "停在有因果但未揭晓的疑问上，让观众比A多知道两项危险信息",
+      "cut_reason": "32秒场景止于尚未回答的远程登录悬念，为下一场提供叙事钩子",
+      "sound": "",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    }
+  ],
+  "revised_shots": [
+    {
+      "id": "S01",
+      "start_s": 0.0,
+      "end_s": 4.0,
+      "camera": "固定广角，通过左侧门框观察控制室和外走廊同一空间",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "调查员A在右侧终端核对断线告警；管理员B仍在门外走廊，双方未交谈",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "SYSTEM_OFFLINE"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "交代房门、终端、走廊的位置，为后续进入行动建立空间方向",
+      "cut_reason": "观众已理解空间，切近人物手上的新信息",
+      "sound": "低频空调声；终端提示短音",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S02",
+      "start_s": 4.0,
+      "end_s": 8.0,
+      "camera": "终端侧面中近景，A与屏幕上部信息处于同一画框",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A对照断线时间与新日志，手指停在异常时间戳上，停顿半秒",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "LOG_AFTER_OFFLINE"
+      ],
+      "learned_by_character": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      },
+      "evidence_visible_to_character": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      },
+      "dramatic_purpose": "让角色与观众共同意识到时间矛盾，确立人物的调查动机",
+      "cut_reason": "角色看上部时间，而下部屏幕还藏着观众可读的新线索",
+      "sound": "纸页摩擦；环境声压低",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "start_s": 8.0,
+      "end_s": 11.0,
+      "camera": "固定终端下角小字插入特写，且只拍屏幕不拍A",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "画面显示小字REMOTE LOGIN ACTIVE；A的手指仍停在画框边缘上部日志附近",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "revealed_to_audience": [
+        "REMOTE_LOGIN"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "让观众先于角色知晓暗藏的登录状态，形成即将发现的心理悬念",
+      "cut_reason": "用脚步声从屏幕信息带向尚在门外的另一人",
+      "sound": "门外脚步由远而近；无额外提示音乐",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S04",
+      "start_s": 11.0,
+      "end_s": 17.0,
+      "camera": "门口固定中景，观察管理员由外廊跨入门槛的连续动作",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "B从走廊走到控制室左门口，整理文件夹，停在门边，视线掠过A",
+      "positions_at_start": {
+        "A": "console",
+        "B": "corridor"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "B_ENTERED"
+      ],
+      "learned_by_character": {},
+      "dramatic_purpose": "通过入场走位连接之前建立的走廊与控制室，不凭空更换人物位置",
+      "cut_reason": "B停住后，观众目光被他手上的东西吸引",
+      "sound": "真实脚步、衣料摩擦，延续上镜脚步声",
+      "character_conclusion": {}
+    },
+    {
+      "id": "S05",
+      "start_s": 17.0,
+      "end_s": 21.0,
+      "camera": "门边侧向手部近景，一台机位，能见A背影仍专注终端",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "B把金属门禁卡塞进文件夹下层，视线短暂转向背对自己的A，A没有看见",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "BADGE_HIDDEN"
+      ],
+      "learned_by_character": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      },
+      "evidence_visible_to_character": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      },
+      "dramatic_purpose": "增加观众知情优势，但不能把B的隐藏行为等同于有罪",
+      "cut_reason": "看清藏物动作后，切向人物第一次共享的对话空间",
+      "sound": "门禁卡与纸张的轻摩擦；房间嗡鸣不变",
+      "character_conclusion": {
+        "B": [
+          "BADGE_HIDDEN"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "start_s": 21.0,
+      "end_s": 27.0,
+      "camera": "同一动作轴线一侧的双人中景，左B右A，固定机位",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A仍站终端前，侧身问“断线后怎么还有日志？”；B停一拍答“也许只是缓存”。双方不靠近",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [
+        "B_EXPLAINS_CACHE"
+      ],
+      "learned_by_character": {
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "A": [
+          "B_EXPLAINS_CACHE"
+        ]
+      },
+      "evidence_audible_to_character": {
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "A": [
+          "B_EXPLAINS_CACHE"
+        ]
+      },
+      "dramatic_purpose": "把观众先知转成有潜台词的角色交流：A仍未知远程登录与藏卡",
+      "cut_reason": "B话音落后，切给A的迟疑而非把怀疑说破",
+      "sound": "低声对白、A问句末尾环境声回升",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ],
+        "B": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "start_s": 27.0,
+      "end_s": 32.0,
+      "camera": "A静止近景，左侧虚焦保留B的肩部作距离参照",
+      "single_setup": true,
+      "internal_cut": false,
+      "actor_action": "A没有立刻反驳，缓慢移回视线到终端上部；B还在门边等待，二人都没有触碰藏起的卡",
+      "positions_at_start": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "positions_at_end": {
+        "A": "console",
+        "B": "doorway"
+      },
+      "revealed_to_audience": [],
+      "learned_by_character": {},
+      "dramatic_purpose": "停在有因果但未揭晓的疑问上，让观众比A多知道两项危险信息",
+      "cut_reason": "32秒场景止于尚未回答的远程登录悬念，为下一场提供叙事钩子",
+      "sound": "无配乐，保留终端低鸣和停顿",
+      "character_conclusion": {
+        "A": [
+          "LOG_AFTER_OFFLINE"
+        ]
+      }
+    }
+  ],
+  "status": "GPT_AUTHORED_NEW_STORYBOARD_NOT_AI_VIDEO",
+  "source_case_ids": [
+    "CASE_A",
+    "CASE_B"
+  ]
+}

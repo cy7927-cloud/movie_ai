@@ -1,0 +1,14 @@
+{
+  "tasks": 258,
+  "candidate_tasks": 0,
+  "total_attempts": 0,
+  "machine_approval_pending": 0,
+  "director_approved_storyboards": 0,
+  "semantic_blocked": 0,
+  "actual_video_generated": 0,
+  "image_model_api_calls_in_this_project": 0,
+  "chat_imagegen_generated_images": 0,
+  "local_image_corrections": 0,
+  "manual_imports": 0,
+  "estimated_api_spend_usd": 0
+}

@@ -1,0 +1,40 @@
+{
+  "source_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+  "reference_shots": 86,
+  "cut_relations": 85,
+  "provisional_lessons": 3,
+  "provisional_pair_hypotheses": 9,
+  "verified_cut_intentions": 0,
+  "director_grade_recreation_approvals": 0,
+  "paid_video_model_calls": 0,
+  "external_model_calls": 0,
+  "sound_cut_measurements": 85,
+  "film_cut_visual_change_quality_penalty": 0,
+  "provenance": "REAL_FILM_REFERENCE_AND_PRELIMINARY_EDITORIAL_HYPOTHESES",
+  "note": "导演镜头语言的理解假设，尚不代表编剧和导演真实创作意图已被证明。",
+  "board_path": "output/editorial_language/导演剪辑语法_三组真实分镜.jpg",
+  "html": "EDITORIAL_DIRECTOR_LAB.html",
+  "source_reference_stills_not_generated": true,
+  "narrative_semantics_director_approved": false,
+  "original_scene_structural_test": {
+    "rule_checks": {
+      "镜头各有明确戏剧功能": true,
+      "镜头切换有叙事理由": true,
+      "人物调度约束已填写": true,
+      "表演节拍有约束": true,
+      "音画关系有规划": true,
+      "观众问题被设置": true,
+      "镜头长度明确": true,
+      "存在建立空间或处境的镜头": true,
+      "悬念信息后有反应承接": true,
+      "对话场面交代双方空间关系": true,
+      "结尾具备下一步动作或空间归位": true
+    },
+    "structural_check_passed": 11,
+    "structural_check_total": 11,
+    "director_quality_verified": false,
+    "acting_and_identity_verified": false,
+    "content_produced_as_ai_images": false,
+    "meaning": "规则检查只证明文字分镜的结构约束完整，不代表导演质量得分。"
+  }
+}

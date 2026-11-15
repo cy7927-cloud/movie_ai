@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "shot_id": "SH_00003",
+      "source_reference": "data/references/SH_00003_mid.jpg",
+      "degraded": "output/evidence/calibration/SH_00003_CORRUPTED_REFERENCE_DERIVED.jpg",
+      "repaired": "output/evidence/calibration/SH_00003_STATISTICALLY_REPAIRED_REFERENCE_DERIVED.jpg",
+      "comparison_board": "output/evidence/calibration/SH_00003_QA_CALIBRATION.jpg",
+      "before": {
+        "ssim": 0.9404,
+        "edge_f1": 0.6271,
+        "palette_score": 0.8679,
+        "technical_score": 0.8403
+      },
+      "after": {
+        "ssim": 0.9854,
+        "edge_f1": 0.8763,
+        "palette_score": 0.9934,
+        "technical_score": 0.9605
+      },
+      "technical_score_improved": true,
+      "grade": "CALIBRATION_ONLY_NOT_GENERATION_OR_SEMANTIC_QA",
+      "warning": "Artificially damaged ORIGINAL film pixels; assesses image-QA machinery, not generative model or director ability."
+    },
+    {
+      "shot_id": "SH_00014",
+      "source_reference": "data/references/SH_00014_mid.jpg",
+      "degraded": "output/evidence/calibration/SH_00014_CORRUPTED_REFERENCE_DERIVED.jpg",
+      "repaired": "output/evidence/calibration/SH_00014_STATISTICALLY_REPAIRED_REFERENCE_DERIVED.jpg",
+      "comparison_board": "output/evidence/calibration/SH_00014_QA_CALIBRATION.jpg",
+      "before": {
+        "ssim": 0.9263,
+        "edge_f1": 0.8055,
+        "palette_score": 0.9166,
+        "technical_score": 0.8932
+      },
+      "after": {
+        "ssim": 0.9872,
+        "edge_f1": 0.9576,
+        "palette_score": 0.9911,
+        "technical_score": 0.981
+      },
+      "technical_score_improved": true,
+      "grade": "CALIBRATION_ONLY_NOT_GENERATION_OR_SEMANTIC_QA",
+      "warning": "Artificially damaged ORIGINAL film pixels; assesses image-QA machinery, not generative model or director ability."
+    },
+    {
+      "shot_id": "SH_00022",
+      "source_reference": "data/references/SH_00022_mid.jpg",
+      "degraded": "output/evidence/calibration/SH_00022_CORRUPTED_REFERENCE_DERIVED.jpg",
+      "repaired": "output/evidence/calibration/SH_00022_STATISTICALLY_REPAIRED_REFERENCE_DERIVED.jpg",
+      "comparison_board": "output/evidence/calibration/SH_00022_QA_CALIBRATION.jpg",
+      "before": {
+        "ssim": 0.9283,
+        "edge_f1": 0.7529,
+        "palette_score": 0.9305,
+        "technical_score": 0.8851
+      },
+      "after": {
+        "ssim": 0.9824,
+        "edge_f1": 0.9571,
+        "palette_score": 0.9949,
+        "technical_score": 0.9798
+      },
+      "technical_score_improved": true,
+      "grade": "CALIBRATION_ONLY_NOT_GENERATION_OR_SEMANTIC_QA",
+      "warning": "Artificially damaged ORIGINAL film pixels; assesses image-QA machinery, not generative model or director ability."
+    }
+  ],
+  "origin": "REFERENCE_DERIVED_TEST_ONLY",
+  "AI_recreation": false
+}

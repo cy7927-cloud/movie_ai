@@ -1,0 +1,5 @@
+# Core offline image-first film studio (no paid video model or cloud needed)
+opencv-python>=4.7
+numpy>=1.24
+scikit-image>=0.22
+Pillow>=10.0

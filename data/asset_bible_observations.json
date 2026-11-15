@@ -1,0 +1,628 @@
+{
+  "asset_bible_status": "PARTIAL_OBSERVATION_INDEX_REQUIRES_IDENTITY_AND_SCENE_REVIEW",
+  "source_shots": 86,
+  "possible_face_observations": 30,
+  "face_observations": [
+    {
+      "observation_id": "OBS_0001",
+      "shot_id": "SH_00006",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.902,
+        0.285,
+        0.05,
+        0.12
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0001.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0002",
+      "shot_id": "SH_00011",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.252,
+        0.232,
+        0.081,
+        0.195
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0002.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0003",
+      "shot_id": "SH_00014",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.438,
+        0.258,
+        0.152,
+        0.363
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0003.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0004",
+      "shot_id": "SH_00021",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.411,
+        0.195,
+        0.172,
+        0.412
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0004.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0005",
+      "shot_id": "SH_00026",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.463,
+        0.33,
+        0.084,
+        0.202
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0005.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0006",
+      "shot_id": "SH_00026",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.889,
+        0.348,
+        0.064,
+        0.154
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0006.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0007",
+      "shot_id": "SH_00028",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.422,
+        0.318,
+        0.148,
+        0.356
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0007.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0008",
+      "shot_id": "SH_00031",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.578,
+        0.476,
+        0.134,
+        0.322
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0008.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0009",
+      "shot_id": "SH_00032",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.233,
+        0.187,
+        0.073,
+        0.176
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0009.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0010",
+      "shot_id": "SH_00037",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.425,
+        0.184,
+        0.081,
+        0.195
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0010.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0011",
+      "shot_id": "SH_00041",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.37,
+        0.266,
+        0.077,
+        0.184
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0011.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0012",
+      "shot_id": "SH_00044",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.617,
+        0.273,
+        0.089,
+        0.213
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0012.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0013",
+      "shot_id": "SH_00044",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.453,
+        0.213,
+        0.062,
+        0.15
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0013.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0014",
+      "shot_id": "SH_00054",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.641,
+        0.569,
+        0.092,
+        0.221
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0014.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0015",
+      "shot_id": "SH_00055",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.777,
+        0.105,
+        0.114,
+        0.273
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0015.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0016",
+      "shot_id": "SH_00057",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.409,
+        0.236,
+        0.156,
+        0.375
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0016.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0017",
+      "shot_id": "SH_00057",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.748,
+        0.199,
+        0.136,
+        0.326
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0017.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0018",
+      "shot_id": "SH_00057",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.255,
+        0.453,
+        0.061,
+        0.146
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0018.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0019",
+      "shot_id": "SH_00059",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.537,
+        0.307,
+        0.083,
+        0.199
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0019.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0020",
+      "shot_id": "SH_00062",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.147,
+        0.079,
+        0.091,
+        0.217
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0020.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0021",
+      "shot_id": "SH_00064",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.642,
+        0.243,
+        0.198,
+        0.476
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0021.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0022",
+      "shot_id": "SH_00069",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.564,
+        0.311,
+        0.123,
+        0.296
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0022.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0023",
+      "shot_id": "SH_00072",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.342,
+        0.157,
+        0.1,
+        0.24
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0023.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0024",
+      "shot_id": "SH_00075",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.336,
+        0.161,
+        0.1,
+        0.24
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0024.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0025",
+      "shot_id": "SH_00076",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.339,
+        0.15,
+        0.125,
+        0.3
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0025.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0026",
+      "shot_id": "SH_00077",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.322,
+        0.15,
+        0.097,
+        0.232
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0026.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0027",
+      "shot_id": "SH_00078",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.106,
+        0.592,
+        0.103,
+        0.247
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0027.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0028",
+      "shot_id": "SH_00078",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.4,
+        0.258,
+        0.062,
+        0.15
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0028.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0029",
+      "shot_id": "SH_00079",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.219,
+        0.281,
+        0.194,
+        0.464
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0029.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    },
+    {
+      "observation_id": "OBS_0030",
+      "shot_id": "SH_00081",
+      "frame_anchor": "MID",
+      "box_xywh_relative": [
+        0.319,
+        0.262,
+        0.123,
+        0.296
+      ],
+      "crop": "data/observed_assets/face_observations/OBS_0030.jpg",
+      "identity": "UNKNOWN_UNVERIFIED",
+      "classifier": "OPENCV_HAAR_FRONTAL_FACE_POSSIBLE_FALSE_POSITIVE"
+    }
+  ],
+  "visual_location_proposals": [
+    {
+      "id": "VG_001",
+      "shot_ids": [
+        "SH_00001",
+        "SH_00002",
+        "SH_00003",
+        "SH_00004",
+        "SH_00005",
+        "SH_00006",
+        "SH_00007"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_002",
+      "shot_ids": [
+        "SH_00008",
+        "SH_00009",
+        "SH_00010",
+        "SH_00011"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_003",
+      "shot_ids": [
+        "SH_00012",
+        "SH_00013",
+        "SH_00014",
+        "SH_00015"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_004",
+      "shot_ids": [
+        "SH_00016",
+        "SH_00017",
+        "SH_00018",
+        "SH_00019"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_005",
+      "shot_ids": [
+        "SH_00020"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_006",
+      "shot_ids": [
+        "SH_00021",
+        "SH_00022",
+        "SH_00023",
+        "SH_00024"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_007",
+      "shot_ids": [
+        "SH_00025"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_008",
+      "shot_ids": [
+        "SH_00026",
+        "SH_00027",
+        "SH_00028",
+        "SH_00029",
+        "SH_00030",
+        "SH_00031",
+        "SH_00032",
+        "SH_00033",
+        "SH_00034"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_009",
+      "shot_ids": [
+        "SH_00035",
+        "SH_00036",
+        "SH_00037",
+        "SH_00038",
+        "SH_00039",
+        "SH_00040",
+        "SH_00041",
+        "SH_00042",
+        "SH_00043"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_010",
+      "shot_ids": [
+        "SH_00044",
+        "SH_00045",
+        "SH_00046",
+        "SH_00047",
+        "SH_00048",
+        "SH_00049",
+        "SH_00050",
+        "SH_00051",
+        "SH_00052"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_011",
+      "shot_ids": [
+        "SH_00053",
+        "SH_00054",
+        "SH_00055",
+        "SH_00056",
+        "SH_00057",
+        "SH_00058",
+        "SH_00059",
+        "SH_00060",
+        "SH_00061"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_012",
+      "shot_ids": [
+        "SH_00062",
+        "SH_00063",
+        "SH_00064",
+        "SH_00065"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_013",
+      "shot_ids": [
+        "SH_00066"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_014",
+      "shot_ids": [
+        "SH_00067",
+        "SH_00068",
+        "SH_00069",
+        "SH_00070",
+        "SH_00071"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_015",
+      "shot_ids": [
+        "SH_00072"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_016",
+      "shot_ids": [
+        "SH_00073"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_017",
+      "shot_ids": [
+        "SH_00074",
+        "SH_00075",
+        "SH_00076",
+        "SH_00077",
+        "SH_00078",
+        "SH_00079",
+        "SH_00080",
+        "SH_00081",
+        "SH_00082"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    },
+    {
+      "id": "VG_018",
+      "shot_ids": [
+        "SH_00083",
+        "SH_00084",
+        "SH_00085",
+        "SH_00086"
+      ],
+      "status": "VISUAL_GROUP_HEURISTIC_NOT_SCENE_VERIFIED"
+    }
+  ],
+  "character_master_assets": [],
+  "verified_costume_states": [],
+  "verified_prop_models": [],
+  "3d_scene_geometry": [],
+  "warning": "Face detections are not cast identities; visual groups are not confirmed locations, and no 3D assets were reconstructed."
+}

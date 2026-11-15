@@ -1,0 +1,1949 @@
+{
+  "schema_version": "2026-11-14-evidence-v2",
+  "generated_utc": "2026-11-14T16:11:03.538713+00:00",
+  "source": {
+    "video_name": "source_video.mp4",
+    "sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+    "duration_seconds": 776.477,
+    "scope": "12分56秒视频片段，不是完整电影",
+    "frame_interval": 0.25,
+    "frame_count": 3106,
+    "original_resolution_frame_interval": 0.5,
+    "original_resolution_frame_count": 1553,
+    "film_still_copyright": "user supplied reference media; for private research"
+  },
+  "definitions": {
+    "visible_facts": "目视观察分镜板，可由原帧复核；不是对白/剧情事实证明",
+    "filmmaking_hypothesis_unverified": "GPT导演推断，未获得导演本人证实，随上下文可能修正",
+    "sensitive_change_candidates": "图像变化检测器触发，可能由光线、运镜、人物运动引起，不等于切点",
+    "audio_rms": "声音波形均方根，不表示演说/音乐/镜头关系",
+    "image_brightness": "低分辨率JPEG观察帧像素统计，不代表原始调色LUT或影片质量"
+  },
+  "minutes": [
+    {
+      "id": "MIN_00",
+      "times": "00:00–01:00",
+      "title": "水边开阔空间、人物与黑猫、室内纵深",
+      "visible_facts": "浅金色水边远景里有人物站在近水处；随后出现人物侧身回望与黑猫近景；约00:36后转换为门廊和圆形亮窗的室内画面。",
+      "filmmaking_hypothesis_unverified": "室外开阔画面到室内门窗空间的交替提供了两种不同的观看距离；猫成为显眼的视觉信息点。",
+      "unknowns": "不要断言猫是人物的主观视线所见；不可由画面判定人物真实动机。",
+      "activation_ids": [
+        "scene_space",
+        "object_insert",
+        "architecture"
+      ],
+      "reference_seconds": [
+        10,
+        21,
+        39,
+        52
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 10,
+          "timecode": "00:10.00",
+          "path": "evidence/frames/0010s.jpg"
+        },
+        {
+          "timestamp_sec": 21,
+          "timecode": "00:21.00",
+          "path": "evidence/frames/0021s.jpg"
+        },
+        {
+          "timestamp_sec": 39,
+          "timecode": "00:39.00",
+          "path": "evidence/frames/0039s.jpg"
+        },
+        {
+          "timestamp_sec": 52,
+          "timecode": "00:52.00",
+          "path": "evidence/frames/0052s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_00.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_01",
+      "times": "01:00–02:00",
+      "title": "猫的移动、庭院步行、地面细节",
+      "visible_facts": "黑猫在门窗内外活动；浅色服饰人物从室内转至岩石和庭院空间；约01:42–01:52画面集中于地面的红褐色痕迹及小型物件。",
+      "filmmaking_hypothesis_unverified": "移动主体和突然强调的物件细节改变观众要注意的对象。",
+      "unknowns": "红褐色痕迹的成因和物件性质不能只凭缩略图确认。",
+      "activation_ids": [
+        "object_insert",
+        "blocking",
+        "architecture"
+      ],
+      "reference_seconds": [
+        65,
+        73,
+        100,
+        109
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 65,
+          "timecode": "01:05.00",
+          "path": "evidence/frames/0065s.jpg"
+        },
+        {
+          "timestamp_sec": 73,
+          "timecode": "01:13.00",
+          "path": "evidence/frames/0073s.jpg"
+        },
+        {
+          "timestamp_sec": 100,
+          "timecode": "01:40.00",
+          "path": "evidence/frames/0100s.jpg"
+        },
+        {
+          "timestamp_sec": 109,
+          "timecode": "01:49.00",
+          "path": "evidence/frames/0109s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_01.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_02",
+      "times": "02:00–03:00",
+      "title": "红衣人物穿越门廊、室内动作、建筑大景",
+      "visible_facts": "身穿红色服装的人物通过石门和连续木柱走廊；随后在室内与其他人物同框；02:37后切到金色天际的开阔大景，02:54后出现对称的巨大建筑空间。",
+      "filmmaking_hypothesis_unverified": "人物前进方向与重复柱廊让运动过程可追踪；宏大景观在局部行动之后出现，提供尺度反差。",
+      "unknowns": "人物的姓名、具体政治关系与建筑地点尚未由此确认。",
+      "activation_ids": [
+        "blocking",
+        "scene_space",
+        "architecture"
+      ],
+      "reference_seconds": [
+        121,
+        140,
+        160,
+        178
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 121,
+          "timecode": "02:01.00",
+          "path": "evidence/frames/0121s.jpg"
+        },
+        {
+          "timestamp_sec": 140,
+          "timecode": "02:20.00",
+          "path": "evidence/frames/0140s.jpg"
+        },
+        {
+          "timestamp_sec": 160,
+          "timecode": "02:40.00",
+          "path": "evidence/frames/0160s.jpg"
+        },
+        {
+          "timestamp_sec": 178,
+          "timecode": "02:58.00",
+          "path": "evidence/frames/0178s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_02.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_03",
+      "times": "03:00–04:00",
+      "title": "建筑正轴、人物与书卷、烛光陈设",
+      "visible_facts": "广场与轴线建筑、行进中的人物出现；03:21左右转向灯火映照的书卷与桌案；暖烛光室内人物近景、对称金色室内大景和卧床人物交替出现。",
+      "filmmaking_hypothesis_unverified": "从建筑规模缩至具体书卷，再返回室内关系的景别调整，建立多层观看尺度。",
+      "unknowns": "无法仅据无声截图确认书卷内容、对白及病人状态。",
+      "activation_ids": [
+        "architecture",
+        "object_insert",
+        "lighting_context"
+      ],
+      "reference_seconds": [
+        192,
+        201,
+        220,
+        238
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 192,
+          "timecode": "03:12.00",
+          "path": "evidence/frames/0192s.jpg"
+        },
+        {
+          "timestamp_sec": 201,
+          "timecode": "03:21.00",
+          "path": "evidence/frames/0201s.jpg"
+        },
+        {
+          "timestamp_sec": 220,
+          "timecode": "03:40.00",
+          "path": "evidence/frames/0220s.jpg"
+        },
+        {
+          "timestamp_sec": 238,
+          "timecode": "03:58.00",
+          "path": "evidence/frames/0238s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_03.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_04",
+      "times": "04:00–05:00",
+      "title": "床榻、双人调度、黑猫意象与人物反应",
+      "visible_facts": "床榻上的人物、红衣人物与浅色衣人物多次同框；04:17–04:19出现云雾中的黑猫；随后浅色衣人物的头部转动与目光方向变化；之后回到床榻、灯光和房间人物。",
+      "filmmaking_hypothesis_unverified": "短暂的动物意象与人物视线变化、床榻画面之间形成可研究的镜头组织关系。",
+      "unknowns": "不能断定人物真的看见云雾里的猫，也不能将其解释为确定的超自然因果。",
+      "activation_ids": [
+        "object_insert",
+        "performance_timing",
+        "lighting_context"
+      ],
+      "reference_seconds": [
+        243,
+        258,
+        271,
+        287
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 243,
+          "timecode": "04:03.00",
+          "path": "evidence/frames/0243s.jpg"
+        },
+        {
+          "timestamp_sec": 258,
+          "timecode": "04:18.00",
+          "path": "evidence/frames/0258s.jpg"
+        },
+        {
+          "timestamp_sec": 271,
+          "timecode": "04:31.00",
+          "path": "evidence/frames/0271s.jpg"
+        },
+        {
+          "timestamp_sec": 287,
+          "timecode": "04:47.00",
+          "path": "evidence/frames/0287s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_04.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_05",
+      "times": "05:00–06:00",
+      "title": "近距离人物关系与夜间栏廊",
+      "visible_facts": "开头存在床榻附近的近身动作；05:03后有暖烛光双人画面和低机位的衣物局部；随后出现竖向建筑结构、浅色衣人物夜间沿栏廊移动，继而出现另一人物面对的构图。",
+      "filmmaking_hypothesis_unverified": "用身体距离、门栏遮挡和夜间不同景别来组织人物关系，而不是通篇采用统一近景。",
+      "unknowns": "演员对白、心理变化以及精确机位移动路线未确认。",
+      "activation_ids": [
+        "performance_timing",
+        "blocking",
+        "occlusion"
+      ],
+      "reference_seconds": [
+        300,
+        310,
+        328,
+        345
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 300,
+          "timecode": "05:00.00",
+          "path": "evidence/frames/0300s.jpg"
+        },
+        {
+          "timestamp_sec": 310,
+          "timecode": "05:10.00",
+          "path": "evidence/frames/0310s.jpg"
+        },
+        {
+          "timestamp_sec": 328,
+          "timecode": "05:28.00",
+          "path": "evidence/frames/0328s.jpg"
+        },
+        {
+          "timestamp_sec": 345,
+          "timecode": "05:45.00",
+          "path": "evidence/frames/0345s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_05.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_06",
+      "times": "06:00–07:00",
+      "title": "夜间双人移动、阴影、停留与对视",
+      "visible_facts": "浅色衣人物与深色衣人物沿建筑前方移动；06:24后出现两人长影落在地面的俯看画面；06:35后有连续双人对话构图与近景；后段人物转身和低身动作。",
+      "filmmaking_hypothesis_unverified": "人物的同框、影子、相互面对和镜头拉开共同维护空间位置。",
+      "unknowns": "镜头内是否真正移动摄影机要用视频运动分析，不能凭等间隔静帧判定。",
+      "activation_ids": [
+        "blocking",
+        "performance_timing",
+        "occlusion"
+      ],
+      "reference_seconds": [
+        366,
+        389,
+        404,
+        414
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 366,
+          "timecode": "06:06.00",
+          "path": "evidence/frames/0366s.jpg"
+        },
+        {
+          "timestamp_sec": 389,
+          "timecode": "06:29.00",
+          "path": "evidence/frames/0389s.jpg"
+        },
+        {
+          "timestamp_sec": 404,
+          "timecode": "06:44.00",
+          "path": "evidence/frames/0404s.jpg"
+        },
+        {
+          "timestamp_sec": 414,
+          "timecode": "06:54.00",
+          "path": "evidence/frames/0414s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_06.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_07",
+      "times": "07:00–08:00",
+      "title": "夜外对话切向隔帘室内与通道",
+      "visible_facts": "07:00起夜间对话延续；07:12后切换至绿色薄帘、床榻和两人的近距离动作，持续较长片段；07:44后转换到深色门面及室内纵向结构。",
+      "filmmaking_hypothesis_unverified": "两人的身体接触、停顿和姿态变化比景别频繁变化更显著；薄帘既是道具也是画面前景。",
+      "unknowns": "不能据静帧确定场面表达的情感性质，须复核语音和动作完整过程。",
+      "activation_ids": [
+        "performance_timing",
+        "occlusion",
+        "lighting_context"
+      ],
+      "reference_seconds": [
+        429,
+        445,
+        461,
+        478
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 429,
+          "timecode": "07:09.00",
+          "path": "evidence/frames/0429s.jpg"
+        },
+        {
+          "timestamp_sec": 445,
+          "timecode": "07:25.00",
+          "path": "evidence/frames/0445s.jpg"
+        },
+        {
+          "timestamp_sec": 461,
+          "timecode": "07:41.00",
+          "path": "evidence/frames/0461s.jpg"
+        },
+        {
+          "timestamp_sec": 478,
+          "timecode": "07:58.00",
+          "path": "evidence/frames/0478s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_07.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_08",
+      "times": "08:00–09:00",
+      "title": "俯视器物、低光移动、青色空间与金色装置",
+      "visible_facts": "08:00后是暗色室内俯视画面、手持器物细节；08:22后转为岩石或园林中的人物移动；08:44以后进入蓝绿色石质空间与台阶，08:57后出现醒目的暖金色建筑装置。",
+      "filmmaking_hypothesis_unverified": "同一参考段落内冷暖色与材质反差强烈，画面色彩需要随场景目的切换。",
+      "unknowns": "无法仅据静帧确定装置用途和场景是否为同一实际空间。",
+      "activation_ids": [
+        "object_insert",
+        "scene_space",
+        "lighting_context"
+      ],
+      "reference_seconds": [
+        484,
+        496,
+        524,
+        537
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 484,
+          "timecode": "08:04.00",
+          "path": "evidence/frames/0484s.jpg"
+        },
+        {
+          "timestamp_sec": 496,
+          "timecode": "08:16.00",
+          "path": "evidence/frames/0496s.jpg"
+        },
+        {
+          "timestamp_sec": 524,
+          "timecode": "08:44.00",
+          "path": "evidence/frames/0524s.jpg"
+        },
+        {
+          "timestamp_sec": 537,
+          "timecode": "08:57.00",
+          "path": "evidence/frames/0537s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_08.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_09",
+      "times": "09:00–10:00",
+      "title": "金色器物、装饰纹样与蓝绿石室",
+      "visible_facts": "深色衣人物面向金色台座及纹样墙体；09:18有单独的细长物件画面；之后人物在室外与其他人群相遇，09:42后交替呈现青色装饰空间、器物和人物。",
+      "filmmaking_hypothesis_unverified": "道具近景与建筑表面纹样反复出现，构成可追踪的视觉母题与观看对象。",
+      "unknowns": "不能推断器物象征意义、谁知道什么或物件的历史用途。",
+      "activation_ids": [
+        "object_insert",
+        "architecture",
+        "lighting_context"
+      ],
+      "reference_seconds": [
+        545,
+        560,
+        579,
+        591
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 545,
+          "timecode": "09:05.00",
+          "path": "evidence/frames/0545s.jpg"
+        },
+        {
+          "timestamp_sec": 560,
+          "timecode": "09:20.00",
+          "path": "evidence/frames/0560s.jpg"
+        },
+        {
+          "timestamp_sec": 579,
+          "timecode": "09:39.00",
+          "path": "evidence/frames/0579s.jpg"
+        },
+        {
+          "timestamp_sec": 591,
+          "timecode": "09:51.00",
+          "path": "evidence/frames/0591s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_09.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_10",
+      "times": "10:00–11:00",
+      "title": "红衣群像与黑猫，转入日光室内走位",
+      "visible_facts": "10:00–10:04先见红衣人物，10:04–10:07为黑猫沿金色栏杆行走；随后深色衣人物出镜并经过门廊；10:21后有阳光照亮的室内、两个人物交替出现及入室走位。",
+      "filmmaking_hypothesis_unverified": "先改变注意对象、再由门窗和行进中的人物把观众带进较开阔的室内。",
+      "unknowns": "不能只凭前后切镜认定人物目击了黑猫。",
+      "activation_ids": [
+        "object_insert",
+        "blocking",
+        "scene_space"
+      ],
+      "reference_seconds": [
+        604,
+        610,
+        625,
+        638
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 604,
+          "timecode": "10:04.00",
+          "path": "evidence/frames/0604s.jpg"
+        },
+        {
+          "timestamp_sec": 610,
+          "timecode": "10:10.00",
+          "path": "evidence/frames/0610s.jpg"
+        },
+        {
+          "timestamp_sec": 625,
+          "timecode": "10:25.00",
+          "path": "evidence/frames/0625s.jpg"
+        },
+        {
+          "timestamp_sec": 638,
+          "timecode": "10:38.00",
+          "path": "evidence/frames/0638s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_10.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_11",
+      "times": "11:00–12:00",
+      "title": "室内静对、廊下同行、街市人群与格窗遮挡",
+      "visible_facts": "前段先以两个不同人物的室内近景构图延续；11:12后经过木构廊道；11:25后街市中有行人、伞棚、笼架和多人穿行；11:37后镜头透过深色格窗观察人物经过。",
+      "filmmaking_hypothesis_unverified": "镜头从安静室内扩展到多人街市，再把人物部分遮在格窗后，空间层次和运动方向清楚。",
+      "unknowns": "未见整场戏对白，不能宣称人物彼此关系或情绪已被确定。",
+      "activation_ids": [
+        "blocking",
+        "occlusion",
+        "architecture"
+      ],
+      "reference_seconds": [
+        665,
+        679,
+        696,
+        708
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 665,
+          "timecode": "11:05.00",
+          "path": "evidence/frames/0665s.jpg"
+        },
+        {
+          "timestamp_sec": 679,
+          "timecode": "11:19.00",
+          "path": "evidence/frames/0679s.jpg"
+        },
+        {
+          "timestamp_sec": 696,
+          "timecode": "11:36.00",
+          "path": "evidence/frames/0696s.jpg"
+        },
+        {
+          "timestamp_sec": 708,
+          "timecode": "11:48.00",
+          "path": "evidence/frames/0708s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_11.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    },
+    {
+      "id": "MIN_12",
+      "times": "12:00–12:56.48",
+      "title": "室内多人对坐转向长廊与桥道同行",
+      "visible_facts": "开头在日光室内有两人坐立互动；12:18后转到繁忙户外廊桥、多人经过；12:30后较长时间沿木桥、柱廊拍摄人物向前，最后两人保持并行构图。",
+      "filmmaking_hypothesis_unverified": "静态对坐与有纵深的群体移动形成节奏对照；建筑框架反复组织人物的可见与遮挡。",
+      "unknowns": "本片段到12:56结束，无法据此推断原电影后续镜头。",
+      "activation_ids": [
+        "blocking",
+        "scene_space",
+        "architecture"
+      ],
+      "reference_seconds": [
+        724,
+        735,
+        748,
+        765
+      ],
+      "reference_frames": [
+        {
+          "timestamp_sec": 724,
+          "timecode": "12:04.00",
+          "path": "evidence/frames/0724s.jpg"
+        },
+        {
+          "timestamp_sec": 735,
+          "timecode": "12:15.00",
+          "path": "evidence/frames/0735s.jpg"
+        },
+        {
+          "timestamp_sec": 748,
+          "timecode": "12:28.00",
+          "path": "evidence/frames/0748s.jpg"
+        },
+        {
+          "timestamp_sec": 765,
+          "timecode": "12:45.00",
+          "path": "evidence/frames/0765s.jpg"
+        }
+      ],
+      "evidence_image": "evidence/minute/minute_12.jpg",
+      "scope": "整分钟采样概览，非完整电影剧情确认"
+    }
+  ],
+  "deep_studies": [
+    {
+      "range_sec": [
+        15,
+        30
+      ],
+      "range": "00:15.00–00:30.00",
+      "topic": "人物回望与猫的显露",
+      "visible_facts": "开阔水边与近身画面的注意对象切换",
+      "unknowns": "确认是否为视线匹配需要较完整方向镜头",
+      "upstream_skill": "director-agent",
+      "focus_to_activate": "camera/eyeline uncertainty",
+      "evidence_15sec": "evidence/15sec/window_01.jpg"
+    },
+    {
+      "range_sec": [
+        75,
+        90
+      ],
+      "range": "01:15.00–01:30.00",
+      "topic": "室内移动的黑猫与人物",
+      "visible_facts": "黑猫在日光投影明显的室内经过，之后画面回到人物",
+      "unknowns": "剪辑主观性未确认",
+      "upstream_skill": "ai-storyboard-director",
+      "focus_to_activate": "audience information vs POV",
+      "evidence_15sec": "evidence/15sec/window_05.jpg"
+    },
+    {
+      "range_sec": [
+        135,
+        150
+      ],
+      "range": "02:15.00–02:30.00",
+      "topic": "红衣人物经过廊柱",
+      "visible_facts": "重复立柱构成横向深度，走位延续到推门区域",
+      "unknowns": "无法判断机位是否真正移动",
+      "upstream_skill": "plan-camera-shots",
+      "focus_to_activate": "spatial baseline / actor path",
+      "evidence_15sec": "evidence/15sec/window_09.jpg"
+    },
+    {
+      "range_sec": [
+        195,
+        210
+      ],
+      "range": "03:15.00–03:30.00",
+      "topic": "灯烛与书卷",
+      "visible_facts": "文书和灯火的近景被人物画面包围",
+      "unknowns": "书卷意义需对白/上下文",
+      "upstream_skill": "director-agent",
+      "focus_to_activate": "object motivated attention",
+      "evidence_15sec": "evidence/15sec/window_13.jpg"
+    },
+    {
+      "range_sec": [
+        255,
+        270
+      ],
+      "range": "04:15.00–04:30.00",
+      "topic": "猫的云雾段与人物转头",
+      "visible_facts": "4:17开始黑猫意象，4:19切回浅色衣人物的头部转向",
+      "unknowns": "不得推断人物看到猫",
+      "upstream_skill": "ai-storyboard-director",
+      "focus_to_activate": "non-POV insert / knowledge gap",
+      "evidence_15sec": "evidence/15sec/window_17.jpg"
+    },
+    {
+      "range_sec": [
+        315,
+        330
+      ],
+      "range": "05:15.00–05:30.00",
+      "topic": "廊柱前的移动",
+      "visible_facts": "人物通过楼阁栏边，竖向立柱多次遮挡",
+      "unknowns": "判断跟拍/静机位需连贯视频",
+      "upstream_skill": "plan-camera-shots",
+      "focus_to_activate": "foreground occlusion",
+      "evidence_15sec": "evidence/15sec/window_21.jpg"
+    },
+    {
+      "range_sec": [
+        390,
+        405
+      ],
+      "range": "06:30.00–06:45.00",
+      "topic": "夜间双人同框与背向关系",
+      "visible_facts": "人物在广场上出现面向及背向关系，镜头切入双人脸部",
+      "unknowns": "无台词、人物动机待核验",
+      "upstream_skill": "director-agent",
+      "focus_to_activate": "performance and orientation",
+      "evidence_15sec": "evidence/15sec/window_26.jpg"
+    },
+    {
+      "range_sec": [
+        435,
+        450
+      ],
+      "range": "07:15.00–07:30.00",
+      "topic": "绿色薄帘内的双人动作",
+      "visible_facts": "两人从俯身位置逐渐移动到正面近距离，浅绿帘持续作为前景",
+      "unknowns": "不能确认台词与情感指向",
+      "upstream_skill": "ai-storyboard-director",
+      "focus_to_activate": "blocking beats / screen direction",
+      "evidence_15sec": "evidence/15sec/window_29.jpg"
+    },
+    {
+      "range_sec": [
+        525,
+        540
+      ],
+      "range": "08:45.00–09:00.00",
+      "topic": "青绿色台阶与金色装置",
+      "visible_facts": "青蓝色阶梯转向明显发光的金色器物，冷暖对照强烈",
+      "unknowns": "不把色差自动解释为场景好坏",
+      "upstream_skill": "ai-storyboard-director",
+      "focus_to_activate": "color and image formation",
+      "evidence_15sec": "evidence/15sec/window_35.jpg"
+    },
+    {
+      "range_sec": [
+        555,
+        570
+      ],
+      "range": "09:15.00–09:30.00",
+      "topic": "金色纹样墙与器物",
+      "visible_facts": "深色人物与饰纹物件的过肩关系和独立器物细节",
+      "unknowns": "物件用途与象征未知",
+      "upstream_skill": "director-agent",
+      "focus_to_activate": "object motif + audience attention",
+      "evidence_15sec": "evidence/15sec/window_37.jpg"
+    },
+    {
+      "range_sec": [
+        600,
+        615
+      ],
+      "range": "10:00.00–10:15.00",
+      "topic": "红衣人物、黑猫、深衣人物",
+      "visible_facts": "红衣近景后黑猫在金色栏杆行走，深衣人物单独出镜，间隔空间镜头",
+      "unknowns": "人物是否看到猫未确认",
+      "upstream_skill": "ai-storyboard-director",
+      "focus_to_activate": "non-POV insert",
+      "evidence_15sec": "evidence/15sec/window_40.jpg"
+    },
+    {
+      "range_sec": [
+        615,
+        630
+      ],
+      "range": "10:15.00–10:30.00",
+      "topic": "门窗与室内空间揭示",
+      "visible_facts": "窗格、暗墙、开敞的日光室内依次出现，并有不同人物出镜",
+      "unknowns": "镜头的时间顺序不等于建筑的实测平面图",
+      "upstream_skill": "plan-camera-shots",
+      "focus_to_activate": "room entry / geography",
+      "evidence_15sec": "evidence/15sec/window_41.jpg"
+    },
+    {
+      "range_sec": [
+        630,
+        645
+      ],
+      "range": "10:30.00–10:45.00",
+      "topic": "对坐的准备和接近",
+      "visible_facts": "深衣人物移动至亮窗房间并与浅衣人物靠近，桌案与窗格充当参照",
+      "unknowns": "真实走位尺寸未知",
+      "upstream_skill": "plan-camera-shots",
+      "focus_to_activate": "blocking / over-shoulder",
+      "evidence_15sec": "evidence/15sec/window_42.jpg"
+    },
+    {
+      "range_sec": [
+        690,
+        705
+      ],
+      "range": "11:30.00–11:45.00",
+      "topic": "街市行进与格窗",
+      "visible_facts": "不同角色穿过人群，转为从格窗内观察",
+      "unknowns": "无法推断谁在监视谁",
+      "upstream_skill": "ai-storyboard-director",
+      "focus_to_activate": "occlusion / visual reveal",
+      "evidence_15sec": "evidence/15sec/window_46.jpg"
+    },
+    {
+      "range_sec": [
+        740,
+        755
+      ],
+      "range": "12:20.00–12:35.00",
+      "topic": "廊桥同行",
+      "visible_facts": "两人沿木质走廊继续移动，背景深处可见其他人",
+      "unknowns": "运镜方向需审视频连续帧而非单帧",
+      "upstream_skill": "plan-camera-shots",
+      "focus_to_activate": "walk-and-talk spatial path",
+      "evidence_15sec": "evidence/15sec/window_49.jpg"
+    }
+  ],
+  "windows_15sec": [
+    {
+      "id": "WIN_000",
+      "start": 0.0,
+      "end": 15.0,
+      "time_range": "00:00.00–00:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 116.1,
+      "saturation_mean_0_255": 81.6,
+      "dark_pixel_fraction_below55": 0.111,
+      "inter_sample_absdiff_mean": 14.12,
+      "inter_sample_absdiff_max": 64.17,
+      "sensitive_change_candidates": 3,
+      "strong_change_candidates": 3,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_00.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.05437,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_001",
+      "start": 15.0,
+      "end": 30.0,
+      "time_range": "00:15.00–00:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 107.9,
+      "saturation_mean_0_255": 70.3,
+      "dark_pixel_fraction_below55": 0.157,
+      "inter_sample_absdiff_mean": 15.49,
+      "inter_sample_absdiff_max": 67.82,
+      "sensitive_change_candidates": 9,
+      "strong_change_candidates": 4,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_01.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.0536,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_002",
+      "start": 30.0,
+      "end": 45.0,
+      "time_range": "00:30.00–00:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 92.2,
+      "saturation_mean_0_255": 78.1,
+      "dark_pixel_fraction_below55": 0.314,
+      "inter_sample_absdiff_mean": 21.99,
+      "inter_sample_absdiff_max": 70.99,
+      "sensitive_change_candidates": 25,
+      "strong_change_candidates": 4,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_02.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.02736,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_003",
+      "start": 45.0,
+      "end": 60.0,
+      "time_range": "00:45.00–01:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 89.5,
+      "saturation_mean_0_255": 80.3,
+      "dark_pixel_fraction_below55": 0.364,
+      "inter_sample_absdiff_mean": 20.06,
+      "inter_sample_absdiff_max": 94.34,
+      "sensitive_change_candidates": 24,
+      "strong_change_candidates": 3,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_03.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.02915,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_004",
+      "start": 60.0,
+      "end": 75.0,
+      "time_range": "01:00.00–01:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 92.6,
+      "saturation_mean_0_255": 86.0,
+      "dark_pixel_fraction_below55": 0.324,
+      "inter_sample_absdiff_mean": 18.56,
+      "inter_sample_absdiff_max": 97.49,
+      "sensitive_change_candidates": 17,
+      "strong_change_candidates": 3,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_04.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.03296,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_005",
+      "start": 75.0,
+      "end": 90.0,
+      "time_range": "01:15.00–01:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 87.6,
+      "saturation_mean_0_255": 93.2,
+      "dark_pixel_fraction_below55": 0.452,
+      "inter_sample_absdiff_mean": 17.55,
+      "inter_sample_absdiff_max": 75.76,
+      "sensitive_change_candidates": 6,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_05.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.08286,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_006",
+      "start": 90.0,
+      "end": 105.0,
+      "time_range": "01:30.00–01:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 101.9,
+      "saturation_mean_0_255": 81.3,
+      "dark_pixel_fraction_below55": 0.233,
+      "inter_sample_absdiff_mean": 27.3,
+      "inter_sample_absdiff_max": 71.61,
+      "sensitive_change_candidates": 38,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_06.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.03061,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_007",
+      "start": 105.0,
+      "end": 120.0,
+      "time_range": "01:45.00–02:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 85.5,
+      "saturation_mean_0_255": 75.0,
+      "dark_pixel_fraction_below55": 0.277,
+      "inter_sample_absdiff_mean": 18.13,
+      "inter_sample_absdiff_max": 60.91,
+      "sensitive_change_candidates": 2,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_07.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.03607,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_008",
+      "start": 120.0,
+      "end": 135.0,
+      "time_range": "02:00.00–02:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 59.0,
+      "saturation_mean_0_255": 44.3,
+      "dark_pixel_fraction_below55": 0.578,
+      "inter_sample_absdiff_mean": 19.51,
+      "inter_sample_absdiff_max": 50.53,
+      "sensitive_change_candidates": 5,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_08.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.01244,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_009",
+      "start": 135.0,
+      "end": 150.0,
+      "time_range": "02:15.00–02:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 63.2,
+      "saturation_mean_0_255": 75.1,
+      "dark_pixel_fraction_below55": 0.512,
+      "inter_sample_absdiff_mean": 21.14,
+      "inter_sample_absdiff_max": 42.18,
+      "sensitive_change_candidates": 22,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_09.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.01509,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_010",
+      "start": 150.0,
+      "end": 165.0,
+      "time_range": "02:30.00–02:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 68.9,
+      "saturation_mean_0_255": 81.4,
+      "dark_pixel_fraction_below55": 0.593,
+      "inter_sample_absdiff_mean": 7.28,
+      "inter_sample_absdiff_max": 77.01,
+      "sensitive_change_candidates": 2,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_10.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.12226,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_011",
+      "start": 165.0,
+      "end": 180.0,
+      "time_range": "02:45.00–03:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 44.3,
+      "saturation_mean_0_255": 52.0,
+      "dark_pixel_fraction_below55": 0.672,
+      "inter_sample_absdiff_mean": 8.75,
+      "inter_sample_absdiff_max": 29.84,
+      "sensitive_change_candidates": 1,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_11.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.11342,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_012",
+      "start": 180.0,
+      "end": 195.0,
+      "time_range": "03:00.00–03:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 52.2,
+      "saturation_mean_0_255": 65.3,
+      "dark_pixel_fraction_below55": 0.653,
+      "inter_sample_absdiff_mean": 13.05,
+      "inter_sample_absdiff_max": 59.0,
+      "sensitive_change_candidates": 4,
+      "strong_change_candidates": 4,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_12.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.1197,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_013",
+      "start": 195.0,
+      "end": 210.0,
+      "time_range": "03:15.00–03:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 58.7,
+      "saturation_mean_0_255": 82.0,
+      "dark_pixel_fraction_below55": 0.579,
+      "inter_sample_absdiff_mean": 14.47,
+      "inter_sample_absdiff_max": 71.96,
+      "sensitive_change_candidates": 4,
+      "strong_change_candidates": 3,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_13.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.09239,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_014",
+      "start": 210.0,
+      "end": 225.0,
+      "time_range": "03:30.00–03:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 31.8,
+      "saturation_mean_0_255": 78.4,
+      "dark_pixel_fraction_below55": 0.836,
+      "inter_sample_absdiff_mean": 10.05,
+      "inter_sample_absdiff_max": 35.66,
+      "sensitive_change_candidates": 6,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_14.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.1533,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_015",
+      "start": 225.0,
+      "end": 240.0,
+      "time_range": "03:45.00–04:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 31.9,
+      "saturation_mean_0_255": 78.8,
+      "dark_pixel_fraction_below55": 0.855,
+      "inter_sample_absdiff_mean": 11.48,
+      "inter_sample_absdiff_max": 33.52,
+      "sensitive_change_candidates": 6,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_15.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.07482,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_016",
+      "start": 240.0,
+      "end": 255.0,
+      "time_range": "04:00.00–04:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 45.2,
+      "saturation_mean_0_255": 102.4,
+      "dark_pixel_fraction_below55": 0.681,
+      "inter_sample_absdiff_mean": 8.7,
+      "inter_sample_absdiff_max": 41.0,
+      "sensitive_change_candidates": 2,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_16.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.04286,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_017",
+      "start": 255.0,
+      "end": 270.0,
+      "time_range": "04:15.00–04:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 41.3,
+      "saturation_mean_0_255": 82.9,
+      "dark_pixel_fraction_below55": 0.755,
+      "inter_sample_absdiff_mean": 13.45,
+      "inter_sample_absdiff_max": 39.31,
+      "sensitive_change_candidates": 14,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_17.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.38502,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_018",
+      "start": 270.0,
+      "end": 285.0,
+      "time_range": "04:30.00–04:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 45.6,
+      "saturation_mean_0_255": 66.5,
+      "dark_pixel_fraction_below55": 0.719,
+      "inter_sample_absdiff_mean": 14.89,
+      "inter_sample_absdiff_max": 49.95,
+      "sensitive_change_candidates": 14,
+      "strong_change_candidates": 4,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_18.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.42592,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_019",
+      "start": 285.0,
+      "end": 300.0,
+      "time_range": "04:45.00–05:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 33.5,
+      "saturation_mean_0_255": 95.5,
+      "dark_pixel_fraction_below55": 0.85,
+      "inter_sample_absdiff_mean": 7.31,
+      "inter_sample_absdiff_max": 28.99,
+      "sensitive_change_candidates": 3,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_19.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.01507,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_020",
+      "start": 300.0,
+      "end": 315.0,
+      "time_range": "05:00.00–05:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 34.1,
+      "saturation_mean_0_255": 93.4,
+      "dark_pixel_fraction_below55": 0.847,
+      "inter_sample_absdiff_mean": 8.91,
+      "inter_sample_absdiff_max": 30.99,
+      "sensitive_change_candidates": 2,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_20.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.01323,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_021",
+      "start": 315.0,
+      "end": 330.0,
+      "time_range": "05:15.00–05:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 30.1,
+      "saturation_mean_0_255": 68.4,
+      "dark_pixel_fraction_below55": 0.855,
+      "inter_sample_absdiff_mean": 11.22,
+      "inter_sample_absdiff_max": 25.03,
+      "sensitive_change_candidates": 1,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_21.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.02206,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_022",
+      "start": 330.0,
+      "end": 345.0,
+      "time_range": "05:30.00–05:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 30.3,
+      "saturation_mean_0_255": 64.9,
+      "dark_pixel_fraction_below55": 0.856,
+      "inter_sample_absdiff_mean": 6.99,
+      "inter_sample_absdiff_max": 26.83,
+      "sensitive_change_candidates": 3,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_22.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.0236,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_023",
+      "start": 345.0,
+      "end": 360.0,
+      "time_range": "05:45.00–06:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 30.6,
+      "saturation_mean_0_255": 65.5,
+      "dark_pixel_fraction_below55": 0.86,
+      "inter_sample_absdiff_mean": 4.69,
+      "inter_sample_absdiff_max": 27.69,
+      "sensitive_change_candidates": 2,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_23.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.02876,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_024",
+      "start": 360.0,
+      "end": 375.0,
+      "time_range": "06:00.00–06:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 46.0,
+      "saturation_mean_0_255": 52.3,
+      "dark_pixel_fraction_below55": 0.682,
+      "inter_sample_absdiff_mean": 17.11,
+      "inter_sample_absdiff_max": 46.56,
+      "sensitive_change_candidates": 3,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_24.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.03449,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_025",
+      "start": 375.0,
+      "end": 390.0,
+      "time_range": "06:15.00–06:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 42.8,
+      "saturation_mean_0_255": 47.1,
+      "dark_pixel_fraction_below55": 0.719,
+      "inter_sample_absdiff_mean": 11.02,
+      "inter_sample_absdiff_max": 41.69,
+      "sensitive_change_candidates": 4,
+      "strong_change_candidates": 4,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_25.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.08051,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_026",
+      "start": 390.0,
+      "end": 405.0,
+      "time_range": "06:30.00–06:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 30.9,
+      "saturation_mean_0_255": 45.2,
+      "dark_pixel_fraction_below55": 0.869,
+      "inter_sample_absdiff_mean": 5.75,
+      "inter_sample_absdiff_max": 22.6,
+      "sensitive_change_candidates": 1,
+      "strong_change_candidates": 0,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_26.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.08209,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_027",
+      "start": 405.0,
+      "end": 420.0,
+      "time_range": "06:45.00–07:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 40.6,
+      "saturation_mean_0_255": 39.5,
+      "dark_pixel_fraction_below55": 0.808,
+      "inter_sample_absdiff_mean": 9.36,
+      "inter_sample_absdiff_max": 32.75,
+      "sensitive_change_candidates": 3,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_27.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.15116,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_028",
+      "start": 420.0,
+      "end": 435.0,
+      "time_range": "07:00.00–07:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 44.0,
+      "saturation_mean_0_255": 43.2,
+      "dark_pixel_fraction_below55": 0.71,
+      "inter_sample_absdiff_mean": 8.93,
+      "inter_sample_absdiff_max": 45.26,
+      "sensitive_change_candidates": 2,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_28.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.15763,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_029",
+      "start": 435.0,
+      "end": 450.0,
+      "time_range": "07:15.00–07:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 66.8,
+      "saturation_mean_0_255": 116.2,
+      "dark_pixel_fraction_below55": 0.389,
+      "inter_sample_absdiff_mean": 16.5,
+      "inter_sample_absdiff_max": 40.09,
+      "sensitive_change_candidates": 1,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_29.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.0138,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_030",
+      "start": 450.0,
+      "end": 465.0,
+      "time_range": "07:30.00–07:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 68.3,
+      "saturation_mean_0_255": 114.0,
+      "dark_pixel_fraction_below55": 0.308,
+      "inter_sample_absdiff_mean": 6.33,
+      "inter_sample_absdiff_max": 33.73,
+      "sensitive_change_candidates": 0,
+      "strong_change_candidates": 0,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_30.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.01109,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_031",
+      "start": 465.0,
+      "end": 480.0,
+      "time_range": "07:45.00–08:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 37.3,
+      "saturation_mean_0_255": 104.1,
+      "dark_pixel_fraction_below55": 0.793,
+      "inter_sample_absdiff_mean": 12.33,
+      "inter_sample_absdiff_max": 36.45,
+      "sensitive_change_candidates": 5,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_31.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.2315,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_032",
+      "start": 480.0,
+      "end": 495.0,
+      "time_range": "08:00.00–08:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 24.7,
+      "saturation_mean_0_255": 72.6,
+      "dark_pixel_fraction_below55": 0.929,
+      "inter_sample_absdiff_mean": 6.59,
+      "inter_sample_absdiff_max": 20.35,
+      "sensitive_change_candidates": 4,
+      "strong_change_candidates": 0,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_32.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.01371,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_033",
+      "start": 495.0,
+      "end": 510.0,
+      "time_range": "08:15.00–08:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 32.2,
+      "saturation_mean_0_255": 71.4,
+      "dark_pixel_fraction_below55": 0.844,
+      "inter_sample_absdiff_mean": 10.89,
+      "inter_sample_absdiff_max": 26.06,
+      "sensitive_change_candidates": 3,
+      "strong_change_candidates": 0,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_33.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.0122,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_034",
+      "start": 510.0,
+      "end": 525.0,
+      "time_range": "08:30.00–08:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 28.0,
+      "saturation_mean_0_255": 53.1,
+      "dark_pixel_fraction_below55": 0.883,
+      "inter_sample_absdiff_mean": 10.32,
+      "inter_sample_absdiff_max": 23.76,
+      "sensitive_change_candidates": 3,
+      "strong_change_candidates": 0,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_34.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.03945,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_035",
+      "start": 525.0,
+      "end": 540.0,
+      "time_range": "08:45.00–09:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 39.8,
+      "saturation_mean_0_255": 101.6,
+      "dark_pixel_fraction_below55": 0.819,
+      "inter_sample_absdiff_mean": 11.09,
+      "inter_sample_absdiff_max": 31.58,
+      "sensitive_change_candidates": 3,
+      "strong_change_candidates": 0,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_35.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.06882,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_036",
+      "start": 540.0,
+      "end": 555.0,
+      "time_range": "09:00.00–09:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 48.4,
+      "saturation_mean_0_255": 102.3,
+      "dark_pixel_fraction_below55": 0.699,
+      "inter_sample_absdiff_mean": 11.69,
+      "inter_sample_absdiff_max": 34.7,
+      "sensitive_change_candidates": 5,
+      "strong_change_candidates": 0,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_36.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.05075,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_037",
+      "start": 555.0,
+      "end": 570.0,
+      "time_range": "09:15.00–09:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 37.8,
+      "saturation_mean_0_255": 73.0,
+      "dark_pixel_fraction_below55": 0.807,
+      "inter_sample_absdiff_mean": 7.12,
+      "inter_sample_absdiff_max": 35.36,
+      "sensitive_change_candidates": 5,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_37.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.08672,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_038",
+      "start": 570.0,
+      "end": 585.0,
+      "time_range": "09:30.00–09:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 37.3,
+      "saturation_mean_0_255": 82.8,
+      "dark_pixel_fraction_below55": 0.798,
+      "inter_sample_absdiff_mean": 10.96,
+      "inter_sample_absdiff_max": 35.86,
+      "sensitive_change_candidates": 4,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_38.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.09928,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_039",
+      "start": 585.0,
+      "end": 600.0,
+      "time_range": "09:45.00–10:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 30.3,
+      "saturation_mean_0_255": 66.5,
+      "dark_pixel_fraction_below55": 0.866,
+      "inter_sample_absdiff_mean": 6.91,
+      "inter_sample_absdiff_max": 32.27,
+      "sensitive_change_candidates": 6,
+      "strong_change_candidates": 4,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_39.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.09782,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_040",
+      "start": 600.0,
+      "end": 615.0,
+      "time_range": "10:00.00–10:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 38.7,
+      "saturation_mean_0_255": 91.8,
+      "dark_pixel_fraction_below55": 0.754,
+      "inter_sample_absdiff_mean": 6.05,
+      "inter_sample_absdiff_max": 55.75,
+      "sensitive_change_candidates": 5,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_40.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.01891,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_041",
+      "start": 615.0,
+      "end": 630.0,
+      "time_range": "10:15.00–10:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 64.0,
+      "saturation_mean_0_255": 58.8,
+      "dark_pixel_fraction_below55": 0.589,
+      "inter_sample_absdiff_mean": 16.99,
+      "inter_sample_absdiff_max": 78.52,
+      "sensitive_change_candidates": 19,
+      "strong_change_candidates": 9,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_41.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.02013,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_042",
+      "start": 630.0,
+      "end": 645.0,
+      "time_range": "10:30.00–10:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 73.3,
+      "saturation_mean_0_255": 74.0,
+      "dark_pixel_fraction_below55": 0.494,
+      "inter_sample_absdiff_mean": 22.09,
+      "inter_sample_absdiff_max": 88.57,
+      "sensitive_change_candidates": 13,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_42.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.02112,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_043",
+      "start": 645.0,
+      "end": 660.0,
+      "time_range": "10:45.00–11:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 61.2,
+      "saturation_mean_0_255": 69.8,
+      "dark_pixel_fraction_below55": 0.597,
+      "inter_sample_absdiff_mean": 14.76,
+      "inter_sample_absdiff_max": 71.83,
+      "sensitive_change_candidates": 10,
+      "strong_change_candidates": 8,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_43.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.04172,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_044",
+      "start": 660.0,
+      "end": 675.0,
+      "time_range": "11:00.00–11:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 84.6,
+      "saturation_mean_0_255": 65.9,
+      "dark_pixel_fraction_below55": 0.485,
+      "inter_sample_absdiff_mean": 7.08,
+      "inter_sample_absdiff_max": 65.57,
+      "sensitive_change_candidates": 2,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_44.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.03077,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_045",
+      "start": 675.0,
+      "end": 690.0,
+      "time_range": "11:15.00–11:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 91.1,
+      "saturation_mean_0_255": 63.4,
+      "dark_pixel_fraction_below55": 0.326,
+      "inter_sample_absdiff_mean": 30.19,
+      "inter_sample_absdiff_max": 65.66,
+      "sensitive_change_candidates": 36,
+      "strong_change_candidates": 1,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_45.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.05367,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_046",
+      "start": 690.0,
+      "end": 705.0,
+      "time_range": "11:30.00–11:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 78.8,
+      "saturation_mean_0_255": 67.0,
+      "dark_pixel_fraction_below55": 0.364,
+      "inter_sample_absdiff_mean": 31.94,
+      "inter_sample_absdiff_max": 61.31,
+      "sensitive_change_candidates": 77,
+      "strong_change_candidates": 9,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_46.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.05082,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_047",
+      "start": 705.0,
+      "end": 720.0,
+      "time_range": "11:45.00–12:00.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 57.2,
+      "saturation_mean_0_255": 60.3,
+      "dark_pixel_fraction_below55": 0.589,
+      "inter_sample_absdiff_mean": 24.58,
+      "inter_sample_absdiff_max": 100.94,
+      "sensitive_change_candidates": 35,
+      "strong_change_candidates": 10,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_47.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.04513,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_048",
+      "start": 720.0,
+      "end": 735.0,
+      "time_range": "12:00.00–12:15.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 99.6,
+      "saturation_mean_0_255": 56.2,
+      "dark_pixel_fraction_below55": 0.382,
+      "inter_sample_absdiff_mean": 34.13,
+      "inter_sample_absdiff_max": 90.08,
+      "sensitive_change_candidates": 27,
+      "strong_change_candidates": 4,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_48.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.05199,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_049",
+      "start": 735.0,
+      "end": 750.0,
+      "time_range": "12:15.00–12:30.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 87.5,
+      "saturation_mean_0_255": 62.5,
+      "dark_pixel_fraction_below55": 0.355,
+      "inter_sample_absdiff_mean": 30.52,
+      "inter_sample_absdiff_max": 59.15,
+      "sensitive_change_candidates": 45,
+      "strong_change_candidates": 2,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_49.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.0687,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_050",
+      "start": 750.0,
+      "end": 765.0,
+      "time_range": "12:30.00–12:45.00",
+      "frame_count": 60,
+      "luma_mean_0_255": 82.9,
+      "saturation_mean_0_255": 69.8,
+      "dark_pixel_fraction_below55": 0.388,
+      "inter_sample_absdiff_mean": 32.85,
+      "inter_sample_absdiff_max": 44.03,
+      "sensitive_change_candidates": 57,
+      "strong_change_candidates": 0,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_50.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.04937,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    },
+    {
+      "id": "WIN_051",
+      "start": 765.0,
+      "end": 776.477,
+      "time_range": "12:45.00–12:56.48",
+      "frame_count": 46,
+      "luma_mean_0_255": 60.8,
+      "saturation_mean_0_255": 49.8,
+      "dark_pixel_fraction_below55": 0.634,
+      "inter_sample_absdiff_mean": 11.77,
+      "inter_sample_absdiff_max": 33.78,
+      "sensitive_change_candidates": 2,
+      "strong_change_candidates": 0,
+      "manual_visual_analysis_status": "分钟总览已核看；15秒全序列尚未逐帧人工审定",
+      "evidence": "evidence/15sec/window_51.jpg",
+      "caution": "亮度/饱和度/跨帧差分不是艺术质量、演员情绪、真实切镜数量或摄影机运动类别",
+      "audio_rms": 0.04914,
+      "audio_note": "电平代理；不识别对白、音乐、音效或L/J-cut"
+    }
+  ],
+  "professional_skill_activation": {
+    "id": "yaomao_uploaded_776s_dense_v2",
+    "reference_film_label": "《妖猫传》用户上传片段（不是完整电影）",
+    "source_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+    "duration_seconds": 776.477,
+    "frame_evidence_4fps": 3106,
+    "frame_evidence_2fps_original": 1553,
+    "cut_candidates_not_confirmed": {
+      "sensitive": 595,
+      "strong": 116
+    },
+    "research_boundary": {
+      "filmed": true,
+      "script_source_present": false,
+      "dialogue_transcribed": false,
+      "actor_identity_verified": false,
+      "camera_intrinsics_known": false,
+      "director_intent_verified": false,
+      "skill_native_execution_verified": false,
+      "style_transfer_quality_proven": false
+    },
+    "provenance": "本风格参数为GPT依据用户上传原片的时间码及图像证据所做研究记录，不等于模型权重训练。",
+    "upstream_skills_unchanged": true,
+    "upstream": [
+      {
+        "skill": "director-agent",
+        "repo": "62656456/ai-film-skills",
+        "use": "audience information, performance, visual-storytelling; record unknown dialogue"
+      },
+      {
+        "skill": "ai-storyboard-director",
+        "repo": "62656456/ai-film-skills",
+        "use": "framing, optical shot selection, blocking and spatial perspective"
+      },
+      {
+        "skill": "plan-camera-shots",
+        "repo": "zhangzhangco/film-production-skills",
+        "use": "spatial baseline, actor start/end state, durations, camera and focus"
+      },
+      {
+        "skill": "review-and-assemble",
+        "repo": "zhangzhangco/film-production-skills",
+        "use": "take-specific review, immutable evidence, no false acceptance"
+      },
+      {
+        "skill": "structure-screenplay",
+        "repo": "zhangzhangco/film-production-skills",
+        "use": "WAIT for user-provided screenplay; do NOT infer screenplay from mute stills"
+      }
+    ],
+    "activations": {
+      "scene_space": {
+        "source": "ai-storyboard-director",
+        "activate": [
+          "spatial-reveal",
+          "shot-design-engine",
+          "framing-and-axis"
+        ],
+        "film_reason": "同一片段内水边、门廊、巨大建筑、室内及街市多层空间互相转换",
+        "not_a_rule": "不能机械规定所有镜头都要对称或大景"
+      },
+      "object_insert": {
+        "source": "director-agent + ai-storyboard-director",
+        "activate": [
+          "visual-storytelling",
+          "object-motif",
+          "audience-information-order"
+        ],
+        "film_reason": "黑猫、书卷、地面痕迹、器物被给予单独观看时间",
+        "not_a_rule": "不能将任何插入镜头自动认定为角色主观所见"
+      },
+      "architecture": {
+        "source": "ai-storyboard-director + plan-camera-shots",
+        "activate": [
+          "framing-and-axis",
+          "architectural-depth",
+          "spatial-baselines"
+        ],
+        "film_reason": "桥、廊柱、格窗、建筑中轴反复成为人物行动框架",
+        "not_a_rule": "不能凭缩略图反推出真实焦距"
+      },
+      "blocking": {
+        "source": "plan-camera-shots",
+        "activate": [
+          "character-start-end-state",
+          "blocking-continuity",
+          "camera-position-and-focus"
+        ],
+        "film_reason": "长廊、夜间广场、街市及桥道均有较明显的演员移动",
+        "not_a_rule": "不能只用固定静帧证明摄影机轨迹"
+      },
+      "performance_timing": {
+        "source": "director-agent + ai-storyboard-director",
+        "activate": [
+          "performance-beats",
+          "micro-actions",
+          "performance-time-budget"
+        ],
+        "film_reason": "近身互动、静对、转头、靠近、离开有不同速度的动作段落",
+        "not_a_rule": "表情与情绪需连贯视频和对白复核"
+      },
+      "occlusion": {
+        "source": "ai-storyboard-director + plan-camera-shots",
+        "activate": [
+          "foreground-masking",
+          "visual-discovery",
+          "screen-direction-check"
+        ],
+        "film_reason": "薄帘、柱廊、门窗、格栅反复挡住或局部显露人物",
+        "not_a_rule": "不能一概定义遮挡为悬念或偷看"
+      },
+      "lighting_context": {
+        "source": "ai-storyboard-director",
+        "activate": [
+          "color-and-image-formation",
+          "scene-motivated-light",
+          "warm-cool-scene-contrast"
+        ],
+        "film_reason": "日光金色、暗暖烛光、青蓝色地下空间在片段内并存",
+        "not_a_rule": "严禁整片套用同一个暗金色滤镜"
+      }
+    },
+    "priority_interactions": [
+      {
+        "primary": "scene_space",
+        "secondary": "architecture",
+        "evidence": [
+          "MIN_00",
+          "MIN_02",
+          "MIN_11",
+          "MIN_12"
+        ]
+      },
+      {
+        "primary": "object_insert",
+        "secondary": "performance_timing",
+        "evidence": [
+          "MIN_01",
+          "MIN_03",
+          "MIN_04",
+          "MIN_09",
+          "MIN_10"
+        ]
+      },
+      {
+        "primary": "blocking",
+        "secondary": "occlusion",
+        "evidence": [
+          "MIN_05",
+          "MIN_06",
+          "MIN_07",
+          "MIN_11",
+          "MIN_12"
+        ]
+      },
+      {
+        "primary": "lighting_context",
+        "secondary": "scene_space",
+        "evidence": [
+          "MIN_00",
+          "MIN_03",
+          "MIN_08",
+          "MIN_09",
+          "MIN_10"
+        ]
+      }
+    ],
+    "activation_status": "证据校准配置已生成；原版专业Skill的宿主原生执行与质量迁移尚待验证",
+    "scene_specific_not_global_lut": true
+  },
+  "counts": {
+    "minutes": 13,
+    "deep_visual_studies": 15,
+    "windows_15sec": 52,
+    "source_frames_checked_hash": 1,
+    "source_audio_observed_semantically": 0,
+    "skill_natively_executed": 0,
+    "transfer_films_completed": 0
+  }
+}

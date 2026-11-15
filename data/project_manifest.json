@@ -1,0 +1,375 @@
+{
+  "source": "data/source_video.mp4",
+  "source_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+  "source_scope": "UPLOADED_EXCERPT_NOT_FULL_THEATRICAL_FEATURE",
+  "duration_seconds": 776.477,
+  "fps_original": "30/1",
+  "resolution_original": "1280x534",
+  "reference_resolution": "1280x534",
+  "sample_fps": 5,
+  "shot_count": 86,
+  "reference_anchor_count": 258,
+  "visual_group_proposals": 18,
+  "audio_summary": {
+    "available": true,
+    "sample_rate": 8000,
+    "window_seconds": 0.5,
+    "windows": 1553,
+    "global_rms": 0.04095,
+    "warning": "Audio energy is not speech recognition or dialogue/music separation"
+  },
+  "boundaries": [
+    {
+      "time_sec": 14.8,
+      "verified": false
+    },
+    {
+      "time_sec": 18.8,
+      "verified": false
+    },
+    {
+      "time_sec": 24.0,
+      "verified": false
+    },
+    {
+      "time_sec": 29.6,
+      "verified": false
+    },
+    {
+      "time_sec": 32.6,
+      "verified": false
+    },
+    {
+      "time_sec": 35.0,
+      "verified": false
+    },
+    {
+      "time_sec": 36.6,
+      "verified": false
+    },
+    {
+      "time_sec": 38.2,
+      "verified": false
+    },
+    {
+      "time_sec": 47.2,
+      "verified": false
+    },
+    {
+      "time_sec": 49.8,
+      "verified": false
+    },
+    {
+      "time_sec": 51.0,
+      "verified": false
+    },
+    {
+      "time_sec": 64.8,
+      "verified": false
+    },
+    {
+      "time_sec": 82.8,
+      "verified": false
+    },
+    {
+      "time_sec": 90.4,
+      "verified": false
+    },
+    {
+      "time_sec": 112.8,
+      "verified": false
+    },
+    {
+      "time_sec": 116.2,
+      "verified": false
+    },
+    {
+      "time_sec": 121.0,
+      "verified": false
+    },
+    {
+      "time_sec": 142.2,
+      "verified": false
+    },
+    {
+      "time_sec": 157.4,
+      "verified": false
+    },
+    {
+      "time_sec": 163.2,
+      "verified": false
+    },
+    {
+      "time_sec": 174.4,
+      "verified": false
+    },
+    {
+      "time_sec": 182.0,
+      "verified": false
+    },
+    {
+      "time_sec": 188.0,
+      "verified": false
+    },
+    {
+      "time_sec": 194.8,
+      "verified": false
+    },
+    {
+      "time_sec": 198.0,
+      "verified": false
+    },
+    {
+      "time_sec": 201.2,
+      "verified": false
+    },
+    {
+      "time_sec": 204.6,
+      "verified": false
+    },
+    {
+      "time_sec": 238.6,
+      "verified": false
+    },
+    {
+      "time_sec": 241.6,
+      "verified": false
+    },
+    {
+      "time_sec": 257.2,
+      "verified": false
+    },
+    {
+      "time_sec": 259.6,
+      "verified": false
+    },
+    {
+      "time_sec": 268.0,
+      "verified": false
+    },
+    {
+      "time_sec": 270.4,
+      "verified": false
+    },
+    {
+      "time_sec": 271.2,
+      "verified": false
+    },
+    {
+      "time_sec": 274.4,
+      "verified": false
+    },
+    {
+      "time_sec": 278.0,
+      "verified": false
+    },
+    {
+      "time_sec": 280.6,
+      "verified": false
+    },
+    {
+      "time_sec": 282.8,
+      "verified": false
+    },
+    {
+      "time_sec": 292.6,
+      "verified": false
+    },
+    {
+      "time_sec": 302.8,
+      "verified": false
+    },
+    {
+      "time_sec": 316.4,
+      "verified": false
+    },
+    {
+      "time_sec": 337.0,
+      "verified": false
+    },
+    {
+      "time_sec": 358.2,
+      "verified": false
+    },
+    {
+      "time_sec": 379.6,
+      "verified": false
+    },
+    {
+      "time_sec": 382.8,
+      "verified": false
+    },
+    {
+      "time_sec": 384.4,
+      "verified": false
+    },
+    {
+      "time_sec": 387.4,
+      "verified": false
+    },
+    {
+      "time_sec": 407.4,
+      "verified": false
+    },
+    {
+      "time_sec": 408.8,
+      "verified": false
+    },
+    {
+      "time_sec": 415.4,
+      "verified": false
+    },
+    {
+      "time_sec": 432.8,
+      "verified": false
+    },
+    {
+      "time_sec": 520.6,
+      "verified": false
+    },
+    {
+      "time_sec": 540.4,
+      "verified": false
+    },
+    {
+      "time_sec": 559.4,
+      "verified": false
+    },
+    {
+      "time_sec": 567.6,
+      "verified": false
+    },
+    {
+      "time_sec": 575.6,
+      "verified": false
+    },
+    {
+      "time_sec": 579.6,
+      "verified": false
+    },
+    {
+      "time_sec": 584.4,
+      "verified": false
+    },
+    {
+      "time_sec": 586.8,
+      "verified": false
+    },
+    {
+      "time_sec": 587.8,
+      "verified": false
+    },
+    {
+      "time_sec": 590.4,
+      "verified": false
+    },
+    {
+      "time_sec": 592.6,
+      "verified": false
+    },
+    {
+      "time_sec": 596.6,
+      "verified": false
+    },
+    {
+      "time_sec": 600.0,
+      "verified": false
+    },
+    {
+      "time_sec": 604.2,
+      "verified": false
+    },
+    {
+      "time_sec": 607.6,
+      "verified": false
+    },
+    {
+      "time_sec": 610.8,
+      "verified": false
+    },
+    {
+      "time_sec": 613.0,
+      "verified": false
+    },
+    {
+      "time_sec": 617.2,
+      "verified": false
+    },
+    {
+      "time_sec": 624.2,
+      "verified": false
+    },
+    {
+      "time_sec": 626.8,
+      "verified": false
+    },
+    {
+      "time_sec": 630.4,
+      "verified": false
+    },
+    {
+      "time_sec": 633.6,
+      "verified": false
+    },
+    {
+      "time_sec": 652.4,
+      "verified": false
+    },
+    {
+      "time_sec": 655.6,
+      "verified": false
+    },
+    {
+      "time_sec": 664.8,
+      "verified": false
+    },
+    {
+      "time_sec": 671.8,
+      "verified": false
+    },
+    {
+      "time_sec": 685.4,
+      "verified": false
+    },
+    {
+      "time_sec": 696.8,
+      "verified": false
+    },
+    {
+      "time_sec": 712.0,
+      "verified": false
+    },
+    {
+      "time_sec": 714.2,
+      "verified": false
+    },
+    {
+      "time_sec": 717.8,
+      "verified": false
+    },
+    {
+      "time_sec": 720.6,
+      "verified": false
+    },
+    {
+      "time_sec": 721.4,
+      "verified": false
+    },
+    {
+      "time_sec": 723.8,
+      "verified": false
+    }
+  ],
+  "claims": {
+    "independently_generated_AI_storyboards": 0,
+    "AI_generated_video_shots": 0,
+    "director_verified_shots": 0
+  },
+  "notes": [
+    "Cuts are heuristic and can be inaccurate; verify before production",
+    "Original source frames are not generated images",
+    "No paid video generation used"
+  ],
+  "reference_upscaled": false,
+  "reference_mode": "DECODED_ORIGINAL_FULL_RESOLUTION_NEAREST_SAMPLED_TIMESTAMP"
+}

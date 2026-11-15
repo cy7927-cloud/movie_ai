@@ -1,0 +1,2378 @@
+{
+  "source_sha256": "a6f7c66c269d8b89d1588c0b7418102efdc14f7dd3a52562b21373de9c4d18a8",
+  "shots_proposed": 86,
+  "potential_visual_reprises_count": 42,
+  "visual_reprises": [
+    {
+      "shots": [
+        "SH_00065",
+        "SH_00066",
+        "SH_00067"
+      ],
+      "times_s": [
+        600.0,
+        604.2,
+        607.6
+      ],
+      "visual_return_similarity": 0.8814,
+      "adjacent_similarity": 0.4732,
+      "visual_echo_margin": 0.4082,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00065_mid.jpg",
+        "data/references/SH_00066_mid.jpg",
+        "data/references/SH_00067_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "65b1d5b038a66fc515a611cfa468cb337ba72a4188f3b33d5d6e9b701c4a50e0",
+        "a2ec6b64b250dd49255d9982748f0c5df18958e298d5c97e6e553e0654fbc053",
+        "56eac8cd562c83147fe9ca700ea536cf8c69f9cbcb0951c610d6a4ac30617cd9"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00024",
+        "SH_00025",
+        "SH_00026"
+      ],
+      "times_s": [
+        188.0,
+        194.8,
+        198.0
+      ],
+      "visual_return_similarity": 0.869,
+      "adjacent_similarity": 0.4627,
+      "visual_echo_margin": 0.4063,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00024_mid.jpg",
+        "data/references/SH_00025_mid.jpg",
+        "data/references/SH_00026_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "8b5f48c7bde9ae50fafdd0b5e4ca0190c7d393335587ef9bbc4c3fbe372c35f6",
+        "3e9c4931e888fe14fe4d47bc992d1182afd1f7bc9dbeedb0c12e01d3efe48e5a",
+        "14eb76bdd04f37c0ea216a5e3afed8f36e37f3882a12a7daf836893ce7df305f"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00071",
+        "SH_00072",
+        "SH_00073"
+      ],
+      "times_s": [
+        624.2,
+        626.8,
+        630.4
+      ],
+      "visual_return_similarity": 0.9532,
+      "adjacent_similarity": 0.6176,
+      "visual_echo_margin": 0.3356,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00071_mid.jpg",
+        "data/references/SH_00072_mid.jpg",
+        "data/references/SH_00073_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "ed5f5c6bae8683e2c8dee4002c0362173f3a78ca805af3875bee0c37202ecfa8",
+        "c1cfef7c4e680e3d7d5f8795b545bca64a4450752467a47b8bf56855b71cea54",
+        "a5c6864bf430a2900353889efd4c0e79f9f51e4926a3ac49fb103fc810727324"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00058",
+        "SH_00059",
+        "SH_00060"
+      ],
+      "times_s": [
+        579.6,
+        584.4,
+        586.8
+      ],
+      "visual_return_similarity": 0.9078,
+      "adjacent_similarity": 0.5786,
+      "visual_echo_margin": 0.3292,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00058_mid.jpg",
+        "data/references/SH_00059_mid.jpg",
+        "data/references/SH_00060_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "38a597d3edbbdad34415e593de7c82d6fccc75fe7bf4f899f77a4fb542e590ee",
+        "48717f67b1152158d0e94703b52997a383cea0e7ee1a416a505194b4e7090a52",
+        "4fa50ab24bd49927b5396c22c046d8c6b0d88e57e63ad7fcb71fb964a8b49548"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00030",
+        "SH_00031",
+        "SH_00032"
+      ],
+      "times_s": [
+        241.6,
+        257.2,
+        259.6
+      ],
+      "visual_return_similarity": 0.8843,
+      "adjacent_similarity": 0.5559,
+      "visual_echo_margin": 0.3284,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00030_mid.jpg",
+        "data/references/SH_00031_mid.jpg",
+        "data/references/SH_00032_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "842fe2a8166597d5278f569b369a66a6e14de69b6560cbe711aef33a2fab9cf2",
+        "7ccb7a802695058d30ec694a16a0f9a82031158f38642a3a11763b2b5bbd3561",
+        "7d7ed0a7fbf0eeee9402dc78ada00800205757d2082085d9f08c22457d75ded4"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00035",
+        "SH_00036",
+        "SH_00037"
+      ],
+      "times_s": [
+        271.2,
+        274.4,
+        278.0
+      ],
+      "visual_return_similarity": 0.8357,
+      "adjacent_similarity": 0.5458,
+      "visual_echo_margin": 0.2899,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00035_mid.jpg",
+        "data/references/SH_00036_mid.jpg",
+        "data/references/SH_00037_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "d31c9ec31d9b0747f48246e6175fa6dbba5329748e972393ce44fbe5fd37e2ba",
+        "29d185f5096e912cc5031fcafc5cbee6603e877d894738aecd684484b434fff3",
+        "c44b84d453a90f3f57f88994200465c38c4e00e87cedcca03652c39ee8baf13e"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00057",
+        "SH_00058",
+        "SH_00059"
+      ],
+      "times_s": [
+        575.6,
+        579.6,
+        584.4
+      ],
+      "visual_return_similarity": 0.9165,
+      "adjacent_similarity": 0.6372,
+      "visual_echo_margin": 0.2793,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00057_mid.jpg",
+        "data/references/SH_00058_mid.jpg",
+        "data/references/SH_00059_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "5648676b4cedcfce653490ba4abc9c870d86dec00ef709ef300a804b0330e5d9",
+        "38a597d3edbbdad34415e593de7c82d6fccc75fe7bf4f899f77a4fb542e590ee",
+        "48717f67b1152158d0e94703b52997a383cea0e7ee1a416a505194b4e7090a52"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00032",
+        "SH_00033",
+        "SH_00034"
+      ],
+      "times_s": [
+        259.6,
+        268.0,
+        270.4
+      ],
+      "visual_return_similarity": 0.9607,
+      "adjacent_similarity": 0.7078,
+      "visual_echo_margin": 0.2529,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00032_mid.jpg",
+        "data/references/SH_00033_mid.jpg",
+        "data/references/SH_00034_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "7d7ed0a7fbf0eeee9402dc78ada00800205757d2082085d9f08c22457d75ded4",
+        "e7aca6e9b2eec53117a78f1d392d272de1521fea1f463b22f68a4088f902703e",
+        "bd4b48cc9b9b8ce4c077d011485bb812eb3e19c99d1a9c2f94698950535dbc4a"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00012",
+        "SH_00013",
+        "SH_00014"
+      ],
+      "times_s": [
+        51.0,
+        64.8,
+        82.8
+      ],
+      "visual_return_similarity": 0.8266,
+      "adjacent_similarity": 0.6113,
+      "visual_echo_margin": 0.2153,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00012_mid.jpg",
+        "data/references/SH_00013_mid.jpg",
+        "data/references/SH_00014_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "3288f8ca75b2c30dbd6a90d9a3b3c708027cc8e1ca4195212f07b11011bb16c5",
+        "846190aea60e4f7ff5447c07c10646a7150a065bbe649c8e512588750a82b731",
+        "1013d23b3c48a8b69ffadaf78dd7ff67587e7dd89d6b4a90aba74ce231514cde"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00013",
+        "SH_00014",
+        "SH_00015"
+      ],
+      "times_s": [
+        64.8,
+        82.8,
+        90.4
+      ],
+      "visual_return_similarity": 0.7173,
+      "adjacent_similarity": 0.5084,
+      "visual_echo_margin": 0.2089,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00013_mid.jpg",
+        "data/references/SH_00014_mid.jpg",
+        "data/references/SH_00015_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "846190aea60e4f7ff5447c07c10646a7150a065bbe649c8e512588750a82b731",
+        "1013d23b3c48a8b69ffadaf78dd7ff67587e7dd89d6b4a90aba74ce231514cde",
+        "d60f5e711197c2df1725fe82d874f4d72e2cd777c549c304f0e1ed1643806e18"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00019",
+        "SH_00020",
+        "SH_00021"
+      ],
+      "times_s": [
+        142.2,
+        157.4,
+        163.2
+      ],
+      "visual_return_similarity": 0.7991,
+      "adjacent_similarity": 0.593,
+      "visual_echo_margin": 0.2061,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00019_mid.jpg",
+        "data/references/SH_00020_mid.jpg",
+        "data/references/SH_00021_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "ca81b001f1b4cb7d29c6a6906fb1891f597d4f1bba1227fc1143be6cb251909c",
+        "28d187af5072730b740a967f78aba6aa620e58a175c6ee149d1346678ab0afbc",
+        "e07142cb4cc0f22c7eceaba8898a3926b89f5c873be63d79a70e027ce1f53f69"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00059",
+        "SH_00060",
+        "SH_00061"
+      ],
+      "times_s": [
+        584.4,
+        586.8,
+        587.8
+      ],
+      "visual_return_similarity": 0.8412,
+      "adjacent_similarity": 0.6384,
+      "visual_echo_margin": 0.2028,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00059_mid.jpg",
+        "data/references/SH_00060_mid.jpg",
+        "data/references/SH_00061_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "48717f67b1152158d0e94703b52997a383cea0e7ee1a416a505194b4e7090a52",
+        "4fa50ab24bd49927b5396c22c046d8c6b0d88e57e63ad7fcb71fb964a8b49548",
+        "3448c906ea375967e5b12b728ad11124fe3e27fef6cb56fc0aa4c575c01694d9"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00004",
+        "SH_00005",
+        "SH_00006"
+      ],
+      "times_s": [
+        24.0,
+        29.6,
+        32.6
+      ],
+      "visual_return_similarity": 0.891,
+      "adjacent_similarity": 0.6929,
+      "visual_echo_margin": 0.1981,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00004_mid.jpg",
+        "data/references/SH_00005_mid.jpg",
+        "data/references/SH_00006_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "983827a177fdafb6d253fbd3bdfd85acba12282400564cd5464733b5dd49f4e4",
+        "696958c9b1a8d5d9fe4ff953a0faf4c813b2a5b0a66e586d46c7f01aff961e4e",
+        "448c465cc7c2f3ab6d382dd55aa787b405b01308a148a02a30e3cd4fa017041f"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00053",
+        "SH_00054",
+        "SH_00055"
+      ],
+      "times_s": [
+        520.6,
+        540.4,
+        559.4
+      ],
+      "visual_return_similarity": 0.9195,
+      "adjacent_similarity": 0.7266,
+      "visual_echo_margin": 0.193,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00053_mid.jpg",
+        "data/references/SH_00054_mid.jpg",
+        "data/references/SH_00055_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "427cb577277bda5762139e323a9ed1de6383b0d2cc480c8519c41a4b7758b660",
+        "255ec122d54fbe4fbe25b113b425fa3a39ee527d891c318b28086e36c3dab54c",
+        "e4909a8461082afb629647fa5581e1c24c7b37f3b5d6dc1c34b58585e60c3930"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00031",
+        "SH_00032",
+        "SH_00033"
+      ],
+      "times_s": [
+        257.2,
+        259.6,
+        268.0
+      ],
+      "visual_return_similarity": 0.8208,
+      "adjacent_similarity": 0.6289,
+      "visual_echo_margin": 0.1919,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00031_mid.jpg",
+        "data/references/SH_00032_mid.jpg",
+        "data/references/SH_00033_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "7ccb7a802695058d30ec694a16a0f9a82031158f38642a3a11763b2b5bbd3561",
+        "7d7ed0a7fbf0eeee9402dc78ada00800205757d2082085d9f08c22457d75ded4",
+        "e7aca6e9b2eec53117a78f1d392d272de1521fea1f463b22f68a4088f902703e"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00061",
+        "SH_00062",
+        "SH_00063"
+      ],
+      "times_s": [
+        587.8,
+        590.4,
+        592.6
+      ],
+      "visual_return_similarity": 0.8849,
+      "adjacent_similarity": 0.6962,
+      "visual_echo_margin": 0.1887,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00061_mid.jpg",
+        "data/references/SH_00062_mid.jpg",
+        "data/references/SH_00063_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "3448c906ea375967e5b12b728ad11124fe3e27fef6cb56fc0aa4c575c01694d9",
+        "f32abb596ecd3f59851df889a0a6696764d1d0cb69bb6aaf91d7bac5fe56b727",
+        "d4bb5141029f8942f080f4302802fc2f3ee98450684dffd6d1b2ed297ae7da7a"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00048",
+        "SH_00049",
+        "SH_00050"
+      ],
+      "times_s": [
+        387.4,
+        407.4,
+        408.8
+      ],
+      "visual_return_similarity": 0.9334,
+      "adjacent_similarity": 0.7459,
+      "visual_echo_margin": 0.1875,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00048_mid.jpg",
+        "data/references/SH_00049_mid.jpg",
+        "data/references/SH_00050_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "d3ec9ce474ab360c3ed87786f378d771a95c5f7b6cb3b226d3eeb33f263a0578",
+        "2048174797025554fbf4aa5dcb04ead74bb56ebd7f97cadfdc867e64a0ddb441",
+        "fba28b8986faab830d5b74f2d0d7f0e217c3e2d84aff1c8236b33efe2092bc88"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00007",
+        "SH_00008",
+        "SH_00009"
+      ],
+      "times_s": [
+        35.0,
+        36.6,
+        38.2
+      ],
+      "visual_return_similarity": 0.7028,
+      "adjacent_similarity": 0.5183,
+      "visual_echo_margin": 0.1845,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00007_mid.jpg",
+        "data/references/SH_00008_mid.jpg",
+        "data/references/SH_00009_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "78bdb0fc636771f8c029fe93ba1a5a0288c865b4f9b92c77b57eb61e7c4e3f9f",
+        "8cae9c64560de620cdc4bf02ac8bad09b573622ea5e75b62e98cfc9b62efc6cc",
+        "babddf2b98fae5d6ffe61592ad0e9083929e4dfa521dc25428ac9d1244d396f7"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00046",
+        "SH_00047",
+        "SH_00048"
+      ],
+      "times_s": [
+        382.8,
+        384.4,
+        387.4
+      ],
+      "visual_return_similarity": 0.9232,
+      "adjacent_similarity": 0.7413,
+      "visual_echo_margin": 0.182,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00046_mid.jpg",
+        "data/references/SH_00047_mid.jpg",
+        "data/references/SH_00048_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "b025d25e8fd47018fac0f64724ad80149432e1f7c411bbf9dfdc1f2ba5eac5bc",
+        "8a71254aca20ef9aad210f77dc228f3fb6493add3c2c35ea4d485d6aa645cf11",
+        "d3ec9ce474ab360c3ed87786f378d771a95c5f7b6cb3b226d3eeb33f263a0578"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00021",
+        "SH_00022",
+        "SH_00023"
+      ],
+      "times_s": [
+        163.2,
+        174.4,
+        182.0
+      ],
+      "visual_return_similarity": 0.8375,
+      "adjacent_similarity": 0.6761,
+      "visual_echo_margin": 0.1614,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00021_mid.jpg",
+        "data/references/SH_00022_mid.jpg",
+        "data/references/SH_00023_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "e07142cb4cc0f22c7eceaba8898a3926b89f5c873be63d79a70e027ce1f53f69",
+        "01c5d3f15fdfa25b8a2ae43e9678067f3ae010c5caeb980abc5c52d6178599d9",
+        "f96b195b51a02f1f7ecd171f1a26f7da0ba2176bd2cf7e315ee2927caa97fdf2"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00029",
+        "SH_00030",
+        "SH_00031"
+      ],
+      "times_s": [
+        238.6,
+        241.6,
+        257.2
+      ],
+      "visual_return_similarity": 0.7814,
+      "adjacent_similarity": 0.6412,
+      "visual_echo_margin": 0.1402,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00029_mid.jpg",
+        "data/references/SH_00030_mid.jpg",
+        "data/references/SH_00031_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "8c65bc02431c7bc2561dac495cc34c6fc7a462b319c0b32b74cc821084bcb7df",
+        "842fe2a8166597d5278f569b369a66a6e14de69b6560cbe711aef33a2fab9cf2",
+        "7ccb7a802695058d30ec694a16a0f9a82031158f38642a3a11763b2b5bbd3561"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00060",
+        "SH_00061",
+        "SH_00062"
+      ],
+      "times_s": [
+        586.8,
+        587.8,
+        590.4
+      ],
+      "visual_return_similarity": 0.9159,
+      "adjacent_similarity": 0.7787,
+      "visual_echo_margin": 0.1372,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00060_mid.jpg",
+        "data/references/SH_00061_mid.jpg",
+        "data/references/SH_00062_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "4fa50ab24bd49927b5396c22c046d8c6b0d88e57e63ad7fcb71fb964a8b49548",
+        "3448c906ea375967e5b12b728ad11124fe3e27fef6cb56fc0aa4c575c01694d9",
+        "f32abb596ecd3f59851df889a0a6696764d1d0cb69bb6aaf91d7bac5fe56b727"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00014",
+        "SH_00015",
+        "SH_00016"
+      ],
+      "times_s": [
+        82.8,
+        90.4,
+        112.8
+      ],
+      "visual_return_similarity": 0.7188,
+      "adjacent_similarity": 0.5885,
+      "visual_echo_margin": 0.1303,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00014_mid.jpg",
+        "data/references/SH_00015_mid.jpg",
+        "data/references/SH_00016_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "1013d23b3c48a8b69ffadaf78dd7ff67587e7dd89d6b4a90aba74ce231514cde",
+        "d60f5e711197c2df1725fe82d874f4d72e2cd777c549c304f0e1ed1643806e18",
+        "a38dbdf9a1a354098c35a9fab005759de2fb147d26f692395c40d397e1844325"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00072",
+        "SH_00073",
+        "SH_00074"
+      ],
+      "times_s": [
+        626.8,
+        630.4,
+        633.6
+      ],
+      "visual_return_similarity": 0.725,
+      "adjacent_similarity": 0.6055,
+      "visual_echo_margin": 0.1196,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00072_mid.jpg",
+        "data/references/SH_00073_mid.jpg",
+        "data/references/SH_00074_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "c1cfef7c4e680e3d7d5f8795b545bca64a4450752467a47b8bf56855b71cea54",
+        "a5c6864bf430a2900353889efd4c0e79f9f51e4926a3ac49fb103fc810727324",
+        "5a36d319bbb48b4805fca40a6aa0b3098e5f55e116b511820fcd73d8173e6fba"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00080",
+        "SH_00081",
+        "SH_00082"
+      ],
+      "times_s": [
+        696.8,
+        712.0,
+        714.2
+      ],
+      "visual_return_similarity": 0.8791,
+      "adjacent_similarity": 0.7714,
+      "visual_echo_margin": 0.1077,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00080_mid.jpg",
+        "data/references/SH_00081_mid.jpg",
+        "data/references/SH_00082_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "d9befb29c403e696a9ab373574610c1392938eee20e14deadc0d65b3ab7db65d",
+        "7116e2e42930256c5981964493294a5ed9e77fc71c57c065bdcb9c9e1e4160d3",
+        "e22077dc83b77cc338342e0c17cfe5a5957227e5e0860bcb468e6e8c3bba35aa"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00056",
+        "SH_00057",
+        "SH_00058"
+      ],
+      "times_s": [
+        567.6,
+        575.6,
+        579.6
+      ],
+      "visual_return_similarity": 0.823,
+      "adjacent_similarity": 0.7212,
+      "visual_echo_margin": 0.1018,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00056_mid.jpg",
+        "data/references/SH_00057_mid.jpg",
+        "data/references/SH_00058_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "e82329612b0c27a06051ce7bd0f2a110bd4180b4c71287fcfcb13c5d13c8a576",
+        "5648676b4cedcfce653490ba4abc9c870d86dec00ef709ef300a804b0330e5d9",
+        "38a597d3edbbdad34415e593de7c82d6fccc75fe7bf4f899f77a4fb542e590ee"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00052",
+        "SH_00053",
+        "SH_00054"
+      ],
+      "times_s": [
+        432.8,
+        520.6,
+        540.4
+      ],
+      "visual_return_similarity": 0.8716,
+      "adjacent_similarity": 0.7855,
+      "visual_echo_margin": 0.086,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00052_mid.jpg",
+        "data/references/SH_00053_mid.jpg",
+        "data/references/SH_00054_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "a860c2c616895d6a29c4465cb21267590a56a484d2f9ff6419e0b93c19490f49",
+        "427cb577277bda5762139e323a9ed1de6383b0d2cc480c8519c41a4b7758b660",
+        "255ec122d54fbe4fbe25b113b425fa3a39ee527d891c318b28086e36c3dab54c"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00047",
+        "SH_00048",
+        "SH_00049"
+      ],
+      "times_s": [
+        384.4,
+        387.4,
+        407.4
+      ],
+      "visual_return_similarity": 0.8557,
+      "adjacent_similarity": 0.7726,
+      "visual_echo_margin": 0.0831,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00047_mid.jpg",
+        "data/references/SH_00048_mid.jpg",
+        "data/references/SH_00049_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "8a71254aca20ef9aad210f77dc228f3fb6493add3c2c35ea4d485d6aa645cf11",
+        "d3ec9ce474ab360c3ed87786f378d771a95c5f7b6cb3b226d3eeb33f263a0578",
+        "2048174797025554fbf4aa5dcb04ead74bb56ebd7f97cadfdc867e64a0ddb441"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00041",
+        "SH_00042",
+        "SH_00043"
+      ],
+      "times_s": [
+        302.8,
+        316.4,
+        337.0
+      ],
+      "visual_return_similarity": 0.9538,
+      "adjacent_similarity": 0.8736,
+      "visual_echo_margin": 0.0802,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00041_mid.jpg",
+        "data/references/SH_00042_mid.jpg",
+        "data/references/SH_00043_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "3d0f8247e768bd99d1ee32f0e2c0a17ae2c7592cb00eafd72c268a7d7bc923f6",
+        "13cc4e2ea92e56a8e2b7e10e479032e84c760616167564123b5b21d3e5289473",
+        "c5df5b7d57cb34f293af77cd5c664c2b7ccc5791fe5a5f90d9dd766a3e1b8b0f"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00037",
+        "SH_00038",
+        "SH_00039"
+      ],
+      "times_s": [
+        278.0,
+        280.6,
+        282.8
+      ],
+      "visual_return_similarity": 0.9465,
+      "adjacent_similarity": 0.8755,
+      "visual_echo_margin": 0.071,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00037_mid.jpg",
+        "data/references/SH_00038_mid.jpg",
+        "data/references/SH_00039_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "c44b84d453a90f3f57f88994200465c38c4e00e87cedcca03652c39ee8baf13e",
+        "5ad2fb21be17181917f52130ca454654508ca90ae61585e69fa62d0c9aa0238f",
+        "eca342926597febb5afe42ba71c2793a944005bda8981dbab2aa6e6c6b5e1f80"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00078",
+        "SH_00079",
+        "SH_00080"
+      ],
+      "times_s": [
+        671.8,
+        685.4,
+        696.8
+      ],
+      "visual_return_similarity": 0.7693,
+      "adjacent_similarity": 0.6991,
+      "visual_echo_margin": 0.0702,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00078_mid.jpg",
+        "data/references/SH_00079_mid.jpg",
+        "data/references/SH_00080_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "3f48aa7218753dd06a303c773f049f839ab72b2da97e32eaed07f9aaa273bde0",
+        "ef55a8a7dc619edc2e5edb799da9f8992bcfcdd298588c0d89f43be94daad414",
+        "d9befb29c403e696a9ab373574610c1392938eee20e14deadc0d65b3ab7db65d"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00018",
+        "SH_00019",
+        "SH_00020"
+      ],
+      "times_s": [
+        121.0,
+        142.2,
+        157.4
+      ],
+      "visual_return_similarity": 0.6568,
+      "adjacent_similarity": 0.5958,
+      "visual_echo_margin": 0.061,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00018_mid.jpg",
+        "data/references/SH_00019_mid.jpg",
+        "data/references/SH_00020_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "0e9cff575331e046218635dba612902af35213f74ec07a00514c3ceb07db6a5b",
+        "ca81b001f1b4cb7d29c6a6906fb1891f597d4f1bba1227fc1143be6cb251909c",
+        "28d187af5072730b740a967f78aba6aa620e58a175c6ee149d1346678ab0afbc"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00028",
+        "SH_00029",
+        "SH_00030"
+      ],
+      "times_s": [
+        204.6,
+        238.6,
+        241.6
+      ],
+      "visual_return_similarity": 0.8019,
+      "adjacent_similarity": 0.7459,
+      "visual_echo_margin": 0.0561,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00028_mid.jpg",
+        "data/references/SH_00029_mid.jpg",
+        "data/references/SH_00030_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "e770dc61e6c6f356a75f172c375a0393b8e221a0ad2acce56eb9a6dcd89ae4b8",
+        "8c65bc02431c7bc2561dac495cc34c6fc7a462b319c0b32b74cc821084bcb7df",
+        "842fe2a8166597d5278f569b369a66a6e14de69b6560cbe711aef33a2fab9cf2"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00045",
+        "SH_00046",
+        "SH_00047"
+      ],
+      "times_s": [
+        379.6,
+        382.8,
+        384.4
+      ],
+      "visual_return_similarity": 0.8201,
+      "adjacent_similarity": 0.7786,
+      "visual_echo_margin": 0.0415,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00045_mid.jpg",
+        "data/references/SH_00046_mid.jpg",
+        "data/references/SH_00047_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "050eba874b196e7889f1f2cd8ec913c89e6fe5d2003343b22b8884fbd3a1b1c2",
+        "b025d25e8fd47018fac0f64724ad80149432e1f7c411bbf9dfdc1f2ba5eac5bc",
+        "8a71254aca20ef9aad210f77dc228f3fb6493add3c2c35ea4d485d6aa645cf11"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00083",
+        "SH_00084",
+        "SH_00085"
+      ],
+      "times_s": [
+        717.8,
+        720.6,
+        721.4
+      ],
+      "visual_return_similarity": 0.718,
+      "adjacent_similarity": 0.6786,
+      "visual_echo_margin": 0.0394,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00083_mid.jpg",
+        "data/references/SH_00084_mid.jpg",
+        "data/references/SH_00085_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "df9cb4ef444b35f82d360f4b85e7386d74ea688fb1aa52652debf6d77e6dc536",
+        "dca893884fb699b9ff2aeb9879bf04bea116a667178ccab4f294f97af0ad6b9e",
+        "43d1db8462ffc039c90cff579292613983438cabde106a0ac0a9bc1e0d946257"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00020",
+        "SH_00021",
+        "SH_00022"
+      ],
+      "times_s": [
+        157.4,
+        163.2,
+        174.4
+      ],
+      "visual_return_similarity": 0.7268,
+      "adjacent_similarity": 0.6884,
+      "visual_echo_margin": 0.0385,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00020_mid.jpg",
+        "data/references/SH_00021_mid.jpg",
+        "data/references/SH_00022_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "28d187af5072730b740a967f78aba6aa620e58a175c6ee149d1346678ab0afbc",
+        "e07142cb4cc0f22c7eceaba8898a3926b89f5c873be63d79a70e027ce1f53f69",
+        "01c5d3f15fdfa25b8a2ae43e9678067f3ae010c5caeb980abc5c52d6178599d9"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00082",
+        "SH_00083",
+        "SH_00084"
+      ],
+      "times_s": [
+        714.2,
+        717.8,
+        720.6
+      ],
+      "visual_return_similarity": 0.6799,
+      "adjacent_similarity": 0.6422,
+      "visual_echo_margin": 0.0377,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00082_mid.jpg",
+        "data/references/SH_00083_mid.jpg",
+        "data/references/SH_00084_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "e22077dc83b77cc338342e0c17cfe5a5957227e5e0860bcb468e6e8c3bba35aa",
+        "df9cb4ef444b35f82d360f4b85e7386d74ea688fb1aa52652debf6d77e6dc536",
+        "dca893884fb699b9ff2aeb9879bf04bea116a667178ccab4f294f97af0ad6b9e"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00079",
+        "SH_00080",
+        "SH_00081"
+      ],
+      "times_s": [
+        685.4,
+        696.8,
+        712.0
+      ],
+      "visual_return_similarity": 0.7983,
+      "adjacent_similarity": 0.7614,
+      "visual_echo_margin": 0.0369,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00079_mid.jpg",
+        "data/references/SH_00080_mid.jpg",
+        "data/references/SH_00081_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "ef55a8a7dc619edc2e5edb799da9f8992bcfcdd298588c0d89f43be94daad414",
+        "d9befb29c403e696a9ab373574610c1392938eee20e14deadc0d65b3ab7db65d",
+        "7116e2e42930256c5981964493294a5ed9e77fc71c57c065bdcb9c9e1e4160d3"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00068",
+        "SH_00069",
+        "SH_00070"
+      ],
+      "times_s": [
+        610.8,
+        613.0,
+        617.2
+      ],
+      "visual_return_similarity": 0.8309,
+      "adjacent_similarity": 0.7945,
+      "visual_echo_margin": 0.0364,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00068_mid.jpg",
+        "data/references/SH_00069_mid.jpg",
+        "data/references/SH_00070_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "1d8d72a1c2494fd7bd2c5b227d1d641c7143892df19304dc30729b593901810f",
+        "95ceeafd9169a10e79d5aef753a6209cf1f7932e4a0ff9b0eb3942159feaecce",
+        "e373d3a5ca59432d99e0cd504e3687e6b9a3413168e61b95f09f0dcacc663f6c"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00073",
+        "SH_00074",
+        "SH_00075"
+      ],
+      "times_s": [
+        630.4,
+        633.6,
+        652.4
+      ],
+      "visual_return_similarity": 0.6952,
+      "adjacent_similarity": 0.6641,
+      "visual_echo_margin": 0.0311,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00073_mid.jpg",
+        "data/references/SH_00074_mid.jpg",
+        "data/references/SH_00075_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "a5c6864bf430a2900353889efd4c0e79f9f51e4926a3ac49fb103fc810727324",
+        "5a36d319bbb48b4805fca40a6aa0b3098e5f55e116b511820fcd73d8173e6fba",
+        "c67ea3c1a3367239810fbdda38794b0838b2c09fff64c51df85f220a51554235"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00084",
+        "SH_00085",
+        "SH_00086"
+      ],
+      "times_s": [
+        720.6,
+        721.4,
+        723.8
+      ],
+      "visual_return_similarity": 0.7166,
+      "adjacent_similarity": 0.6882,
+      "visual_echo_margin": 0.0284,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00084_mid.jpg",
+        "data/references/SH_00085_mid.jpg",
+        "data/references/SH_00086_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "dca893884fb699b9ff2aeb9879bf04bea116a667178ccab4f294f97af0ad6b9e",
+        "43d1db8462ffc039c90cff579292613983438cabde106a0ac0a9bc1e0d946257",
+        "396ecca66f7c33690aeb0350ae74efe6b75d7983c195efc2e61b63d4488aabb5"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    },
+    {
+      "shots": [
+        "SH_00075",
+        "SH_00076",
+        "SH_00077"
+      ],
+      "times_s": [
+        652.4,
+        655.6,
+        664.8
+      ],
+      "visual_return_similarity": 0.8863,
+      "adjacent_similarity": 0.8585,
+      "visual_echo_margin": 0.0278,
+      "label": "VISUAL_REPRISE_CANDIDATE_NOT_CONFIRMED_REVERSE_SHOT",
+      "claims_actor_identity": false,
+      "claims_editing_intent": false,
+      "mid_frames": [
+        "data/references/SH_00075_mid.jpg",
+        "data/references/SH_00076_mid.jpg",
+        "data/references/SH_00077_mid.jpg"
+      ],
+      "source_mid_sha256": [
+        "c67ea3c1a3367239810fbdda38794b0838b2c09fff64c51df85f220a51554235",
+        "4bc57c10f32bac2c4e5ab37d0871ce7343eade69fc83612d23ab9ab41aafbe8d",
+        "4d4abb001bd366673729f16c8674f7f5aaf721dfa0d319a3d471da6065fdfddb"
+      ],
+      "interpretations_to_test": [
+        "是否真实回到同一空间或人物视角",
+        "是否是正反打／反应／插入镜头",
+        "对齐实际切点和声音后再确定叙事功能"
+      ]
+    }
+  ],
+  "rhythmic_triplets_count": 12,
+  "rhythmic_triplets": [
+    {
+      "shots": [
+        "SH_00028",
+        "SH_00029",
+        "SH_00030"
+      ],
+      "durations_s": [
+        34.0,
+        3.0,
+        15.6
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.192,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00048",
+        "SH_00049",
+        "SH_00050"
+      ],
+      "durations_s": [
+        20.0,
+        1.4,
+        6.6
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.212,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00030",
+        "SH_00031",
+        "SH_00032"
+      ],
+      "durations_s": [
+        15.6,
+        2.4,
+        8.4
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.286,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00033",
+        "SH_00034",
+        "SH_00035"
+      ],
+      "durations_s": [
+        2.4,
+        0.8,
+        3.2
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.333,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00083",
+        "SH_00084",
+        "SH_00085"
+      ],
+      "durations_s": [
+        2.8,
+        0.8,
+        2.4
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.333,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00074",
+        "SH_00075",
+        "SH_00076"
+      ],
+      "durations_s": [
+        18.8,
+        3.2,
+        9.2
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.348,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00059",
+        "SH_00060",
+        "SH_00061"
+      ],
+      "durations_s": [
+        2.4,
+        1.0,
+        2.6
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.417,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00013",
+        "SH_00014",
+        "SH_00015"
+      ],
+      "durations_s": [
+        18.0,
+        7.6,
+        22.4
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.422,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00010",
+        "SH_00011",
+        "SH_00012"
+      ],
+      "durations_s": [
+        2.6,
+        1.2,
+        13.8
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.462,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00019",
+        "SH_00020",
+        "SH_00021"
+      ],
+      "durations_s": [
+        15.2,
+        5.8,
+        11.2
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.518,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00045",
+        "SH_00046",
+        "SH_00047"
+      ],
+      "durations_s": [
+        3.2,
+        1.6,
+        3.0
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.533,
+      "narrative_interpretation_verified": false
+    },
+    {
+      "shots": [
+        "SH_00080",
+        "SH_00081",
+        "SH_00082"
+      ],
+      "durations_s": [
+        15.2,
+        2.2,
+        3.6
+      ],
+      "pattern": "LONG_SHORT_LONG_PROPOSED",
+      "center_ratio": 0.611,
+      "narrative_interpretation_verified": false
+    }
+  ],
+  "reference_audio_cut_samples": 85,
+  "sound_continuation_proxies": [
+    {
+      "from": "SH_00038",
+      "to": "SH_00039",
+      "time_s": 282.8,
+      "audio_energy_similarity": 0.929,
+      "spectral_proxy": 0.998,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00031",
+      "to": "SH_00032",
+      "time_s": 259.6,
+      "audio_energy_similarity": 0.902,
+      "spectral_proxy": 0.947,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00037",
+      "to": "SH_00038",
+      "time_s": 280.6,
+      "audio_energy_similarity": 0.84,
+      "spectral_proxy": 0.993,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00048",
+      "to": "SH_00049",
+      "time_s": 407.4,
+      "audio_energy_similarity": 0.984,
+      "spectral_proxy": 0.83,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00046",
+      "to": "SH_00047",
+      "time_s": 384.4,
+      "audio_energy_similarity": 0.848,
+      "spectral_proxy": 0.951,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00053",
+      "to": "SH_00054",
+      "time_s": 540.4,
+      "audio_energy_similarity": 0.888,
+      "spectral_proxy": 0.881,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00036",
+      "to": "SH_00037",
+      "time_s": 278.0,
+      "audio_energy_similarity": 0.771,
+      "spectral_proxy": 0.994,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00047",
+      "to": "SH_00048",
+      "time_s": 387.4,
+      "audio_energy_similarity": 0.895,
+      "spectral_proxy": 0.799,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00003",
+      "to": "SH_00004",
+      "time_s": 24.0,
+      "audio_energy_similarity": 0.892,
+      "spectral_proxy": 0.794,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00004",
+      "to": "SH_00005",
+      "time_s": 29.6,
+      "audio_energy_similarity": 0.94,
+      "spectral_proxy": 0.74,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00071",
+      "to": "SH_00072",
+      "time_s": 626.8,
+      "audio_energy_similarity": 0.816,
+      "spectral_proxy": 0.855,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00074",
+      "to": "SH_00075",
+      "time_s": 652.4,
+      "audio_energy_similarity": 0.95,
+      "spectral_proxy": 0.721,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00059",
+      "to": "SH_00060",
+      "time_s": 586.8,
+      "audio_energy_similarity": 0.887,
+      "spectral_proxy": 0.769,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00040",
+      "to": "SH_00041",
+      "time_s": 302.8,
+      "audio_energy_similarity": 0.989,
+      "spectral_proxy": 0.655,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00002",
+      "to": "SH_00003",
+      "time_s": 18.8,
+      "audio_energy_similarity": 0.818,
+      "spectral_proxy": 0.818,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00023",
+      "to": "SH_00024",
+      "time_s": 188.0,
+      "audio_energy_similarity": 0.884,
+      "spectral_proxy": 0.746,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00050",
+      "to": "SH_00051",
+      "time_s": 415.4,
+      "audio_energy_similarity": 0.802,
+      "spectral_proxy": 0.818,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00060",
+      "to": "SH_00061",
+      "time_s": 587.8,
+      "audio_energy_similarity": 0.967,
+      "spectral_proxy": 0.652,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00005",
+      "to": "SH_00006",
+      "time_s": 32.6,
+      "audio_energy_similarity": 0.849,
+      "spectral_proxy": 0.766,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00063",
+      "to": "SH_00064",
+      "time_s": 596.6,
+      "audio_energy_similarity": 0.957,
+      "spectral_proxy": 0.653,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00021",
+      "to": "SH_00022",
+      "time_s": 174.4,
+      "audio_energy_similarity": 0.954,
+      "spectral_proxy": 0.613,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00006",
+      "to": "SH_00007",
+      "time_s": 35.0,
+      "audio_energy_similarity": 0.78,
+      "spectral_proxy": 0.769,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00080",
+      "to": "SH_00081",
+      "time_s": 712.0,
+      "audio_energy_similarity": 0.827,
+      "spectral_proxy": 0.71,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00044",
+      "to": "SH_00045",
+      "time_s": 379.6,
+      "audio_energy_similarity": 0.741,
+      "spectral_proxy": 0.782,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00011",
+      "to": "SH_00012",
+      "time_s": 51.0,
+      "audio_energy_similarity": 0.75,
+      "spectral_proxy": 0.772,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00058",
+      "to": "SH_00059",
+      "time_s": 584.4,
+      "audio_energy_similarity": 0.894,
+      "spectral_proxy": 0.605,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00029",
+      "to": "SH_00030",
+      "time_s": 241.6,
+      "audio_energy_similarity": 0.765,
+      "spectral_proxy": 0.721,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00026",
+      "to": "SH_00027",
+      "time_s": 201.2,
+      "audio_energy_similarity": 0.826,
+      "spectral_proxy": 0.613,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00078",
+      "to": "SH_00079",
+      "time_s": 685.4,
+      "audio_energy_similarity": 0.782,
+      "spectral_proxy": 0.655,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00001",
+      "to": "SH_00002",
+      "time_s": 14.8,
+      "audio_energy_similarity": 0.825,
+      "spectral_proxy": 0.608,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00082",
+      "to": "SH_00083",
+      "time_s": 717.8,
+      "audio_energy_similarity": 0.984,
+      "spectral_proxy": 0.431,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00075",
+      "to": "SH_00076",
+      "time_s": 655.6,
+      "audio_energy_similarity": 0.726,
+      "spectral_proxy": 0.686,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00033",
+      "to": "SH_00034",
+      "time_s": 270.4,
+      "audio_energy_similarity": 0.631,
+      "spectral_proxy": 0.776,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00025",
+      "to": "SH_00026",
+      "time_s": 198.0,
+      "audio_energy_similarity": 0.88,
+      "spectral_proxy": 0.526,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00024",
+      "to": "SH_00025",
+      "time_s": 194.8,
+      "audio_energy_similarity": 0.576,
+      "spectral_proxy": 0.816,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00009",
+      "to": "SH_00010",
+      "time_s": 47.2,
+      "audio_energy_similarity": 0.665,
+      "spectral_proxy": 0.704,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00010",
+      "to": "SH_00011",
+      "time_s": 49.8,
+      "audio_energy_similarity": 0.948,
+      "spectral_proxy": 0.411,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00085",
+      "to": "SH_00086",
+      "time_s": 723.8,
+      "audio_energy_similarity": 0.714,
+      "spectral_proxy": 0.617,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00079",
+      "to": "SH_00080",
+      "time_s": 696.8,
+      "audio_energy_similarity": 0.863,
+      "spectral_proxy": 0.448,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00062",
+      "to": "SH_00063",
+      "time_s": 592.6,
+      "audio_energy_similarity": 0.538,
+      "spectral_proxy": 0.754,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00051",
+      "to": "SH_00052",
+      "time_s": 432.8,
+      "audio_energy_similarity": 0.556,
+      "spectral_proxy": 0.708,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00049",
+      "to": "SH_00050",
+      "time_s": 408.8,
+      "audio_energy_similarity": 0.51,
+      "spectral_proxy": 0.74,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00041",
+      "to": "SH_00042",
+      "time_s": 316.4,
+      "audio_energy_similarity": 0.718,
+      "spectral_proxy": 0.501,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00035",
+      "to": "SH_00036",
+      "time_s": 274.4,
+      "audio_energy_similarity": 0.557,
+      "spectral_proxy": 0.64,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00045",
+      "to": "SH_00046",
+      "time_s": 382.8,
+      "audio_energy_similarity": 0.382,
+      "spectral_proxy": 0.774,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00064",
+      "to": "SH_00065",
+      "time_s": 600.0,
+      "audio_energy_similarity": 0.638,
+      "spectral_proxy": 0.518,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00014",
+      "to": "SH_00015",
+      "time_s": 90.4,
+      "audio_energy_similarity": 0.391,
+      "spectral_proxy": 0.755,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00068",
+      "to": "SH_00069",
+      "time_s": 613.0,
+      "audio_energy_similarity": 0.485,
+      "spectral_proxy": 0.644,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00066",
+      "to": "SH_00067",
+      "time_s": 607.6,
+      "audio_energy_similarity": 0.542,
+      "spectral_proxy": 0.571,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00073",
+      "to": "SH_00074",
+      "time_s": 633.6,
+      "audio_energy_similarity": 0.574,
+      "spectral_proxy": 0.533,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00007",
+      "to": "SH_00008",
+      "time_s": 36.6,
+      "audio_energy_similarity": 0.406,
+      "spectral_proxy": 0.682,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00072",
+      "to": "SH_00073",
+      "time_s": 630.4,
+      "audio_energy_similarity": 0.498,
+      "spectral_proxy": 0.585,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00056",
+      "to": "SH_00057",
+      "time_s": 575.6,
+      "audio_energy_similarity": 0.486,
+      "spectral_proxy": 0.585,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00083",
+      "to": "SH_00084",
+      "time_s": 720.6,
+      "audio_energy_similarity": 0.418,
+      "spectral_proxy": 0.632,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00027",
+      "to": "SH_00028",
+      "time_s": 204.6,
+      "audio_energy_similarity": 0.687,
+      "spectral_proxy": 0.324,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00065",
+      "to": "SH_00066",
+      "time_s": 604.2,
+      "audio_energy_similarity": 0.263,
+      "spectral_proxy": 0.746,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00042",
+      "to": "SH_00043",
+      "time_s": 337.0,
+      "audio_energy_similarity": 0.461,
+      "spectral_proxy": 0.544,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00022",
+      "to": "SH_00023",
+      "time_s": 182.0,
+      "audio_energy_similarity": 0.518,
+      "spectral_proxy": 0.456,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00020",
+      "to": "SH_00021",
+      "time_s": 163.2,
+      "audio_energy_similarity": 0.521,
+      "spectral_proxy": 0.451,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00084",
+      "to": "SH_00085",
+      "time_s": 721.4,
+      "audio_energy_similarity": 0.291,
+      "spectral_proxy": 0.674,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00081",
+      "to": "SH_00082",
+      "time_s": 714.2,
+      "audio_energy_similarity": 0.352,
+      "spectral_proxy": 0.582,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00034",
+      "to": "SH_00035",
+      "time_s": 271.2,
+      "audio_energy_similarity": 0.301,
+      "spectral_proxy": 0.622,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00069",
+      "to": "SH_00070",
+      "time_s": 617.2,
+      "audio_energy_similarity": 0.642,
+      "spectral_proxy": 0.266,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00067",
+      "to": "SH_00068",
+      "time_s": 610.8,
+      "audio_energy_similarity": 0.212,
+      "spectral_proxy": 0.659,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00070",
+      "to": "SH_00071",
+      "time_s": 624.2,
+      "audio_energy_similarity": 0.136,
+      "spectral_proxy": 0.677,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00018",
+      "to": "SH_00019",
+      "time_s": 142.2,
+      "audio_energy_similarity": 0.139,
+      "spectral_proxy": 0.663,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00028",
+      "to": "SH_00029",
+      "time_s": 238.6,
+      "audio_energy_similarity": 0.317,
+      "spectral_proxy": 0.474,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00043",
+      "to": "SH_00044",
+      "time_s": 358.2,
+      "audio_energy_similarity": 0.191,
+      "spectral_proxy": 0.598,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00019",
+      "to": "SH_00020",
+      "time_s": 157.4,
+      "audio_energy_similarity": 0.386,
+      "spectral_proxy": 0.398,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00017",
+      "to": "SH_00018",
+      "time_s": 121.0,
+      "audio_energy_similarity": 0.131,
+      "spectral_proxy": 0.644,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00015",
+      "to": "SH_00016",
+      "time_s": 112.8,
+      "audio_energy_similarity": 0.344,
+      "spectral_proxy": 0.422,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00055",
+      "to": "SH_00056",
+      "time_s": 567.6,
+      "audio_energy_similarity": 0.205,
+      "spectral_proxy": 0.512,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00054",
+      "to": "SH_00055",
+      "time_s": 559.4,
+      "audio_energy_similarity": 0.478,
+      "spectral_proxy": 0.228,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00012",
+      "to": "SH_00013",
+      "time_s": 64.8,
+      "audio_energy_similarity": 0.415,
+      "spectral_proxy": 0.266,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00057",
+      "to": "SH_00058",
+      "time_s": 579.6,
+      "audio_energy_similarity": 0.11,
+      "spectral_proxy": 0.567,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00016",
+      "to": "SH_00017",
+      "time_s": 116.2,
+      "audio_energy_similarity": 0.102,
+      "spectral_proxy": 0.571,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00008",
+      "to": "SH_00009",
+      "time_s": 38.2,
+      "audio_energy_similarity": 0.126,
+      "spectral_proxy": 0.517,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00052",
+      "to": "SH_00053",
+      "time_s": 520.6,
+      "audio_energy_similarity": 0.212,
+      "spectral_proxy": 0.404,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00030",
+      "to": "SH_00031",
+      "time_s": 257.2,
+      "audio_energy_similarity": 0.205,
+      "spectral_proxy": 0.405,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00061",
+      "to": "SH_00062",
+      "time_s": 590.4,
+      "audio_energy_similarity": 0.229,
+      "spectral_proxy": 0.37,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00077",
+      "to": "SH_00078",
+      "time_s": 671.8,
+      "audio_energy_similarity": 0.101,
+      "spectral_proxy": 0.447,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00013",
+      "to": "SH_00014",
+      "time_s": 82.8,
+      "audio_energy_similarity": 0.074,
+      "spectral_proxy": 0.449,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00039",
+      "to": "SH_00040",
+      "time_s": 292.6,
+      "audio_energy_similarity": 0.077,
+      "spectral_proxy": 0.437,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00076",
+      "to": "SH_00077",
+      "time_s": 664.8,
+      "audio_energy_similarity": 0.134,
+      "spectral_proxy": 0.319,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    },
+    {
+      "from": "SH_00032",
+      "to": "SH_00033",
+      "time_s": 268.0,
+      "audio_energy_similarity": 0.2,
+      "spectral_proxy": 0.242,
+      "status": "AUDIO_SIGNAL_ONLY_NOT_VERIFIED_SOUND_BRIDGE"
+    }
+  ],
+  "grounded_case_studies": [
+    {
+      "lesson_id": "LESSON_01",
+      "name": "人物→黑猫→人物：插入与反应的注意力组织",
+      "source_shots": [
+        "SH_00065",
+        "SH_00066",
+        "SH_00067"
+      ],
+      "measured_durations_s": [
+        4.2,
+        3.4,
+        3.2
+      ],
+      "working_interpretation": "把视觉焦点从人的行动转到黑猫，再切回人的面部，可构成“发现／提示／反应”的电影语法；是否为真实因果必须结合视线和音轨。",
+      "alternative_explanations": [
+        "三个镜头也可能在交替建立不同地点／时间的信息",
+        "黑猫可能是独立悬念意象，而不是被镜中人物看见"
+      ],
+      "verification_todo": [
+        "逐帧确认黑猫出现前后人物是否朝向其位置",
+        "检查猫声、音乐和画外音是否跨切点衔接",
+        "核对是否同一场次与可见空间"
+      ],
+      "approved_director_intent": false,
+      "source_mid_images": [
+        "data/references/SH_00065_mid.jpg",
+        "data/references/SH_00066_mid.jpg",
+        "data/references/SH_00067_mid.jpg"
+      ],
+      "training_status": "CASE_STUDY_HYPOTHESIS_NEEDS_REVIEW"
+    },
+    {
+      "lesson_id": "LESSON_02",
+      "name": "环境→人物→环境：让空间成为悬念",
+      "source_shots": [
+        "SH_00062",
+        "SH_00063",
+        "SH_00064",
+        "SH_00068",
+        "SH_00069"
+      ],
+      "measured_durations_s": [
+        2.2,
+        4.0,
+        3.4,
+        2.2,
+        4.2
+      ],
+      "working_interpretation": "环境远景与人物表情交替，可以让空间本身提供悬念对象，再让面部承担感受与判断。",
+      "alternative_explanations": [
+        "存在段落间的场景切换，不能直接推断同一连续空间",
+        "近景人物可能是在回应画外声音，而非空间本身"
+      ],
+      "verification_todo": [
+        "用连续原片确认空间方向与出入口关系",
+        "检查人物视线是否指向亮口及动作起止",
+        "区分摄影机运动与人物移动"
+      ],
+      "approved_director_intent": false,
+      "source_mid_images": [
+        "data/references/SH_00062_mid.jpg",
+        "data/references/SH_00063_mid.jpg",
+        "data/references/SH_00064_mid.jpg",
+        "data/references/SH_00068_mid.jpg",
+        "data/references/SH_00069_mid.jpg"
+      ],
+      "training_status": "CASE_STUDY_HYPOTHESIS_NEEDS_REVIEW"
+    },
+    {
+      "lesson_id": "LESSON_03",
+      "name": "僧人→对方→僧人→室内：对话与空间重定位",
+      "source_shots": [
+        "SH_00070",
+        "SH_00071",
+        "SH_00072",
+        "SH_00073",
+        "SH_00074"
+      ],
+      "measured_durations_s": [
+        7.0,
+        2.6,
+        3.6,
+        3.2,
+        18.8
+      ],
+      "working_interpretation": "可能呈现“建立空间→角色A→角色B→角色A→重新交代二人位置”的反打语法，用镜头切换组织对话注意力。",
+      "alternative_explanations": [
+        "未核对对白前，不能确认是谁在讲话或倾听",
+        "SH_00074本身较长，必须核对内部是否存在正常剪辑"
+      ],
+      "verification_todo": [
+        "核对70—74实际对白音轨与说话人的对应",
+        "验证180度轴线、左右画面方向和角色视线",
+        "标记停顿、说话／听话、情绪变化的切点"
+      ],
+      "approved_director_intent": false,
+      "source_mid_images": [
+        "data/references/SH_00070_mid.jpg",
+        "data/references/SH_00071_mid.jpg",
+        "data/references/SH_00072_mid.jpg",
+        "data/references/SH_00073_mid.jpg",
+        "data/references/SH_00074_mid.jpg"
+      ],
+      "training_status": "CASE_STUDY_HYPOTHESIS_NEEDS_REVIEW"
+    }
+  ],
+  "grounded_case_count": 3,
+  "film_defect_claims": 0,
+  "director_intent_verified": 0,
+  "what_is_not_learned": [
+    "screenplay causality",
+    "dialogue content",
+    "face identity",
+    "true shot axis",
+    "actual director intention",
+    "3D motion"
+  ],
+  "provenance": "LOCAL_SOURCE_IMAGES_AUDIO_AND_USER_PROJECT_CASE_STUDIES_ONLY"
+}

@@ -1,0 +1,127 @@
+{
+  "status": "DIRECTOR_DIAGNOSTIC_NOT_FINAL_SCENE_INTERPRETATION",
+  "start_sec": 559.4,
+  "end_sec": 652.4,
+  "shot_count": 20,
+  "shot_ids": [
+    "SH_00055",
+    "SH_00056",
+    "SH_00057",
+    "SH_00058",
+    "SH_00059",
+    "SH_00060",
+    "SH_00061",
+    "SH_00062",
+    "SH_00063",
+    "SH_00064",
+    "SH_00065",
+    "SH_00066",
+    "SH_00067",
+    "SH_00068",
+    "SH_00069",
+    "SH_00070",
+    "SH_00071",
+    "SH_00072",
+    "SH_00073",
+    "SH_00074"
+  ],
+  "shot_rhythm_seconds": [
+    {
+      "shot_id": "SH_00055",
+      "length": 8.2
+    },
+    {
+      "shot_id": "SH_00056",
+      "length": 8.0
+    },
+    {
+      "shot_id": "SH_00057",
+      "length": 4.0
+    },
+    {
+      "shot_id": "SH_00058",
+      "length": 4.8
+    },
+    {
+      "shot_id": "SH_00059",
+      "length": 2.4
+    },
+    {
+      "shot_id": "SH_00060",
+      "length": 1.0
+    },
+    {
+      "shot_id": "SH_00061",
+      "length": 2.6
+    },
+    {
+      "shot_id": "SH_00062",
+      "length": 2.2
+    },
+    {
+      "shot_id": "SH_00063",
+      "length": 4.0
+    },
+    {
+      "shot_id": "SH_00064",
+      "length": 3.4
+    },
+    {
+      "shot_id": "SH_00065",
+      "length": 4.2
+    },
+    {
+      "shot_id": "SH_00066",
+      "length": 3.4
+    },
+    {
+      "shot_id": "SH_00067",
+      "length": 3.2
+    },
+    {
+      "shot_id": "SH_00068",
+      "length": 2.2
+    },
+    {
+      "shot_id": "SH_00069",
+      "length": 4.2
+    },
+    {
+      "shot_id": "SH_00070",
+      "length": 7.0
+    },
+    {
+      "shot_id": "SH_00071",
+      "length": 2.6
+    },
+    {
+      "shot_id": "SH_00072",
+      "length": 3.6
+    },
+    {
+      "shot_id": "SH_00073",
+      "length": 3.2
+    },
+    {
+      "shot_id": "SH_00074",
+      "length": 18.8
+    }
+  ],
+  "provisional_boundaries": true,
+  "detected_visual_peaks": 21,
+  "suspected_hidden_cut_events": 2,
+  "specific_director_findings": [
+    {
+      "kind": "SHOTS_MAY_HIDE_INTERNAL_CUTS",
+      "shot_id": "SH_00055",
+      "times": [
+        563.65,
+        565.9
+      ],
+      "advice": "暂停对此镜头的表演、运镜、三帧生成任务；先复核切点并重新建立镜头ID"
+    }
+  ],
+  "editorial_rule": "Do not treat strong color contrast at a real cut as a defect before narrative intent has been reviewed",
+  "narrative_continuity_verified": false,
+  "actor_consistency_verified": false
+}

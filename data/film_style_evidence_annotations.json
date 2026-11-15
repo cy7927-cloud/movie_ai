@@ -1,0 +1,143 @@
+{
+  "schema": "FILM_STYLE_EVIDENCE_ANNOTATIONS/1.0",
+  "profile_id": "yaomao_excerpt_two_craft_modes",
+  "name": "妖猫传（仅用户上传的776秒片段）",
+  "review_status": "GPT_VISUAL_HYPOTHESES_NOT_CONFIRMED_DIRECTOR_INTENT",
+  "modes": {
+    "audience_first_suspense": {
+      "case": "CASE_A",
+      "name": "观众先知／跨空间悬念",
+      "evidence_timestamps_s": [
+        595.0,
+        597.2,
+        600.2,
+        603.9,
+        604.4,
+        607.8,
+        611.2,
+        614.0
+      ],
+      "observed_structure": "暗处人物先出现，再交织红衣队列、独立黑猫、暗处人物和远处入口；光色与空间尺度交替",
+      "inference_not_certainty": "信息交织或许延迟解释、调控观看注意力；不能说某人一定看见猫",
+      "professional_activation": [
+        {
+          "skill": "director-agent",
+          "priority": "high",
+          "focus": [
+            "观众知情范围",
+            "人物不知情范围",
+            "多重叙事解释"
+          ]
+        },
+        {
+          "skill": "ai-storyboard-director",
+          "priority": "high",
+          "focus": [
+            "插入镜头叙事职能",
+            "信息顺序",
+            "单镜头观看对象"
+          ]
+        },
+        {
+          "skill": "plan-camera-shots",
+          "priority": "medium",
+          "focus": [
+            "插入镜头焦点",
+            "空间基线",
+            "色温光比呼应"
+          ]
+        },
+        {
+          "skill": "review-and-assemble",
+          "priority": "high",
+          "focus": [
+            "杜绝角色无依据知情",
+            "插入镜头可读性",
+            "跨镜头因果"
+          ]
+        }
+      ],
+      "creative_bias_not_film_measurement": {
+        "audience_information": "allow_viewer_to_know_before_character_if_story_supports_it",
+        "shot_emphasis": "distinct_readable_inserts_and_reactions_without_invented_eyelines",
+        "editing_intent": "contrast_reveal_and_delay_explanation",
+        "color_use": "purposeful_warm_cool_or_brightness_contrast_when_locations_support",
+        "camera_guidance": "focus and shot size must be selected from the new scene, not copied from the movie"
+      },
+      "must_not_claim": [
+        "猫与门边人物一定同处一室",
+        "暗处人物一定看到了猫",
+        "这段的每个切点是已核验的导演意图"
+      ]
+    },
+    "blocking_space_reveal": {
+      "case": "CASE_B",
+      "name": "遮挡揭示／演员走位推进",
+      "evidence_timestamps_s": [
+        617.3,
+        620.0,
+        624.0,
+        626.0,
+        628.5,
+        633.8,
+        640.1,
+        646.0,
+        649.0,
+        652.7
+      ],
+      "observed_structure": "遮挡外景→窗格内景→两人空间宽景→人物入门、同框、离开、留下",
+      "inference_not_certainty": "建筑层次和演员走位可能承担戏剧推进；对白与真实轴线仍待复核",
+      "professional_activation": [
+        {
+          "skill": "director-agent",
+          "priority": "medium",
+          "focus": [
+            "人物行动目标",
+            "沉默与离场的意义",
+            "表演节奏"
+          ]
+        },
+        {
+          "skill": "ai-storyboard-director",
+          "priority": "high",
+          "focus": [
+            "遮挡到揭示的观看路径",
+            "同框调度",
+            "景深层次"
+          ]
+        },
+        {
+          "skill": "plan-camera-shots",
+          "priority": "high",
+          "focus": [
+            "入画/离画空间连续",
+            "轴线与视线",
+            "宽景空间锚点",
+            "道具状态"
+          ]
+        },
+        {
+          "skill": "review-and-assemble",
+          "priority": "high",
+          "focus": [
+            "方向连续",
+            "人物进出门动作",
+            "前后景关系"
+          ]
+        }
+      ],
+      "creative_bias_not_film_measurement": {
+        "audience_information": "prefer_spatial_discovery_over_early_expository_insert",
+        "shot_emphasis": "doorway_window_wide_to_two_shot_to_exit_if_new_scene_has_such_geometry",
+        "editing_intent": "cut_when_performer_crosses_spatial_threshold_or_action_changes",
+        "color_use": "allow_available_ambient_light_and_depth_layers_to_establish_place",
+        "camera_guidance": "lock initial positions and moving paths before suggesting new lens or camera position"
+      },
+      "must_not_claim": [
+        "整段是零时间省略的连续镜头",
+        "所有动作意义已经由对白确认",
+        "参考电影每个演员位置已完成3D测量"
+      ]
+    }
+  }
+}

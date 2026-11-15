@@ -1,0 +1,144 @@
+{
+  "skill": "review-and-assemble",
+  "source_skill_repository": "https://github.com/zhangzhangco/film-production-skills",
+  "generated_media_type": "ORIGINAL_AI_STORYBOARD_STILLS_NOT_FILM",
+  "contact_sheet_sha256": "983114010dad88e1948759f3449d3d0ba7ee9fb809343423e2bedfd382b2b13c",
+  "candidate_count": 7,
+  "generation_run_count": 1,
+  "reviews": [
+    {
+      "shot_id": "S01",
+      "candidate_path": "output/real_production_pilot/generated_stills/S01_AI_CANDIDATE.png",
+      "candidate_sha256": "4cb4c7a4bdca816a319a96195663c1b4174da815423cc6cc9a7950bde8a4c75f",
+      "status": "REVIEW_REQUIRED",
+      "notes": [
+        "图中B已站在敞开的入口内或门槛附近；需要复核其最初是否仍在走廊，而非提前入场"
+      ],
+      "technical": {
+        "decodable": true,
+        "width": 444,
+        "height": 444,
+        "mean_brightness": 37.6
+      },
+      "selected_for_final": false,
+      "human_approved": false,
+      "visual_review_based_on_actual_candidate": true
+    },
+    {
+      "shot_id": "S02",
+      "candidate_path": "output/real_production_pilot/generated_stills/S02_AI_CANDIDATE.png",
+      "candidate_sha256": "8cc2fb67dcefa71f78b86696fd65b0464c8602aee8a1702d487b15d67865e471",
+      "status": "REVIEW_REQUIRED",
+      "notes": [
+        "日志画面内容由图像生成器创造；显示的时间戳和原剧本的断线时刻没有逐字符对照依据"
+      ],
+      "technical": {
+        "decodable": true,
+        "width": 443,
+        "height": 444,
+        "mean_brightness": 36.5
+      },
+      "selected_for_final": false,
+      "human_approved": false,
+      "visual_review_based_on_actual_candidate": true
+    },
+    {
+      "shot_id": "S03",
+      "candidate_path": "output/real_production_pilot/generated_stills/S03_AI_CANDIDATE.png",
+      "candidate_sha256": "c84d42ab485b9b4eb537156513ab24dfc10d705a26f57f2774f8837ca57a7ab3",
+      "status": "REVIEW_REQUIRED",
+      "notes": [
+        "画面为远程会话状态，需与S02原本的日志时间矛盾建立可读的文字因果"
+      ],
+      "technical": {
+        "decodable": true,
+        "width": 443,
+        "height": 444,
+        "mean_brightness": 34.9
+      },
+      "selected_for_final": false,
+      "human_approved": false,
+      "visual_review_based_on_actual_candidate": true
+    },
+    {
+      "shot_id": "S04",
+      "candidate_path": "output/real_production_pilot/generated_stills/S04_AI_CANDIDATE.png",
+      "candidate_sha256": "ef9fb9809f5154b0df0cced2eb51a2bb2c7d183d4bce2f84ae0bd4d6b74b9857",
+      "status": "VISUALLY_PLAUSIBLE",
+      "notes": [
+        "B站在门口并握有文件夹，尚需视频动作才能验证连续跨门槛走位"
+      ],
+      "technical": {
+        "decodable": true,
+        "width": 444,
+        "height": 444,
+        "mean_brightness": 42.7
+      },
+      "selected_for_final": false,
+      "human_approved": false,
+      "visual_review_based_on_actual_candidate": true
+    },
+    {
+      "shot_id": "S05",
+      "candidate_path": "output/real_production_pilot/generated_stills/S05_AI_CANDIDATE.png",
+      "candidate_sha256": "09e97a2e1c8ac2f816bcad9ed7aacbee848d14db06a383b94aed8b572b304ea9",
+      "status": "VISUALLY_PLAUSIBLE",
+      "notes": [
+        "门禁卡可见于文件夹边缘，A处在虚焦背景；需验证角色是否确实看不见"
+      ],
+      "technical": {
+        "decodable": true,
+        "width": 444,
+        "height": 443,
+        "mean_brightness": 32.6
+      },
+      "selected_for_final": false,
+      "human_approved": false,
+      "visual_review_based_on_actual_candidate": true
+    },
+    {
+      "shot_id": "S06",
+      "candidate_path": "output/real_production_pilot/generated_stills/S06_AI_CANDIDATE.png",
+      "candidate_sha256": "6efd267c806017d58882e303c540a210f979fd016af09f1349d4205da277fbc0",
+      "status": "REVIEW_REQUIRED",
+      "notes": [
+        "两名演员相对位置与此前总体一致，但人物面容需进行身份一致性核验"
+      ],
+      "technical": {
+        "decodable": true,
+        "width": 443,
+        "height": 443,
+        "mean_brightness": 29.7
+      },
+      "selected_for_final": false,
+      "human_approved": false,
+      "visual_review_based_on_actual_candidate": true
+    },
+    {
+      "shot_id": "S07",
+      "candidate_path": "output/real_production_pilot/generated_stills/S07_AI_CANDIDATE.png",
+      "candidate_sha256": "d90bbb69a56b270ab13c4cb81d26f331a274042d89304dae607a2b21da214aaa",
+      "status": "REJECTED",
+      "notes": [
+        "剧情要求A目光转回终端上部；图像里A明显看向左侧前景人物，动作方向不符，需要重新生成"
+      ],
+      "technical": {
+        "decodable": true,
+        "width": 443,
+        "height": 443,
+        "mean_brightness": 34.3
+      },
+      "selected_for_final": false,
+      "human_approved": false,
+      "visual_review_based_on_actual_candidate": true
+    }
+  ],
+  "pass_count": 2,
+  "revision_count": 5,
+  "human_approved_count": 0,
+  "editorial_export": {
+    "status": "BLOCKED",
+    "reason": "No selected human-approved video takes, and S07 storyboard rejected"
+  },
+  "warning": "Contact sheet crops are original AI imagery, not movie frames; film export remains blocked."
+}
